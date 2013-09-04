@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 2002 (1.67)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<html><head>
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>Review of K-Nearest Neighbor Text Categorization Method</title>
+<meta name="description" content="Review of K-Nearest Neighbor Text Categorization Method">
+<meta name="keywords" content="text_ss02">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Generator" content="LaTeX2HTML v2002">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="STYLESHEET" href="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/text_ss02.css">
+
+<link rel="next" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">
+<link rel="previous" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node3.html">
+<link rel="up" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/text_ss02.html">
+<link rel="next" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">
+</head>
+
+<body><a href="http://www.usenix.org/"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/new_usenix.jpg" alt="Check out the new USENIX Web site." height="232" width="288" align="right"></a>
+
+
+
+<!--Navigation Panel-->
+<a name="tex2html58" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">
+<img alt="next" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/next_motif.gif" border="0" height="24" width="37" align="BOTTOM"></a> 
+<a name="tex2html56" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/text_ss02.html">
+<img alt="up" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/up_motif.gif" border="0" height="24" width="26" align="BOTTOM"></a> 
+<a name="tex2html50" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node3.html">
+<img alt="previous" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/previous_motif.gif" border="0" height="24" width="63" align="BOTTOM"></a>   
+<br>
+<b> Next:</b> <a name="tex2html59" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">Experiments</a>
+<b> Up:</b> <a name="tex2html57" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/text_ss02.html">Using Text Categorization Techniques</a>
+<b> Previous:</b> <a name="tex2html51" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node3.html">Related Work</a>
+<br>
+<br>
+<!--End of Navigation Panel-->
+
+<h1><a name="SECTION00030000000000000000">
+Review of K-Nearest Neighbor Text Categorization Method</a>
+</h1>
+
+<p>
+Text categorization is the process of grouping text documents into one or more predefined categories based
+on their content. A number of statistical classification and machine learning techniques have been applied
+to text categorization, including regression models, Bayesian classifiers, decision trees, nearest neighbor
+classifiers, neural networks, and support vector machines [<a href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node12.html#textSurvey">9</a>]. 
+
+</p><p>
+The first step in text categorization is to transform documents, which typically are strings of characters, 
+into a representation suitable for the learning algorithm and the classification task. The most commonly used
+document representation is the so-called vector space model. In this model, each document is represented by a vector
+of words. A word-by-document matrix <b>A</b> is used for a collection of documents, where each entry represents 
+the occurrence of a word in a document, i.e., <!-- MATH
+ ${\bf A} = (a_{ij})$
+ -->
+<img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img1.png" alt="${\bf A} = (a_{ij})$" border="0" height="31" width="71" align="MIDDLE">, where <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img2.png" alt="$a_{ij}$" border="0" height="29" width="24" align="MIDDLE"> is the weight of word <i>i</i> 
+in document <i>j</i>. There are several ways of determining the weight <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img2.png" alt="$a_{ij}$" border="0" height="29" width="24" align="MIDDLE">. Let <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img3.png" alt="$f_{ij}$" border="0" height="29" width="23" align="MIDDLE"> be the frequency of
+word <i>i</i> in document <i>j</i>, <i>N</i> the number of documents in the collection, <i>M</i> the number of 
+distinct words in the collection, and <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img4.png" alt="$n_i$" border="0" height="29" width="19" align="MIDDLE"> the total number of times word <i>i</i> occurs in the whole collection. 
+The simplest approach is Boolean weighting, which sets the weight <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img2.png" alt="$a_{ij}$" border="0" height="29" width="24" align="MIDDLE"> to 1 if the word occurs in the document 
+and 0 otherwise. Another simple approach uses the frequency of the word in the document, i.e., <!-- MATH
+ $a_{ij} = f_{ij}$
+ -->
+<img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img5.png" alt="$a_{ij} = f_{ij}$" border="0" height="29" width="64" align="MIDDLE">. 
+A more common weighting approach is the so-called <i>tf</i> <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img6.png" alt="$\cdot$" border="0" height="15" width="8" align="BOTTOM"><i>idf</i> (term frequency - inverse document 
+frequency) weighting:
+<br>
+</p><div align="RIGHT">
+
+<!-- MATH
+ \begin{equation}
+a_{ij} = f_{ij} \times log\left( \frac{N}{n_i} \right).
+\end{equation}
+ -->
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td nowrap="nowrap" align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img7.png" alt="\begin{displaymath}
+a_{ij} = f_{ij} \times log\left( \frac{N}{n_i} \right).
+\end{displaymath}" border="0" height="45" width="152"></td>
+<td width="10" align="RIGHT">
+(1)</td></tr>
+</tbody></table>
+<br clear="ALL"></div><p></p>
+A slight variation [<a href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node12.html#svm">17</a>] of the <i>tf</i> <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img6.png" alt="$\cdot$" border="0" height="15" width="8" align="BOTTOM"><i>idf</i> weighting,  which takes into account that documents
+may be of different lengths, is the following:
+<br>
+<div align="RIGHT">
+
+<!-- MATH
+ \begin{equation}
+a_{ij} = \frac{ f_{ij}}{\sqrt{ \sum_{l=1}^{M} f_{lj}^2 }} \times log\left( \frac{N}{n_i} \right).
+\end{equation}
+ -->
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td nowrap="nowrap" align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img8.png" alt="\begin{displaymath}
+a_{ij} = \frac{ f_{ij}}{\sqrt{ \sum_{l=1}^{M} f_{lj}^2 }} \times log\left( \frac{N}{n_i} \right).
+\end{displaymath}" border="0" height="57" width="212"></td>
+<td width="10" align="RIGHT">
+(2)</td></tr>
+</tbody></table>
+<br clear="ALL"></div><p></p>     	 
+
+<p>
+For matrix <b>A</b>, the number of rows corresponds to the number of words <i>M</i> in the document collection. There could be hundreds of thousands of different words. In order to 
+reduce the high dimensionality, stop-word (frequent word that carries no information) removal, word 
+stemming (suffix removal) and additional dimensionality reduction 
+techniques, feature selection or re-parameterization [<a href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node12.html#textSurvey">9</a>],  are usually employed.
+
+</p><p>
+To classify a class-unknown document <b><i>X</i></b>, the <i>k</i>-Nearest Neighbor classifier algorithm ranks 
+the document's neighbors among the training document vectors, and uses the class labels of the <i>k</i> most 
+similar neighbors to predict the class of the new document. The classes of these neighbors are weighted using the
+similarity of each neighbor to <b><i>X</i></b>, where similarity is measured by Euclidean distance or the cosine 
+value between two document vectors. The cosine similarity is defined as follows:
+<br>
+</p><div align="RIGHT">
+
+<!-- MATH
+ \begin{equation}
+sim(X, D_j) = \frac{\sum_{t_i \in (X \cap D_j)} x_i \times d_{ij}}{\|X\|_2 \times \| D_j\|_2}
+\end{equation}
+ -->
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td nowrap="nowrap" align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img9.png" alt="\begin{displaymath}
+sim(X, D_j) = \frac{\sum_{t_i \in (X \cap D_j)} x_i \times d_{ij}}{\Vert X\Vert _2 \times \Vert D_j\Vert _2}
+\end{displaymath}" border="0" height="48" width="241"></td>
+<td width="10" align="RIGHT">
+(3)</td></tr>
+</tbody></table>
+<br clear="ALL"></div><p></p>
+where <i>X</i> is the test document, represented as a vector; <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img10.png" alt="$D_j$" border="0" height="29" width="24" align="MIDDLE"> is the <i>j</i>th training document; <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img11.png" alt="$t_i$" border="0" height="29" width="15" align="MIDDLE"> is a word shared by <i>X</i> and 
+<img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img10.png" alt="$D_j$" border="0" height="29" width="24" align="MIDDLE">; <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img12.png" alt="$x_i$" border="0" height="29" width="18" align="MIDDLE"> is the weight of word <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img11.png" alt="$t_i$" border="0" height="29" width="15" align="MIDDLE"> in <i>X</i>; <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img13.png" alt="$d_{ij}$" border="0" height="29" width="24" align="MIDDLE"> is the weight of word <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img11.png" alt="$t_i$" border="0" height="29" width="15" align="MIDDLE"> in document <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img10.png" alt="$D_j$" border="0" height="29" width="24" align="MIDDLE">; 
+<!-- MATH
+ $\|X\|_2 = \sqrt{x_1^2 + x_2^2 + x_3^2 + ...}$
+ -->
+<img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img14.png" alt="$\Vert X\Vert _2 = \sqrt{x_1^2 + x_2^2 + x_3^2 + ...}$" border="0" height="37" width="199" align="MIDDLE"> is the norm of <i>X</i>, and <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img15.png" alt="$ \Vert D_j\Vert _2$" border="0" height="31" width="47" align="MIDDLE"> is the norm of <img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img10.png" alt="$D_j$" border="0" height="29" width="24" align="MIDDLE">.
+A cutoff threshold is needed to assign the new document to a known class. 
+
+<p>
+<br></p><p></p>
+<div align="CENTER">
+
+<div align="CENTER">
+<a name="292"></a>
+<table border="1" cellpadding="3">
+<caption><strong>Table 1:</strong>
+Analogy between text categorization and intrusion detection when applying the <i>k</i>NN classifier.</caption>
+<tbody><tr><td align="CENTER">Terms</td>
+<td align="CENTER">Text categorization</td>
+<td align="CENTER">Intrusion Detection</td>
+</tr>
+<tr><td align="CENTER"><i>N</i></td>
+<td align="CENTER">total number of documents</td>
+<td align="CENTER">total number of processes</td>
+</tr>
+<tr><td align="CENTER"><i>M</i></td>
+<td align="CENTER">total number of distinct words</td>
+<td align="CENTER">total number of distinct system calls</td>
+</tr>
+<tr><td align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img4.png" alt="$n_i$" border="0" height="29" width="19" align="MIDDLE"></td>
+<td align="CENTER">number of times <i>i</i>th word occurs</td>
+<td align="CENTER">number of times <i>i</i>th system call was issued</td>
+</tr>
+<tr><td align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img3.png" alt="$f_{ij}$" border="0" height="29" width="23" align="MIDDLE"></td>
+<td align="CENTER">frequency of <i>i</i>th word in document <i>j</i></td>
+<td align="CENTER">frequency of <i>i</i>th system call in process <i>j</i></td>
+</tr>
+<tr><td align="CENTER"><img src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/img16.png" alt="$D_{j}$" border="0" height="29" width="24" align="MIDDLE"></td>
+<td align="CENTER"><i>j</i>th training document</td>
+<td align="CENTER"><i>j</i>th training process</td>
+</tr>
+<tr><td align="CENTER"><i>X</i></td>
+<td align="CENTER">test document</td>
+<td align="CENTER">test process</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<br>
+
+<p>
+The <i>k</i>NN classifier is based on the assumption that the classification of
+ an instance is most similar to the classification of other instances that are
+nearby in the vector space.   
+Compared to other text categorization methods such as Bayesian classifier, <i>k</i>NN does not rely on prior 
+probabilities, and it is 
+computationally efficient. The main computation is the sorting of training documents in order to find the 
+<i>k</i> nearest neighbors for the test document. 
+
+</p><p>
+We seek to draw an analogy between a text document and the sequence of all system calls issued by a process,
+i.e., program execution. 
+The occurrences of system calls can be used to characterize program behavior
+and transform each process into a vector. Furthermore, it is assumed that 
+processes belonging to the same class will cluster together in the vector space.  
+Then it is straightforward to adapt text categorization techniques to modeling program behavior. Table 1
+illustrates the similarity in some respects between text categorization and intrusion detection when applying 
+the <i>k</i>NN classifier. 
+
+</p><p>
+There are some advantages to applying text categorization methods to intrusion 
+detection. First and foremost, the size of the system-call vocabulary is very limited. There are  less 
+than 100 distinct system calls in the DARPA BSM data, while a typical text categorization problem could have 
+over 15000 unique words [<a href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node12.html#textSurvey">9</a>]. Thus the dimension of the word-by-document matrix <b>A</b> is 
+significantly reduced, and it is not necessary to apply any dimensionality reduction techniques. Second, 
+we can consider intrusion detection as a binary categorization problem, which makes adapting text 
+categorization methods very straightforward. 
+
+</p><p>
+</p><hr>
+<!--Navigation Panel-->
+<a name="tex2html58" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">
+<img alt="next" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/next_motif.gif" border="0" height="24" width="37" align="BOTTOM"></a> 
+<a name="tex2html56" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/text_ss02.html">
+<img alt="up" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/up_motif.gif" border="0" height="24" width="26" align="BOTTOM"></a> 
+<a name="tex2html50" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node3.html">
+<img alt="previous" src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/previous_motif.gif" border="0" height="24" width="63" align="BOTTOM"></a>   
+<br>
+<b> Next:</b> <a name="tex2html59" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node5.html">Experiments</a>
+<b> Up:</b> <a name="tex2html57" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/text_ss02.html">Using Text Categorization Techniques</a>
+<b> Previous:</b> <a name="tex2html51" href="https://www.usenix.org/legacy/event/sec02/full_papers/liao/liao_html/node3.html">Related Work</a>
+<!--End of Navigation Panel-->
+<address>
+Yihua Liao
+2002-05-13
+</address>
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"rpm-images.newrelic.com/42/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-1.newrelic.com","d823139095","509444","YVJVZksCXkEEVhIMWFgYdlFNCl9cSkAVAFlfT2hAXAdZQABWEhZoWFhDbV8MRVwB",0,1993,new Date().getTime(),"","","","",""]);</script>
+
+
+<script src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/rum.js" type="text/javascript"></script><script src="Review%20of%20K-Nearest%20Neighbor%20Text%20Categorization%20Method_files/d823139095" type="text/javascript"></script></body></html>
