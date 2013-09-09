@@ -5,12 +5,13 @@ from functions import *
 
 
 def main():
-	address="http://jihkerala.org"
+	address=raw_input("Address:")
 	testsite=WebSite(address)
 	print("Title : "+testsite.getTitle())
 	text=testsite.getPureText()
 	words=seperateWords(text)
 	words=convertToLower(words) # convert words to lowercase
+	words=applyStemming(words)
 	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
 	print(freq)

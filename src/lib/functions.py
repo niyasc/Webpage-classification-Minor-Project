@@ -1,4 +1,6 @@
 import re
+from porterstemmer import Stemmer
+
 
 def seperateWords(text):
 	'''
@@ -14,7 +16,7 @@ def convertToLower(words):
 		output : words=>List of words in small case
 	'''
 	
-	for i in range(0,len(words)-1):
+	for i in range(0,len(words)):
 		words[i]=words[i].lower()
 	return words
 
@@ -117,3 +119,10 @@ def genFreqDict(words):
 		else:
 			freq[word]=1
 	return freq
+
+def applyStemming(words):
+	stemmer=Stemmer()
+	temp=[]
+	for word in words:
+		temp.append(stemmer(word))
+	return temp
