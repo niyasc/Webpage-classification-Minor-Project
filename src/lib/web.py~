@@ -13,7 +13,7 @@ class WebSite:
 		return text
 		
 	def removeHtml(self,data):
-		html=re.compile(r'<.*?>')
+		html=re.compile(r'(?is)<.*?>')
 		return html.sub(' ',data)
 		
 	def removeCss(self,data):
@@ -37,11 +37,12 @@ class WebSite:
 	def getPureText(self):
 		data=self.removeCss(self.content)
 		data=self.removeScripts(data)
-		'''data=self.removeHtml(data)'''
-		soup=BeautifulSoup(data)
-		return soup.get_text()
-		#return data
+		data=self.removeHtml(data)
+		#soup=BeautifulSoup(data)
+		#return soup.get_text()
+		return data
 	
 	def getTitle(self):
-		soup=BeautifulSoup(self.getPureHtml())
-		return soup.title.string
+		
+		title=re.findall(r"(?is)<title[^>]*>(.*?)</title>",self.getPureHtml())
+		return list(title)[0]

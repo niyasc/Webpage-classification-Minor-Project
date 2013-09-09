@@ -5,7 +5,7 @@ from functions import *
 
 
 def main():
-	address="http://madhyamam.com"
+	address="http://jihkerala.org"
 	testsite=WebSite(address)
 	print("Title : "+testsite.getTitle())
 	text=testsite.getPureText()

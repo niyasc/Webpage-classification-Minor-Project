@@ -1,6 +1,6 @@
 import urllib.request
 import re
-from bs4 import BeautifulSoup
+
 class WebSite:
 	
 	def __init__(self,address):
@@ -43,5 +43,6 @@ class WebSite:
 		return data
 	
 	def getTitle(self):
-		soup=BeautifulSoup(self.getPureHtml())
-		return soup.title.string
+		
+		title=re.findall(r"(?is)<title[^>]*>(.*?)</title>",self.getPureHtml())
+		return list(title)[0]
