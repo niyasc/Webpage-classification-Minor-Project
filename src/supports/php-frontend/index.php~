@@ -13,7 +13,7 @@
 	if(!empty($_GET["message"]))
 		print "<div style='text-align:center'>".$_GET["message"]."</div>";
 ?>
-<table style="margin-left:auto;margin-right:auto">
+<table>
 	<tr>
 		<td>
 			URL

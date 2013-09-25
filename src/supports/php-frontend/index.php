@@ -1,6 +1,6 @@
 <?php
 	require("./config.php");
-	$categories=["Arts","Business","Computers","Games","Health","Home","Kids and Teens","News","Recreation","Reference","Regional","Science","Shopping","Society","Sports"];
+	$categories=["Arts","Business","Computers","Games","Health","Home","Kids and Teens","Science","Shopping","Sports"];
 ?>
 <head>
 	<title>
