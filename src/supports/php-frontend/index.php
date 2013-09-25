@@ -1,12 +1,25 @@
+<?php
+	require("./config.php");
+	$categories=["Arts","Business","Computers","Games","Health","Home","Kids and Teens","News","Recreation","Reference","Regional","Science","Shopping","Society","Sports"];
+?>
+<head>
+	<title>
+		Add URLS
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <form method='post' action='insert.php'>
 <?php
 	if(!empty($_GET["message"]))
-		print $_GET["message"]."\nNumber of entries : ".$_GET["count"];
+		print "<div style='text-align:center'>".$_GET["message"]."</div>";
 ?>
 <table>
 	<tr>
 		<td>
-			URL:
+			URL
+		</td>
+		<td>
+			:
 		</td>
 		<td>
 			<input type='text' name='url' required=''/>
@@ -14,7 +27,10 @@
 	</tr>
 	<tr>
 		<td>
-			Category:
+			Category
+		</td>
+		<td>
+			:
 		</td>
 		<td>
 			<select name='category'>
@@ -23,31 +39,49 @@
 				{
 					print "<option>".$_GET["category"]."</option>";
 				}
+				foreach($categories as $category)
+				{
+					print "<option>".$category."</option>";
+				}
 			?>
-				<option>Arts</option>
-				<option>Business</option>
-				<option>Computers</option>
-				<option>Games</option>
-				<option>Health</option>
-				<option>Home</option>
-				<option>Kids and Teens</option>
-				<option>News</option>
-				<option>Recreation</option>
-				<option>Reference</option>
-				<option>Regional</option>
-				<option>Science</option>
-				<option>Shopping</option>
-				<option>Society</option>
-				<option>Sports</option>
 			</select>
 		</td>
 	</tr>
 	<tr>
 		<td>
+		</td>
+		<td>
+		</td>
+		<td >
 			<input type='submit' value='Submit'/>
 		</td>
 	</tr>
 	
 </table>
 </form>
-
+<table class='bordered'>
+	<tr>
+		<td>
+			Category
+		</td>
+		<td>
+			Number of records
+		</td>
+	</tr>
+<?php
+	foreach($categories as $category)
+	{
+		$count=query("select count(*) from sitelist where category=?",$category);
+?>
+	<tr>
+		<td>
+			<?=$category?>
+		</td>
+		<td>
+			<?=$count[0]["count(*)"]?>
+		</td>
+	</tr>
+<?php
+	}
+?>	
+</table>
