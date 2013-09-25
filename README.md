@@ -1,7 +1,7 @@
-Website-classification-Minor-Project
+Webpage-classification-Minor-Project
 ====================================
 
-Website classification using Naive Bayes Algorithm doing as B.Tech computer Engg. 4th year minor project. Implementation will be done in python
+Webpage classification using Naive Bayes Algorithm doing as B.Tech computer Engg. 4th year minor project. Implementation will be done in python
 
 Syntax of program will be strictly matching with python3 criteria.
 
