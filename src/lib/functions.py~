@@ -27,7 +27,7 @@ def removeStopWords(words):
 		output : words=>List of words after removing stop words
 	'''
 	stop_words=['able', 'about', 'above', 'abroad', 'according', 'accordingly', 'across', 'actually',\
-	'adj', 'add'\
+	'adj',\
 	'after', 'afterwards', 'again', 'against', 'ago', 'ahead', "ain't", 'all', 'allow', 'allows',\
 	'almost', 'alone', 'along', 'alongside', 'already', 'also', 'although', 'always', 'am', 'amid',\
 	'amidst', 'among', 'amongst', 'an', 'and', 'another', 'any', 'anybody', 'anyhow', 'anyone',\
@@ -48,8 +48,7 @@ def removeStopWords(words):
 	 'farther', 'few', 'fewer', 'fifth', 'first', 'five', 'followed', 'following', 'follows', 'for',\
 	 'forever', 'former', 'formerly', 'forth', 'forward', 'found', 'four', 'from', 'further',\
 	 'furthermore', 'get', 'gets', 'getting', 'given', 'gives', 'go', 'goes', 'going', 'gone', 'got',\
-	 'gotten', 'greetings', 'group', 'had', "hadn't", 'half', 'happens', 'hardly', 'has', "hasn't",\
-	 'have',\
+	 'gotten', 'greetings', 'had', "hadn't", 'half', 'happens', 'hardly', 'has', "hasn't", 'have',\
 	 "haven't", 'having', 'he', "he'd", "he'll", 'hello', 'help', 'hence', 'her', 'here', 'hereafter',\
 	 'hereby',\
 	 'herein', "here's", 'hereupon', 'hers', 'herself', "he's", 'hi', 'him', 'himself', 'his', 'hither',\
@@ -75,7 +74,7 @@ def removeStopWords(words):
 	 'relatively', 'respectively', 'right', 'round', 'said', 'same', 'saw', 'say', 'saying', 'says',\
 	 'second', 'secondly', 'see', 'seeing', 'seem', 'seemed', 'seeming', 'seems', 'seen', 'self',\
 	 'selves', 'sensible', 'sent', 'serious', 'seriously', 'seven', 'several', 'shall', "shan't", 'she',\
-	 "she'd", "she'll", "she's", 'should', "shouldn't", 'show', 'since', 'six', 'so', 'some', 'somebody',\
+	 "she'd", "she'll", "she's", 'should', "shouldn't", 'since', 'six', 'so', 'some', 'somebody',\
 	 'someday', 'somehow', 'someone', 'something', 'sometime', 'sometimes', 'somewhat', 'somewhere',\
 	 'soon', 'sorry', 'specified', 'specify', 'specifying', 'still', 'sub', 'such', 'sup', 'sure', 'take',\
 	 'taken', 'taking', 'tell', 'tends', 'th', 'than', 'thank', 'thanks', 'thanx', 'that', "that'll",\
