@@ -1,0 +1,1 @@
+categories=["Politics","Movies","Technology"]

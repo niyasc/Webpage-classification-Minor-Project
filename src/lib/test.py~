@@ -1,0 +1,29 @@
+import os
+from clean import *
+from database import *
+
+
+
+
+database=[]
+categories=["Movies","Politics","Technology"]
+
+
+for category in categories:
+	os.system("ls ../webpages/"+category+">.temp")
+	a=open(".temp")
+	files=a.read()
+	a.close()
+	files=files.split('\n')
+	files.pop()
+	i=1
+	for page in files:
+		#print(page)
+		print("\rcategory : "+category+" Document number "+str(i)+" Dictionary created")
+		i+=1
+		pwords=getList("../webpages/"+category+"/"+page)
+		pwords['_category']=category
+		database.append(pwords)
+#prepare database
+make_training_set(database)
+print("Training set created")
