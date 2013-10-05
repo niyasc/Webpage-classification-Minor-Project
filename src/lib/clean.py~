@@ -6,13 +6,15 @@ from functions import *
 
 def getList(fname):
 	testpage=HtmlFile(fname)
+	print(testpage.getTitle())
 	text=testpage.getPureText()
 	words=seperateWords(text)
 	words=convertToLower(words) # convert words to lowercase
 	words=applyStemming(words)
 	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
-	freq=removeAnom(freq)
+	#freq=removeAnom(freq)
+	
 	return freq
 	#print(freq)
 	#print("Number of uniq words : "+str(len(freq)))

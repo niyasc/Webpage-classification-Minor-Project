@@ -35,7 +35,7 @@ def naive_bayes(freq_list):
 				else:
 					attributes[word]+=document[word]
 		number_of_training_documents=len(documents)
-		pc[category]=pow(10,300)
+		pc[category]=pow(2,1023)
 		for attribute in attributes:
 			meanki=attributes[attribute]/float(number_of_training_documents)
 			varrianceki=0
@@ -53,11 +53,12 @@ def naive_bayes(freq_list):
 				else:
 					pc[category]*=g(0,meanki,sdki)
 				
-	for category in categories:
+	'''for category in categories:
 		print("Probability of "+category+" = "+str(pc[category]))
+	'''
 		
 	p=0
-	Category=''
+	Category='Unable to decide'
 	for category in categories:
 		if p<pc[category]:
 			Category=category

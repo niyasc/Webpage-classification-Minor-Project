@@ -125,4 +125,14 @@ def genFreqDict(words):
 			freq[word]=1
 	return freq
 
+def removeAnom(freq):
+	'''
+		remove words having frequency less than 2
+	'''
+	nfreq={}
+	for word in freq:
+		if freq[word]>1:
+			nfreq[word]=freq[word]
+	return nfreq
+
 

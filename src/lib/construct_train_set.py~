@@ -1,4 +1,4 @@
-import os
+from os import system
 from clean import *
 from database import *
 from constants import *
@@ -12,8 +12,8 @@ def construct_train_set(n):
 
 
 	for category in categories:
-		os.system("ls ./webpages/"+category+">.tmp")
-		os.system("tail -n "+n+" .tmp > .temp")
+		system("ls ./webpages/"+category+">.tmp")
+		system("tail -n "+str(n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()

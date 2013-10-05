@@ -13,7 +13,7 @@ def construct_train_set(n):
 
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("tail -n "+n+" .tmp > .temp")
+		system("tail -n "+str(n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()

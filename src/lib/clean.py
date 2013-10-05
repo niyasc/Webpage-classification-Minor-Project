@@ -12,6 +12,8 @@ def getList(fname):
 	words=applyStemming(words)
 	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
+	#freq=removeAnom(freq)
+	
 	return freq
 	#print(freq)
 	#print("Number of uniq words : "+str(len(freq)))
