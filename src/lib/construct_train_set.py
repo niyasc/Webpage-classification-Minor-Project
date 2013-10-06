@@ -13,7 +13,7 @@ def construct_train_set(n):
 
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("tail -n "+str(n)+" .tmp > .temp")
+		system("head -n "+str(n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()
@@ -22,11 +22,14 @@ def construct_train_set(n):
 		i=1
 		for page in files:
 			#print(page)
-			print("\rcategory : "+category+" Document number "+str(i)+" Dictionary created\r")
+			#print("\rcategory : "+category+" Document number "+str(i)+" Dictionary created\r")
 			i+=1
-			pwords=getList("./webpages/"+category+"/"+page)
-			pwords['_category']=category
-			database.append(pwords)
+			try:
+				pwords=getList("./webpages/"+category+"/"+page)
+				pwords['_category']=category
+				database.append(pwords)
+			except:
+				print(page," makes problem")
 	#prepare database
 	make_training_set(database)
 	print("Training set created")	

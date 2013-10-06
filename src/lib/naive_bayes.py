@@ -8,7 +8,7 @@ pi=3.141592
 def g(xk,meanki,sdki):
 
 	power=-(xk-meanki)**2
-	power=power/(2*sdki**2)
+	power=power/(2*(sdki**2))
 	value=pow(e,power)
 	value=value/(sqrt(2*pi)*sdki)
 	return value
@@ -46,13 +46,13 @@ def naive_bayes(freq_list):
 					varrianceki+=meanki**2
 			varrianceki=varrianceki/float(number_of_training_documents)
 			sdki=sqrt(varrianceki)
-			
+		
 			if varrianceki!=0:
 				if attribute in freq_list:
 					pc[category]*=g(freq_list[attribute],meanki,sdki)
 				else:
 					pc[category]*=g(0,meanki,sdki)
-				
+			
 	'''for category in categories:
 		print("Probability of "+category+" = "+str(pc[category]))
 	'''
