@@ -1,6 +1,7 @@
-import urllib
+import urllib.request
 import nltk
 import re
+from bs4 import BeautifulSoup
 
 class WebSite:
 	
@@ -8,7 +9,7 @@ class WebSite:
 		self.content=self.getContent(address)
 	
 	def getContent(self,address):
-		response = urllib.urlopen(address)
+		response = urllib.request.urlopen(address)
 		data=response.read()      # a `bytes` object
 		text=data.decode('utf-8') # a `str`; this step can't be used if data is binary
 		return text
@@ -48,6 +49,16 @@ class WebSite:
 		
 		title=re.findall(r"(?is)<title[^>]*>(.*?)</title>",self.getPureHtml())
 		return list(title)[0]
+		
+	def getImportantContent(self):
+		title=self.getTitle()
+		itext=re.findall(r"(?is)<p[^>]*>(.*?)</p>",self.getPureHtml())
+		a=[]
+		for item in itext:
+			a.append(nltk.clean_html(item))
+		return {'title':title,'itext':a}
+		
+		
 		
 class HtmlFile:
 	
@@ -92,3 +103,11 @@ class HtmlFile:
 		
 		title=re.findall(r"(?is)<title[^>]*>(.*?)</title>",self.getPureHtml())
 		return list(title)[0]
+		
+	def getImportantContent(self):
+		title=self.getTitle()
+		itext=re.findall(r"(?is)<p[^>]*>(.*?)</p>",self.getPureHtml())
+		a=title
+		for item in itext:
+			a+=nltk.clean_html(item)
+		return a

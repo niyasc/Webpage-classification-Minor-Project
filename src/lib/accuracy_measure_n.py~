@@ -10,14 +10,15 @@ def accuracy_measure_n(n):
 	y={}
 	
 	
-		
+	a=0
+	b=0	
 
 	construct_train_set(n)
 	
 	
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("tail -n "+str(100-n)+" .tmp > .temp")
+		system("tail -n "+str(50-n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()
@@ -29,13 +30,17 @@ def accuracy_measure_n(n):
 			try:
 				p_cat=getCategory("webpages/"+category+"/"+file)
 				
-			
+				a+=1
 				documents+=1
 				if category==p_cat:
+					b+=1
 					cp+=1
+				else:
+					print("Expected ",category," Predicted ",p_cat)
 				
 				accuracy=float(cp)*100/documents
 				print("Category ",category,"Prediction Accuracy = ",accuracy,"%")
+				print("Total accuracy",b/a)
 			except:
 				print(file," makes problem")
 		y[category]=float(cp)*100/documents

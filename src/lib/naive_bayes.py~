@@ -37,7 +37,6 @@ def naive_bayes(freq_list):
 		number_of_training_documents=len(documents)
 		pc[category]=pow(2,1023)
 		for attribute in attributes:
-			print("category : ",category," pc ",pc[category])
 			meanki=attributes[attribute]/float(number_of_training_documents)
 			varrianceki=0
 			for document in documents:

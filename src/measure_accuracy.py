@@ -11,7 +11,7 @@ def main():
 	y={}
 	for category in categories:
 		y[category]=[]
-	for n in range(10,100,10):
+	for n in range(10,50,10):
 		print('n=',n)
 		x.append(n)
 		yn=accuracy_measure_n(n)
@@ -38,7 +38,7 @@ def main():
 	t=pylab.xlabel('Number of trainig documents')
 	t=pylab.ylabel('Classification accuracy %')	
 	t=pylab.legend(loc='upper right')
-	t=pylab.title('')
+	t=pylab.title('Taking title and paragraph only into considerations')
 	pylab.show()
 	
 	
