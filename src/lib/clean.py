@@ -7,11 +7,13 @@ from functions import *
 def getList(fname):
 	testpage=HtmlFile(fname)
 	text=testpage.getPureText()
+	#text=testpage.getImportantContent()
 	words=seperateWords(text)
 	words=convertToLower(words) # convert words to lowercase
 	words=applyStemming(words)
 	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
+	
 	#freq=removeAnom(freq)
 	
 	return freq

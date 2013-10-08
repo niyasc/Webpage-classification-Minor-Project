@@ -1,5 +1,6 @@
 import re
 import nltk
+from collections import OrderedDict
 
 
 def seperateWords(text):
@@ -123,9 +124,10 @@ def genFreqDict(words):
 		input : words=>List of words
 		output : freq=>Dictionary containing frequency of each words
 	'''
-	freq={}
+	words.sort()
+	freq=OrderedDict()
 	for word in words:
-		if word in freq.keys():
+		if word in freq:
 			freq[word]+=1
 		else:
 			freq[word]=1

@@ -3,15 +3,14 @@
 
 import pickle
 import sys
+from os import system
 
 def make_training_set(database):
 	'''
 		Get a list of  dictionaries corresponding to each document and store it in mongo db
 	''' 
-	try:
-		pickle.dump(database,open('database.db','wb'))
+	#pickle.dump(database,open('database.db','wb'))
+	system("echo '"+str(database)+"' >2.txt")
 		
-	except :
-		print("Something went wrong !!!")
-		sys.exit(1)
+	
 		
