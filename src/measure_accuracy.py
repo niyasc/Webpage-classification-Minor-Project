@@ -11,7 +11,7 @@ def main():
 	y={}
 	for category in categories:
 		y[category]=[]
-	for n in range(10,50,10):
+	for n in range(10,100,10):
 		print('n=',n)
 		x.append(n)
 		yn=accuracy_measure_n(n)
@@ -19,12 +19,12 @@ def main():
 		for category in categories:
 			y[category].append(yn[category])
 	print(y)
-	y['Overall']=[]
+	total=[]
 	for n in range(len(x)):
-		y['Overall'].append(0)
+		total.append(0)
 		for category in categories:
-			y['Overall'][n]+=y[category][n]
-		y['Overall'][n]=y['Overall'][n]/float(len(categories))
+			total[n]+=y[category][n]
+		total[n]=total[n]/float(len(categories))
 		
 	print(y) 
 		
@@ -35,10 +35,11 @@ def main():
 	#Plot graph
 	for item in y:
 		t=pylab.plot(x,y[item],label=item)
+	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
 	t=pylab.xlabel('Number of trainig documents')
 	t=pylab.ylabel('Classification accuracy %')	
 	t=pylab.legend(loc='upper right')
-	t=pylab.title('Taking title and paragraph only into considerations')
+	t=pylab.title('Accuracy vs Number of training documents')
 	pylab.show()
 	
 	

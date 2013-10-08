@@ -19,11 +19,9 @@ def construct_train_set(n):
 		a.close()
 		files=files.split('\n')
 		files.pop()
-		i=1
 		for page in files:
 			#print(page)
 			#print("\rcategory : "+category+" Document number "+str(i)+" Dictionary created\r")
-			i+=1
 			try:
 				pwords=getList("./webpages/"+category+"/"+page)
 				pwords['_category']=category

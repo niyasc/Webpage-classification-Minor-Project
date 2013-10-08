@@ -49,9 +49,9 @@ def naive_bayes(freq_list):
 		
 			if varrianceki!=0:
 				if attribute in freq_list:
-					pc[category]*=g(freq_list[attribute],meanki,sdki)*10
+					pc[category]*=g(freq_list[attribute],meanki,sdki)
 				else:
-					pc[category]*=g(0,meanki,sdki)*10
+					pc[category]*=g(0,meanki,sdki)
 			
 	'''for category in categories:
 		print("Probability of "+category+" = "+str(pc[category]))
