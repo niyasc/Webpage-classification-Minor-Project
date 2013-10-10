@@ -2,7 +2,6 @@ import sys
 #sys.path.insert(0, './lib') #set library location
 from web import *
 from functions import *
-from collections import OrderedDict
 
 
 def getList(fname):
@@ -17,7 +16,7 @@ def getList(fname):
 	
 	#freq=removeAnom(freq)
 	
-	return OrderedDict(freq)
+	return freq
 	#print(freq)
 	#print("Number of uniq words : "+str(len(freq)))
 	#print("Pure Text")

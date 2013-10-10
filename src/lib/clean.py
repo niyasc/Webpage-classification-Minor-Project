@@ -14,7 +14,7 @@ def getList(fname):
 	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
 	
-	#freq=removeAnom(freq)
+	freq=removeAnom(freq)
 	
 	return freq
 	#print(freq)

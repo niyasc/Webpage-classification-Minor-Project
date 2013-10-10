@@ -1,1 +1,1 @@
-categories=["Technology","Sports","Politics","Entertainment"]
+categories=["Politics","Science_Technology"]

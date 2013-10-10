@@ -1,8 +1,9 @@
 from os import system
-from clean import *
 from database import *
 from constants import *
-from collections import OrderedDict
+from functions import *
+import MySQLdb
+
 
 
 
@@ -11,24 +12,24 @@ def construct_train_set(n):
 	database=[]
 
 	for category in categories:
-		system("ls ./webpages/"+category+"|sort>.tmp")
-		system("head -n "+str(n)+" .tmp > .temp")
-		a=open(".temp")
-		files=a.read()
-		a.close()
-		files=files.split('\n')
-		files.pop()
-		#print(len(files))
-		for page in files:
-			#print(page)
-			#print("\rcategory : "+category+" Document number "+str(i)+" Dictionary created\r")
-			try:
-				pwords=getList("./webpages/"+category+"/"+page)
-				pwords['_category']=category
-				database.append(pwords)
-			except:
-				print(page," makes problem")
+		#try:
+		db = MySQLdb.connect("localhost","root","","train" )
+		cursor = db.cursor()
+		cursor.execute("Select * from train where category='"+category+"' limit 0,"+str(n))
+		documents=cursor.fetchall()
+		for document in documents:
+			text=document[0]+' '+document[2]
+			words=seperateWords(text)
+			words=convertToLower(words)
+			words=removeStopWords(words)
+			words=applyStemming(words)
+			freq=genFreqDict(words)
+			freq['_category']=category
+			database.append(freq)
+		db.close()
+		'''except:
+			print("Problem in database connectivity")'''
 	#prepare database
-	make_training_set(database)
 	print(database)
+	make_training_set(database)
 	#print("Training set created")
