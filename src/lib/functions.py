@@ -139,7 +139,7 @@ def removeAnom(freq):
 	'''
 	nfreq={}
 	for word in freq:
-		if freq[word]>1:
+		if freq[word]>2:
 			nfreq[word]=freq[word]
 	return nfreq
 

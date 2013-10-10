@@ -35,7 +35,7 @@ def naive_bayes(freq_list):
 						attributes[word]+=document[word]
 		
 		number_of_training_documents=len(documents)
-		pc[category]=Decimal(2**2000)
+		pc[category]=Decimal(2**10000)
 		for attribute in attributes:
 			meanki=attributes[attribute]/float(number_of_training_documents)
 			varrianceki=0
