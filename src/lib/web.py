@@ -3,7 +3,7 @@ import nltk
 import re
 from bs4 import BeautifulSoup
 
-class WebSite:
+class WebPage:
 	
 	def __init__(self,address):
 		self.content=self.getContent(address)

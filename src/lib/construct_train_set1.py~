@@ -21,7 +21,7 @@ def construct_train_set(n):
 		files=files.split('\n')
 		files.pop()
 		for file  in files:
-			freq=getList(file)
+			freq=getList("./webpages/"+category+"/"+file)
 			freq['_category']=category
 			database.append(freq)
 		'''except:

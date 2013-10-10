@@ -27,6 +27,5 @@ def construct_train_set(n):
 		'''except:
 			print("Problem in database connectivity")'''
 	#prepare database
-	print(database)
 	make_training_set(database)
 	#print("Training set created")

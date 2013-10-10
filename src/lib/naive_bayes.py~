@@ -1,15 +1,17 @@
 from constants import categories
 from math import sqrt
+from math import e
+from math import pi
 import pickle
 from collections import OrderedDict
-e=2.71828
-pi=3.141592
+from decimal import *
 
 def g(xk,meanki,sdki):
-
+	
 	power=-(xk-meanki)**2
 	power=power/(2*(sdki**2))
-	value=pow(e,power)
+	
+	value=e**power
 	value=value/(sqrt(2*pi)*sdki)
 	return value
 
@@ -33,7 +35,7 @@ def naive_bayes(freq_list):
 						attributes[word]+=document[word]
 		
 		number_of_training_documents=len(documents)
-		pc[category]=pow(10,1023)
+		pc[category]=Decimal(2**2000)
 		for attribute in attributes:
 			meanki=attributes[attribute]/float(number_of_training_documents)
 			varrianceki=0
@@ -47,13 +49,13 @@ def naive_bayes(freq_list):
 		
 			if varrianceki!=0:
 				if attribute in freq_list:
-					pc[category]=int(pc[category]*g(freq_list[attribute],meanki,sdki))
+					pc[category]=Decimal(pc[category]*Decimal(g(freq_list[attribute],meanki,sdki)))
 				else:
-					pc[category]=int(pc[category]*g(0,meanki,sdki))
+					pc[category]=Decimal(pc[category]*Decimal(g(0,meanki,sdki)))
 			
-	'''for category in categories:
+	for category in categories:
 		print("Probability of "+category+" = "+str(pc[category]))
-	'''
+	
 		
 	p=0
 	Category='Unable to decide'
