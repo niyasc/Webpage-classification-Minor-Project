@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+	<title>BBC - Religions - Christianity: Divorce in Christianity</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="The different churches' teachings about divorce and its effect on remarriage."/>
+	<meta name="keywords" content="christian divorce, annulment, decree of nullity, remarriage"/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	<meta name="DCTERMS.created" content="2006-01-24"/>
+	<meta name="DCTERMS.updated" content="2009-06-23"/>
+	
+	
+                <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->         <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/script/blq_core.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie7.css" type="text/css" /> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png');} #blq-mast #blq-search-btn { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blq-search_grey_alpha.png', sizingMethod='image'); } </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->  <script type="text/javascript"> blq.assetPath="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  </script> <!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                    
+    
+
+	
+<style type="text/css">
+	@import '/vision/productisation/includes/css/v1/s-core-models.css';
+	@import '/vision/productisation/includes/css/v1/global.css';
+	@import '/vision/productisation/includes/css/v1/colourway.css';
+	
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/religion/religions/includes/css/product-specific.css"  />
+<link rel="stylesheet" type="text/css" media="print" href="/vision/productisation/includes/css/v1/print.css" />
+<!-- Barlesque: -->
+
+
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+<!-- 
+	if (document.documentElement && document.getElementById){
+		document.documentElement.className += " js";
+	}	
+// -->		
+</script>
+
+<!-- Glow library : core modules -->
+<script type="text/javascript">
+	gloader.load(["glow", "1", "glow.anim", "glow.net", "glow.dom", "glow.embed"]);
+</script>
+
+
+<!-- EMP embed support -->
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>  
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+
+<!-- Live Stats Variable -->	
+	
+	
+	
+<!-- End of Live Stats Variable Settings -->
+
+
+
+
+
+
+	
+	
+	</head>
+	<body class="orange prg-content-lhn article religion">
+	<div><a name="top"> </a></div>                <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=2.8&blq_r=2.7&blq_v=default-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=en-GB&amp;blq_s=2.8&amp;blq_r=2.7&amp;blq_v=default-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->    <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-2-8"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast --> <!-- BBCDOTCOM leaderboard template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  -->
+        <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <span id="blq-mast-background"></span> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span id="blq-blocks-wrapper"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span> </span> </a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li><a href="#blq-content">Skip to content</a></li>  <li><a href="#blq-local-nav">Skip to local navigation</a></li>  <li><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li><a href="#blq-search">Skip to bbc.co.uk search</a></li>  <li><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">        
+
+	<!--START PROGRAMMES CONTENT CONTAINER SHELL-->
+	<div id="prg-masthead">
+	<p><a href="/religion/religions/" title="Religions">Religions</a></p>
+
+	</div>
+	<div class="prg-wrapper" id="prg-wrapper-shell">
+	<div id="blq-content">
+		
+	<div id="prg-wrapper-featured"><!-- START MAIN CONTENT AREA -->
+	<div class="box top_promo">
+	<div class="header"><h1>Divorce in Christianity</h1>
+	<p><em>Last updated 2009-06-23</em></p>
+	</div>
+	<div class="content">
+	<p>The different churches' teachings about divorce and its effect on remarriage.</p>
+	</div>
+	<div class="footer"> </div>
+	</div>
+		
+	<div class="p-grp p-grp-a p-grp-theme-n nth-row-n">
+	<!--LEFT HAND NAV-->
+	<div class="left-nav">
+	<h2>On this page</h2>
+	<ul>
+	 <li><a href="#h1">Divorce in Christianity</a></li>
+	<li><a href="#h2">Divorce in the Church of England</a></li>
+	<li><a href="#h3">Divorce and the Catholic Church</a></li>
+	<li><a href="#h4">Divorce in other Churches</a></li>
+	<li><a href="#findoutmore" title="See more related content">Find out more</a></li>
+	</ul>
+	<h3>Page options</h3>
+	<ul class="tools">
+	<li class="print"><a href="#" onclick="window.print();return false;">Print this page</a></li>
+	</ul>
+	
+	</div>
+		
+	<div class="center">
+	
+	<div class="content-main-header"> </div>
+	<div class="p-mod nth-child-1 content-main">
+	<a name="section_1"> </a>
+	<div class="promo">
+	
+<h2 class="heading-nth-1" id="h1">Divorce in Christianity</h2>
+	
+<h3>Divorce in Christianity</h3>
+	
+
+<p>In Christian law, <a href="/religion/religions/christianity/ritesrituals/weddings_1.shtml">marriage</a> is a sacred institution. However, a variety of denominations have different approaches to divorce (the legal separation of a married couple).</p>
+
+<div id="emp_box_1" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_1");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/beyond_belief/beyond_20061009.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_2"> </a>
+	<div class="promo">
+	
+<h2 id="h2">Divorce in the Church of England</h2>
+	
+<h3>Divorce in the Church of England</h3>
+	
+
+<p>Whilst the <a href="/religion/religions/christianity/cofe/cofe_1.shtml">Church of England</a> does not encourage divorce, it has the structure to help and sympathise with those who find themselves in such a situation.</p>
+
+<h3>Divorce and the Reformation</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 140px;">
+	<img alt="Actors as Henry VIII of England and Anne Boleyn, his second wife" height="160" src="/religion/religions/christianity/ritesrituals/images/henryviii.jpg" width="140"/><span class="caption" style="width: 130px;">
+	Henry VIII and Anne Boleyn, his second wife 
+	</span>
+	</span>
+	
+
+<p>Until the 16th century CE, the Church in England recognised the Pope's authority. However, when Catherine of Aragon failed to produce a male heir for Henry VIII, and was considered too old to give birth to any more children, Henry wanted to divorce her. The Pope refused permission and so the only way for Henry to get what he wanted was to break away from the Vatican and make divorce legal. The Archbishop of Canterbury granted Henry a divorce in 1533 (under pressure) and Henry made himself head of the Church of England.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>We've sanitised the Reformation.  We've made it sound as though it was a marital tiff between Henry the VIII and Katherine of Aragon... And so he changes the church, and then we go 'Ho, ho, ho - isn't that funny?  Y'know the Church of England is founded on adultery,' which is to some degree true.</p>
+	<p>What we forget is that what it unleashed over the next 30 years was the most... astonishing destruction of the sacred in its visible form you've ever seen.</p>
+	</p>
+	<p><cite>Martin Palmer, historian</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<div id="emp_box_2" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_2");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/longsearch/sacrednation4.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+<h3>The Church of England's position on remarriage</h3>
+	
+
+<p>By allowing himself to remarry, Henry made the same thing possible for his subjects.  But just because remarriage is legally allowed, that doesn't mean couples have an automatic right to remarry in church.</p>
+
+<p>Remarriage is always allowed if the couple's former spouses are dead.  The matter becomes more complicated if one or both of the exes is still living.</p>
+
+<p>The Church has had a clear stance on the subject of a Christian remarriage since the General Synod meeting of 2002. In a vote concerning marriage after divorce, the outcome was 269 votes to 83 in support of change.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The Church of England teaches that marriage is for life. It also recognizes that some marriages sadly do fail and, if this should happen, it seeks to be available for all involved. The Church accepts that, in exceptional circumstances, a divorced person may marry again in church during the lifetime of a former spouse.</p>
+	<p><cite>General Synod, 2002</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Under civil law, clergy have the capacity to marry any two people (as long as the couple can legally marry).  The Church advises clergy to think carefully before remarrying couples and to ask them questions to find out how committed they are.  The final decision rests with the clergy member.</p>
+
+<p>The Church's suggested questions concentrate on the intentions of the couple and whether allowing the remarriage would be harmful to anybody involved:</p>
+
+<ul>
+	<li>Does the couple understand that divorce is a breach of God's will for marriage?</li>
+	<li>Do they have a determination for the new marriage to be a life-long faithful partnership?</li>
+	<li>Do they seem willing to explore and grow in the Christian faith?</li>
+	<li>Has enough time passed since the divorce for everyone to have recovered, and are there complicating factors from previous marriages (court proceedings or child support payments, for example)?</li>
+	<li>Has either of the parties been divorced more than once?</li>
+	<li>Was their relationship a direct cause of the breakdown of a previous marriage?</li>
+</ul>
+
+<h3>Charles and Camilla</h3>
+	
+
+<p>This last question became very pertinent when Prince Charles married the divorcée Camilla Parker Bowles in 2005.  Had their adultery contributed to the failure of Camilla's first marriage?  The Church thought so.</p>
+
+<p>The royal couple could not marry in church.  They had to marry in a civil ceremony, although church rules allowed their marriage to be blessed in church afterwards.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_3"> </a>
+	<div class="promo">
+	
+<h2 id="h3">Divorce and the Catholic Church</h2>
+	
+<h3>'Divorce' in the Catholic Church</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 140px;">
+	<img alt="Single wedding ring" height="140" src="/religion/religions/christianity/ritesrituals/images/divorcering.jpg" width="140"/> </span>
+	
+
+<p>The <a href="/religion/religions/christianity/catholic/catholic_1.shtml">Catholic Church</a> has strict guidelines on divorce. The Church considers the bond of marriage to be a sacred bond, one that is based on life-long love, fidelity and family. Marriage is both a legal bond on earth and spiritual bond which God has witnessed. The latter cannot be broken using temporal laws.</p>
+
+<h3>What is permitted?</h3>
+	
+
+<ul>
+	<li>A Catholic is not permitted to receive the Eucharist if s/he remarries.</li>
+	<li>The Catholic Church maintains that all of its members are welcome to attend Mass. A remarried Catholic can take part in Mass but is barred from receiving Holy Communion.</li>
+</ul>
+
+<p>This causes pain to many remarried Catholics because the Eucharist is central to their faith.</p>
+
+<ul>
+	<li>A remarried Catholic may receive Holy Communion only if a marriage has been annulled by the Church.</li>
+</ul>
+
+<h3>Annulments</h3>
+	
+
+<p>An annulment, known also as a Decree of Nullity, is not the same as a divorce.  It is a declaration that the marriage was never valid in the first place.</p>
+
+<p>An annulment will be considered if there is reasonable proof that the bond between the two parties was invalid from the first day of marriage. The annulment process can take between 9 - 24 months or sometimes longer. Over 50,000 annulments are granted every year throughout the world.</p>
+
+<p>Grounds for an annulment include:</p>
+
+<ul>
+	<li>Psychological incapacity to understand the commitment marriage entails</li>
+	<li>One of the partners has hidden information such as a previous marriage, impotence or infertility</li>
+</ul>
+
+<p>The annulment process is not arbitrary. There are strict Church guidelines which must be followed as part of a tribunal to establish whether marriage was present from the beginning or not. There are four main phases:</p>
+
+<ul>
+	<li>Petition: A divorcee (petitioner) approaches a minister saying why they want an annulment. They give all the circumstances as to why they think their marriage was invalid. The previous partner (respondent) has the opportunity to put their story across.</li>
+	<li>Evidence: Having collected the statements from each party, evidence for and against the argument must be gathered from family members, close friends and other interested parties.</li>
+	<li>Discussion: An argument is made for the nullity of marriage on behalf of the petitioner and one is written on behalf of the marriage by a minister.</li>
+	<li>Judgement: The diocese and bishops meet and read all the evidence to come to a decision. If the marriage is declared invalid, a second hearing will take place.</li>
+</ul>
+
+<p>If the bond was not fully established when the marriage commenced, then the holy bond granted by God was not there to be broken.</p>
+
+<p>Reasoning behind this doctrine stems from the teachings of Jesus: "What God has united, man must not divide". (Mark, 10:9). Even if a couple separates legally, they are still joined together spiritually: "He who made man from the beginning, made them male and female. And he said: For this cause shall a man leave father and mother, and shall cleave to his wife, and they two shall be in one flesh. Therefore now they are not two, but one flesh. What therefore God hath joined together, let no man put asunder" (Matthew 19:4-6).</p>
+
+<h3>Augustine</h3>
+	
+
+<p>Divorce is not a new issue for the Catholic Church. In the 5th century AD, one of the most famous Catholic thinkers, St. Augustine of Hippo, made his and the Church's position clear. In his work, <em>Of the Good of Marriage</em>, Augustine was explicit: "The compact of marriage is not done away by divorce intervening; so that they continue wedded persons one to another, even after separation; and commit adultery with those, with whom they shall be joined, even after their own divorce."</p>
+
+<p>Adultery is a sin, according to the Old Testament: "You shall not commit adultery" (Exodus 20:14). Therefore, using Augustine's reasoning, if a man and woman have been separated legally but not spiritually, they are still married in God's eyes.</p>
+
+<p>Augustine wrote about divorce over 1,600 years ago. His ideas on the subject are still pre-eminent in today's Catholic doctrine.</p>
+
+<h3>2005 discussions</h3>
+	
+
+<p>The subject of divorce was discussed at the Synod of Bishops in October 2005. There were 50 propositions to come out of the discussion. Proposition 40 was unequivocal in defining what it is to be a divorced Catholic: "According to the tradition of the Catholic Church, they cannot be admitted to Communion, finding themselves in conditions of objective contrast with the Word of the Lord who returned marriage to its original value of indissolubility."</p>
+
+<p>With regard to those who have remarried without an annulment, Catholics are encouraged to attend Mass but should refrain from consummating their new union. Proposition 40 explains: "Blessing these relationships should be avoided, so that confusion does not arise among the faithful regarding the value of marriage." Those who do so are committing an act of adultery, because in God's eyes they are still spiritually married to their previous partner.</p>
+
+<p>The Synod has drafted and redrafted the language used to describe Catholics who may no longer receive the Eucharist.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>We know the sadness of those who do not have access to sacramental communion because of their family situations that do not conform to the commandment of the Lord. Some divorced and remarried people sadly accept their inability to take sacramental communion and they make an offering of it to God. Others are not able to understand this restriction, and live with an internal frustration. We reaffirm that, while we do not endorse their choice, they are not excluded from the life of the Church. We ask that they participate in Sunday Mass and devote themselves assiduously to listening to the Word of God so that it might nourish their life of faith, of love and of conversion. We wish to tell them how close we are to them in prayer and pastoral concern. Together, let us ask the Lord to obey his will faithfully.</p>
+	<p><cite>General Synod</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Divorce across Europe</h3>
+	
+
+<p>General trends show that non-Catholic EU countries tend to have higher divorce rates.</p>
+
+<p>Until February 27th 1997, divorce in Ireland was illegal. In 2001, Italy and Ireland had the lowest divorce rates in Europe (0.7%) and Spain had a comparatively low divorce rate (1.0%) compared with Belgium having the highest (2.9%).</p>
+
+<p>The UK also has a high divorce rate (2.6%).  Whilst France considers itself to be a Catholic country, its divorce rates are considerably higher (2.0%) than other European Catholic countries. (Figures are rates per 1,000 population - 2001).</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_4"> </a>
+	<div class="promo">
+	
+<h2 id="h4">Divorce in other Churches</h2>
+	
+<h3>Church of Scotland</h3>
+	
+
+<p>The Church of Scotland is clear on remarriage of divorcées:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Marriage is not understood in the Church of Scotland to be a sacrament, and therefore binding for ever. A minister may therefore conduct the marriage of a divorced person whose former spouse is still alive.</p>
+	<p><cite>Church of Scotland</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>However, the minister will meet with a couple wishing to remarry in an attempt to establish whether or not the second marriage will suffer from the same problems which led to the downfall of the previous marriage.</p>
+
+<h3>Methodist Church</h3>
+	
+
+<p>The Methodist Church asserts that marriage is a life-long union, but is understanding to those who have been divorced. Methodists take a more practical, logical approach to belief and allow for more figurative Bible interpretations. This includes accepting divorce and ordaining women priests.</p>
+
+<p>In the Methodist Church policy on remarriage (1998) there is a clear acceptance and open mindedness to divorcées:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>If one or both parties have been married before, [it is Methodist policy] to ensure that a couple is directed to a minister who is not prevented by conscience from considering their request</p>
+	<p><cite>Methodist Church policy on remarriage, 1998</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>This is not to say that the Methodist Church regards divorce frivolously, but it does treat the situation with a sympathetic level of pragmatism.</p>
+
+<p>Perhaps it is because of this more liberal approach to divorce that the majority of marriages in the Methodist Church involve at least one partner who has been divorced. In a 2001 survey, it was recorded that around 70% or marriages involved at least one divorced party.</p>
+
+<h3>Baptist Church</h3>
+	
+
+<p>The Baptist Church has no centralised policy regarding divorce. Those who have been divorced are welcome to join. The decision to remarry a couple lies with the minister. Some feel that it is inappropriate and will not perform the ceremony whilst others will.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<div class="promo">
+	<h2 id="findoutmore">Find out more</h2>
+	<ul>
+	<li><a href="/religion/religions/christianity/ritesrituals/weddings_1.shtml" title="Read more on Churches' teachings about marriage">Churches' teachings about marriage</a></li>
+	<li><a href="/religion/religions/christianity/cofe/cofe_1.shtml" title="Read more on Church of England">Church of England</a></li>
+	<li><a href="/religion/religions/christianity/catholic/catholic_1.shtml" title="Read more on Catholic Church">Catholic Church</a></li>
+	<li><a href="/religion/religions/christianity/subdivisions/baptist_1.shtml" title="Read more on Baptist Church">Baptist Church</a></li>
+	<li><a href="/religion/religions/christianity/subdivisions/churchofscotland_1.shtml" title="Read more on Church of Scotland">Church of Scotland</a></li>
+	<li><a href="/religion/religions/christianity/subdivisions/methodist_1.shtml" title="Read more on Methodist Church">Methodist Church</a></li>
+	</ul>
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	</div>
+	<div class="content_bottom"> </div>
+		
+	
+
+	</div>
+		
+	</div><!--closes Row - single column -->
+		
+	</div><!-- End: main content area -->
+			<!--START RHN CONTAINER -->
+		<div id="prg-wrapper-extra">
+			<div class="product_button">
+			
+				<!-- RELIGION HOMEPAGE BUTTON -->
+				
+				
+				
+				<!-- MORE RELIGIONS BUTTON -->
+				
+				
+				
+				
+				<!-- ATHEISM -->
+				
+				
+				<!-- BAHAI -->
+				
+				
+				<!-- BUDDHISM -->
+				
+				
+				<!-- CANDOMBLE -->
+				
+				
+				<!-- CHRISTIANITY -->
+				
+					<h2>
+						<span class="arrow content">&laquo;</span>
+						<a href="/religion/religions/christianity/" title="More Christianity">More <span>Christianity</span></a>
+					</h2>
+				
+				
+				<!-- HINDUISM -->
+				
+				
+				<!-- ISLAM -->
+				
+				
+				<!-- JAINISM -->
+				
+				
+				<!-- RASTAFARI -->
+				
+				
+				<!-- SANTERIA -->
+				
+				
+				<!-- SHINTO -->
+				
+				
+				<!-- SIKHISM -->
+				
+				
+				<!-- SPRITUALISM -->
+				
+				
+				<!-- TAOISM -->
+				
+				
+				<!-- UNITARIANISM -->
+				
+				
+				<!-- WITNESSES -->
+				
+				
+				<!-- ZOROASTRIAN -->
+				
+				
+				<!-- JUDAISM -->
+				
+				
+				<!-- MORMON -->
+				
+				
+				<!-- PAGANISM -->
+				
+			</div>	
+				
+					
+			
+			<!-- New row: -->
+			<div class="p-grp">		
+				<div class="p-mod">
+
+				
+					<!-- new promo module -->
+					<div class="promo">
+						<div class="rhn_header"><h2>See also</h2></div>
+						<div class="rhn_body">
+							<ul>
+								<li><a href="/religion/" title="Go to the Religion and Ethics homepage">Religion and Ethics home</a></li>
+								<li><a href="/religion/tools/calendar/" title="Go to the Interfaith calendar">Interfaith calendar</a></li>
+								<li><a href="/ethics/guide/" title="Go to Ethics Guides">Ethics guides</a></li>
+							</ul>
+						</div>
+						<div class="module_footer"></div>
+					</div>
+					
+					
+					
+						<div class="promo">
+	<div class="rhn_header"><h2>Around the BBC</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="/relationships/couples/heartaches_divorce.shtml">BBC Relationships - Divorce</a></li>
+	<li><a href="/schools/communities/onionstreet/advice/divorce1.shtml">BBC Schools - Kids: coping with your parents' divorce</a></li>
+	<li><a href="/history/historic_figures/cranmer_thomas.shtml">BBC History - Thomas Cranmer</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	<div class="promo">
+	<div class="rhn_header"><h2>Elsewhere on the web</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://cofe.anglican.org/info/papers/mcad/">Church of England - remarriage</a></li>
+	<li><a href="http://www.anglican.org/church/ChurchHistory.html">Church of England - history of the Church</a></li>
+	<li><a href="http://www.vatican.va/archive/catechism/subject_index/subject-index-cat_divorce_en.html">Vatican - divorce</a></li>
+	<li><a href="http://www.catholicchurch.org.uk/ccb/catholic_church/how_do_i/marry_in_a_catholic_church_if_i_ve_been_married_before">Catholic Church - How do I marry if I've been married before?</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	
+					
+					
+					
+				</div>	
+			</div>
+			
+			<div class="clear_both"></div>
+		<!--END RHN CONTAINER-->
+		</div></div>
+	</div>
+		
+	               </div>   <div id="blq-mast" class="blq-rst blq-default-worldwide blq-new-nav" lang="en-GB"> <div id="blq-sign-in">  </div>  <form method="get" id="blq-search-form" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p id="blq-nav-search">  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/religion/religions/christianity/ritesrituals/divorce_1.shtml" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">      <li id="blq-nav-n"><a href="http://www.bbc.com/news/" hreflang="en-GB">News</a></li>  <li id="blq-nav-s"><a href="http://www.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://www.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/capital/" hreflang="en-GB">Capital</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More&hellip;</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/history/">History</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> <li><a href="/local/">Local</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2> <ul> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">  <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>      <li><a href="/terms/">Terms of Use</a></li>       <li><a href="/aboutthebbc/">About the BBC</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>        <li><a href="/privacy/">Privacy</a></li>       <li><a href="/accessibility/">Accessibility Help</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="/bbc.com/ad-choices/">Ad Choices</a></li>        <li><a href="/privacy/bbc-cookies-policy.shtml">Cookies</a></li>        <li><a href="/contact/">Contact the BBC</a></li>   </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">      <li><a href="/guidance/">Parental Guidance</a></li>  </ul> </li>  </ul> </div>   <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks/light.png" width="84" height="24" alt="BBC" /></div> <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+<!-- BBCDOTCOM analytics template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                    bbcdotcom.stats.contentType = "HTML";
+                                    }
+                /*]]>*/
+            </script>
+            <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+            <script type="text/javascript">
+                DM_tag();
+            </script>
+
+            <!-- SiteCatalyst code version: H.21.
+            Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+                            <script type="text/javascript">
+                    var s_account = "bbcwglobalprod";
+                </script>
+            
+                <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/s_code.js"></script>
+    
+            <script type="text/javascript"><!--
+            /* You may give each page an identifying name, server, and channel on
+            the next lines. */
+
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+            <noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+            src="http://sa.bbc.com/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.21. -->
+
+            <!-- Begin comScore Tag -->
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                COMSCORE.beacon({
+                    c1:2,
+                    c2:"6035051",
+                    c3:"",
+                    c4:"127.0.0.1:8888/religion/religions/christianity/ritesrituals/divorce_1.shtml",
+                    c5:"",
+                    c6:"",
+                    c15:""
+                });
+                /*]]>*/
+            </script>
+            <noscript>
+                <div>
+                    <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=127.0.0.1:8888/religion/religions/christianity/ritesrituals/divorce_1.shtml&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+                </div>
+            </noscript>
+            <!-- End comScore Tag -->
+
+            
+                            <!-- Effective Measure BBCCOM-1195 -->
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function() {
+                        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+                    })();
+                    /*]]>*/
+                </script>
+                <noscript>
+                    <div>
+                        <img src="http://me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                    </div>
+                </noscript>
+                <!-- End Effective Measure -->
+     </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>                  
+
+	<!-- progs scripts -->
+<script type="text/javascript" src="/ui/ide/1/js/glow_widgets/carousel/carousel.min.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/carousel.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/wallpaper.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/webform.js"></script>
+<script type="text/javascript" src="/vision/productisation/includes/scripts/accordion.js"></script>
+
+<div id="vision-prod-livestats-bug">
+	<!-- LiveStats -->
+<div class="blq-hide"><img id="livestats" width="1" height="1" alt="" src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~Vision~RS~t~RS~HighWeb_Content~RS~i~RS~0~RS~p~RS~religion~RS~a~RS~Genre~RS~u~RS~/religion/religions/christianity/ritesrituals/divorce_1.shtml~RS~r~RS~http://www.bbc.co.uk/religion/religions/christianity/~RS~q~RS~~RS~z~RS~00~RS~" /></div>
+
+<!-- LiveStats heatmap -->
+<script src="/cs/vision/stats/livestats.js" type="text/javascript"></script>
+
+
+</div>
+
+	</body>
+	</html>

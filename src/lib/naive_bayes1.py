@@ -25,12 +25,12 @@ def naive_bayes(freq_list):
 						else:
 							attributes[word]+=document[word]
 		
-		pc[category]=pow(2,1023)
+		pc[category]=Decimal(10**1000)
 		for word in freq_list:
 			if word not in attributes:
-				pc[category]=pc[category]*(1.0/(n+v))
+				pc[category]=pc[category]*Decimal((1.0/(n+v)))
 			else:
-				pc[category]=pc[category]*((1.0+attributes[word])/(n+v))
+				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))
 				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])

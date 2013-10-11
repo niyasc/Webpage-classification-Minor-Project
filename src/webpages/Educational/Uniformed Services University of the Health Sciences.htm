@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/rightmenuStyle.css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+<meta name="description" content="Uniformed Services University of the Health Sciences- Your Federal Academic Health Center">
+<meta name="keywords" content="usuhs, usu, Uniformed Services University of the Health Sciences, Uniformed Services University, federal academic health center, uniformed services education, health sciences university, learning to care for those in harm's way, good medicine in bad places, learning to care, for those in harm's way, free medical school, military healthcare, opportunities in medical education, opportunities in military medical education, opportunities in military healthcare, medicine as a career, careers in healthcare, resources for medical careers, ">
+<title>Uniformed Services University of the Health Sciences</title>
+<!--Call jQuery Banner Script Start-->
+<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {	
+ 	//Show Banner
+	$(".main_image .desc").show(); //Show Banner
+	$(".main_image .block").animate({ opacity: 0.9 }, 1 ); //Set Opacity
+ 	//Click and Hover events for thumbnail list
+	$(".image_thumb ul li:first").addClass('active'); 
+	$(".image_thumb ul li").click(function(){ 
+		//Set Variables
+		var imgAlt = $(this).find('img').attr("alt"); //Get Alt Tag of Image
+		var imgTitle = $(this).find('a').attr("href"); //Get Main Image URL
+		var imgDesc = $(this).find('.block').html(); 	//Get HTML of block
+		var imgDescHeight = $(".main_image").find('.block').height();	//Calculate height of block
+		if ($(this).is(".active")) {  //If it's already active, then...
+			return false; // Don't click through
+		} else {
+			//Animate the Teaser				
+			$(".main_image .block").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function() {
+				$(".main_image .block").html(imgDesc).animate({ opacity: 0.95,	marginBottom: "0" }, 250 );
+				$(".main_image img").attr({ src: imgTitle , alt: imgAlt});
+			});
+		}
+		$(".image_thumb ul li").removeClass('active'); //Remove class of 'active' on all lists
+		$(this).addClass('active');  //add class of 'active' on this list only
+		return false;
+	}) .hover(function(){
+		$(this).addClass('hover');
+		}, function() {
+		$(this).removeClass('hover');
+	});
+	//Toggle Teaser
+	$("a.collapse").click(function(){
+		$(".main_image .block").slideToggle();
+		$("a.collapse").toggleClass("show");
+	});
+});//Close Function
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30605414-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--Call jQuery Banner Script END-->
+<!-- PUBLICATIONS SCRIPT START  -->
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="javascripts/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade', speed: 3500, pause:  1  // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+<!-- PUBLICATIONS SCRIPT END  -->
+</head>
+
+<body>
+<div id="container"> <!-- HOLDER STARTS-->
+
+<div id="header"> <!-- HEADER STARTS -->
+
+<h1>Uniformed Services University</h1><a href="http://www.usuhs.edu"><img src="http://www.usuhs.edu/images/gif/USUbanner.gif" width="409" height="74" alt="Uniformed Services University of the Health Sciences Logo" class="usulogo" /></a>
+<div id="mhsnav"> <!-- MHSNAV STARTS -->
+<a href="http://www.health.mil" target="_blank">MHS</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.cnic.navy.mil/Bethesda/index.htm" target="_blank">NSAB</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.usa.gov" target="_blank">USA</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.wrnmmc.capmed.mil/" target="_blank">WRNMMC</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.capmed.mil/SitePages/Home.aspx" target="_blank">JTF CapMed</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.fbch.capmed.mil" target="_blank">FBCH</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.nih.gov/" target="_blank">NIH</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.hjf.org" target="_blank">HJF</a>
+</div> <!-- MHSNAV ENDS -->
+<span id="socialdiv"><a href="http://www.facebook.com/home.php?sk=lf#!/pages/Uniformed-Services-University-of-the-Health-Sciences/96338890888" target="_blank"><img src="http://www.usuhs.edu/images/png/facebook.png" alt="facebook icon" /></a>&nbsp;<a href="http://www.youtube.com/user/UniformedServicesU?feature=watch" target="_blank"><img src="http://www.usuhs.edu/images/png/youtube.png" alt="youtube icon" /></a>&nbsp;<a href="https://twitter.com/#!/USUHSPAO" target="_blank"><img src="http://www.usuhs.edu/images/png/twitter.png" alt="twitter icon" /></a>&nbsp;<a href="http://www.usuhs.edu/rss/rss.xml"><img src="http://www.usuhs.edu/images/png/rss.png" alt="rss feed icon" /></a></span>
+
+<div id="tabs"> <!-- TABS STARTS --><a href="http://www.usuhs.edu/aboutusu.html"><span class="box1">About</span></a>&nbsp;<a href="http://www.usuhs.edu/admissions.html"><span class="box2">Admissions</span></a>&nbsp;<a href="http://www.usuhs.edu/academics.html"><span class="box3">Academics</span></a>&nbsp;<a href="http://www.usuhs.edu/research.html"><span class="box4">Research</span></a>&nbsp;<a href="http://www.usuhs.edu/students/campuslife/index.html"><span class="box5">Campus&nbsp;Life</span></a>&nbsp;<a href="http://www.usuhs.edu/schools.html"><span class="box6">Schools</span></a>&nbsp;<a href="http://www.usuhs.edu/centers.html"><span class="box7">Centers</span></a>&nbsp;<a href="http://www.usuhs.edu/military.html"><span class="box8">Military</span></a>&nbsp;<a href="http://www.usuhs.edu/afrri/"><span class="box9">AFRRI</span></a>&nbsp;<a href="http://www.usuhs.edu/myusu.html"><span class="box10">myUSU</span></a>
+
+</div> <!-- TABS ENDS --> 
+
+<FORM action="http://ususearch.usuhs.edu/search?" method=get><span id="searchdiv">
+<input type="hidden" name="p" value="1">
+<input type="hidden" name="client" value="default_frontend">
+<input type="hidden" name="entqr" value="0">
+<input type="hidden" name="oe" value="UTF-8">
+<input type="hidden" name="ie" value="UTF-8">
+<input type="hidden" name="ud" value="1">
+<input type="hidden" name="proxystylesheet" value="default_frontend">
+<input type="hidden" name="output" value="xml_no_dtd">
+<input type="hidden" name="site" value="default_collection"><label for="Search_USU">Search USU</label>
+
+<input type="text" name="q" size="20" id="Search_USU" class="input" value="Search USU" maxlength="150" onfocus="this.value=(this.value=='Search USU') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Search USU' : this.value;">&nbsp;<input type="submit" value="&nbsp;" class="button"></span></form>
+
+</div> <!-- HEADER ENDS -->
+
+<div id="menu"> <!-- MENU STARTS -->
+<div id="menuleft"> <!-- MENU LEFT STARTS -->
+
+<ul>
+<li><a href="students/prospectivestudents.html">Prospective Students</a></li>
+<li><a href="students/">Current Students</a></li>
+<li><a href="facultystaff.html">Faculty/Staff</a></li>
+<li><a href="vpe/alumniaffairs.html">Alumni</a></li>
+<li><a href="http://www.lrc.usuhs.edu/">Library</a></li> 
+</ul>
+
+<div id="visitourcampus"> <!-- VISITOURCAMPUS STARTS -->
+<a href="about/directions.html"><img src="images/png/compasssm.png" width="30" height="35" alt="Compass" />
+<p>Visit Our Campus</p></a><br />
+<div id="media"><p><a href="vpe/mediaaffairs.html">Media Queries</a></p></div>
+
+</div> <!-- VISITOURCAMPUS ENDS -->
+</div> <!-- MENU LEFT ENDS -->
+
+<div id="menuright"> <!-- MENU RIGHT STARTS -->
+
+<div class="image_thumb">
+
+<ul>
+<li><a href="images/png/photoview.png"><span class="hidden">USU front</span></a><!-- DO NOT ADVANCE TO A NEW LINE  --><div class="block">
+<h2>A Unique University</h2>
+<p>USU -- the nation's only federal health sciences university -- is an academic health center with a unique focus.</p>
+<small><a href="aboutusu.html">Read more about USU</a></small>
+</div></li>
+
+<li><a href="images/png/nmfbslogo.png"><span class="hidden">Bereavement study</span></a><!-- DO NOT ADVANCE TO A NEW LINE  --><div class="block">
+<h2>Bereavement Study Launched</h2>
+<p>This is the first large scientific study of the impact of a servicemember's death on surviving family members.</p>
+<small><a href="http://www.militarysurvivorstudy.org/" target="_blank">www.militarysurvivorstudy.org</a></small>
+</div></li>
+
+<li><a href="images/png/militaryTBI.png"><span class="hidden">CNRM Brain Tissue Repository to study TBI</span></a><!-- DO NOT ADVANCE TO A NEW LINE  --><div class="block">
+<h2>CNRM Repository Studies TBI</h2>
+<p>USU's Center for Neuroscience and Regenerative Medicine establishes first brain tissue bank to study TBI.</p>
+<small><a href="http://www.defense.gov/releases/release.aspx?releaseid=16094">Read more about the Repository</a></small>
+</div></li>
+
+<li><a href="images/png/Bushmaster2013.png"><span class="hidden">Bushmaster</span></a><!-- DO NOT ADVANCE TO A NEW LINE  --><div class="block">
+<h2>Bushmaster</h2>
+<p>Field exercises illustrate the challenges of military medicine &amp; teach skills that can't be learned in classrooms alone.</p>
+<small><a href="http://www.youtube.com/watch?v=5fuPQvlj_ug" target="_blank">Watch the Video</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mem/bushmasterfacobserver.html" target="_blank">Interested in becoming a Faculty Observer?</a></small>
+</div></li>
+
+</ul>
+</div>
+
+<div class="main_image">
+<img src="images/png/photoview.png" alt="Uniformed Services University- front, side view" /><div class="desc">
+<a href="#" class="collapse">Close Me!</a>
+<div class="block">
+<h2>A Unique University</h2>
+<p>USU -- the nation's only federal health sciences university -- is an academic health center with a unique focus.</p>
+<small><a href="aboutusu.html">Read more about USU</a></small>
+</div>
+</div>
+</div>
+
+</div> <!-- MENU RIGHT END -->
+
+</div> <!-- MENU ENDS -->
+
+<div id="columnhd"> <!-- COLUMNHD STARTS -->
+<div id="collefthd"><h2>Calendar</h2></div> <!-- START END HERE -->
+<div id="colrighthd"><h2>Publications</h2></div> <!-- START END HERE -->
+<div id="colmiddlehd"><h2>USU News</h2></div> <!-- START END HERE -->
+</div> <!-- COLUMNHD END -->
+
+<div id="column3" style="height: 330px;"> <!-- COLUMN3 STARTS -->
+
+<div id="colleft3"> <!-- COLUMNLEFT3 STARTS -->
+
+<img src="images/jpg/calendarofevents.jpg" width="248" height="109" alt="Decorative image of generic USU event not described elsewhere on page" />
+
+<div id="calendar">  <!-- CALENDAR STARTS -->
+<div class="coldoubleunder"><p><a href="calendar/index.html">Main Calendar</a></p></div>
+
+<a class="month" href="calendar/october.html">October 2013</a>
+<div class="f9"></div>
+<div class="date"><span>10</span></div>
+<div class="event">Seminar</div>
+<div class="dept">PED</div>
+<div class="time">7:45 a.m.</div>
+<div class="pipe">|</div>
+<div class="room">Lecture Room C</div>
+<div class="title">Childhood Growth: New Concepts, New Treatments</div>
+<div class="info">Jeff Baron, MD, National Institutes of Health</div>
+
+
+ 
+<div class="f9"></div>
+<div class="date">10</div>
+<div class="event">Course</div>
+<div class="dept">LRC</div>
+<div class="time">11:00 a.m. &ndash; 12:00 p.m.</div>
+<div class="pipe">|</div>
+<div class="room">D2013</div>
+<div class="title">Essential Search Skills</div>
+<div class="info">You may sign up for this class by visiting <a href="http://www.lrc.usuhs.edu/content/training_reg.php">http://www.lrc.usuhs.edu/content/training_reg.php</a></div>
+
+<div class="f9"></div>
+<div class="date"><span>10</span></div>
+<div class="event">Seminar</div>
+<div class="dept">CHAMP</div>
+<div class="time">12:00 p.m.</div>
+<div class="pipe">|</div>
+<div class="room">Sanford Auditorium</div>
+<div class="title">What is Health? Measuring Health from a Systems Biology Perspective</div>
+<div class="info">Dr. Herman van Wietmarschen, Scientist at TNO and the Sino-Dutch Centre for Preventive and Personalized Medicine, Leiden University, the Netherlands</div>
+<div class="f9"></div>
+<div class="date"><span>10</span></div>
+<div class="event">Seminar</div>
+<div class="dept">NES</div>
+<div class="time">3:30 p.m.</div>
+<div class="pipe">|</div>
+<div class="room">Lecture Room B</div>
+<div class="title">TBA</div>
+<div class="info">Veronica A. Alvarez, PhD
+Investigator & Acting Chief
+NIAAA, NIH
+Bethesda, MD  20892
+<a href="mailto:alvarezva@mail.nih.gov">alvarezva@mail.nih.gov</a>
+<br />Host – Dr. Nugent
+
+</div>
+<div class="f9"></div>
+
+</div> <!-- CALENDAR ENDS -->
+</div> <!-- COLUMNLEFT3 END -->
+
+<div id="colright3"> <!-- COLUMNRIGHT3 STARTS -->
+
+<div class="slideshow">
+<a href="pdf/2012IDCRPAnnualReportFinal.pdf" target="_blank"><img src="images/png/pubidcrpar.png" width="153" height="205" alt="Infectious Disease Clinical Research Program Annual Report 2012"/></a>
+<a href="pdf/40thReport.pdf" target="_blank"><img src="images/png/pub40threport.png" width="153" height="205" alt="1972-2012 USU 40th Anniversary Annual Report" /></a>
+<a href="vpe/pdf/USU2011AnnualReport.pdf" target="_blank"><img src="images/png/USU2011AnnualReport.png" width="153" height="205" alt="USU Annual Report 2011" /></a>
+<a href="pdf/CSTSReportStigma2012.pdf" target="_blank"><img src="images/png/pubcstsreportstigma.png" width="153" height="205" alt="Center for the Study of Traumatic Stress Forum on Health and National Security Conference Report" /></a>
+<a href="pdf/NCDMPHWorkforceProject2011-B.pdf" target="_blank"><img src="images/png/pubncdmphworkforce.png" width="153" height="205" alt="Nat. Center for Disaster Medicine and Public Health Domestic Nat. Disaster Health Workforce Report" /></a>
+<a href="http://www.amsus.org/images/stories/journal/Vol177No9S/MILMED177n9S2_cover-n-text.pdf" target="_blank"><img src="images/png/pubmilmed177n9s2.png" width="153" height="205" alt="Celebrating 40 years of Medical Education at the Uniformed Services University" /></a>
+</div>
+
+<a class="title" href="vpe/publications.html"><img src="images/jpg/more-publications.jpg" width="165" height="20" alt="more publications" /></a>
+
+<a href="vpe/pulseissues.html"><img src="images/png/pulse1.png" alt="USU Newsletter: The Pulse" width="165" height="29" /></a><br />
+
+</div>  <!-- COLUMNRIGHT3 ENDS -->
+
+<div id="colmiddle3">  <!-- COLUMNMIDDLE3 STARTS -->
+
+<div id="coldoubleleft"> <!-- COLUMNDOUBLELEFT STARTS -->
+
+<div id="newscol2"> <!-- NEWSCOL2 STARTS -->
+<a href="vpe/releases/Release13-07-22.pdf" target="_blank"><img src="images/jpg/arthurkellermann.jpg" width="110" height="125" class="align-left" alt="Dr. Arthur Kellermann" /></a>
+
+<h3>Dr. Arthur Kellermann named new Medical School Dean</h3>
+Arthur L. Kellermann, MD, MPH, Paul O’Neill-Alcoa Chair in Policy Analysis at the RAND Corporation in Washington, DC, has been named as the new Dean of the F. Edward H&eacute;bert School of Medicine at the Uniformed Services University of the Health Sciences (USU), following a year-long search. <a href="vpe/releases/Release13-07-22.pdf" target="_blank"><img src="images/png/more-gray.png" width="12" height="12" alt="Read more about the new Medical School Dean" /></a><br />
+
+</div> <!-- NEWSCOL2 ENDS -->
+
+<div id="newscol1"> <!-- NEWSCOL1 STARTS -->
+<a href="http://www.cstsonline.org/wp-content/uploads/CSTS_3D_FS_Book_WEB.pdf" target="_blank"><img src="images/png/cstslogoL.png" width="110" height="140" class="align-left" alt="Center for the Study of Traumatic Stress Logo" /></a>
+
+<h3>Disaster, Disease and Distress: Resources to Promote Psychological Health and Resilience in Military and Civilian Communities</h3>
+This new book features 10 years of Center fact sheets on military and disaster health and mental health topics for health care providers, government and military leadership, service members, families and communities around the effects of traumatic exposure. <a href="http://www.cstsonline.org/wp-content/uploads/CSTS_3D_FS_Book_WEB.pdf" target="_blank"><img src="images/png/more-gray.png" width="12" height="12" alt="Read more about Disaster, Disease and Distress" /></a><br />
+
+</div> <!-- NEWSCOL1 ENDS -->
+
+</div> <!-- COLUMNDOUBLELEFT ENDS -->
+
+</div> <!-- COLUMNMIDDLE3 ENDS -->
+
+</div> <!-- COLUMN3 ENDS -->
+<div id="footer"> <!-- FOOTER STARTS -->
+
+<div id="footerleft"> <!-- FOOTERLEFT STARTS -->
+<div id="status"> <!-- STATUS STARTS -->
+<p>Operating Status<br />
+<span class="open"><a href="http://www.usuhs.edu/usuhs/usuopstatus.html">OPEN</a></span></p>
+</div><!-- STATUS ENDS -->
+<div id="seal"> <!-- SEAL STARTS -->
+<a href="http://www.usuhs.edu/webmaster/abouttheseal.html"><img src="http://www.usuhs.edu/images/png/USUsealfooter.png" alt="USU Copyright Seal" width="50" height="50" /></a>
+</div><!-- SEAL ENDS -->
+</div> <!-- FOOTERLEFT END -->
+
+<div id="footerright">  <!-- FOOTERRIGHT STARTS -->
+
+<p><a href="http://www.usuhs.edu">USU Home</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.usuhs.edu/siteindex.html">Site Map</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.usuhs.edu/privacyandsecurity.html">Privacy/Security Notice</a>  &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.tricare.mil/tma/privacy/foia.aspx" target="_blank">FOIA</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.usuhs.edu/webmaster/webguide.html">USU Accessibility</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx" target="_blank">Accessibility/Section 508</a></p>
+
+<p><a href="mailto:webmaster@usuhs.edu?subject=Contact%20Questions/Comments">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.opm.gov/about_opm/nofear/notice.asp">No Fear Act</a>&nbsp;&nbsp;|&nbsp;&nbsp;4301 Jones Bridge Road, Bethesda, Maryland 20814</p>
+
+<p></p>
+</div> <!-- FOOTERRIGHTENDS -->
+
+<div id="footerlowright">  <!-- FOOTERLOWRIGHT STARTS -->
+<p>Last Update: 10/09/13</p>
+</div> 
+<!-- FOOTERLOWRIGHTENDS -->
+
+</div><!-- FOOTER ENDS -->
+</div> <!-- HOLDER ENDS -->
+<br />
+<!--[if lt IE 7]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]--> 
+
+</body>
+</html>

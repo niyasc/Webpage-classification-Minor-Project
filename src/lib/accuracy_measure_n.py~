@@ -23,19 +23,19 @@ def accuracy_measure_n(n):
 		cp=0
 		documents=0
 		for file in files:
-			#try:
-			p_cat=getCategory("webpages/"+category+"/"+file)
-						
-			documents+=1
-			if category==p_cat:
-				cp+=1
-			else:
-				print(file," Expected ",category," Predicted ",p_cat)
-			
-			accuracy=float(cp)*100/documents
-			print(documents," Category ",category,"Prediction Accuracy = ",accuracy,"%")
-			#except:
-			#	print(file," makes problem")
+			try:
+				p_cat=getCategory("webpages/"+category+"/"+file)
+							
+				documents+=1
+				if category==p_cat:
+					cp+=1
+				else:
+					print(file," Expected ",category," Predicted ",p_cat)
+				
+				accuracy=float(cp)*100/documents
+				print(documents," Category ",category,"Prediction Accuracy = ",accuracy,"%")
+			except:
+				print(file," makes problem")
 		y[category]=float(cp)*100/documents
 	
 	return y

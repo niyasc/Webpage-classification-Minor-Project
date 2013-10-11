@@ -14,7 +14,7 @@ def accuracy_measure_n(n):
 	
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("head -n 500 .tmp > .temp")
+		system("head -n "+str(500-n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()
@@ -25,8 +25,7 @@ def accuracy_measure_n(n):
 		for file in files:
 			try:
 				p_cat=getCategory("webpages/"+category+"/"+file)
-			
-			
+							
 				documents+=1
 				if category==p_cat:
 					cp+=1

@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+
+<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en">
+   <!--<![endif]-->
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>Southern Connecticut State University</title>
+      <meta name="Description" content="Description content for the page.">
+      <link rel="stylesheet" href="/_resources/css/style.css"><script type="text/javascript" src="/_resources/js/jquery.min.js"></script><script type="text/javascript" src="/_resources/js/common.js"></script><link rel="shortcut icon" href="/images/favicon.ico" type="image/ico">
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+      <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><script src="/_resources/js/scrollbar.min.js"></script><script type="text/javascript">
+	var sb;
+	$(document).ready(function(){
+		//sb = $('#news-events .content').tinyscrollbar();
+		$('#scrollbar1').tinyscrollbar();
+		$("#news-events h3.nav a").click(function(){
+			$("#news-events .content, #news-events h3.nav").removeClass("on");
+			$(this).parent("h3").addClass('on');
+			$(this).parent("h3").siblings(".content").addClass("on");
+			sb = $(this).parent("h3").siblings('.content').tinyscrollbar();
+			sb.update();
+			return false;
+		});
+		var pc = 0;
+		var slides = $('.slides img');
+		var captions = $('#photo-nav li');
+		$("#photo-nav ul li:first, .opening-img .slides img:first").addClass("selected");
+		
+		
+		function next_slide(){
+			$(slides[pc]).fadeOut().removeClass('selected');
+			$(captions[pc]).fadeOut().removeClass('selected');
+			pc ++;
+			if(pc == slides.length){
+				pc = 0;
+			}
+			$(slides[pc]).fadeIn().addClass('selected');
+			$(captions[pc]).fadeIn().addClass('selected');
+			return false;		
+		}
+		
+		var slideshow_interval = setInterval(next_slide, 7000);	
+		
+				
+		$('#photo-nav a.prev').click(function(){
+			$(slides[pc]).fadeOut().removeClass('selected');
+			$(captions[pc]).fadeOut().removeClass('selected');
+			pc --;
+			if(pc == -1){
+				pc = slides.length - 1;
+			}
+			$(slides[pc]).fadeIn().addClass('selected');
+			$(captions[pc]).fadeIn().addClass('selected');
+			
+			clearInterval(slideshow_interval);
+			return false;
+		});
+		$('#photo-nav a.next').click(function(){
+			$(slides[pc]).fadeOut().removeClass('selected');
+			$(captions[pc]).fadeOut().removeClass('selected');
+			pc ++;
+			if(pc == slides.length){
+				pc = 0;
+			}
+			$(slides[pc]).fadeIn().addClass('selected');
+			$(captions[pc]).fadeIn().addClass('selected');
+			
+			clearInterval(slideshow_interval);			
+			return false;
+		});
+			
+		
+		
+		
+	});
+</script><script type="text/javascript"> 
+		var issuuConfig = { 
+			guid: '09dcd57c-7ee0-4b2c-b5e7-c8c5b4f500c3', 
+			domain: '*.southernct.edu' 
+		}; 
+	</script><script type="text/javascript" src="/_resources/js/directedit.js"></script><script type="text/javascript">
+$(document).ready(function(){ directedit(); });
+</script></head>
+   <body id="homepage">
+      <p id="skip-to-content">
+         Skip to a section in this page:
+         <a href="/_resources/xsl/common.xsl#main-nav">Navigate to a main section</a>,
+         <a href="/_resources/xsl/common.xsl#sub-nav">the navigation within each section</a>,
+         or <a href="/_resources/xsl/common.xsl#main">the main content</a>.
+         
+      </p>
+      <section class="navigation">
+         <div class="branding-utility-wrap"><a href="/" class="branding">Southern Connecticut State University</a><nav id="utility-nav" class="group"><ul>
+<!-- com.omniupdate.div  label="maincontent"  group="Everyone"  button="707"  break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/utility-nav.css" width="955" -->
+	<li><a href="/current-students/">Current Students</a></li>
+	<li><a href="/prospective-students/">Prospective Students</a></li>
+	<li><a href="/alumni/">Alumni</a></li>
+	<li><a href="/faculty-staff/">Faculty/Staff</a></li>
+	<li class="last"><a href="/parents/">Parents</a></li>
+<!-- com.omniupdate.div -->
+
+</ul>
+<form id="searchbox_015371073162391571945:x1ykic4yrx0" action="http://www.southernct.edu/search">
+<!-- com.omniupdate.div  label="maincontent"  group="Everyone"  button="707"  break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/search.css" width="955" -->
+	<label for="search-input" class="hidden">Search</label>
+	<input type="text" name="q" value="Search" id="search-input" onblur="if (this.value == '') {this.value = 'Search';}"  onfocus="if (this.value == 'Search') {this.value = '';}" />
+<!-- com.omniupdate.div -->
+</form>
+</nav>
+         </div>
+         <nav id="main-nav" class="group"><ul>
+<!-- com.omniupdate.div  label="maincontent"  group="Everyone"  button="707"  break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/main-nav.css" width="955" -->
+	<li class="first"><a href="/admissions/">Admissions</a></li>
+	<li><a href="/academics/">Academics</a></li>
+	<li><a href="/student-life/">Student Life</a></li>
+	<li><a href="/athletics/">Athletics</a></li>
+	<li><a href="/about/">About Southern</a></li>
+<!-- com.omniupdate.div -->
+</ul>
+</nav>
+      </section>      <section class="opening-img">
+         <div class="wrap">
+            <div class="slides"><img title="Title IX" src="/files/images/home/homepage-TitleIX_web.jpeg" alt="Title IX" width="1260" height="567"><img src="/files/images/home/homepage-carlos-cruz.jpg" alt="Student Carlos Cruz" width="1260" height="567"><img src="/files/images/home/homepage-homecoming2013.jpg" alt="Homecoming 2013" width="1260" height="567"><img src="/files/images/home/homepage-Bosnia-Pettigrew.jpg" alt="David Pettigrew in Bosnia" width="1260" height="567"><img src="/files/images/home/homepage-cakeboss-lynch.jpg" alt="Coming to Lyman: Cake Boss and Stephen Lynch-Fall 2013" width="1260" height="567"></div>
+            <div id="photo-nav"><a href="#" class="prev">Prev</a><ul>
+                  <li>&nbsp;How has gender equity changed in the past 40 years? Conference to look at impact
+                     of 1972's Title IX legislation. &nbsp;<a class="read-more" title="Title IX" href="/title-ix-equality-in-action/index.html">Read More</a></li>
+                  <li>This New Haven graduate is taking his Southern skills to the Far East. <a class="read-more" title="Carlos Cruz" href="/news/cruzchina.html"><span class="read-more">Read More</span></a></li>
+                  <li>Come back to campus for an "out-of-this-world" homecoming. <a class="read-more" title="Homecoming 2013" href="/student-life/activities/officeofstudentlife/activities/homecoming.html">Read More</a></li>
+                  <li>"May truth lead to justice." David Pettigrew, professor of philosophy, stands beside
+                     the monument in memory of the Višegrad genocide victims.&nbsp; <a class="read-more" title="Professor David Pettigrew in Bosnia" href="/news/Bosnia-Pettigrew.html">Read More</a></li>
+                  <li>Lyman Center serves up comedy and cake this fall! <a class="read-more" title="Lyman Center tickets" href="http://tickets.southernct.edu" target="_blank">Read More</a></li>
+               </ul><a href="#" class="next">Next</a></div>
+            <div id="news-events">               <div class="tab1">
+                  <h3 class="nav on"><a href="#all-tab">News</a></h3>
+                  <div id="scrollbar1" class="content on">
+                     <div class="scrollbar">
+                        <div class="track">
+                           <div class="thumb">
+                              <div class="end"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="viewport">
+                        <div class="overview">
+                           <ul id="all-tab" class="news-events"><li class=''><a href='http://www.southernct.edu/news/cruzchina.html'><h4>October 08, 2013</h4><h3>Fair Haven Grad Teaching in China</h3></a></li><li class=''><a href='http://www.southernct.edu/news/mathfieldstextbook.html'><h4>October 04, 2013</h4><h3>Math Class Uses Free, Online Textbook</h3></a></li><li class=''><a href='http://www.southernct.edu/news/sciencebuildinggroundbreaking.html'><h4>September 20, 2013</h4><h3>SCSU Counts Down to Hi-Tech Science Building</h3></a></li><li class=''><a href='http://www.southernct.edu/news/werthgift.html'><h4>September 09, 2013</h4><h3>Science Research Bolstered by Record $3M Donation to SCSU</h3></a></li><li class=''><a href='http://www.southernct.edu/news/guatemala.html'><h4>August 14, 2013</h4><h3>Notes from the Field: Guatemala</h3></a></li><li class=''><a href='http://www.southernct.edu/news/gearupsummer.html'><h4>August 07, 2013</h4><h3>Middle School Students Get in 'Gear' at Southern</h3></a></li><li class=''><a href='http://www.southernct.edu/news/manufacturing.html'><h4>July 30, 2013</h4><h3>Area Science Teachers Learn Manufacturing Lessons</h3></a></li><li class=''><a href='http://www.southernct.edu/news/southern_academy.html'><h4>July 23, 2013</h4><h3>"Building Little Citizens"</h3></a></li><li class=''><a href='http://www.southernct.edu/news/buleygroundbreaking.html'><h4>July 17, 2013</h4><h3>Buley Library Breaks New Ground</h3></a></li><li class=''><a href='http://www.southernct.edu/news/paris_summer.html'><h4>July 16, 2013</h4><h3>The Paris Diaries</h3></a></li><li class=''><a href='http://www.southernct.edu/news/kuss_music_for_life.html'><h4>June 28, 2013</h4><h3>Music Professor Takes Part in Concerts to Benefit Refugee Children</h3></a></li><li class=''><a href='http://www.southernct.edu/news/lost_history.html'><h4>June 14, 2013</h4><h3>Exhibit Depicts a Lost History due to Genocide</h3></a></li><li class=''><a href='http://www.southernct.edu/news/computersciencechanges.html'><h4>June 07, 2013</h4><h3>A New Focus on Cybersecurity</h3></a></li><li class=''><a href='http://www.southernct.edu/news/perlinaward.html'><h4>June 07, 2013</h4><h3>Student's Compassion Earns Her State Award</h3></a></li><li class=''><a href='http://www.southernct.edu/news/fieldmath.html'><h4>June 07, 2013</h4><h3>Mathematics: Her 'Field' of Dreams</h3></a></li></ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab2">
+                  <h3 class="nav"><a href="#events-tab">Events</a></h3>
+                  <div id="scrollbar2" class="content">
+                     <div class="scrollbar">
+                        <div class="track">
+                           <div class="thumb">
+                              <div class="end"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="viewport">
+                        <div class="overview">
+                           <ul id="events-tab" class="news-events"><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=46'><h4>October 11, 2013</h4><h3>Conference: Title IX: Equality in Action - The Enduring Legacy of Title IX</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=48'><h4>October 11, 2013</h4><h3>Play: 'Shakespeare in Hollywood'</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=62'><h4>October 12, 2013</h4><h3>Homecoming & Owl Family Day</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=59'><h4>October 12, 2013</h4><h3>Play: 'Shakespeare in Hollywood' (Matinee)</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=60'><h4>October 13, 2013</h4><h3>Play: 'Shakespeare in Hollywood' (Matinee)</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=54'><h4>October 15, 2013</h4><h3>Play: 'Shakespeare in Hollywood'</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=68'><h4>October 15, 2013</h4><h3>'Latinos Beyond Reel: Challenging a Media Stereotype'</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=66'><h4>October 16, 2013</h4><h3>Majors Expo</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=55'><h4>October 16, 2013</h4><h3>Play: 'Shakespeare in Hollywood'</h3></a></li><li class=''><a href='http://calendar.southernct.edu/index.php?com=detail&eID=56'><h4>October 17, 2013</h4><h3>Play: 'Shakespeare in Hollywood'</h3></a></li></ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="main-content">
+         <section class="highlights">
+            <!-- com.omniupdate.div  label="highlights"  group="Everyone"  button="707"  break="break" -->
+            <!-- ouc:editor csspath="/_resources/ou/editor/highlight.css" width="955"/ -->
+            <h2>Highlights</h2>
+            <ul>
+               <li></li>
+               <li><a title="owl family day and homecoming 2013" href="/student-life/student-university-affairs/owl-family-day.html">Owl Family Day &amp; Homecoming</a></li>
+               <li></li>
+               <li><a title="undergraduate admissions open house" href="/admissions/undergraduate/open-house.html">Undergraduate Admissions Open House</a></li>
+               <li><a title="graduate school open house" href="/academics/graduate/openhouse.html">Graduate&nbsp; Open House</a></li>
+               <li><a title="scsu alumni scholarship program" href="/alumni/scholarship-program/index.html">Alumni Scholarship Application</a></li>
+               <li><a title="president papazian's state of the university address 2013" href="/about/administration/president/speeches.html">President Papazian's State of the<br> University Address</a></li>
+               <li><a title="southern events calendar" href="http://calendar.southernct.edu">Calendar</a></li>
+            </ul>
+            <!-- /com.omniupdate.div -->
+         </section>
+         <h1>Dynamic, Diverse, Dedicated to Student Success.</h1>
+         <div class="action-btns"><a href="/admissions/index.html" class="btn">Apply Now</a><a href="/admissions/take-a-tour.html" class="btn">Visit Campus</a><a href="/giving/" class="btn last">Support Southern</a></div>
+         <!-- com.omniupdate.div  label="maincontent"  group="Everyone"  button="707"  break="break" -->
+         <!-- ouc:editor csspath="/_resources/ou/editor/maincontent-home.css" width="955"/ -->
+         <p style="margin-left: 30px;"><span style="font-size: medium;">Experience Southern – new beginnings, great opportunities, and New Haven at its best.</span></p>
+         <p style="margin-left: 30px;"><span style="font-size: medium;">Visit our&nbsp;<a href="/about/">beautiful campus</a>. Meet our&nbsp;<a href="/about/administration/president/index.html">new president</a>. Explore&nbsp;<a title="Academics" href="/academics/">academic programs</a>&nbsp;that are challenging and supportive. And feel the welcome of our&nbsp;<a href="/about/scsu-info/new-haven.html">spirited New Haven community</a>.</span></p>
+         <!-- /com.omniupdate.div -->
+      </section>
+      <section class="secondary-content graphics">
+         <div class="wrap group">
+            <div class="col-left graphic">
+               <!-- com.omniupdate.div  label="featured-content1"  group="Everyone"  button="707"  break="break" -->
+               <!-- ouc:editor csspath="/_resources/ou/editor/featured-content-home.css" width="955"/ --><img src="/homepage_BottomLeft.jpg" alt="Lyman Center performer" width="470" height="247">&nbsp;<a title="About Lyman Center" href="/lyman/index.html">Lyman Center for the performing arts</a>
+               <!-- /com.omniupdate.div --></div>
+            <div class="col-right graphic">
+               <!-- com.omniupdate.div  label="featured-content2"  group="Everyone"  button="707"  break="break" -->
+               <!-- ouc:editor csspath="/_resources/ou/editor/featured-content-home.css" width="955"/ --><img src="/files/images/home/ChooseSouthernWeb.jpg" alt="I chose southern" width="373" height="247"><a href="/choose/index.html">Choose Southern</a>
+               <!-- /com.omniupdate.div --></div>
+            <div class="col-right graphic">
+               <!-- com.omniupdate.div  label="featured-content3"  group="Everyone"  button="707"  break="break" -->
+               <!-- ouc:editor csspath="/_resources/ou/editor/featured-content-home.css" width="955"/ --><img src="/files/images/home/library-rendering.jpg" alt="Construction on campus" width="404" height="247"><a href="/about/construction/index.html">A Green and Growing Campus</a>
+               <!-- /com.omniupdate.div --></div>
+         </div>
+      </section>
+      <div id="footer-rule"></div>
+      <footer class="group"><a class="branding" href="/">Southern Connecticut State University</a>
+<p class="adr"><strong>Southern Connecticut State University</strong><br /> 501 Crescent Street<br /> New Haven, CT 06515<br /><br /> Phone: (203) 392-SCSU<br /><!--Email: <a href='mailto&#58;inform&#97;t&#105;on%4&#48;sou&#116;h&#101;r&#110;c%74&#46;&#101;&#100;u'>info&#114;mati&#111;n&#64;&#115;&#111;u&#116;&#104;ernct&#46;e&#100;u</a>--></p>
+<ul class="social-media">
+<li class="fb"><a href="https://www.facebook.com/southernct">Facebook</a></li>
+<li class="tw"><a href="https://twitter.com/scsutweet">Twitter</a></li>
+<li class="rss"><a href="/_resources/rss/aggregate.xml">RSS Feed</a></li>
+</ul>
+<nav>
+<ul>
+<li><a href="/about/directions.html">Campus Map</a></li>
+<li><a href="/about/directions.html">Directions</a></li>
+<li><a title="Directories" href="/search/directories/index.html">Directories</a></li>
+</ul>
+</nav><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2103026-1']);
+  _gaq.push(['_setDomainName', 'southernct.edu']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<p class="copyright"><span id="directedit">©</span>2013 Southern<br /> Connecticut<br /> State University.</p>
+</footer>
+      <div id="hidden">
+         <!-- com.omniupdate.ob --><a id="de" style="color: #9C9C9C; text-decoration: none;" href="http://oucampus-app-a.southernct.edu/oucampus/de.jsp?user=main&amp;site=www&amp;path=%2Findex.pcf">&copy;</a><!-- /com.omniupdate.ob -->
+      </div>
+   </body>
+</html>

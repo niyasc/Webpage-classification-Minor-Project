@@ -1,0 +1,851 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+	<title>BBC - Religions - Christianity: Eastern Orthodox Church</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="Essentially the Orthodox Church shares much with the other Christian Churches in the belief that God revealed himself in Jesus Christ, and a belief in the incarnation of Christ, his crucifixion and resurrection.  The Orthodox Church differs substantially in the way of life and worship."/>
+	<meta name="keywords" content="eastern, orthodox, church, greek, russian, patriarch, christmas, saints, icons, iconostasis, baptism, chrismation, chrism, eucharist, holy orders, penance, confession, anointing, sick, marriage, john tavener, monks, mount athos, greece, russia"/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	<meta name="DCTERMS.created" content="2002-10-02"/>
+	<meta name="DCTERMS.updated" content="2008-06-11"/>
+	
+	
+                <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->         <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/script/blq_core.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie7.css" type="text/css" /> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png');} #blq-mast #blq-search-btn { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blq-search_grey_alpha.png', sizingMethod='image'); } </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->  <script type="text/javascript"> blq.assetPath="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  </script> <!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                    
+    
+
+	
+<style type="text/css">
+	@import '/vision/productisation/includes/css/v1/s-core-models.css';
+	@import '/vision/productisation/includes/css/v1/global.css';
+	@import '/vision/productisation/includes/css/v1/colourway.css';
+	
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/religion/religions/includes/css/product-specific.css"  />
+<link rel="stylesheet" type="text/css" media="print" href="/vision/productisation/includes/css/v1/print.css" />
+<!-- Barlesque: -->
+
+
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+<!-- 
+	if (document.documentElement && document.getElementById){
+		document.documentElement.className += " js";
+	}	
+// -->		
+</script>
+
+<!-- Glow library : core modules -->
+<script type="text/javascript">
+	gloader.load(["glow", "1", "glow.anim", "glow.net", "glow.dom", "glow.embed"]);
+</script>
+
+
+<!-- EMP embed support -->
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>  
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+
+<!-- Live Stats Variable -->	
+	
+	
+	
+<!-- End of Live Stats Variable Settings -->
+
+
+
+
+
+
+	
+	
+	</head>
+	<body class="orange prg-content-lhn article religion">
+	<div><a name="top"> </a></div>                <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=2.8&blq_r=2.7&blq_v=default-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=en-GB&amp;blq_s=2.8&amp;blq_r=2.7&amp;blq_v=default-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->    <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-2-8"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast --> <!-- BBCDOTCOM leaderboard template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  -->
+        <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <span id="blq-mast-background"></span> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span id="blq-blocks-wrapper"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span> </span> </a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li><a href="#blq-content">Skip to content</a></li>  <li><a href="#blq-local-nav">Skip to local navigation</a></li>  <li><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li><a href="#blq-search">Skip to bbc.co.uk search</a></li>  <li><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">        
+
+	<!--START PROGRAMMES CONTENT CONTAINER SHELL-->
+	<div id="prg-masthead">
+	<p><a href="/religion/religions/" title="Religions">Religions</a></p>
+
+	</div>
+	<div class="prg-wrapper" id="prg-wrapper-shell">
+	<div id="blq-content">
+		
+	<div id="prg-wrapper-featured"><!-- START MAIN CONTENT AREA -->
+	<div class="box top_promo">
+	<div class="header"><h1>Eastern Orthodox Church</h1>
+	<p><em>Last updated 2008-06-11</em></p>
+	</div>
+	<div class="content">
+	<p>Essentially the Orthodox Church shares much with the other Christian Churches in the belief that God revealed himself in Jesus Christ, and a belief in the incarnation of Christ, his crucifixion and resurrection.  The Orthodox Church differs substantially in the way of life and worship.</p>
+	</div>
+	<div class="footer"> </div>
+	</div>
+		
+	<div class="p-grp p-grp-a p-grp-theme-n nth-row-n">
+	<!--LEFT HAND NAV-->
+	<div class="left-nav">
+	<h2>On this page</h2>
+	<ul>
+	 <li><a href="#h1">Eastern Orthodox Church</a></li>
+	<li><a href="#h2">History and schism</a></li>
+	<li><a href="#h3">Life and worship</a></li>
+	<li><a href="#h4">Sacraments</a></li>
+	<li><a href="#h5">Icons</a></li>
+	<li><a href="#h6">Calendar and Christmas</a></li>
+	<li><a href="#findoutmore" title="See more related content">Find out more</a></li>
+	</ul>
+	<h3>Page options</h3>
+	<ul class="tools">
+	<li class="print"><a href="#" onclick="window.print();return false;">Print this page</a></li>
+	</ul>
+	
+	</div>
+		
+	<div class="center">
+	
+	<div class="content-main-header"> </div>
+	<div class="p-mod nth-child-1 content-main">
+	<a name="section_1"> </a>
+	<div class="promo">
+	
+<h2 class="heading-nth-1" id="h1">Eastern Orthodox Church</h2>
+	
+<h3>Orthodox Churches</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 170px;">
+	<img alt="Orthodox prayer rope" height="140" src="/religion/religions/christianity/subdivisions/images/orthrope.jpg" width="170"/><span class="caption" style="width: 160px;">
+	Orthodox prayer rope <a href="/religion/copyright.shtml#wikimediacommons">©</a>
+	</span>
+	</span>
+	
+
+<p>The Orthodox Church is one of the three main Christian groups (the others being Roman Catholic and Protestant). Around 200 million people follow the Orthodox tradition.</p>
+
+<p>It is made up of a number of self-governing Churches which are either 'autocephalous' (meaning having their own head) or 'autonomous' (meaning self-governing).</p>
+
+<p>The Orthodox Churches are united in faith and by a common approach to theology, tradition, and worship. They draw on elements of Greek, Middle-Eastern, Russian and Slav culture.</p>
+
+<p>Each Church has its own geographical (rather than a national) title that usually reflects the cultural traditions of its believers.</p>
+
+<p>The word 'Orthodox' takes its meaning from the Greek words <em>orthos</em> ('right') and <em>doxa</em> ('belief'). Hence the word Orthodox means correct belief or right thinking.</p>
+
+<p>The Orthodox tradition developed from the Christianity of the Eastern Roman Empire and was shaped by the pressures, politics and peoples of that geographical area. Since the Eastern capital of the Roman Empire was Byzantium, this style of Christianity is sometimes called 'Byzantine Christianity'.</p>
+
+<p>The Orthodox Churches share with the other Christian Churches the belief that God revealed himself in <a href="/religion/religions/christianity/history/jesus_1.shtml">Jesus Christ</a>, and a belief in the incarnation of Christ, his crucifixion and resurrection. The Orthodox Church differs substantially from the other Churches in the way of life and worship, and in certain aspects of theology.</p>
+
+<p>The Holy Spirit is seen as present in and as the guide to the Church working through the whole body of the Church, as well as through priests and bishops.</p>
+
+<h3>Are Orthodox Churches the same as Eastern Orthodox Churches?</h3>
+	
+
+<p>Not all Orthodox Churches are 'Eastern Orthodox'. The 'Oriental Orthodox Churches' have theological differences with the Eastern Orthodox and form a separate group, while a few Orthodox Churches are not 'in communion' with the others.</p>
+
+<p>Not all Churches in the Eastern tradition are Orthodox - Eastern Churches that are not included in the Orthodox group include the Eastern Catholic Churches.</p> 
+
+<h3>The Eastern Orthodox Churches</h3>
+	
+
+<p>The nominal head of the Eastern Orthodox Churches is the Patriarch of Constantinople. However, he is only first among equals and has no real authority over Churches other than his own.</p>
+
+<p>There are 15 'autocephalous Churches', listed in order of precedence.</p> 
+
+<p>Churches 1-9 are led by Patriarchs, while the others are led by Archbishops or Metropolitans:</p>
+
+<ol><li>Church of Constantinople (ancient)</li>
+<li>Church of Alexandria (ancient) </li>
+<li>Church of Antioch (ancient)</li> 
+<li>Church of Jerusalem (ancient) </li>
+<li>Church of Russia (established in 1589)</li> 
+<li>Church of Serbia (1219) </li>
+<li>Church of Romania (1925) </li>
+<li>Church of Bulgaria (927) </li>
+<li>Church of Georgia (466) </li>
+<li>Church of Cyprus (434) </li>
+<li>Church of Greece (1850)</li> 
+<li>Church of Poland (1924) </li>
+<li>Church of Albania (1937) </li>
+<li>Church of Czech and Slovak lands (1951)</li>
+<li>The Orthodox Church in America (1970)</li></ol>
+
+<p>The Orthodox communion also includes a number of 'autonomous Churches':</p>
+
+<ul><li>Church of Sinai</li> 
+<li>Church of Finland</li> 
+<li>Church of Estonia*</li> 
+<li>Church of Japan*</li>
+<li>Church of China*</li> 
+<li>Church of Ukraine* </li>
+<li>Archdiocese of Ohrid*</li> 
+</ul>
+
+<p><strong>* indicates a Church whose autonomy is recognised by only some of the other Churches</strong></p>
+
+<div id="emp_box_1" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_1");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/beyond_belief/beyond_20050718.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_2"> </a>
+	<div class="promo">
+	
+<h2 id="h2">History and schism</h2>
+	
+<h3>The Great Schism</h3>
+	
+
+<p>The doctrine of the Christian Church was established over the centuries at Councils dating from as early as 325CE where the leaders from all the Christian communities were represented.  The Eastern Church recognizes the authority of the Councils of Nicea 325 CE, Constantinople I (381), Ephesus (431) Chalcedon (451)  Constantinople II (553), Constantinople III (680) and Nicaea II (787).</p>
+
+<p>Although initially the Eastern and Western Christians shared the same faith, the two traditions began to divide after the seventh Ecumenical Council in 787 CE and is commonly believed to have finally split over the conflict with Rome in the so called Great Schism in 1054.</p>
+
+<p>In particular this happened over the <a href="/religion/religions/christianity/pope/">papal</a> claim to supreme authority and the doctrine of the Holy Spirit. The break became final with the failure of the Council of Florence in the fifteenth century.</p>
+
+<p>However, in the minds of most Orthodox, a decisive moment was the <a href="/religion/religions/islam/history/ottomanempire_3.shtml">sack of Constantinople</a> in 1204 during the (Western Christian) Fourth Crusade. The sacking of Constantinople by the Crusaders eventually led to the loss of this Byzantine capital to the Muslim Ottomans in 1453.  This has never been forgotten.</p>
+
+<p>The divisions between the East and Western Churches happened gradually over the centuries as the Roman Empire fragmented.</p>
+
+<p>Eventually, while the Eastern Churches maintained the principle that the Church should keep to the local language of the community, Latin became the language of the Western Church.</p>
+
+<p>Until the schism the five great patriarchal sees were Rome, Constantinople, Alexandria, Antioch and Jerusalem.  After the break with Rome Orthodoxy became 'Eastern' and the dominant expression of Christianity in the eastern Mediterranean, much of Asia Minor, Russian and Balkans.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_3"> </a>
+	<div class="promo">
+	
+<h2 id="h3">Life and worship</h2>
+	
+<h3>Life and worship</h3>
+	
+
+<p>Eastern Christianity stresses a way of life and belief that is expressed particularly through worship. By maintaining the correct form of worshipping God, passed on from the very beginnings of Christianity. Eastern Christians believe that they confess the true doctrine of God in the right (orthodox) way.</p>
+
+<span class="image_with_caption float_right" style="width: 150px;">
+	<img alt="Bible" height="90" src="/religion/religions/christianity/subdivisions/images/orthbible.jpg" width="150"/><span class="caption" style="width: 140px;">
+	The Orthodox Bible is almost the same as that found in Western Churches <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p>The <a href="/religion/religions/christianity/texts/bible.shtml">Bible</a> of the Orthodox Church is the same as that of most Western Churches, except that its Old Testament is based not on the Hebrew, but on the ancient Jewish translation into Greek called the Septuagint.</p>
+
+<p>The wisdom of the Fathers of the Church is central to the Orthodox way of life as today's inheritors of the "true faith and Church" passed on in its purest form. By maintaining the purity of the inherited teachings of the Apostles, believers are made more aware of the inspiration of the Holy Spirit being present both in history and at the present day.</p>
+
+<h3>A life of prayer</h3>
+	
+
+<p>At the centre of worship and belief is the Eucharist surrounded by the Divine Offices or the Cycle of Prayer. These prayers are sung particularly at Sunset and Dawn and at certain other times during the day and night.</p>
+
+<p>Personal prayer plays an important part in the life of an Orthodox Christian. For many Orthodox Christians an important form of prayer is the Jesus Prayer. This is a sentence which is repeated many times; for example: "Lord Jesus Christ, Son of God, have mercy on me, a sinner." The aim of this repetition is to enable the person to concentrate solely on God.</p>
+
+<p>The strict life of a monk or nun is seen as an important expression of faith.</p>
+
+<h3>Mount Athos and Monasticism</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 150px;">
+	<img alt="Monastry on hills of Holy Athos Mountain" height="90" src="/religion/religions/christianity/subdivisions/images/orthmonastery.jpg" width="150"/><span class="caption" style="width: 140px;">
+	Monastery on Mount Athos <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p>Monasticism is a central part of the Orthodox faith. Mount Athos in north-eastern Greece is described as the centre of Orthodox monasticism. It is the only place in Greece completely dedicated to prayer and worship of God. For this reason, it is called the Holy Mountain.</p>
+
+<p>Most monasteries are <em>coenobitic</em>: living a communal life. The peninsula is divided into twenty self-governed territories. Each territory consists of a major monastery and some other monastic establishments that surround it (cloisters, cells, cottages, seats, hermitages).</p>
+
+<p>For monk and nun alike, their spiritual life should follow the same way of living that all Christians try to achieve by following God's commandants. While not being against marriage, it is generally accepted that celibacy in the Church allows for a closer understanding of the Christian life away from worldly things.</p>
+
+<h3>Fasting and prayer</h3>
+	
+
+<p>Fasting and prayer play an important part of the Orthodox Christian life.  Orthodox believe that fasting can be the 'foundation of all good'. The discipline of training the body can enable a believer to concentrate the mind totally on preparation for prayer and things spiritual.</p>
+
+<p>There are four main fasting periods:</p>
+
+<ul>
+	<li>The Great Fast or the period of Lent</li>
+	<li>The Fast of the Apostles: Eight days after Pentecost until 28th June.  The ends with the Feast of Saint Peter and Saint Paul.</li>
+	<li>The Dormition Fast which begins on 1st August and ends on the 14th August</li>
+	<li>The Christmas Fast from 15 November to 24th December.</li>
+</ul>
+
+<p>Also all Wednesdays and Fridays are expected to be days of fasting.</p>
+
+<p>Even though today the call to fast is not always strictly followed, nevertheless many devout Orthodox Christians do undergo a time of genuine hardship and it has been said that:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Orthodox Christians in the twentieth century - laity as well as monks - fast with a severity for which there is no parallel in western Christendom...</p>
+	<p><cite>Timothy Ware, The Orthodox Church</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>A discussion of self-denial</h3>
+	
+
+<p>Contributors from Opus Dei and a Greek Orthodox church discuss self-denial and corporal mortification with a Muslim chaplain.</p>
+
+<div id="emp_box_2" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_2");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/beyond_belief/beyond_0218.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_4"> </a>
+	<div class="promo">
+	
+<h2 id="h4">Sacraments</h2>
+	
+<h3>Sacred Mysteries (sacraments)</h3>
+	
+
+<p>The following seven principal Mysteries or sacraments are at the heart of the Eastern Orthodox Church.</p>
+
+<h3>Baptism and Chrismation</h3>
+	
+
+<p>The first two are Baptism and Chrismation. Baptism of adults and infants is by immersion in water three times in the name of the <a href="/religion/religions/christianity/beliefs/trinity_1.shtml">Trinity</a> and is both the initiation into the Church and a sign of forgiveness of sins.</p>
+
+<p>Chrismation follows immediately after baptism and is by anointing with holy oil called Chrism. Chrismation is followed by <a href="/religion/religions/christianity/ritesrituals/eucharist_1.shtml">Holy Communion</a>. This means that in the Orthodox Church babies and children are fully communicant members of the Church.</p>
+
+<p>Chrism can only be consecrated by the Patriarch, or chief Bishop, of the local Church.  Some of the old Chrism is mixed with the new, thus linking the newly baptised to their forbears in the faith.</p>
+
+<p>The Chrism is used to anoint different parts of the body with a sign of the cross.  The forehead, eyes, nostrils, mouth and ears, the chest, the hands and the feet are all anointed. The priest says the words, "The seal of the gift of the Holy Spirit" as he makes the sign of the cross at each point.</p>
+
+<p>The newly baptised Christian is now a layperson, a full member of the people of God (the 'Royal Priesthood').  All Christians are called to be witnesses to the Truth.</p>
+
+<p>Chrismation is linked to <a href="/religion/religions/christianity/holydays/pentecost.shtml">Pentecost</a> in that the same Holy Spirit which descended on the apostles descends on the newly baptised.</p>
+
+<h3>The Eucharist</h3>
+	
+
+<p>The Eucharist, usually called the Divine Liturgy, fulfils the command of Jesus Christ at the Last Supper: "Do this in remembrance of me".</p>
+
+<span class="image_with_caption float_right" style="width: 150px;">
+	<img alt="A member of the congregation standing at the front of the church to lead the hymn-singing" height="120" src="/religion/religions/christianity/subdivisions/images/orthsinging.jpg" width="150"/><span class="caption" style="width: 140px;">
+	Singing hymns <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p>As in many Western churches the Eucharist is a service consisting, in the first part, of hymns, prayers, and readings from the New Testament, and in the second the solemn offering and consecration of leavened bread and wine mixed with water, followed by the reception of Holy Communion.</p>
+
+<p>The Orthodox believe that by the consecration the bread and wine are truly changed into the Body and Blood of Christ. Communion is given in a spoon containing both the bread and the wine and is received standing. A sermon is usually preached either after the reading of the Gospel or at the end of the service. At the end of the Liturgy blessed, but not consecrated, bread is distributed to the congregation, and non-Orthodox are often invited to share in this as a gesture of fellowship.</p>
+
+<p>Both parts of the Liturgy contain a procession. At the Little Entrance, the Book of the Gospels is solemnly carried into the sanctuary and at the Great Entrance the bread and wine are carried to the altar for the Prayer of Consecration and Holy Communion.</p>
+
+<p>The prayer of consecration is always preceded by the proclamation of the Nicene Creed, frequently by the whole congregation.</p>
+
+<p>The Orthodox Church lays particular emphasis on the role of the Holy Spirit in the Eucharist, and in the Prayer of Consecration calls on the Father to send down his Holy Spirit to effect the change of the bread and wine into the Body and Blood of Christ.</p>
+
+<p>There are four different liturgies used throughout the year:</p>
+
+<ul>
+	<li>The Liturgy of St John Chrysostom (used on Sundays and weekdays)</li>
+	<li>The Liturgy of St Basil the Great (used 10 times a year)</li>
+	<li>The Liturgy of St James, the Brother of the Lord (sometimes used on St James' Day)</li>
+	<li>The Liturgy of the Presanctified (used on Wednesdays and Fridays in Lent and on the first three days of Holy Week)</li>
+</ul>
+
+<span class="image_with_caption float_left" style="width: 122px;">
+	<img alt="Greek Orthodox priests wearing beards, black robes and flat-topped hats" height="139" src="/religion/religions/christianity/subdivisions/images/orthpriests.jpg" width="122"/><span class="caption" style="width: 112px;">
+	Greek Orthodox priests <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<h3>Orders</h3>
+	
+
+<p>Although the Church is a self-governing community the Church recognises the diaconate, the presbyterate or priesthood and the episcopate (bishops).</p>
+
+<p>The Bishops in the Orthodox Church are considered to be the direct successors of the original Apostles and they are very much a unifying focus in the Church. Priests in the Orthodox Church are permitted to be married but may not marry after ordination. Bishops must always be celibate. Orthodox priests normally do not shave their beards, in accordance with the Bible.</p>
+
+
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>You shall not round off the hair on your temples or mar the edges of your beard.</p>
+	<p><cite>Leviticus 19:27</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Penance</h3>
+	
+
+<p>All Orthodox Churches use the Mystery of Penance, or Confession, but in Greek speaking Churches only priests who have been blessed by the Bishop as 'Spiritual Fathers' are allowed to hear confession.  Children may be admitted to the sacrament of Confession as soon as they are old enough to know the difference between right and wrong.</p>
+
+<p>Through this sacrament sinners may receive forgiveness.  They enter into confession with a priest often in an open area in the church (not in a confessional as in the Roman Catholic tradition nor separated by a grille).</p>
+
+<span class="image_with_caption float_right" style="width: 150px;">
+	<img alt="Man with head bowed sitting with a priest" height="94" src="/religion/religions/christianity/subdivisions/images/orthconfession.jpg" width="150"/><span class="caption" style="width: 140px;">
+	Confession <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p>Both priest and penitent stand and a cross and book of the Gospels or an icon is placed in front of the penitent with the priest standing slightly apart.  This stresses that the priest is simply a witness and that forgiveness comes from God not the priest.</p>
+
+<p>The priest will then hear the confession and perhaps give advice.  After confession the penitent kneels before the priest, who places his stole on the penitent's head saying a prayer of absolution.</p>
+
+<h3>Anointing of the sick</h3>
+	
+
+<p>In Greek-speaking Churches this is performed annually for the whole congregation during Holy Week on the eve of Holy Wednesday. Everyone is encouraged to come forward for anointing with the special oil whether they are physically ill or not.  This is because it is generally held that all are in need of spiritual healing even if they are physically well.</p>
+
+<p>Anointing of the sick can also be performed on individuals.  People sometimes keep the blessed oil of the sick in their homes.</p>
+
+<p>The Church anoints the sick with oil, following the teaching of St James in his Epistle (5:14-15), "Is anyone among you sick?  He should summon the presbyters of the Church, and they should pray over him and anoint (him) with oil in the name of the Lord, and the prayer of faith will save the sick person, and the Lord will raise him up.  If he has committed any sins he will be forgiven."</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>This sacrament,', remarks Sergius Bulgakov, 'has two faces: one turns towards healing, the other towards the liberation from illness by death.</p>
+	<p><cite>Timothy Ware, The Orthodox Church</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Marriage</h3>
+	
+
+<p><a href="/religion/religions/christianity/ritesrituals/weddings_1.shtml">Marriage</a> is celebrated through the rite of <em>crowning</em>, showing the importance of eternal union of the couple. Although marriage is seen as a permanent commitment in life and in death, remarriage and <a href="/religion/religions/christianity/ritesrituals/divorce_1.shtml">divorce</a> are permitted in certain circumstances.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_5"> </a>
+	<div class="promo">
+	
+<h2 id="h5">Icons</h2>
+	
+<h3>Icons</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 112px;">
+	<img alt="Orthodox Church painting showing the Virgin Mary and baby Jesus" height="139" src="/religion/religions/christianity/subdivisions/images/orthicon.jpg" width="112"/><span class="caption" style="width: 102px;">
+	Icon of the Virgin and child <a href="/religion/copyright.shtml#hellenicministryofculture">©</a>
+	</span>
+	</span>
+	
+
+<p>Icons are of great importance to Orthodox Christians. These beautiful and elaborate paintings are described as "windows into the kingdom of God". They are used in worship both in the decoration of the church and for private homes. The icon is seen as both a form of prayer and a means to prayer.</p>
+
+<p>An icon is usually an elaborate, two dimensional painting. They often have a gold leaf background and are usually on wood. They depict Christ, his mother <a href="/religion/religions/christianity/history/virginmary_1.shtml">Mary</a>, scenes from the Bible or the lives of the <a href="/religion/religions/christianity/saints/">Saints</a>.</p>
+
+<p>The iconographer prepares for the painting of an icon with prayer and fasting. By worshipping at the Icon the Orthodox Christian enters into a sacred place with God.</p>
+
+<p>The icon is venerated and often candles and oil lamps are burnt before them. The worshipper kisses the icon, making the sign of the Cross and may kneel or prostrate before it.</p>
+
+<p>In most Orthodox churches the Altar, or sanctuary, is separated from the main body of the church by a solid screen (known as the iconostasis), pierced by three doors, the one in the centre being known as the Holy door. The screen is decorated with icons, of which the principal ones are those on either side of the Holy Door of Christ and the Mother of God.</p>
+
+<span class="image_with_caption float_right" style="width: 112px;">
+	<img alt="Sir John Tavener" height="139" src="/religion/religions/christianity/subdivisions/images/johntavener.jpg" width="112"/><span class="caption" style="width: 102px;">
+	Sir John Tavener <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p>These are normally flanked by icons of St John the Baptist and of the Saint, or Feast, to which the church is dedicated. In Russian churches the iconostasis normally forms a solid wall decorated with four or five rows of icons according to an elaborate traditional arrangement.</p>
+
+<p>The composer Sir John Tavener is one of Britain's most famous followers of Orthodox Christianity and calls icons "the most sacred, the most transcendent art that exists". In this clip he talks about his interpretation of these works of art.</p>
+
+<div id="emp_box_3" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_3");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/religions/christianity/tavener.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_6"> </a>
+	<div class="promo">
+	
+<h2 id="h6">Calendar and Christmas</h2>
+	
+<h3>The Orthodox calendar</h3>
+	
+
+<p>After World War I various Orthodox Churches, beginning with the Patriarchate of Constantinople, began to abandon the Julian calendar or Old Calendar, and adopt a form of the Gregorian calendar or New Calendar. The Julian calendar is, at the present time, thirteen days behind the Gregorian Calendar.</p>
+
+<p>Today, many Orthodox Churches (with the exception of Jerusalem, Russia, Serbia, and Mount Athos) use the New, Gregorian Calendar for fixed feasts and holy days but the Julian calendar for Easter and movable feasts. In this way all the Orthodox celebrate Easter together.</p>
+
+<p>The Orthodox Church calendar begins on September 1st and ends on August 31st. Each day is sacred: each is a saint's day, so at least one saint is venerated daily.</p>
+
+<h3>Orthodox Christmas</h3>
+	
+			  
+<span class="image_with_caption float_right" style="width: 160px;">
+	<img alt="Candles in a gold and blue holder" height="108" src="/religion/religions/christianity/subdivisions/images/orthcandles.jpg" width="160"/><span class="caption" style="width: 150px;">
+	Candles <a href="/religion/copyright.shtml#unknown">©</a>
+	</span>
+	</span>
+	
+
+<p><a href="/religion/religions/christianity/holydays/christmas_1.shtml">Christmas</a> is celebrated by Orthodox Christians in Central and Eastern Europe and throughout the world on the 7th of January in the Gregorian Calendar - 13 days after other Christians.</p>
+
+<p>In the East, Christmas is preceded by a 40 day fast beginning on November 15th. This is a time of reflection, self-restraint and inner healing in the sacrament of confession.</p>
+
+<p>Usually, on Christmas Eve, observant Orthodox Christians fast till late evening, until the first star appears. When the star is seen, people lay the table ready for the Christmas supper.</p>
+
+<p>On Christmas Day people take part in divine liturgy, after which many walk in procession to seas, rivers and lakes. Everyone gathers around in the snow for outdoor ceremonies to bless the water. Sometimes rivers are frozen, so people make holes in the ice to bless the water. Some take water home to bless their houses. Then a great feast is held indoors where everyone joins in to eat, drink and enjoy themselves.</p>
+
+<p>A Orthodox Russian custom is to serve Christmas cakes and to sing songs.  The tradition is mixed with other pagan traditions of ancient Russia such that people may visit their neighbours in disguises, dance, sing and ask for presents, similar to trick-or-treating.</p>
+
+<p>There are similarities, as well as differences, between the Eastern and Western celebration of Christmas. The Eastern Christmas has a very strong family and social appeal just as it does in the West. It brings people of all generations together to celebrate the birth of Jesus Christ.</p>
+
+<p>Unlike the West, where Christmas ranks supreme, in the East it is <a href="/religion/religions/christianity/holydays/easter.shtml">Easter</a>, centred on the cross and the resurrection of Christ, which is the supreme festival of the year. Eastern Orthodox Christmas also lacks the commercial side that is typical of the West.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<div class="promo">
+	<h2 id="findoutmore">Find out more</h2>
+	<ul>
+	<li><a href="/religion/religions/christianity/saints/" title="Read more on The saints">The saints</a></li>
+	</ul>
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	</div>
+	<div class="content_bottom"> </div>
+		
+	
+
+	</div>
+		
+	</div><!--closes Row - single column -->
+		
+	</div><!-- End: main content area -->
+			<!--START RHN CONTAINER -->
+		<div id="prg-wrapper-extra">
+			<div class="product_button">
+			
+				<!-- RELIGION HOMEPAGE BUTTON -->
+				
+				
+				
+				<!-- MORE RELIGIONS BUTTON -->
+				
+				
+				
+				
+				<!-- ATHEISM -->
+				
+				
+				<!-- BAHAI -->
+				
+				
+				<!-- BUDDHISM -->
+				
+				
+				<!-- CANDOMBLE -->
+				
+				
+				<!-- CHRISTIANITY -->
+				
+					<h2>
+						<span class="arrow content">&laquo;</span>
+						<a href="/religion/religions/christianity/" title="More Christianity">More <span>Christianity</span></a>
+					</h2>
+				
+				
+				<!-- HINDUISM -->
+				
+				
+				<!-- ISLAM -->
+				
+				
+				<!-- JAINISM -->
+				
+				
+				<!-- RASTAFARI -->
+				
+				
+				<!-- SANTERIA -->
+				
+				
+				<!-- SHINTO -->
+				
+				
+				<!-- SIKHISM -->
+				
+				
+				<!-- SPRITUALISM -->
+				
+				
+				<!-- TAOISM -->
+				
+				
+				<!-- UNITARIANISM -->
+				
+				
+				<!-- WITNESSES -->
+				
+				
+				<!-- ZOROASTRIAN -->
+				
+				
+				<!-- JUDAISM -->
+				
+				
+				<!-- MORMON -->
+				
+				
+				<!-- PAGANISM -->
+				
+			</div>	
+				
+					
+			
+			<!-- New row: -->
+			<div class="p-grp">		
+				<div class="p-mod">
+
+				
+					<!-- new promo module -->
+					<div class="promo">
+						<div class="rhn_header"><h2>See also</h2></div>
+						<div class="rhn_body">
+							<ul>
+								<li><a href="/religion/" title="Go to the Religion and Ethics homepage">Religion and Ethics home</a></li>
+								<li><a href="/religion/tools/calendar/" title="Go to the Interfaith calendar">Interfaith calendar</a></li>
+								<li><a href="/ethics/guide/" title="Go to Ethics Guides">Ethics guides</a></li>
+							</ul>
+						</div>
+						<div class="module_footer"></div>
+					</div>
+					
+					
+					
+						<div class="promo">
+	<div class="rhn_header"><h2>Around the BBC</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="/radio4/history/inourtime/inourtime_20031016.shtml">BBC Radio 4 - In Our Time: The Schism</a></li>
+	<li><a href="http://news.bbc.co.uk/1/hi/world/europe/2632507.stm">BBC News - Orthodox Christmas pictures</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	<div class="promo">
+	<div class="rhn_header"><h2>Elsewhere on the web</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://www.sourozh.org/">Russian Orthodox Church in GB and Ireland</a></li>
+	<li><a href="http://www.antiochian-orthodox.co.uk/">Antiochian Orthodox Church in Great Britain</a></li>
+	<li><a href="http://www.thyateira.org.uk/">Archdiocese of Thyateira and Great Britain</a></li>
+	<li><a href="http://www.stratsplace.com/rogov/israel/greek_orthodox_christmas.html">Greek Orthodox Christmas</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	
+					
+					
+					
+				</div>	
+			</div>
+			
+			<div class="clear_both"></div>
+		<!--END RHN CONTAINER-->
+		</div></div>
+	</div>
+		
+	               </div>   <div id="blq-mast" class="blq-rst blq-default-worldwide blq-new-nav" lang="en-GB"> <div id="blq-sign-in">  </div>  <form method="get" id="blq-search-form" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p id="blq-nav-search">  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/religion/religions/christianity/subdivisions/easternorthodox_1.shtml" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">      <li id="blq-nav-n"><a href="http://www.bbc.com/news/" hreflang="en-GB">News</a></li>  <li id="blq-nav-s"><a href="http://www.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://www.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/capital/" hreflang="en-GB">Capital</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More&hellip;</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/history/">History</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> <li><a href="/local/">Local</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2> <ul> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">  <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>      <li><a href="/terms/">Terms of Use</a></li>       <li><a href="/aboutthebbc/">About the BBC</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>        <li><a href="/privacy/">Privacy</a></li>       <li><a href="/accessibility/">Accessibility Help</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="/bbc.com/ad-choices/">Ad Choices</a></li>        <li><a href="/privacy/bbc-cookies-policy.shtml">Cookies</a></li>        <li><a href="/contact/">Contact the BBC</a></li>   </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">      <li><a href="/guidance/">Parental Guidance</a></li>  </ul> </li>  </ul> </div>   <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks/light.png" width="84" height="24" alt="BBC" /></div> <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+<!-- BBCDOTCOM analytics template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                    bbcdotcom.stats.contentType = "HTML";
+                                    }
+                /*]]>*/
+            </script>
+            <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+            <script type="text/javascript">
+                DM_tag();
+            </script>
+
+            <!-- SiteCatalyst code version: H.21.
+            Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+                            <script type="text/javascript">
+                    var s_account = "bbcwglobalprod";
+                </script>
+            
+                <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/s_code.js"></script>
+    
+            <script type="text/javascript"><!--
+            /* You may give each page an identifying name, server, and channel on
+            the next lines. */
+
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+            <noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+            src="http://sa.bbc.com/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.21. -->
+
+            <!-- Begin comScore Tag -->
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                COMSCORE.beacon({
+                    c1:2,
+                    c2:"6035051",
+                    c3:"",
+                    c4:"127.0.0.1:8888/religion/religions/christianity/subdivisions/easternorthodox_1.shtml",
+                    c5:"",
+                    c6:"",
+                    c15:""
+                });
+                /*]]>*/
+            </script>
+            <noscript>
+                <div>
+                    <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=127.0.0.1:8888/religion/religions/christianity/subdivisions/easternorthodox_1.shtml&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+                </div>
+            </noscript>
+            <!-- End comScore Tag -->
+
+            
+                            <!-- Effective Measure BBCCOM-1195 -->
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function() {
+                        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+                    })();
+                    /*]]>*/
+                </script>
+                <noscript>
+                    <div>
+                        <img src="http://me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                    </div>
+                </noscript>
+                <!-- End Effective Measure -->
+     </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>                  
+
+	<!-- progs scripts -->
+<script type="text/javascript" src="/ui/ide/1/js/glow_widgets/carousel/carousel.min.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/carousel.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/wallpaper.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/webform.js"></script>
+<script type="text/javascript" src="/vision/productisation/includes/scripts/accordion.js"></script>
+
+<div id="vision-prod-livestats-bug">
+	<!-- LiveStats -->
+<div class="blq-hide"><img id="livestats" width="1" height="1" alt="" src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~Vision~RS~t~RS~HighWeb_Content~RS~i~RS~0~RS~p~RS~religion~RS~a~RS~Genre~RS~u~RS~/religion/religions/christianity/subdivisions/easternorthodox_1.shtml~RS~r~RS~http://www.bbc.co.uk/religion/religions/christianity/~RS~q~RS~~RS~z~RS~03~RS~" /></div>
+
+<!-- LiveStats heatmap -->
+<script src="/cs/vision/stats/livestats.js" type="text/javascript"></script>
+
+
+</div>
+
+	</body>
+	</html>
