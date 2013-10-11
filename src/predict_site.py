@@ -4,7 +4,7 @@ from os import system
 path.insert(0, './lib') #set library location
 from web import *
 from functions import *
-from naive_bayes import *
+from naive_bayes1 import *
 
 def main():
 	url=input("Enter url : ")

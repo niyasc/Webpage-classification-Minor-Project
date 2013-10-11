@@ -8,15 +8,16 @@ from naive_bayes import *
 
 def main():
 	url=input("Enter url : ")
-	obj=WebPage(url)
-	text=obj.getPureText()
+	testpage=WebPage(url)
+	text=testpage.getPureText()
+	#text=testpage.getImportantContent()
 	words=seperateWords(text)
-	words=convertToLower(words)
-	words=removeStopWords(words)
+	words=convertToLower(words) # convert words to lowercase
 	words=applyStemming(words)
+	words=removeStopWords(words) # remove stop words
 	freq=genFreqDict(words)
+	
 	freq=removeAnom(freq)
-	print(freq)
 	print("Category of webpage is ",naive_bayes(freq))
 	
 	

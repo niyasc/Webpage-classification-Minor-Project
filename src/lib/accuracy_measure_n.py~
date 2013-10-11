@@ -14,7 +14,7 @@ def accuracy_measure_n(n):
 	
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("head 500 .tmp > .temp")
+		system("head -n 500 .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()
@@ -23,20 +23,19 @@ def accuracy_measure_n(n):
 		cp=0
 		documents=0
 		for file in files:
-			try:
-				p_cat=getCategory("webpages/"+category+"/"+file)
+			#try:
+			p_cat=getCategory("webpages/"+category+"/"+file)
+						
+			documents+=1
+			if category==p_cat:
+				cp+=1
+			else:
+				print(file," Expected ",category," Predicted ",p_cat)
 			
-			
-				documents+=1
-				if category==p_cat:
-					cp+=1
-				else:
-					print(file," Expected ",category," Predicted ",p_cat)
-				
-				accuracy=float(cp)*100/documents
-				print(documents," Category ",category,"Prediction Accuracy = ",accuracy,"%")
-			except:
-				print(file," makes problem")
+			accuracy=float(cp)*100/documents
+			print(documents," Category ",category,"Prediction Accuracy = ",accuracy,"%")
+			#except:
+			#	print(file," makes problem")
 		y[category]=float(cp)*100/documents
 	
 	return y
