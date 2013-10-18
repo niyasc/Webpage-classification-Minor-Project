@@ -11,14 +11,16 @@ def main():
 	y={}
 	for category in categories:
 		y[category]=[]
-	for n in range(10,100,10):
+	for n in range(10,101,20):
 		print('n=',n)
 		x.append(n)
 		yn=accuracy_measure_n(n)
 		print(yn)
 		for category in categories:
 			y[category].append(yn[category])
-	print(y)
+		
+		
+
 	total=[]
 	for n in range(len(x)):
 		total.append(0)
@@ -26,7 +28,6 @@ def main():
 			total[n]+=y[category][n]
 		total[n]=total[n]/float(len(categories))
 		
-	print(y) 
 		
 		
 		

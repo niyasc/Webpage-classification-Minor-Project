@@ -14,7 +14,7 @@ def accuracy_measure_n(n):
 	
 	for category in categories:
 		system("ls ./webpages/"+category+">.tmp")
-		system("head -n 500 .tmp > .temp")
+		system("head -n "+str(500-n)+" .tmp > .temp")
 		a=open(".temp")
 		files=a.read()
 		a.close()
@@ -37,6 +37,10 @@ def accuracy_measure_n(n):
 			except:
 				print(file," makes problem")
 		y[category]=float(cp)*100/documents
+		print(category)
+		print('Number of true predictions',cp)
+		print('Number of false predictions',500-n-cp)
+		print('Total number of documents',500-n)
 	
 	return y
 		

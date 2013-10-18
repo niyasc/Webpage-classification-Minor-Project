@@ -21,11 +21,12 @@ def construct_train_set(n):
 		files=files.split('\n')
 		files.pop()
 		for file  in files:
-			freq=getList("./webpages/"+category+"/"+file)
-			freq['_category']=category
-			database.append(freq)
-		'''except:
-			print("Problem in database connectivity")'''
+			try:
+				freq=getList("./webpages/"+category+"/"+file)
+				freq['_category']=category
+				database.append(freq)
+			except:
+				print(file,"makes problem")
 	#prepare database
 	make_training_set(database)
 	#print("Training set created")

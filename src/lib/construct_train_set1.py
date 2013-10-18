@@ -3,7 +3,6 @@ from database import *
 from constants import *
 from functions import *
 from clean import *
-import MySQLdb
 
 
 
