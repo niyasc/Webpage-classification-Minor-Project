@@ -2,43 +2,8 @@ import re
 import nltk
 from collections import OrderedDict
 from nltk import PorterStemmer
-from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 
-lmtzr = WordNetLemmatizer()
-porter_stem = PorterStemmer()
-wordnet_tag ={'NN':'n','JJ':'a','VB':'v','RB':'r'}
-
-class DataClean:
-
-    def removeFreqone(self,list):
-        new_list={}
-        for a in list :
-            try:
-                new_list[a] += 1
-            except:
-                new_list[a] = 0
-        return [a for a in new_list.keys() if new_list[a] > 0]
-
-    def __init__(self,text):
-        data = text.lower()
-        tokens = nltk.word_tokenize(data)
-        tagged = nltk.pos_tag(tokens)
-        word_list = []
-        for t in tagged:
-            try:
-                word_list.append(lmtzr.lemmatize(t[0],wordnet_tag[t[1][:2]]))
-            except:
-                word_list.append(porter_stem.stem_word(t[0]))
-
-        self.filtered_words = [w for w in word_list if not w in stopwords.words('english')]
-
-        #Now removal of terms with frequency =1  [ paper mentions about this ]
-        self.filtered_words = self.removeFreqone(self.filtered_words)
-
-
-    def GetData(self):
-        return self.filtered_words
 
 
 
@@ -47,10 +12,10 @@ def seperateWords(text):
 	'''
 		take string into input and return a list of words seperated by digits,non-ascii 		characters,escape sequences,..etc
 	'''
-	print('input text',text)
+	#print('input text',text)
 	text=re.sub("\d+|\?|[^a-zA-Z ]", " ", text)
 	words=re.findall(r"[\w']+",text)
-	print('words',words)
+	#print('words',words)
 	return words
 	#return nltk.word_tokenize(text) //Avoiding due to presence of un significant words
 	
@@ -149,7 +114,7 @@ def removeStopWords(words):
 	for a in stop_words:
 		while a in words:
 			words.remove(a)
-	print('after removing stop words',words)
+	#print('after removing stop words',words)
 	return words
 
 def applyStemming(words):
@@ -161,7 +126,7 @@ def applyStemming(words):
 	temp=[]
 	for word in words:
 		temp.append(stemmer.stem_word(word))
-	print('after stemming',temp)
+	#print('after stemming',temp)
 	return temp
 	
 def genFreqDict(words):
@@ -176,7 +141,7 @@ def genFreqDict(words):
 			freq[word]+=1
 		else:
 			freq[word]=1
-	print('frequency list',freq)
+	#print('frequency list',freq)
 	return freq
 
 def removeAnom(freq):

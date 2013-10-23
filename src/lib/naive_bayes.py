@@ -1,29 +1,24 @@
 from constants import categories
 import pickle
 from decimal import Decimal
+from collections import OrderedDict
 
 def naive_bayes(freq_list):
 	database=pickle.load(open('database.db','rb'))
+	#print(database)
+	#print(type(database))
 	
 	v=0	
-	for document in database:
-		for word in document:
-			if word!='_category':
-				v+=document[word]
+	for category in categories:
+		for word in database[category]:
+			v+=database[category][word]
 	
 	pc={}
 	for category in categories:
-		attributes={}
+		attributes=database[category]
 		n=0
-		for document in database:
-			if document['_category']==category:
-				for word in document:
-					if word!="_category":
-						n+=document[word]
-						if word not in attributes:
-							attributes[word]=document[word]
-						else:
-							attributes[word]+=document[word]
+		for word in attributes:
+			n+=attributes[word]
 		
 		pc[category]=Decimal(10**1000)
 		for word in freq_list:

@@ -1,9 +1,10 @@
 from sys import path
 from sys import exit
 from os import system
-from construct_train_set1 import construct_train_set
+from construct_train_set import construct_train_set
 from constants import categories
-from predict_category import getCategory
+from clean import getList
+from naive_bayes import naive_bayes
 
 def accuracy_measure_n(n):
 	x=[]
@@ -23,19 +24,19 @@ def accuracy_measure_n(n):
 		cp=0
 		documents=0
 		for file in files:
-			try:
-				p_cat=getCategory("webpages/"+category+"/"+file)
+			
+			terms=getList("webpages/"+category+"/"+file)
+			p_cat=naive_bayes(terms)
 							
-				documents+=1
-				if category==p_cat:
-					cp+=1
+			documents+=1
+			if category==p_cat:
+				cp+=1
 				#else:
 				#	print(file," Expected ",category," Predicted ",p_cat)
 				
-				accuracy=float(cp)*100/documents
+			accuracy=float(cp)*100/documents
 				#print(documents," Category ",category,"Prediction Accuracy = ",accuracy,"%")
-			except:
-				print(file," makes problem")
+		
 		y[category]=float(cp)*100/documents
 		print(category)
 		print('Number of true predictions',cp)
