@@ -9,6 +9,7 @@ import pylab
 def main():
 	x=[]
 	y={}
+	print (categories)
 	for category in categories:
 		y[category]=[]
 	for n in range(2,10):
