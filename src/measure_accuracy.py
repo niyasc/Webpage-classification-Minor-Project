@@ -3,7 +3,7 @@ from sys import exit
 from os import system
 path.insert(0, './lib') #set library location
 from constants import categories
-from accuracy_measure_n import accuracy_measure_n
+from k_fold_accuracy import k_fold_accuracy
 import pylab
 
 def main():
@@ -11,10 +11,10 @@ def main():
 	y={}
 	for category in categories:
 		y[category]=[]
-	for n in range(10,101,20):
+	for n in range(2,10):
 		print('n=',n)
 		x.append(n)
-		yn=accuracy_measure_n(n)
+		yn=k_fold_accuracy(n)
 		print(yn)
 		for category in categories:
 			y[category].append(yn[category])
@@ -34,13 +34,13 @@ def main():
 		
 						
 	#Plot graph
-	for item in y:
-		t=pylab.plot(x,y[item],label=item)
+	#for item in y:
+	#	t=pylab.plot(x,y[item],label=item)
 	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
-	t=pylab.xlabel('Number of trainig documents')
+	t=pylab.xlabel('Number of folds k')
 	t=pylab.ylabel('Classification accuracy %')	
 	t=pylab.legend(loc='upper right')
-	t=pylab.title('Accuracy vs Number of training documents')
+	t=pylab.title('Number of folds k vs accuracy')
 	pylab.show()
 	
 	
