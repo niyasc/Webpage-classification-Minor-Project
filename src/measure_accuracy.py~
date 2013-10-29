@@ -8,11 +8,11 @@ path.insert(0, './lib') #set library location
 from constants import categories
 from k_fold_accuracy import k_fold_accuracy
 import pylab
-threadLimiter = threading.BoundedSemaphore(10)
+#threadLimiter = threading.BoundedSemaphore(10)
 x=[]
 y={}
 yn={}
-class myThread (threading.Thread):
+'''class myThread (threading.Thread):
 	def __init__(self,element,c):
 		threading.Thread.__init__(self)
 		self.element = element
@@ -29,23 +29,28 @@ class myThread (threading.Thread):
 		        threadLimiter.release()
 
 
-
+'''
 def main():
 	print (categories)
 	for category in categories:
 		y[category]=[]
+	n = 0 
+	target = open("n="+str(n)+".db", 'w')
+	target.truncate()
+	target.write("y")
+	target.close()
+
 	for n in range(2,10):
 		print('n=',n)
 		x.append(n)
-		threadLimiter.acquire()
-		try :
-			myThread(n,categories).start()
-		except Exception as e :
-			print (e)
-			pass
-		finally:
-			threadLimiter.release()
+		yn=k_fold_accuracy(n)
+		for category in categories:
+			y[category].append(yn[category])
 		
+		target = open("n="+str(n)+".db", 'w')
+		target.truncate()
+		target.write(str(y))
+		target.close()
 
 	total=[]
 	for n in range(len(x)):
@@ -53,15 +58,13 @@ def main():
 		for category in categories:
 			total[n]+=y[category][n]
 		total[n]=total[n]/float(len(categories))
+	
 		
 		
-		
-		
-		
-						
+	
 	#Plot graph
-	#for item in y:
-	#	t=pylab.plot(x,y[item],label=item)
+	for item in y:
+		t=pylab.plot(x,y[item],label=item)
 	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
 	t=pylab.xlabel('Number of folds k')
 	t=pylab.ylabel('Classification accuracy %')	

@@ -34,6 +34,12 @@ def main():
 	print (categories)
 	for category in categories:
 		y[category]=[]
+	n = 0 
+	target = open("dict/n="+str(n)+".db", 'w')
+	target.truncate()
+	target.write("y")
+	target.close()
+
 	for n in range(2,10):
 		print('n=',n)
 		x.append(n)
@@ -41,6 +47,10 @@ def main():
 		for category in categories:
 			y[category].append(yn[category])
 		
+		target = open("n="+str(n)+".db", 'w')
+		target.truncate()
+		target.write(str(y))
+		target.close()
 
 	total=[]
 	for n in range(len(x)):
@@ -48,12 +58,10 @@ def main():
 		for category in categories:
 			total[n]+=y[category][n]
 		total[n]=total[n]/float(len(categories))
+	
 		
 		
-		
-		
-		
-						
+	
 	#Plot graph
 	for item in y:
 		t=pylab.plot(x,y[item],label=item)
