@@ -55,8 +55,8 @@ def main():
 		
 						
 	#Plot graph
-	#for item in y:
-	#	t=pylab.plot(x,y[item],label=item)
+	for item in y:
+		t=pylab.plot(x,y[item],label=item)
 	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
 	t=pylab.xlabel('Number of folds k')
 	t=pylab.ylabel('Classification accuracy %')	
