@@ -51,7 +51,7 @@ def confusion_matrix(k):
 				p_cat=naive_bayes(freq)
 				if p_cat==category:
 					true_predicted[category]+=1
-				cmatrix[category][category]+=1;
+				cmatrix[category][p_cat]+=1;
 			print('k=',k,'i=',i,'category=',category,'true_predicted\n',true_predicted)
 	print(true_predicted)
 	
