@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link href="../static/css/base.css" rel="stylesheet" type="text/css" /><link href="../static/css/floating.css" rel="stylesheet" type="text/css" /><link href="../static/css/slideshow.css" rel="stylesheet" type="text/css" /><link href="../static/css/nav.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="../static/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.cycle.lite.js"></script>
+    <script type="text/javascript" src="/static/js/slideshow2.js"></script>
+    <script type="text/javascript" src="/static/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="/static/js/crSpline.js"></script>
+    <!--[if IE]> <script type="text/javascript" src="/static/js/ie-set_timeout.js"></script> <![endif]-->
+    <script type="text/javascript" src="/static/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="/static/js/seal.js"></script>
+    <script type='text/javascript' src='/static/js/nav/jquery.hoverIntent.minified.js'></script>
+    <script type='text/javascript' src='/static/js/nav/jquery.dcmegamenu.1.3.3.min.js'></script>
+    <script type="text/javascript" src="/static/js/general.js"></script>
+    
+    <meta name="Description" content="MSU-Northern | Universities, Colleges Montana | Bachelors, Associates Degree | Information and Resources for Future Students" />
+    <meat name="keywords" content="Universities, university, colleges, college, Montana, MT, public, bachelors degrees, associates degrees, master degrees, AAS, AS, BA, BS, BSEd, BSN, ASN, MEd, MSEd, degrees, programs, classes, online, top, best, Montana colleges, Montana universities" />
+    <meta name="language" content="english" />
+    <meta name="robots" content="index,follow,noimageindex" />
+    <meta name="copyright" content="Montana State University-Northern" />
+    <meta name="doc-type" content="Public" />
+    <meta name="classification" content="Education" />
+    <!-- style and script for "spotlight" slide show -->
+    <style>
+		#slideshowx { 
+		    margin: 5px auto; 
+		    position: relative; 
+		    width: 190px; 
+		    height: 110px; 
+		    padding: 0px; 
+		}
+		
+		#slideshowx > div { 
+		    position: absolute; 
+		}
+	</style>
+    <script>
+		$(function() {
+			$("#slideshowx > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#slideshowx > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshowx');
+			},  3000);
+		});
+	</script>
+    <script src="http://www.causes.com/moment_of_silence.js">
+	showText: true;  
+	text: 'Find out how you can stay involved'; 
+	url: 'http://causes.com/momentforsandyhook'; 
+</script>
+<title>
+	Montana State University-Northern: Information & Resources for Future Students
+</title></head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../">
+    <img src="../static/images/logo.png" width="350" height="62" />
+</a>
+<div style="height: 20px;">
+</div>
+<div id="search" style="cursor: pointer;">
+    <span style="color: white;"><a href="../admin/directories/" class="whiteLink">Directory</a> | <a href="../contact-us.aspx" class="whiteLink">Contact Us</a> | <a href="../siteindex/" class="whiteLink">A-Z Index</a></span>
+    <br />
+    <div id="gSearch">
+    </div>
+    <a href="visitcampus-i.aspx">Visit</a> | <a href="https://www.applyweb.com/apply/msunorth/" target="_blank">Apply</a> | <a href="../foundation/waystogive.aspx">Give</a>
+</div>
+
+        </div>
+        <div class="nav">
+            <ul id="navigateNorthern" class="mega">
+    <!--create the wrapper for the entire nav -->
+    <li><a href="../siteindex/">Navigate Northern</a>
+        <ul>
+            <li>
+                <ul>
+                    <li><a href="../admissions/">Admissions</a></li>
+                    <li><a href="../advising/">Advising Center</a></li>
+                    <li><a href="../asstdeanstus/">Assistant Dean of Students</a></li>
+                    <li><a href="../athletics/">Athletics</a></li>
+                    <li><a href="https://atlas.montana.edu:9002/pls/hvagent/twbkwbis.P_GenMenu?name=homepage">Banner Web - MyInfo</a></li>
+                    <li><a href="../beyondcampus/">Beyond Campus</a></li>
+                    <li><a href="http://bioenergytestingcenter.com/">Bio-Energy Center</a></li>
+                    <li><a href="http://bookstore.msun.edu/">Bookstore</a></li>
+                    <li><a href="../busserv/">Business Services</a></li>
+                    <li><a href="../xcalendar/">Calendar</a></li>
+                    <li><a href="../career/">Career Center</a></li>
+                    <li><a href="../chancellor/">Chancellor</a></li>
+                    <li><a href="http://msunonline.org">Desire2Learn</a></li>
+                    <li><a href="../admin/directories/">Directories</a></li>
+                    <li><a href="../stuaffairs/disabilityserv/">Disability Services</a></li>
+                    
+                </ul>
+          </li>
+            <li>
+                <ul>
+                    <li><a href="../grants/eoc/">Educational Opportunity Center</a></li>
+                    <li><a href="../distance/">Extended University</a></li>
+                    <li><a href="../finaid/">Financial Aid</a></li>
+                    <li><a href="../foundation/">Foundation</a></li>
+                    <li><a href="../academics/grad/">Graduate Programs</a></li>
+                    <li><a href="../health/">Health Services</a></li>
+                    <li><a href="../housing/">Housing & Dining</a></li>
+                    <li><a href="../hr/">Human Resources</a></li>
+                    <li><a href="../its/">Information Technology Services</a></li>
+                    <li><a href="../learningsuccesscenter/">Learning Success Center</a></li>
+                    <li><a href="../infotech/library/">Library</a></li>
+                    <li><a href="../grants/metc/">METC</a></li>
+                    <li><a href="http://mtprof.msun.edu/">The Montana Professor</a></li>
+                    <li><a href="http://motorcycle.msun.edu">Motorcycle Rider Safety</a></li>
+                    <li><a href="../media/">Media &amp; Reprographics Center</a></li>
+                    
+                    
+                </ul>
+          </li>
+            <li>
+                <ul>
+                <li><a href="https://atlas.montana.edu:9002/pls/hvagent/twbkwbis.P_GenMenu?name=homepage">MyInfo</a></li>
+                	<li><a href="../stuactivities/showcase.aspx">Northern Showcase Concert Assoc</a></li>
+                    <li><a href="../distance/online.html">Online Courses</a></li>
+                    <li><a href="../admin/policies">Policies & Procedures</a></li>
+                    <li><a href="../provost/">Provost</a></li>
+                    <li><a href="../registrar/">Registrar</a></li>
+                    <li><a href="../academics/relatedtraining/">Related Training</a></li>
+                    <li><a href="../stuaffairs/campussafety/">Security & Campus Safety</a></li>
+                    <li><a href="../stuactivities/">Student Activities</a></li>
+                    <li><a href="../stuaffairs/">Student Life</a></li>
+                    <li><a href="../stuorgs/">Student Organizations</a></li>
+                    <li><a href="../grants/sss/">Student Support Services</a></li>
+                    <li><a href="../distance/summer.html">Summer Session</a></li>
+                    <li><a href="../grants/trio.aspx">TRIO Programs</a></li>
+                    <li><a href="http://www.vubmt.com/" target="_blank">Veterans Upward Bound</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul id="rightNav" class="mega">
+    <li><a href="../academics/">Academics</a>
+        <ul style="margin-left: -300px">
+            <li><a href="../academics/degrees.aspx" style="cursor:pointer;">Degrees Offered</a>
+                <ul>
+                    <li><a href="../academics/coeasn/ArtsandSciences.aspx">Arts & Sciences</a></li>
+                    <li><a href="../academics/cots/index.aspx#business">Business</a></li>
+                    <li><a href="../academics/coeasn/Education.aspx">Education</a></li>
+                    <li><a href="../academics/nursing/">Nursing</a></li>
+                    <li><a href="../academics/cots/">Technical Sciences</a></li>
+                    <li>&nbsp;</li>
+                    <li style="background-color:#ededed;border-left:1px solid #ababab;border-top:1px solid #ababab;border-right:1px solid #ababab;"><a href="../academics/degrees.aspx">Undergraduate Programs</a></li>
+                    <li style="background-color:#ededed;border:1px solid #ababab;"><a href="../academics/grad/">Graduate Programs</a></li>
+                </ul>
+            </li>
+            <li><a>Resources</a>
+                <ul>
+                    <li><a href="../admissions/">Admissions</a> </li>
+                    <li><a href="../advising/">Advising</a></li>
+                    <li><a href="../academics/acad-cal.aspx">Academic Calendar</a></li>
+                    <li><a href="../registrar/catalogs.aspx">Catalogs</a></li>
+                    <li><a href="../registrar/catalogs.aspx">Schedules</a></li>
+                    <li><a href="../registrar/transfer_agreements.aspx">Transfer Agreements</a></li>
+                    <li><a href="../provost/">Academic Affairs</a></li>
+                    <li><a href="../infotech/library/">Library</a> </li>
+                </ul>
+            </li>
+            <li><a href="../distance/" style="cursor:pointer;">Extended University</a>
+                <ul>
+                    <li><a href="../distance/online.html">Online Education</a></li>
+                    <li><a href="../distance/summer.html">Summer Session</a></li>
+                    <li><a href="../distance/traffic.html">Traffic Education</a></li>
+                    <li><a href="../admissions/dual.aspx">Dual Enrollment</a></li>
+                    <li><a href="../distance/continuing.html">Continuing Education</a></li>
+                    <li><a href="http://motorcycle.msun.edu/">Motorcycle Safety</a></li>
+                    <li><a href="../grants/metc/">MT Environmental Training Center</a> </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="../admissions/">Admissions</a>
+        <ul>
+            <li>
+                <ul>
+                    <li><a href="https://www.applyweb.com/apply/msunorth/" target="_blank">Apply Online</a> </li>
+                    <li><a href="../admissions/general.aspx">General Information</a></li>
+                    <li><a href="../busserv/tuitfees.aspx">Tuition & Fees</a></li>
+                    <li><a href="requestinfo.aspx">Request Information</a></li>
+                    <li><a href="../admissions/freshman.aspx">Freshman Students</a></li>
+                    <li><a href="../admissions/transfer.aspx">Transfer Students</a></li>
+                    <li><a href="../admissions/readmit.aspx">Former Students</a></li>
+                    <li><a href="../admissions/graduate.aspx">Graduate Students</a></li>
+                    <li><a href="../admissions/international.aspx">International Students</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="../athletics/">Athletics</a>
+        <ul>
+            <li>
+                <ul>
+                    <li><a href="../athletics/football/">Lights Football</a></li>
+                    <li><a href="../athletics/mensbb/">Lights Basketball</a></li>
+                    <li><a href="../athletics/womensbb/">Skylights Basketball</a></li>
+                    <li><a href="../athletics/volley">Skylights Volleyball</a></li>
+                    <li><a href="../athletics/wrestle/">Lights Wrestling</a></li>
+                    <li><a href="../athletics/golf/">Golf</a></li>
+                    <li><a href="../athletics/rodeo/">Rodeo</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="../stuaffairs/">Campus Services</a>
+        <ul style="margin-left: -230px">
+            <li><a>Campus Life</a>
+                <ul>
+                    <li><a href="../stuorgs/asmsun/">ASMUSN</a></li>
+                    <li><a href="../athletics/">Athletics</a></li>
+                    <li><a href="../xcalendar/">Calendar of Events</a></li>
+                    <li><a href="../stuorgs/">Clubs & Organizations</a></li>
+                    <li><a href="../housing/dining.aspx">Dining Services</a></li>
+                    <li><a href="../ambassadors/">Northern Ambassadors</a></li>
+                    <li><a href="../housing/">On-Campus Housing</a></li>
+                    <li><a href="../stuaffairs/campussafety/">Security & Campus Safety</a></li>
+                    <li><a href="../stuactivities/">Student Activities</a></li>
+                </ul>
+            </li>
+            <li><a>Student Services</a>
+                <ul>
+                    <li><a href="../admissions/">Admissions</a></li>
+                    <li><a href="../advising/">Advising</a></li>
+                    <li><a href="../asstdeanstus/">Assit. Dean of Students</a></li>
+                    <li><a href="http://bookstore.msun.edu">Bookstore</a></li>
+                    <li><a href="../busserv/">Business Services</a></li>
+                    <li><a href="../career/">Career Center</a></li>
+                    <li><a href="../stuaffairs/disabilityserv/">Disability Services</a></li>
+                    <li><a href="../finaid/">Financial Aid</a></li>
+                    <li><a href="../learningSuccesscenter/">Learning Success Center</a></li>
+                    <li><a href="../multiculturalcenter/">Multicultural Center</a></li>
+                    <li><a href="../registrar/">Registrar</a></li>
+                    <li><a href="../health/">Student Health Services</a></li>
+                    <li><a href="../grants/sss/">Student Support Services</a></li>
+                    <li><a href="../infotech/library/">Vande Bogart Library</a></li>
+                    <li><a href="../stuaffairs/vets/">Veteran Services</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="../aboutmsun/">About Us</a>
+        <ul style="margin-left: -200px">
+            <li>
+                <ul>
+                    <li><a href="../chancellor/">Chancellor's Welcome</a></li>
+                    <li><a href="../aboutmsun/mission.aspx">Mission & Vision</a></li>
+                    <li><a href="../news/">News & Events</a></li>
+                    <li><a href="../xcalendar/">Calendar</a></li>
+                    <li><a href="../hr/">Employment</a></li>
+                    <li><a href="../aboutmsun/history/">History</a></li>
+                    <li><a href="../stuaffairs/campussafety/">Security & Campus Safety</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<div class="clear">
+</div>
+
+        </div>
+        <div class="shadow">
+            <div id="slideShow">
+                <div id="ssLeft">
+                    <a href="#prev">
+                        <img src="../static/images/leftarrow.png" /></a></div>
+                <div id="ssRight">
+                    <a href="#next">
+                        <img src="../static/images/rightarrow.png" /></a></div>
+                <div id="ssNav">
+                </div>
+                <div class="elements">
+                    
+        <div class="element">
+        <a href="../academics/nursing/">
+            <img src="../static/images/BPoints/braggingpointnursingbanner.jpg" alt="MSU-Northern's Bachelor of Science in Nursing preparation is the only on-line degree of its kind in the state" title="Click to find out more about the RN to Bachelor of Science in Nursing program!" width="950" height="300" style="z-index:1;" /></a>
+    </div>
+    
+    <div class="element">
+        
+            <img src="../static/images/BPoints/braggingpointjetfuelbanner.jpg" alt="MSU-Northern Bio-Energy Center has a provisional patent pending on converting bio oils into jet fuel" width="950" height="300" /></a>
+    </div>
+    
+    <div class="element">
+        <a href="../academics/cots/program-CET.aspx">
+            <img src="../static/images/BPoints/braggingpointengineeringbanner2.jpg" alt="MSU-Northern's Civil Engineering Technology program is the only ABET accredited civil engineering technology program in the state" title="Click to find out more about MSU-Northern's Civil Engineering Technology program!" width="950" height="300" /></a>
+    </div>
+    
+    <div class="element">
+        <a href="#" style="cursor:default;">
+            <img src="../static/images/BPoints/braggingpointartsbanner.jpg" alt="We are the home of the Community Choir, Montana Actors Theatre and the MSU-Northern Community Orchestra" width="950" height="300" /></a>
+</div>
+    
+    
+    
+    
+    <div class="element">
+        <a href="../academics/cots/program-AgOperations.aspx">
+            <img src="../static/images/BPoints/braggingpointagbanner.jpg" alt="MSU-Northern's 4 year Agriculture Operations program is the only one in the state which combines both plant and animal sciences and farm management into one degree" title="Click here to find out more about MSU-Northern's Agriculture Operations program!" width="950" height="300" /></a>
+    </div>
+                </div>
+            </div>
+            
+    <div id="lowerNav" style="background: url('/static/css/bgs/tab1.png');">
+
+            
+    <a href="./" style="color: Black;">Future Students</a> <a href="../current/" style="margin-left: 40px;">Current Students</a> <a href="../alumni/" style="margin-left: 40px;">Alumni & Friends</a> <a href="../parents/" style="margin-left: 40px;">Parents & Visitors</a> <a href="../facstaff/" style="margin-left: 28px;">Faculty & Staff</a>
+
+        </div>
+        <div class="narrow">
+            
+    <div class="leftCol">
+<!-- ***************************************************    
+    <div class="floating left">
+        <div class="top">
+            <h2>
+                NOTICE</h2>
+        </div>
+      <div style="padding:10px; text-align:center;" class="redtext">Due to extreme weather conditions and road closures, classes at MSU-Northern <strong>Lewistown</strong> campus are cancelled today (Friday, Jaunary 11th).</div>
+    </div>
+***************************************************** -->   
+    
+           <div class="floating left">
+        <div class="top">
+            <h2>
+                Apply/Visit</h2>
+        </div>
+        <ul>
+            <li>
+            <a href="https://www.applyweb.com/apply/msunorth/" id="ctl00_MainContent_A1" target="_blank">Apply Now!</a></li>
+            <li>
+          <a href="requestinfo.aspx" id="ctl00_MainContent_A2">Request Info</a></li>
+            <li>
+            <a href="../admissions/docs/MSUNApp.pdf" id="ctl00_MainContent_A3">Download Application</a></li>
+            <li>
+            <a href="visitcampus-i.aspx" id="ctl00_MainContent_A4">Visit Campus</a></li>
+            <li class="heading" style="cursor:auto;">Information</li>
+            <li>
+            <a href="../academics/" id="ctl00_MainContent_A5">Academics</a></li>
+            <li>
+            <a href="../admissions/" id="ctl00_MainContent_A6">Admissions</a></li>
+            <li>
+            <a href="../advising/" id="ctl00_MainContent_A7">Advising</a></li>
+            <li>
+            <a href="../finaid/" id="ctl00_MainContent_A8">Financial Aid</a></li>
+            <li>
+            <a href="../busserv/" id="ctl00_MainContent_A9">Business Services</a></li>
+            <li>
+            <a href="../finaid/tuitcalc.aspx" id="ctl00_MainContent_A10">Tuition Calculator</a></li>
+            <li>
+            <a href="../finaid/scholarships/" id="ctl00_MainContent_A11">Scholarships</a></li>
+            <li>
+            <a href="../registrar/catalogs.aspx" id="ctl00_MainContent_A12">Catalogs</a></li>
+            <li>
+            <a href="../registrar/catalogs.aspx" id="ctl00_MainContent_A13">Schedules</a></li>
+            <li>
+            <a href="../housing/" id="ctl00_MainContent_A14">Housing/Dining</a></li>
+            <li><a href="../ambassadors/" id="ctl00_MainContent_A15">Northern Ambassadors</a></li>
+        </ul>
+    </div>
+        <div class="floating left">
+        	<div class="top">
+                <div style="font-size:19px; font-weight:bold; margin-left:18px; margin-top:2px;">Featured Program</div>
+            </div>
+            <div style="margin: 15px 0px 5px 5px;">
+                <a class="openYouTube" href="http://www.youtube.com/watch?v=H6JoASWn9cM?rel=0">
+                    <img src="../static/images/videos/video-elemed1.jpg" height="107" width="190" class="pix" alt="Video: Elementary Education" title="Play the Video: Learn more about MSU-Northern's Elementary Education Bachelor of Science degree program" /></a>
+                        <p class="floatinglnk" style="text-align:center; font-weight:bold;"><a href="../academics/coeasn/program-elementaryeducation.aspx" style="display:block; border-bottom:none;" title="Visit the Elementary Education web page">Elementary Education</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="rightCol">
+        <div class="floating right">
+            <div class="top">
+                <h2>
+                    Social Media</h2>
+            </div>
+            <div style="margin: 15px 15px 10px 18px; float: left;">
+                <div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-like" data-href="http://www.facebook.com/pages/MSU-Northern/192763207403635" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+            </div>
+            
+            <div style="padding-top:25px;">
+            	<a href="http://www.facebook.com/pages/Montana-State-University-Northern/192763207403635" target="_blank"><img src="../static/images/icon-facebook.png" style="margin-right: 8px; margin-top:-25px;" alt="Facebook icon" width="30" height="30" border="0" align="absmiddle" title="Visit MSU-Northern on Facebook" /></a>
+                <a href="http://www.youtube.com/user/MSUNorthernOfficial" target="_blank" title="Check us out on YouTube!">
+                    <img src="../static/images/icon-youtube2.png" style="margin-right: 8px;" width="30" height="30" /></a>
+                <a href="http://www.flickr.com/photos/msunorthern" target="_blank" title="See MSU-Northern photos on Flickr"> <img src="../static/images/icon-flickr2.png" width="30" height="30" /></a>
+            </div>
+        </div>
+        <div class="floating right">
+          <div class="top">
+                <h2>
+                    SkillsUSA 2013</h2>
+            </div>
+            <div style="margin: 15px 0px 5px 5px;">
+                <a class="openYouTube" href="http://www.youtube.com/watch?v=1mmeLkB6L_Y?rel=0">
+                    <img src="../static/images/videos/video-skusa2013.jpg" height="107" width="190" class="pix" /></a>
+            </div>
+        </div>
+                
+        <div class="floating right" style="height:180px;">
+    <div class="top" style="margin-bottom:15px;">
+      <h2>Highlighting...</h2>
+    </div>
+    <div id="slideshowx">
+    	<div>
+        	<a href="../news/SpotLights/bhemmer.aspx"><img src="../news/SpotLights/images/Bridget_H_FacultyFocus_SM.jpg" alt="Faculty Focus: Bridget Hemmer" height="127" width="190" class="pix" title="Find out more about Bridget Hemmer, Assistant Professor of Nursing at MSU-Northern" /></a>
+    	</div>
+    	<div>
+       		<a href="../news/SpotLights/losterman.aspx"><img src="../news/SpotLights/images/Linda_O_Staff_Spotlight-SM.jpg" alt="Staff Spotlight: Linda Osterman" height="127" width="190" class="pix" title="Find out more about Linda Osterman, Custodian and Student at MSU-Northern" /></a>
+    	</div>
+	</div>
+</div>
+    </div>
+    <div class="center">
+        <div class="top">
+            <div class="highlight">
+                <div class="title">
+                    Friendly Learning Environment</div>
+                    <p class="text"><img src="../static/images/science.jpg" style="float: right;" width="190" height="170" /></p>
+                <p class="textF">
+                    
+                    Imagine yourself learning alongside students and faculty committed to a higher purpose.
+                    Montana State University - Northern is committed to providing excellence - both inside,
+                    and outside, the classroom.
+                    <br />
+                    <span style="margin-top: 10px;"><a href="../academics/">Our Programs >>></a></span>
+                </p>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="title">
+                    Hands on Learning</div>
+                <p class="text">
+                    <img src="../static/images/pottery.jpg" style="float: right;" height="170" width="190" /></p>
+                    <p class="textF">
+                    Imagine yourself applying all of the knowledge and experience you'll gain at Northern
+                    to make your community, and our world, a better place.<br />
+                    <span style="margin-top: 45px;"><a href="https://www.applyweb.com/apply/msunorth/" target="_blank">Apply today >>></a></span>
+                </p>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="buckets" style="padding: 0; border-radius: 0px; box-shadow: none;">
+        <div class="bucket" style="height: 130px;">
+            <a href="../academics/">
+                <img src="../static/images/academicspic.png" width="226" height="130" /></a>
+        </div>
+        <div class="bucket" style="height: 130px;">
+            <a href="../admissions/">
+                <img src="../static/images/admissionspic.png" width="226" height="130" /></a>
+        </div>
+        <div class="bucket" style="height: 130px;">
+            <a href="../finaid/scholarships/">
+                <img src="../static/images/scholarshipspic.png" width="226" height="130" /></a>
+        </div>
+        <div class="bucket last" style="height: 130px;">
+            <a href="http://studentaid.ed.gov/prepare-for-college">
+                <img src="../static/images/whypic.png" width="226" height="130" /></a>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper" id="flipImagesWP">
+             <div class="message" id="mssg">
+				
+					Our friendly staff is available to answer your questions!
+                
+            </div>
+            <div class="people">
+                
+                    <div class="person">
+    <a href="../people/marianne_hamilton/bio.aspx" class="fancy">
+        <img src="../people/marianne_hamilton/marianne.jpg" width="140" height="180" title="" /></a>
+    <div class="description">
+        <span class="name">Marianne Hamilton</span>
+        <span class="department">Admin Associate,<br />Admissions</span>
+    </div>
+</div>
+<div class="person">
+    <a href="../people/cindy_small/bio.aspx" class="fancy">
+        <img src="../people/cindy_small/cindy.jpg" width="137" height="180" /></a>
+  <div class="description">
+        <span class="name">Cindy Small</span>
+        <span class="department">Director,<br />Financial Aid</span>
+    </div>
+</div>
+<div class="person">
+    <a href="../people/michelle_johnson/bio.aspx" class="fancy">
+        <img src="../people/michelle_johnson/Michelle-Johnson.jpg" width="140" height="180" /></a>
+    <div class="description">
+        <span class="name">Michelle Johnson</span>
+        <span class="department">Admin Associate,<br /> Registrar's Office</span>
+    </div>
+</div>
+<div class="person">
+    <a href="../people/jamie_mcbryan/bio.aspx" class="fancy">
+        <img src="../people/jamie_mcbryan/JamieMcBryan.jpg" width="140" height="180" /></a>
+    <div class="description">
+        <span class="name">Jamie McBryan</span>
+        <span class="department">Interim Director,<br />Business Services</span>
+    </div>
+</div>
+<div class="person">
+    <a href="../people/ligia_arango/bio.aspx" class="fancy">
+        <img src="../people/ligia_arango/LigiaArango.jpg" width="140" height="180" title="Ligia Arango" alt="Ligia Arango" /></a>
+    <div class="description">
+        <span class="name">Ligia Arango</span>
+        <span class="department">Coordinator, <br />
+        Learning Success Center</span>
+    </div>
+</div>
+<div class="person">
+    <a href="../people/laurie_catt/bio.aspx" class="fancy">
+        <img src="../people/laurie_catt/LaurieCatt.jpg" width="140" height="180" /></a>
+    <div class="description">
+        <span class="name">Laurie Catt</span>
+        <span class="department">Technical Support,<br />Information Technology</span>
+    </div>
+</div>
+
+            </div>
+            <div class="copyright">
+                <a href="../aboutmsun/maps.aspx" class="whiteLink">Montana State University-Northern · P.O. Box 7751 · 300 13th St West · Havre, MT 59501 · 800.662.6132</a><br />
+<a href="../admin/policies/copyright-disclaimer.aspx" class="whiteLink">Copyright &copy;</a>
+·
+<a href="../admin/policies/copyright-disclaimer.aspx" class="whiteLink">Disclaimer</a>
+·
+<a href="../admin/policies/aa-eeo.aspx" class="whiteLink">AA/EEO Statement</a>
+·
+<a href="../admin/policies/privacy.aspx" class="whiteLink">Online Privacy Statement</a>
+·
+<a href="../hr/employment.aspx" class="whiteLink">Employment</a>
+·
+<a href="../admin/safety-disaster/" class="whiteLink">Emergency Protocols</a>
+            </div>
+        </div>
+        <div id="seal">
+            <img src="../static/images/seal.png" />
+        </div>
+    </div>
+    <div class="bg top">
+    </div>
+    <div class="bg nav">
+    </div>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-4437553-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+    </script>
+	<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/3675.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
+	<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//us1.siteimprove.com/js/siteanalyze_15871.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>  
+</body>
+</html>

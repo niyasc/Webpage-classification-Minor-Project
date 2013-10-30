@@ -1,0 +1,1582 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<link rel="stylesheet" type="text/css" href="/profiles/css/iit_homepage_style2.css" />
+<link rel="stylesheet" type="text/css" href="/profiles/css/newsEventsFeeds.css" />
+
+<script src="/elements/js/general.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-latest.js" language="JavaScript" type="text/javascript"></script>
+<script src="/profiles/javascript/applynow.js"        language="JavaScript" type="text/javascript"></script>
+<script src="/profiles/javascript/mm_menu.js"         language="JavaScript" type="text/javascript"></script>
+	
+<script src="/profiles/profile_data.shtml"            language="JavaScript" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var alertFlag = 0;
+	var warningFlag = 0;
+</script>
+
+<script src="/profiles/javascript/random_profile2.js"  language="JavaScript" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+	$(document).ready(function() {
+		showRandomProfile("homepage");
+	});
+</script>
+
+<title>Illinois Institute of Technology</title>
+<!-- iit_homepage_v8 -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAALdG8cweiDw2btE0fCrkz2hTNvFKAx9N_TvRGduf7lZhItbv3uRQuMlnDTwZHVTDG-29a8kJdlyX1jA"></script>
+  
+
+<script type="text/javascript">
+// <!--
+	google.load("feeds", "1");
+	var alertFlag = 0;
+	var warningFlag = 0;
+	var randomnumber=Math.floor(Math.random()*11000383)
+	
+
+	if (typeof dayArray == "undefined" || !(dayArray instanceof Array)) 
+	{			
+		var dayArray = new Array();
+		dayArray[0] = 'Sunday';
+		dayArray[1] = 'Monday';
+		dayArray[2] = 'Tuesday';
+		dayArray[3] = 'Wednesday';
+		dayArray[4] = 'Thursday';
+		dayArray[5] = 'Friday';
+		dayArray[6] = 'Saturday';
+	}
+		
+	if (typeof monthArray == "undefined" || !(monthArray instanceof Array)) 
+	{	
+		var monthArray = new Array();
+		monthArray[1] = 'January';
+		monthArray[2] = 'February';
+		monthArray[3] = 'March';
+		monthArray[4] = 'April';
+		monthArray[5] = 'May';
+		monthArray[6] = 'June';
+		monthArray[7] = 'July';
+		monthArray[8] = 'August';
+		monthArray[9] = 'September';
+		monthArray[10] = 'October';
+		monthArray[11] = 'November';
+		monthArray[12] = 'December';
+	}
+
+	function normalShow() 
+	{
+		//alert("Normal");
+		document.getElementById('main_alert').style.display = 'none';
+		document.getElementById('campus_alert').style.display = 'none';
+		document.getElementById('daily').style.display = 'block';
+		document.getElementById('main_alt').style.display = 'block';
+		document.getElementById('big_profile_photo').style.display = 'block';
+	}	
+	
+	function warningShow() 
+	{
+		//alert("Warning");
+		document.getElementById('main_alert').style.display = 'none';
+		document.getElementById('campus_alert').style.display = 'block';
+		document.getElementById('daily').style.display = 'none';
+		document.getElementById('main_alt').style.display = 'block';
+		document.getElementById('big_profile_photo').style.display = 'block';
+	}
+	
+	function alertShow() 
+	{
+		//alert("Alert");
+		document.getElementById('main_alert').style.display = 'block';
+		document.getElementById('campus_alert').style.display = 'none';
+		document.getElementById('daily').style.display = 'none';
+		document.getElementById('main_alt').style.display = 'none';
+	}
+
+	/*function initialize1() 
+	{
+		var rssContent1="";
+		var feed = new google.feeds.Feed("https://www.google.com/calendar/feeds/calendar%40iit.edu/public/full?orderby=starttime&sortorder=ascending&futureevents=true&max-results=5&ctz=America/Chicago");
+		feed.setResultFormat(google.feeds.Feed.XML_FORMAT);
+		// Default value displays only four feed entries
+		feed.setNumEntries(4);
+		
+		feed.load(function(result) 
+		{
+			if (!result.error) 
+			{
+				var whenstring = '';
+				var entries = google.feeds.getElementsByTagNameNS(result.xmlDocument, "http://www.w3.org/2005/Atom", "entry");
+				for (var i = 0; i < entries.length; i++) 
+				{
+					var titleElement = google.feeds.getElementsByTagNameNS(entries[i], "http://www.w3.org/2005/Atom", "title")[0];
+					var title = titleElement.firstChild.nodeValue;
+					var mylinkElement = google.feeds.getElementsByTagNameNS(entries[i], "http://www.w3.org/2005/Atom", "link")[0];
+					var mylink = mylinkElement.getAttribute('href');
+						mylink = mylink.replace("https://www.google.com/calendar/event?eid", "http://iit.edu/cgi-bin/gc.pl?u");
+					//var newlink = mylink.replace("calendar/event", "calendar/hosted/asu.edu/event");
+					var whenElement = google.feeds.getElementsByTagNameNS(entries[i], "http://schemas.google.com/g/2005", "when")[0];
+					var starttime = whenElement.getAttribute('startTime');
+					var endtime = whenElement.getAttribute('endTime');
+					var startdate = new Date();
+					startdate.setISO8601(starttime, "-0600" );
+					var enddate = new Date();
+					enddate.setISO8601(starttime, "-0600" );
+					var sapDate = starttime.split('T');
+					var saapDate = sapDate[0].split('-');
+					rssContent1 +='<div class="rss_item">';
+					rssContent1 += '<span style="color:#C00;">' + dayArray[startdate.getDay()] + ', ' + monthArray[saapDate[1].replace(/^0/,"")] + ' ' + saapDate[2].replace(/^0/,"") + '</span>';
+					rssContent1 +='<br /><a style="color:#000;" style href="' + mylink + '" target="_blank">' + title + '</a></div>\n';
+				}
+				document.getElementById("feed1").innerHTML=rssContent1;
+				rssContent1=undefined;
+			}
+			else
+			{
+				document.getElementById("feed1").innerHTML='<div class="rss_item">Cannot connect to the Google calendar.</div>';
+			}
+		});
+	}*/
+	
+	function initialize2() 
+		{
+			var rssContent2="";
+			var feed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?feed=rss2&cat=109&jj=" + randomnumber );
+			feed.setNumEntries(4);
+			feed.load(function(result) 
+			{
+				console.log(result);//will get the object printout if it is ok
+				if (!result.error) 
+				{
+					//var container = document.getElementById("feed");
+					//alert(result.feed.entries.length);
+					for (var i = 0; i < result.feed.entries.length; i++) 
+					{
+						var entry = result.feed.entries[i];
+						rssContent2+='<div class="rss_item">';
+						rssContent2+='<a  style="color:#000;" href="' + entry.link + '" target="_blank">' + entry.title + '<br>';
+						rssContent2+='<span style="color:#C00;">&raquo; Full Article</span></a></div>\n';
+					}
+					document.getElementById("feednews").innerHTML=rssContent2;
+					rssContent2=undefined;
+				}else{
+					//result.error.message
+					console.log(result.error.message + " in initialize2() using cache");
+					var cachefeed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?feed=rss2&cat=109");
+					cachefeed.setNumEntries(4);
+					cachefeed.load(function(cacheresult){
+						if(!cacheresult.error){
+							for (var i = 0; i < cacheresult.feed.entries.length; i++) 
+							{
+								var entry = cacheresult.feed.entries[i];
+								rssContent2+='<div class="rss_item">';
+								rssContent2+='<a  style="color:#000;" href="' + entry.link + '" target="_blank">' + entry.title + '<br>';
+								rssContent2+='<span style="color:#C00;">&raquo; Full Article</span></a></div>\n';
+							}
+							document.getElementById("feednews").innerHTML=rssContent2;
+							rssContent2=undefined;
+						}
+					});
+				}
+			});
+		}
+		
+		function campus_alert() 
+		{
+			var alertCheck = 0;
+			var rssContent3="";
+			var feed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?cat=127&feed=rss2&jj=" + randomnumber);
+			feed.setNumEntries(10);
+			feed.load(function(result) 
+			{
+				console.log(result);//will get the object printout if it is ok
+				if (!result.error) 
+				{
+					//var container = document.getElementById("feed");
+					//alert(result.feed.entries.length);
+					for (var i = 0; i < result.feed.entries.length; i++) 
+					{
+						var entry = result.feed.entries[i];
+						//alert( 'HHH ' + entry.title.trim() + " == 'No Urgent Messages' warningFlag: " + warningFlag );
+						if( entry.title.trim() != 'No Urgent Messages' && alertCheck == 0 )
+						{
+							alertCheck = 1;
+						}
+						rssContent3+='<div class="rss_item2">';
+						rssContent3+='<strong>' + entry.title + '</strong><br />';
+						rssContent3+=entry.content +'</div>\n';
+					}
+					
+					if( alertCheck == 1 )
+					{
+						warningFlag = 1;
+						document.getElementById("calert").innerHTML=rssContent3;
+						rssContent3=undefined;
+						warningShow();
+						showRandomProfile("homepage");
+					}
+					else
+					{
+						initialize2();
+						normalShow();
+						showRandomProfile("homepage");
+					}
+					
+				}else{
+					//result.error.message
+					console.log(result.error.message + " in campus_alert() using cache");
+					var cachefeed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?cat=127&feed=rss2");
+					cachefeed.setNumEntries(4);
+					cachefeed.load(function(cacheresult){
+						if(!cacheresult.error){
+							for (var i = 0; i < cacheresult.feed.entries.length; i++) 
+							{
+								var entry = cacheresult.feed.entries[i];
+								//alert( 'HHH ' + entry.title.trim() + " == 'No Urgent Messages' warningFlag: " + warningFlag );
+								if( entry.title.trim() != 'No Urgent Messages' && alertCheck == 0 )
+								{
+									alertCheck = 1;
+								}
+								rssContent3+='<div class="rss_item2">';
+								rssContent3+='<strong>' + entry.title + '</strong><br />';
+								rssContent3+=entry.content +'</div>\n';
+							}
+							
+							if( alertCheck == 1 )
+							{
+								warningFlag = 1;
+								document.getElementById("calert").innerHTML=rssContent3;
+								rssContent3=undefined;
+								warningShow();
+								showRandomProfile("homepage");
+							}
+							else
+							{
+								initialize2();
+								normalShow();
+								showRandomProfile("homepage");
+							}
+						}
+					});
+				}
+			});
+		}
+		
+		function emergency() 
+		{
+			var rssContent4="";
+			var feed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?cat=128&feed=rss2&jj=" + randomnumber);
+			feed.setNumEntries(4);
+			feed.load(function(result) 
+			{
+				console.log(result);//will get the object printout if it is ok
+				if (!result.error) 
+				{
+					//var container = document.getElementById("feed");
+					//alert( 'HHH ' + result.feed.entries.length);
+					for (var i = 0; i < result.feed.entries.length; i++) 
+					{
+						var entry = result.feed.entries[i];
+						rssContent4+='<div class="rss_item2">';
+						rssContent4+='<p class="crisis_title">' + entry.title + '</p>';
+						rssContent4+=entry.content + '</div>\n';
+						//alert( 'AAA ' + entry.title.trim() + " != 'No Crisis Messages'" );
+						
+						if( entry.title.trim() !== 'No Crisis Messages' )
+						{
+							//alert('DDD');
+							alertFlag = 1;
+							document.getElementById("crisis").innerHTML=rssContent4;
+							rssContent4=undefined;
+							alertShow();
+							break;
+						}
+						else
+						{	
+							campus_alert();
+							//initialize1(); //this was replaced with the server side python
+						}
+					}
+					
+					
+				}else{
+					//result.error.message
+					console.log(result.error.message + " in emergency() using cache");
+					var cachefeed = new google.feeds.Feed("http://www.iit.edu/news/iittoday/?cat=128&feed=rss2");
+					cachefeed.setNumEntries(4);
+					cachefeed.load(function(cacheresult){
+						if(!cacheresult.error){
+							for (var i = 0; i < cacheresult.feed.entries.length; i++) 
+							{
+								var entry = cacheresult.feed.entries[i];
+								rssContent4+='<div class="rss_item2">';
+								rssContent4+='<p class="crisis_title">' + entry.title + '</p>';
+								rssContent4+=entry.content + '</div>\n';
+								//alert( 'AAA ' + entry.title.trim() + " != 'No Crisis Messages'" );
+								
+								if( entry.title.trim() !== 'No Crisis Messages' )
+								{
+									//alert('DDD');
+									alertFlag = 1;
+									document.getElementById("crisis").innerHTML=rssContent4;
+									rssContent4=undefined;
+									alertShow();
+									break;
+								}
+								else
+								{	
+									campus_alert();
+									//initialize1(); //this was replaced with the server side python
+								}
+							}
+						}
+					});
+				}
+			});
+		}
+	
+	$(document).ready(function() 
+	{
+		//alert( 'A alertFlag:' + alertFlag + ' warningFlag:' + warningFlag );
+		emergency(); //Start here emergency(), then campus_alert(), finally normalShow().
+		
+		$.ajax({
+			type: "GET",
+			url: "/cgi-bin/homepage-events.py",
+			dataType: "html",
+			success: function(results){
+				$('#feed').html(results);
+			}
+		});
+	});
+// -->
+</script>
+
+
+<meta name="description" content="Illinois Institute of Technology is a Chicago Ph.D.-granting technological university awarding degrees in the sciences, mathematics, engineering, architecture, psychology, design, business and law." />
+<meta name="keywords" content="" />
+<meta name="subject" content="" />
+
+
+<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
+<script type="text/javascript">
+            try {
+                reinvigorate.track("216wx-619e60e480");
+            } catch (err) { }
+</script>
+
+
+</head>
+<body >
+<!-- start MediaMind VersaTag Code -->
+<script>
+var versaTag = {};
+versaTag.id = "81";
+versaTag.sync = 0;
+versaTag.dispType = "js";
+versaTag.ptcl = "";
+versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+versaTag.activityParams = {}; //"Param1":"[value]" , "Param2":"[value]" ,"Param3":"[value]", "Param4":"[value]"
+versaTag.retargetParams = {}; //"TagID":"[value]", "TagID":"[value]"
+versaTag.conditionalParams = {}; //"1":"[value]","2":"[value]","3":"[value]","4":"[value]","a":"[value]","b":"[value]","c":"[value]", "d":"[value]","e":"[value]","f":"[value]","g":"[value]","h":"[value]"
+</script>
+<script id="ebOneTagUrlId" src="http://ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
+<noscript>
+<iframe src="http://bs.serving-sys.com/BurstingPipe?cn=ot&amp;onetagid=81&amp;ns=1&amp;activityValues=$$Value=[Revenue]&amp;OrderID=[OrderID]&amp;ProductID=[ProductID]&amp;ProductInfo=[ProductInfo]&amp;Quantity=[Quantity]$$" style="display:none;width:0px;height:0px"></iframe>
+</noscript>
+<!-- end MediaMind VersaTag Code -->
+
+<script language="JavaScript" type="text/javascript">mmLoadMenus();</script>
+<div id="container">
+<div id="header">
+<a href="/"><img id="iit_logo" src="/profiles/images/iit_logo.gif" width="456" height="39" border="0" alt="Illinois Institute of Technology" /></a>
+<div id="quicklinks">
+<form name="iitsearch"   action="http://www.iit.edu/about/search_results.shtml" id="cse-search-box">
+<label>
+
+<script type="text/javascript" language="javascript">
+// <!--
+	function ubmit(y)
+	{
+		//document.getElementById('QLS').selectedIndex = 0;
+		window.location = y;
+	}
+// -->
+</script>
+
+<select name="quicklinks" id="QLS" class="jumpmenu" onchange="ubmit(this.value);">
+<option value="">Quick Links</option>
+<option value="http://iit.edu/about/administrative_offices.shtml">Administrative Offices</option> 
+<option value="http://www.iit.edu/graduate_admission/">Admission (Graduate)</option> 
+<option value="http://www.iit.edu/undergrad_admission/">Admission (Undergrad)</option> 
+<option value="http://athletics.iit.edu">Athletics</option> 
+<option value="http://iit1.bkstore.com/bkstore/content">Bookstore</option>
+<option value="http://www.iit.edu/graduate_college/bulletin/">Bulletin (Graduate)</option> 
+<option value="http://www.iit.edu/ugaa/">Bulletin (Undergrad)</option> 
+<option value="http://www.iit.edu/bursar/">Bursar</option> 
+<option value="http://www.iit.edu/registrar/important_dates/academic_calendar.shtml">Calendar-Academic</option> 
+<option value="http://www.iit.edu/about/calendar.shtml">Calendar-University</option> 
+<option value="https://www.iitri.iit.edu">Careers at IIT</option> 
+<option value="https://my102.iit.edu/banr/bwckschd.p_disp_dyn_sched">Class Schedules</option> 
+<option value="https://my102.iit.edu/banr/bwckctlg.p_disp_dyn_ctlg">Course Search</option> 
+<option value="http://www.iit.edu/financial_aid/offices.shtml">Financial Aid</option>
+<option value="http://www.iit.edu/giving/">Give to IIT</option>
+<option value="http://www.iit.edu/graduate_college">Graduate College</option>
+<option value="http://iit.edu/magazine/">IIT Magazine</option>
+<option value="http://iit.edu/iit_online/">IIT Online</option>
+<option value="http://www.iit.edu/news/iittoday/">IIT Today</option>
+<option value="http://www.iit.edu/~internat/">International Center</option>
+<option value="http://iit.edu/libraries/">Libraries</option> 
+<option value="http://www.iit.edu/about/campuses.shtml">Maps/Directions</option> 
+<option value="http://www.iit.edu/departments/pr/mediaroom/index.php">Media Room</option> 
+<option value="http://www.miessociety.org/">Mies Society</option> 
+<option value="http://www.iit.edu/~parking/visitor.html">Parking</option>
+<option value="http://phonebook.iit.edu">Phone Book</option> 
+<option value="http://www.iit.edu/public_safety/">Public Safety</option> 
+<option value="http://www.iit.edu/registrar/">Registrar</option> 
+<option value="http://www.iit.edu/people/search/">Search People</option> 
+<option value="http://shuttlebus.iit.edu/shuttlebus.html">Shuttle Bus</option> 
+<option value="http://www.iit.edu/site_index/">Site Index</option>
+<option value="http://support.iit.edu/">Technical Support</option>
+</select>
+
+</label>
+<label><input id="txt_search" type = "text" value=" Search Content" name="q" size="15" onclick="this.value=''" /></label>
+<input type="image"  name= "sa" id="txt_search_button" src="/profiles/images/search_button.gif" alt="Search Content" align="top" width="15" height="15" value="Search" /> <input type="hidden" name="cx" value="017679992382488656597:bjpagisuxlm" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" /></form>
+<p><a name="link1" id="applynow" onmouseover="MM_showMenu(window.mm_menu_0828133355_0,0,13,null,'link1')" onmouseout="MM_startTimeout();" >Apply Now!</a> <a href="http://www.iit.edu/departments/pr/inforequest.php" onclick="window.open(this.href,'support','width=550, height=650, resizable=1');return false;" id="contactus">Contact Us</a> <a target="_blank" href="https://alumni.iit.edu/give">Give to IIT</a></p>
+
+</div><!--end quicklinks-->
+</div>
+<!--end header -->
+<!--start global_top_nav -->
+<div id="global_top_nav">
+<ul>
+<li><a href="http://www.iit.edu/prospective/index.shtml" id="gnav_prospective">Prospective Students</a></li>
+<li><a href="http://www.iit.edu/alumni/" id="gnav_alumni">Alumni</a></li>
+<li><a href="http://www.iit.edu/business/index.shtml" id="gnav_business">Business &amp; Industry</a></li>
+<li class="end"><a href="http://www.iit.edu/about/visitor_information.shtml" id="gnav_visitors">Visitors</a></li>
+</ul>
+<div style="clear:both;"></div>
+</div><!-- end global top nav -->
+<div id="mainwrap">
+<div id="right_column">
+<dl id="iit_right_nav">
+
+<dt><a href="/about/index.html">About IIT</a></dt>
+
+<dd><a href="/about/history/">History</a>, <a href="/president/">President</a>, <a href="/provost/">Provost</a>, <a href="/president/administration.shtml">Senior Administration</a></dd>
+
+<dt><a href="http://admissions.iit.edu/undergraduate/">Undergraduate Admission</a></dt>
+
+<dd><a href="http://admissions.iit.edu/undergraduate/programs/">Programs</a>, <a href="http://admissions.iit.edu/undergraduate/finances/tuition-and-fees/">Tuition &amp; Fees</a>, <a href="http://admissions.iit.edu/undergraduate/apply/">Apply</a>, <a href="http://admissions.iit.edu/undergraduate/visit/">Visit</a></dd>
+
+<dt><a href="http://admissions.iit.edu/graduate/">Graduate Admission</a></dt>
+
+<dd><a href="http://admissions.iit.edu/graduate/programs/">Programs</a>, <a href="http://admissions.iit.edu/graduate/finances/tuition-and-fees/">Tuition &amp; Fees</a>, <a href="http://admissions.iit.edu/graduate/apply/">Apply</a>, <a href="http://admissions.iit.edu/graduate/visit/">Open House</a></dd>
+
+<dt id="academic_prog"><a href="/about/department_sites.shtml">Academic Programs</a></dt>
+
+<dt><a href="/student_affairs/">Student Life</a></dt>
+
+<dd><a href="http://www.illinoistechathletics.com/index.php">Athletics</a>, <a href="/housing/">Housing</a>, <a href="http://www.inventingthefuture.iit.edu/">Blogs</a>, <a href="/about/chicago.shtml">About Chicago</a></dd>
+
+<dt><a href="/research/">Research</a></dt>
+
+<dd><a href="/research/centers/IITResearchCentersIITServiceEducationandOutreachCenters.shtml">Research Centers</a>, <a href="http://gradweb.iit.edu/gradresearch/searchengine.htm">Expertise Database</a>, <a href="/research/services/">Funding Opportunities</a>, <a href="/research/news/">Research News</a></dd>
+
+<dt id="resources_term">Resources</dt> 
+
+<dd id="resources_data"><a id="One Stop" href="/about/onestop/">One Stop</a>, <a id="fin_aid" href="/financial_aid/offices.shtml">Financial Aid</a>, <a href="/libraries/">Libraries</a>, <a href="http://iit-online.iit.edu/">IIT Online</a>, <a href="/people/search/">Phone Book</a>, <a href="http://www.cmc.iit.edu/home.asp">Career Management Center</a>, <a href="/cdr/">Center for Disability Resources</a>, <a href="/arc/">Academic Resource Center</a></dd>
+
+<dt id="academic_prog"><a href="http://alumni.iit.edu/page.aspx?pid=671">Distinguished Lectures</a></dt>
+
+</dl>
+
+
+<br/>
+<a style="color: #C00; font-size: 15px;" href="http://www.universitytechnologypark.com/">University Technology Park</a>
+
+<div id="institutes"><a href="http://my.iit.edu"><img src="/profiles/images/myiit_antialias_gray.gif" alt="myIIT Portal Login" width="32" height="31" id="myiit_logo" /></a>
+<a href="http://iit.edu/iit_online/"><img src="/profiles/images/iit_online_button.gif" alt="IIT Online" width="42" height="30" id="iit_online" /></a>
+<a href="http://ipro.iit.edu/" target="_blank"><img src="/profiles/images/ipro_logo.gif" alt="IPRO" width="50" height="14" id="ipro_logo" /></a>
+<h3>IIT Colleges &amp; Institutes</h3>
+<ul>
+<li><a href="http://www.iit.edu/engineering">Armour College of Engineering</a></li>
+<li><a href="http://www.kentlaw.edu/">Chicago-Kent College of Law</a></li>
+<li><a href="http://www.iit.edu/arch">College of Architecture</a></li>
+<li><a href="http://www.iit.edu/csl/">College of Science</a></li>
+<li><a href="http://www.iit.edu/ifsh/">Institute for Food Safety and Health</a></li>
+<li><a href="http://www.id.iit.edu/">Institute of Design</a></li>
+<li><a href="http://www.iit.edu/psych/">Lewis College of Human Sciences</a></li>
+<li><a href="http://www.iit.edu/pritzker_institute/">Pritzker Institute of Biomedical Science and&nbsp;Engineering</a></li>
+<li><a href="http://www.iit.edu/cpd/">School of Applied Technology</a></li>
+<li><a href="http://stuart.iit.edu/">Stuart School of Business</a></li>
+<li><a href="http://www.iit.edu/wiser/">Wanger Institute for Sustainable Energy Research (WISER)</a></li>
+</ul> 
+</div>
+<!-- end institutes -->
+</div><!-- end right column --> 
+
+		<div id="main_alert" style="display:none;"><!-- ################################# -->
+			<div id="crisis" class="rss_box2"></div>
+		</div><!-- end main alert -->
+
+	<div id="main_alt">
+	<a href="#" id="profile_image_link"><img style="display:block; z-index:4; position:absolute;" id="big_profile_photo" src="/profiles/images/profile_placeholder.jpg" width="506" height="223" alt="{Featured Profile}" /></a>
+	<div id ="profiletabs">
+				<ul id = "profiletabs_list">
+			<li>
+				<div id="sp_bg">
+					<img class="profile_bot_img" id="student_profile_img" 	   src="/profiles/images/profile_nav_bg_normal.gif" width="102" height="25" alt="{Featured Profile}" />
+					<img class="profile_top_img" id="student_profile_top_img"  src="/profiles/images/profile_nav_bg_hilite.gif" width="102" height="25" alt="{Featured Profile}" />
+					<a   class="normal" 		 id="student_profile"          title="student profile"  href="/profiles/student/">Student Profile</a>
+				</div>
+			</li>
+			<li>
+				<div id="fp_bg">
+					<img class="profile_bot_img" id="faculty_profile_img"     src="/profiles/images/profile_nav_bg_normal.gif" width="102" height="25" alt="" />
+					<img class="profile_top_img" id="faculty_profile_top_img" src="/profiles/images/profile_nav_bg_hilite.gif" width="102" height="25" alt="" />
+					<a   class="normal" 		 id="faculty_profile"         title="faculty profile"  href="/profiles/faculty/">Faculty Profile</a>
+				</div>
+			</li>
+			<li>
+				<div id="rp_bg">
+					<img class="profile_bot_img" id="research_profile_img"     src="/profiles/images/profile_nav_bg_normal.gif" width="102" height="25" alt="" />
+					<img class="profile_top_img" id="research_profile_top_img" src="/profiles/images/profile_nav_bg_hilite.gif" width="102" height="25" alt="" />
+					<a   class="normal" 		 id="research_profile"         title="research profile" href="/profiles/research/">Research Profile</a>
+				</div>
+			</li>
+			<li>
+				<div id="ap_bg">
+					<img class="profile_bot_img" id="alumni_profile_img"     src="/profiles/images/profile_nav_bg_normal.gif" width="102" height="25" alt="" />
+					<img class="profile_top_img" id="alumni_profile_top_img" src="/profiles/images/profile_nav_bg_hilite.gif" width="102" height="25" alt="" />
+					<a   class="normal" 		 id="alumni_profile"         title="alumni profile"   href="/profiles/alumni/">Alumni Profile</a>
+				</div>
+			</li>
+			<li>
+				<div id="allp_bg">
+					<img class="profile_bot_img" id="all_profile_img" 	  src="/profiles/images/profile_nav_last_bg_normal.gif" width="102" height="25" alt="" />
+					<img class="profile_top_img" id="all_profile_top_img" src="/profiles/images/profile_nav_last_bg_hilite.gif" width="102" height="25" alt="{Featured Profile}" />
+					<a   class="normal" 		 id="all_profile"    	  title="all profile"      href="/profiles/">All Profiles</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div><!--end profile tabs -->
+	
+	<div style="float:left;" id="homepage_column1">
+		<div id="campus_alert" style="display:none;"><!-- ################################# -->
+			<h1>Urgent Information</h1>
+			<div id="calert" class="rss_box"></div>
+		</div><!-- end campus_alert -->
+		<div id="daily"><!-- ################################# -->
+			<h1>News</h1>
+			<div id="feednews" class="rss_box"></div>
+			<p style="line-height:0.7em;" class="red_caps"><a href="http://www.iit.edu/news/iittoday/index.php" target="_blank">IIT Today</a></p>
+		</div><!--end daily -->
+	</div><!--end column 1 -->
+	
+	<div id="homepage_column2"> 
+		<h1>Events</h1>
+		<div id="feed" class="rss_box"></div>
+		<!-- p style="line-height:1.2em;" class="red_caps"><a href="http://www.iit.edu/commencement/" target="_blank">Commencement 2013</a></p -->
+		<!-- p style="line-height:0.7em;" class="red_caps"><a href="http://www.iit.edu/orientation/">New Student Orientation</a></p -->
+		<p style="line-height:0.7em;" class="red_caps"><a href="http://www.iit.edu/about/calendar.shtml">University Calendar</a></p>
+        <!-- div style="border-bottom: 1px solid #C00;padding:2px 0;width:70%;"></div><br / -->
+	    <a title="Social Media Directory" href="/directory/social-media.shtml">
+            <img class="homeSocialIcon" src="/directory/images/facebook_32.gif" height="20" alt="facebook" /><img class="homeSocialIcon" src="/directory/images/twitter_32.gif" height="20" alt="twitter" /><img class="homeSocialIcon" src="/directory/images/youtube_32.gif" height="20" alt="youtube" /><img class="homeSocialIcon" src="/directory/images/linkedin_32.gif" height="20" alt="Linkedin" /><img class="homeSocialIcon" src="/directory/images/gplus.gif" height="20" alt="Google+" />
+        </a>
+	</div><!--end column 2 -->
+
+<div id="homepage_column1_bot">
+	<!--Admission and New Students<a href="#">link</a><br />date-->
+
+</div>
+<!--end column 1 -->
+<div id="homepage_column2_bot">
+	<!--<a href="http://www.iit.edu/parents">Parents Network</a><br />Resources for Parents-->
+    
+</div><br style="clear:both;"><!--end column 2 -->
+
+<!--<div style="width:430px;height:120px;background-color:#000;margin-top:10px;padding:25px 40px 15px 40px;">
+	<div style="float:left;display:inline;">
+		<a href="#" target="_blank">
+			<img src="#" width="205" height="120" border="0" title="" alt="" style="margin-right:20px;">
+		</a>
+	</div>
+	<div style="float:left;display:inline;">
+		<a target="_blank" href="#">
+			<img src="#" width="205" height="120" border="0" title="" alt="">
+		</a>
+	</div>
+</div>-->
+<!--if two images not present, activate:-->
+<div style="width:100%;height:1px;background-color:#fff;margin-top:10px;"></div>
+<!--<div id="bottombox_vid" class="clear" style="height:248px;">
+<iframe width="430" height="248" src="http://www.youtube-nocookie.com/embed/uBzHJaidz5Y?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
+<!--end bottombox div -->
+
+
+
+<style type="text/css">
+
+#voices {
+	width: 510px;
+	height: auto;
+	background: #FFF0E0;
+	float: left;
+	border-bottom: 3px solid #B37029;
+	border-top: 3px solid #B37029;
+}
+.header {
+	background: #181818;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+.copy {
+	width: 286px;
+	float: left;
+}
+.copy p {
+	margin: 30px 40px 10px 40px;
+	color: #323232;
+	text-align: left;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+}
+a, a:link, a:visited {
+    color: #CC0000;
+    text-decoration: none;
+}
+
+.image_container {
+	float: right;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.image_container img {
+	display: block;
+}
+</style>
+
+<script>
+
+var tmp = new Array();
+var def = new Array();
+var home_image = new Array();
+
+// default
+
+var w = 0;
+
+home_image[w] = new Array(8);
+home_image[w][0] = "Fuel";             //human title
+home_image[w][1] = "Oct 13 2013";       //start date
+home_image[w][2] = "Dec 31 2013";        //end date
+home_image[w][3] = "";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "fuel";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active	
+
+w++;
+
+home_image[w] = new Array(8);
+home_image[w][0] = "UGA/GRAD Apply Now";             //human title
+home_image[w][1] = "Oct 13 2013";       //start date
+home_image[w][2] = "Dec 31 2013";        //end date
+home_image[w][3] = "";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "ApplyNow";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active	WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "One Stop";             //human title
+home_image[w][1] = "Oct 13 2013";       //start date
+home_image[w][2] = "Dec 31 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/one_stop.jpg";                  //img path
+home_image[w][4] = "/about/onestop/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active	 
+
+// 2012 September					//active	
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "IIT Magazine ";             //human title
+home_image[w][1] = "Sep 30 2012";       //start date
+home_image[w][2] = "Oct 2 2012";        //end date
+home_image[w][3] = "";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active					
+
+// 2012 October					//active	
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Grad OH (2nd)";             //human title
+home_image[w][1] = "Sep 17 2012";       //start date
+home_image[w][2] = "Oct 2 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/3185_Grad_lp_Oct2_OH_Grphc.jpg";                  //img path
+home_image[w][4] = "https://iit-grad.edu.185r.net/survey/?id=143";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "UGA OH (8th)";             //human title
+home_image[w][1] = "Sep 24 2012";       //start date
+home_image[w][2] = "Oct 8 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/Columbus_Day_OH_Oct_8.gif";                  //img path
+home_image[w][4] = "/undergrad-admission/visit/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "UGA OH (20th)";             //human title
+home_image[w][1] = "Oct 9 2012";       //start date
+home_image[w][2] = "Oct 20 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/DIIT_Day_Oct20.jpg";                  //img path
+home_image[w][4] = "/undergrad-admission/visit/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Parent Weekend (13th-14th)";             //human title
+home_image[w][1] = "Oct 8 2012";       //start date
+home_image[w][2] = "Oct 14 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/family_weekend_Oct_13-14.jpg";                  //img path
+home_image[w][4] = "/parents/IIT_Family_Weekend";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Pumpkin Launch 12th";             //human title
+home_image[w][1] = "Oct 6 2013";       //start date
+home_image[w][2] = "Oct 12 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/pumpkin_launch_2013.gif";                  //img path
+home_image[w][4] = "/student_life/pumpkin_launch.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Stuart Open House Oct 23";             //human title
+home_image[w][1] = "Oct 9 2013";       //start date
+home_image[w][2] = "Oct 23 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/stuart_oh_23_iithp.jpg";                  //img path
+home_image[w][4] = "https://welcome.iit.edu/prod/Pages/EventDetails.aspx?id=9e831b40-e826-e311-b5b5-00505690011b";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Stuart OH (23rd)";             //human title
+home_image[w][1] = "Oct 8 2012";       //start date
+home_image[w][2] = "Oct 23 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/3186_Stuart_hp_Oct23_OH_Grphc.jpg";                  //img path
+home_image[w][4] = "http://stuart.iit.edu/beyond/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active					
+
+//2012 November
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Veterans Day Open House";             //human title
+home_image[w][1] = "Nov 7 2012";       //start date
+home_image[w][2] = "Nov 12 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/Veterans_Day_OH.jpg";                  //img path
+home_image[w][4] = "/undergrad-admission/visit";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Happy Thanksgiving";             //human title
+home_image[w][1] = "Nov 19 2012";       //start date
+home_image[w][2] = "Nov 23 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/thanksgiving_2012.gif";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "IPRO day";             //human title
+home_image[w][1] = "Nov 26 2012";       //start date
+home_image[w][2] = "Nov 30 2012";        //end date
+home_image[w][3] = "/elements/images/homepage/ipro_day_2012.jpg";                  //img path
+home_image[w][4] = "http://ipro.iit.edu";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Happy Holidays";             //human title
+home_image[w][1] = "Dec 11 2012";       //start date
+home_image[w][2] = "Jan 2 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/happy_holidays.jpg";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active						
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "MLK Day";             //human title
+home_image[w][1] = "Jan 21 2013";       //start date
+home_image[w][2] = "Jan 21 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/MLK_Day_2013.gif";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Women's Day";             //human title
+home_image[w][1] = "Feb 18 2013";       //start date
+home_image[w][2] = "Mar 2 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/womens_day_2013.jpg";                  //img path
+home_image[w][4] = "http://admission.iit.edu/machform/view.php?id=10436";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Stuart Graduate Open House Male";             //human title
+home_image[w][1] = "Jan 25 2013";       //start date
+home_image[w][2] = "Feb 12 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/StuartOH_Feb12_male_homepage.jpg";                  //img path
+home_image[w][4] = "http://www.stuart.iit.edu/admissions/graduate/visit_stuart/openhouse.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Stuart Graduate Open House Female";             //human title
+home_image[w][1] = "Jan 25 2013";       //start date
+home_image[w][2] = "Feb 12 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/StuartOH_Feb12_female_homepage.jpg";                  //img path
+home_image[w][4] = "http://www.stuart.iit.edu/admissions/graduate/visit_stuart/openhouse.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "The Campaign for IIT Launch Event";             //human title
+home_image[w][1] = "Feb 5 2013";       //start date
+home_image[w][2] = "Feb 8 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/Launch_HomePage_Graphic.jpg";                  //img path
+home_image[w][4] = "http://iit.edu/fuelinginnovation";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "St. Patricks Day";             //human title
+home_image[w][1] = "Mar 15 2013";       //start date
+home_image[w][2] = "Mar 17 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/st_patricks_day.jpg";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Big Event";             //human title
+home_image[w][1] = "Apr 15 2013";       //start date
+home_image[w][2] = "Apr 20 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/big_event_2013.jpg";                  //img path
+home_image[w][4] = "/student_life/service_learning/opportunities.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Commencement";             //human title
+home_image[w][1] = "May 6 2013";       //start date
+home_image[w][2] = "May 18 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/IIT_commencement.jpg";                  //img path
+home_image[w][4] = "/commencement/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Summer @ IIT";             //human title
+home_image[w][1] = "Feb 15 2013";       //start date
+home_image[w][2] = "Apr 30 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/IIT_home_summer.jpg";                  //img path
+home_image[w][4] = "http://summer.iit.edu";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active		WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW					
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Grad Salute";             //human title
+home_image[w][1] = "Apr 2 2013";       //start date
+home_image[w][2] = "Apr 23 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/grad_salute_2013.gif";                  //img path
+home_image[w][4] = "http://www.iit.edu/commencement/grad_salute.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Grad Open House";             //human title
+home_image[w][1] = "Mar 15 2013";       //start date
+home_image[w][2] = "Mar 26 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/Grad_Mar26_OH.jpg";                  //img path
+home_image[w][4] = "https://iit-grad.edu.185r.net/survey/?id=143";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active								
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Mag HomePage 2013 winter ";             //human title
+home_image[w][1] = "Mar 18 2013";       //start date
+home_image[w][2] = "Apr 1 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/Mag_HomePage2013-winter.jpg";                  //img path
+home_image[w][4] = "http://www.iit.edu/magazine/index.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "fuelinginnovation Home Page Banner";             //human title
+home_image[w][1] = "Apr 1 2013";       //start date
+home_image[w][2] = "Apr 14 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/campaign_home_page_web_1.jpg";                  //img path
+home_image[w][4] = "http://fuelinginnovation.iit.edu/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "fuelinginnovation Home Page Banner";             //human title
+home_image[w][1] = "Apr 15 2013";       //start date
+home_image[w][2] = "Apr 28 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/campaign_home_page_web_2.jpg";                  //img path
+home_image[w][4] = "http://fuelinginnovation.iit.edu/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "fuelinginnovation Home Page Banner";             //human title
+home_image[w][1] = "Apr 29 2013";       //start date
+home_image[w][2] = "May 12 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/campaign_home_page_web_3.jpg";                  //img path
+home_image[w][4] = "http://fuelinginnovation.iit.edu/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "fuelinginnovation Home Page Banner";             //human title
+home_image[w][1] = "May 13 2013";       //start date
+home_image[w][2] = "May 26 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/campaign_home_page_web_4.jpg";                  //img path
+home_image[w][4] = "http://fuelinginnovation.iit.edu/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "April 20 Discover Day UGA Open House";             //human title
+home_image[w][1] = "Apr 7 2013";       //start date
+home_image[w][2] = "Apr 20 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/jr_diit_day_apr20.jpg";                  //img path
+home_image[w][4] = "http://admission.iit.edu/machform/view.php?id=11850";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 0;					//active			WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW								//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "fuelinginnovation Home Page Banner";             //human title
+home_image[w][1] = "Apr 13 2013";       //start date
+home_image[w][2] = "Apr 20 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/march_for_innov_FINAL.jpg";                  //img path
+home_image[w][4] = "http://www.iit.edu/about/imarch.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active		
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "4th of July";             //human title
+home_image[w][1] = "Jul 4 2013";       //start date
+home_image[w][2] = "Jul 4 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/fourth_of_july.jpg";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "DIIT Day July 27";             //human title
+home_image[w][1] = "Jul 12 2013";       //start date
+home_image[w][2] = "Jul 27 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/DIIT_Day_July27.jpg";                  //img path
+home_image[w][4] = "http://admission.iit.edu/machform/view.php?id=25643";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active						
+ 
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "DIIT Day August 10";             //human title
+home_image[w][1] = "Jul 28 2013";       //start date
+home_image[w][2] = "Aug 10 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/DIIT_Day_Aug10.jpg";                  //img path
+home_image[w][4] = "http://admission.iit.edu/machform/view.php?id=25815";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active								
+ 
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "IIT Magazine Summer 2013";             //human title
+home_image[w][1] = "Aug 19 2013";       //start date
+home_image[w][2] = "Aug 26 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/Mag_HomePage_SUM13.jpg";                  //img path
+home_image[w][4] = "http://iit.edu/magazine/";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active					
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Welcome Back";             //human title
+home_image[w][1] = "Aug 12 2013";       //start date
+home_image[w][2] = "Aug 18 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/welcome_back_2013.gif";                  //img path
+home_image[w][4] = "http://www.iit.edu/welcome_week/events/index.shtml";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active		
+
+w++;
+home_image[w] = new Array(8);
+home_image[w][0] = "Welcome Back";             //human title
+home_image[w][1] = "Aug 19 2013";       //start date
+home_image[w][2] = "Aug 23 2013";        //end date
+home_image[w][3] = "/elements/images/homepage/welcome_back_2013_a.gif";                  //img path
+home_image[w][4] = "";					//link
+home_image[w][5] = "";            //table div id
+home_image[w][6] = 0;                 //default, show all the time
+home_image[w][7] = 1;					//active							
+
+
+
+function updateInfo()
+{
+	//document.write(Date()+'<br />');
+	 
+	for ( i = 0; i < home_image.length; i++ ) 
+	{
+		//document.write( i);
+		if( home_image[i][6] === 1 && home_image[i][7] === 1 )
+		{
+			d = new Array(8); 
+			
+			d[0] = home_image[i][0]; //human title
+			d[1] = home_image[i][1]; //start date  
+			d[2] = home_image[i][2]; //end date
+			d[3] = home_image[i][3]; //img path
+			d[4] = home_image[i][4]; //link
+			d[5] = home_image[i][5]; //table div id
+			d[6] = home_image[i][6]; //default, show all the time
+			d[7] = home_image[i][7]; //active
+			
+			def.push(d);
+			//document.write(home_image[i][0]+'<br />');
+			//document.write('D');
+		}
+		else if( home_image[i][7] === 1 )
+		{
+			//var now = 'Sep 28 2012 00:00:02';
+			myEpochStart = new Date(home_image[i][1]+' 00:00:00').getTime()/1000.0;
+			myEpochEnd   = new Date(home_image[i][2]+' 23:59:59').getTime()/1000.0;
+			
+			//myEpochNow   = parseInt(new Date(now).getTime()/1000.0);
+			
+			myEpochNow   = parseInt(new Date().getTime()/1000.0);
+			//document.write(new Date(now)+' :: <br />')
+			
+			if( myEpochStart < myEpochNow && myEpochEnd > myEpochNow )
+			{
+				t = new Array(8); 
+				
+				t[0] = home_image[i][0]; //human title
+				t[1] = home_image[i][1]; //start date  
+				t[2] = home_image[i][2]; //end date
+				t[3] = home_image[i][3]; //img path
+				t[4] = home_image[i][4]; //link
+				t[5] = home_image[i][5]; //table div id
+				t[6] = home_image[i][6]; //default, show all the time
+				t[7] = home_image[i][7]; //active
+				
+				tmp.push(t);
+				//document.write(home_image[i][0]+'<br />');
+			}
+		}
+		//document.write('<br />');
+	}
+	
+	//document.write(tmp.length+'::TTT<br />');
+	//document.write(def.length+'::DDD<br />');
+	tmp = tmp.concat(def);
+	//document.write(tmp.length+'::UUU<br />');
+	
+	if( tmp.length > 0 )
+	{
+		var z = 0;
+		if( tmp.length > 1 ){ z =  Math.floor(Math.random()*tmp.length); }
+	
+		if( tmp[z][5] == '' )
+		{
+			document.getElementById('dyImg').src  = tmp[z][3];
+			document.getElementById('dyLink').href = tmp[z][4];
+			if ( tmp[z][4] === "" ) {
+				var table_cell = document.getElementById('default-tablecell');
+				table_cell.appendChild(document.getElementById('dyImg'));
+				table_cell.removeChild(document.getElementById('dyLink'));
+			}
+			document.getElementById('default').style.display = 'block';
+			//document.write(222222);
+		}
+		else if ( tmp[z][5] == 'fuel' )
+		{
+			document.getElementById('fuel-frame').src = 'http://www.youtube.com/embed/8rZd6znuOcc?showinfo=0';
+			document.getElementById(tmp[z][5]).style.display = 'block';
+		}
+		else
+		{
+			document.getElementById(tmp[z][5]).style.display = 'block';
+			//document.write(111111); 
+		}
+	}
+	
+}
+
+$(document).ready( function(){
+	updateInfo(); 
+	//diffInnerPageImgFu();
+	//window.setInterval('diffInnerPageImgFu()',waitTime);
+});
+
+</script>
+
+
+<table id="default" border="0" width="510" height="246" style="margin:0; border-spacing:0;" >
+	<tr>
+		<td id="default-tablecell" style="background-color:#C00; color:#FFF;">
+			<a id="dyLink" href="/about/onestop/" target="_blank">
+			<img style="display:block; margin-top:6px;" id="dyImg" src="/elements/images/homepage/one_stop.jpg" width="510" height="246" alt="" /></a>
+		</td>
+	</tr>
+</table> 
+<script> document.getElementById('default').style.display = 'none'; </script>
+
+<table id="ApplyNow" width="510" height="251" border="0" cellpadding="0" cellspacing="0" style="display:none; margin:0; border-spacing:0;">
+	<tr>
+		<td width="510" height="251" valign="top" style="background-color:#C00;">
+			<img style="display:block; margin-top:6px;" src="/elements/images/homepage/apply_now.jpg" usemap="#apply" width="510" height="246" />
+		</td>
+	</tr>
+</table>
+<map name="apply" id="apply">
+<area shape="rect" target="_blank" coords="0,0,210,50" href="/undergrad-admission/apply/" alt="Undergraduate Admission - Apply" />
+<area shape="rect" target="_blank" coords="215,0,500,50" href="/graduate_admission/prospective_students/" alt="Graduate Admission - Apply" />
+</map> 
+
+
+
+
+
+<!--  OLD tables -->
+<table id="mag1" width="510" height="251" border="0" cellpadding="0" cellspacing="0"  style="display:none; margin-left:0; ">
+	<tr>
+		<td width="510" height="251" valign="top" style="background-color:#C00; color:#FFF;">
+			<img style="display:block; margin-top:5px;" src="/elements/images/homepage/apply_now.jpg" usemap="#apply" width="510" height="246" />
+		</td>
+	</tr>
+</table>
+<map name="apply" id="apply">
+<area shape="rect" target="_blank" coords="0,0,270,50" href="/undergrad-admission/apply/" alt="Undergraduate Admission - Apply" />
+<area shape="rect" target="_blank" coords="282,0,522,50" href="/graduate_admission/prospective_students/" alt="Graduate Admission - Apply" />
+</map> 
+
+<table id="mag4wwww" width="510" height="251" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; ">
+	<tr>
+		<td width="510" height="251" valign="top" style="background-color:#C00; color:#FFF;">
+			<a href="http://www.iit.edu/about/onestop/" target="_blank">
+			<img style="display:block; margin-top:5px;" src="/elements/images/homepage/welcome_back.jpg" width="510" height="246" /></a>
+		</td>
+	</tr>
+</table> 
+
+<table id="mag2eee" style="display:none; margin-left:0; border-top:#000 solid 4px;" border="0" cellpadding="0" cellspacing="0" width="510">
+	<tbody><tr>
+		<td align="right">
+			<a href="http://www.iit.edu/undergrad-admission/visit/"><img src="/elements/images/homepage/IIT101.gif" height="246" width="510"></a>
+		</td>
+	</tr>
+</tbody></table> 
+
+<map name="homecoming" id="homecoming">
+<area shape="rect" target="_blank" coords="0,181,125,246" href="http://alumni.iit.edu/page.aspx?pid=474" alt="Alumni Event Info">
+<area shape="rect" target="_blank" coords="385,181,510,246" href="http://www.iit.edu/homecoming/" alt="Student Event Info">
+</map> 
+
+<table id="mag2" style="display:none; margin-left:0; border-top:#000 solid 4px;" border="0" cellpadding="0" cellspacing="0" width="510">
+	<tbody><tr>
+		<td align="right">
+			<a href="https://iit-grad.edu.185r.net/survey/?id=143"><img src="/elements/images/homepage/grad_open_house.jpg" height="246" width="510"></a>
+		</td>
+	</tr>
+</tbody></table> 
+
+<table id="mag1ee" width="510" height="251" border="0" cellpadding="0" cellspacing="0" style="display:none;  margin-left:0; ">
+	<tr>
+		<td width="510" height="251" valign="top" style="background-color:#C00; color:#FFF;">
+			<a href="http://stuart.iit.edu/beyond" target="_blank">
+			<img style="display:block; margin-top:5px;" src="/elements/images/homepage/stuart_oh_iit_hp.jpg" width="510" height="246" /></a>
+		</td>
+	</tr>
+</table>
+
+<table id="mag1ee" width="510" height="251" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; ">
+	<tr>
+		<td width="510" height="251" valign="top" style="background-color:#C00; color:#FFF;">
+			<a href="http://www.miessociety.org/" target="_blank"><img style="display:block; margin-top:5px;" src="/profiles/images/mies_bday_google.jpg" width="510" height="246" /></a>
+		</td>
+	</tr>
+</table>
+
+<table id="mag1ee" width="510" height="246" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0;">
+	<tr>
+		<td width="510" height="246" valign="top" style="background-color:#000; color:#FFF;">
+			<a href="http://www.miessociety.org/" target="_blank"><img style="display:block; ssmargin-bottom: -2px;" src="/profiles/images/mies_bday_homepage_Crown.jpg" width="510" height="246" /></a>
+		</td>
+	</tr>
+</table>
+
+<table id="mag2ee" width="510" height="246" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0;">
+	<tr>
+		<td width="510" height="246" valign="top" style="background-color:#000; color:#FFF;">
+			<a href="http://www.miessociety.org/" target="_blank"><img style="display:block; ssmargin-bottom: -2px;" src="/profiles/images/mies_bday_home_sassoon.jpg" width="510" height="246" /></a>
+		</td>
+	</tr>
+</table>
+
+<table id="ZZZmag1" width="510" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; border-top:#444 solid 2px;">
+	<tr>
+		<td width="256" valign="top" style="background-color:#898053; color:#FFF; yypadding:8px;">
+			<span style="display:block; font-size:6.78em; margin:24px 22px 10px 37px; font-weight:bold; padding-bottom: 4px; text-align: right; letter-spacing: -4px;">THE</span>
+			<span style="display:block; font-size:4em; margin:24px 0 5px 15px; font-weight:bold; text-align: left;">PLANT</span>
+			<p style="font-size:1.2em; line-height:20px; margin:17px 18px 0 18px;">
+				More than 100 years after Upton Sinclair wrote The Jungle, a nascent food-production revolution is taking place in the very same neighborhood where the Chicago Stockyards once dominated.
+				<span style="color:#FFF; ddfont-weight: bold; margin: 1.3em 1em 0 0; font-size:1em;">more&nbsp;&raquo;</span>
+			</p>
+		</td>
+		<td align="right">
+			<a href="/magazine/"><img src="/profiles/images/magazine-top.gif" width="270" /></a>
+			<div style="float:right; overflow:hidden; width:270px;">
+				<div style="margin-left: -110px;"><a href="/magazine/winter_2012/article_1.shtml"><img style="display:block; margin-bottom: -2px;" src="/magazine/winter_2012/images/plant.jpg" width="380" /></a></div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+
+
+<table id="ZZZmag2" width="510" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; border-top:#444 solid 2px;">
+	<tr>
+		<td align="right">
+			<a href="/magazine/"><img src="/profiles/images/magazine-top.gif" width="270" /></a>
+			<div style="float:right; overflow:hidden; width:270px;">
+				<a href="/magazine/">
+					<div style="margin-left: -140px;"><a href="/magazine/winter_2012/article_7.shtml"><img style="display:block; margin-bottom: -2px;" src="/magazine/winter_2012/images/top_a2j.jpg" width="380" /></a></div>
+				</a>
+			</div>
+		</td>
+		<td width="256" valign="top" style="background-color:#b16e34; yypadding:8px;">
+			<a href="/magazine/winter_2012/article_7.shtml">
+				<div style="width:240px; height:63px; background-color:#000;">
+					<table width="240" height="63" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td align="right" style="padding:0 3px 0 8px;">
+								<span style="color:#cf9c63; font-size:2.6em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">HOW DO</span>
+								<span style="color:#cf9c63; font-size:1.1em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">YOU TAKE</span>
+								<span style="color:#cf9c63; font-size:1.7em; font-weight:bold; text-align: left; margin-top:4px;">YOUR INNOVATION</span>
+							</td>
+							<td width="28" align="center" valign="middle" style="color:#cf9c63; font-size:4em; font-weight:bold;">
+								?
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="display:block; position:relative; text-transform: uppercase; color:#FFF; line-height:1em; font-size:3.5em; margin:8px 0 0 17px; font-weight:bold; text-align: left; ddletter-spacing: .17em;">Liberty and Justice for all
+					<div style="color:#333; text-transform: lowercase; font-weight:bold; position:absolute; right:0; margin:-.2em 2.2em 0 0; font-size:0.5em;">more &raquo;</div>
+				</div>
+			</a>
+		</td>
+	</tr>
+</table>
+
+
+
+<table id="xxmag3" width="510" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; border-top:#444 solid 2px;">
+	<tr>
+		<td width="256" valign="top" style="background-color:#FFF; yypadding:8px;">
+			<div>
+				<a href="/magazine/winter_2012/article_5.shtml">
+				<div style="width:240px; height:63px; background-color:#000;">
+					<table width="240" height="63" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td align="right" style="padding:0 3px 0 8px;">
+								<span style="color:#cf9c63; font-size:2.6em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">HOW DO</span>
+								<span style="color:#cf9c63; font-size:1.1em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">YOU TAKE</span>
+								<span style="color:#cf9c63; font-size:1.7em; font-weight:bold; text-align: left; margin-top:4px;">YOUR INNOVATION</span>
+							</td>
+							<td width="28" align="center" valign="middle" style="color:#cf9c63; font-size:4em; font-weight:bold;">
+								?
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div  style="font-size:0.75em; margin:0 0 0 4em; position:relative;">
+				<span style="display:block; color:#cf9c63; font-size:7.3em; margin:0.5em 0 0.4em 17px; font-weight:bold; padding-bottom: 4px; text-align: left; letter-spacing: -.1em;">NOW</span>
+				<span style="color:#cf9c63; font-size:5em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">
+					<table style="margin-left:22px;"><tr><td><span style="font-size:.8em; margin:0 -6px 0 -6px;">(</span></td><td>H</td><td><span style="font-size:.8em; margin:0 -6px 0 -6px;">)</span></td><td>EAR</td></tr></table>
+				</span>
+				<span style="display:block; color:#cf9c63; font-size:7.5em; margin: 0.4em 0 0.3em 17px; font-weight:bold; padding-bottom: 4px; text-align: left; letter-spacing: -.08em;">THIS</span>
+				<div style="color:#a0412c; border:#F00 soild 1px; font-weight:bold; position:absolute; wwbottom:0; right:0; margin:0 1.5em 0 0; font-size:2.5em;">more &raquo;</div>
+				</div>
+				</a>
+			</div>
+		</td>
+		<td align="right">
+			<a href="/magazine/"><img src="/profiles/images/magazine-top.gif" width="270" /></a>
+			<div style="overflow:hidden; width:270px;">
+				<div style=" float:left; overflow:hidden; width:270px;"><a href="/magazine/winter_2012/article_5.shtml"><img style="display:block; margin-bottom: -2px;" src="/magazine/winter_2012/images/winter2012_magazine-25.jpg" width="270" /></a></div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+
+
+<table id="xxmag4" width="510" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; border-top:#444 solid 2px;">
+	<tr>
+		<td width="256" valign="top" style="background-color:#222; color:#FFF; padding:8px 0 8px 0;">
+			<p style="font-size:1.2em; line-height:25px; margin:1px 18px 0 18px;">
+				<a href="/magazine/winter_2012/article_8.shtml" style="color:#FFF;">
+					Sport psychologist Eddie O'Connor (Ph.D. PSYC '98) recalls the high school tennis player who sat in his office and cried in front of her father because she felt that if she didn't win on the court, her dad wouldn't love her at home. The astounded father told her that wasn't true.
+				</a>
+			</p>
+		</td>
+		<td align="right" valign="top">
+			<a href="/magazine/"><img src="/profiles/images/magazine-top.gif" width="270" /></a>
+			<a href="/magazine/winter_2012/article_8.shtml">
+			<div style="width:270px; color:#8c9eb4;">
+				<span style="display:block; text-transform: uppercase; font-size:2.65em; margin:17px 0 21px 19px; font-weight:bold; padding-bottom: 4px; text-align: left; wwletter-spacing: .17em;">Dealing with</span>
+				<span style="display:block; text-transform: uppercase; font-size:7.5em; margin:0 0 40px 15px; font-weight:bold; text-align: left;">Mind</span>
+				<span style="display:block; text-transform: uppercase; font-size:6em; margin:0 0 5px 15px; font-weight:bold; text-align: left;">Games</span>
+			</div>
+			<div style="color:#a0412c; font-weight: bold; margin: 1.3em 1em 0 0; font-size:2em;">more&nbsp;&raquo;</div>
+			</a>
+		</td>
+	</tr>
+</table> 
+
+
+
+<table id="mag1tt" width="510" border="0" cellpadding="0" cellspacing="0" style="display:none; margin-left:0; border-top:#444 solid 2px;">
+	<tr>
+		<td align="right">
+			<a href="/magazine/"><img src="/profiles/images/magazine-top.gif" width="270" /></a>
+			<div style="float:right; overflow:hidden; width:270px;">
+				<div style="margin-left: -110px;"><a href="/magazine/winter_2012/article_4.shtml"><img style="display:block; margin-bottom: -2px;" src="/magazine/winter_2012/images/top_bigdata.jpg" width="380" /></a></div>
+			</div>
+		</td>
+		<td width="256" valign="top" style="background-color:#222; yypadding:8px;">
+			<a href="/magazine/winter_2012/article_4.shtml">
+				<div style="width:240px; height:63px; background-color:#000;">
+					<table width="240" height="63" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td align="right" style="padding:0 3px 0 8px;">
+								<span style="color:#cf9c63; font-size:2.6em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">HOW DO</span>
+								<span style="color:#cf9c63; font-size:1.1em; font-weight:bold; text-align: left; wwletter-spacing: -.2em;">YOU TAKE</span>
+								<span style="color:#cf9c63; font-size:1.7em; font-weight:bold; text-align: left; margin-top:4px;">YOUR INNOVATION</span>
+							</td>
+							<td width="28" align="center" valign="middle" style="color:#cf9c63; font-size:4em; font-weight:bold;">
+								?
+							</td>
+						</tr>
+					</table>
+				</div>
+			<span style="display:block; color:#8c9eb4; font-size:2.5em; margin:12px 0 15px 17px; font-weight:bold; padding-bottom: 4px; text-align: left; letter-spacing: .17em;">UNLOCKING</span>
+			<span style="display:block; color:#8c9eb4; font-size:3.7em; margin:0 0 0 15px; font-weight:bold; text-align: left;">BIG DATA</span>
+			<p style="font-size:1.1em; color:#8c9eb4; line-height:25px; margin:10px 18px 0 18px;">
+				On an average day, 200 million "tweets" on topics ranging from pet behavior to political struggles circle the globe.
+				<span style="color:#8c9eb4; ddfont-weight: bold; margin: 1.3em 1em 0 0; font-size:1em;">more&nbsp;&raquo;</span>
+			</p></a>
+		</td>
+	</tr>
+</table>
+
+<table id="mag3gg" style="display:none; margin-left:0; border-top:#000 solid 4px;" border="0" cellpadding="0" cellspacing="0" width="510">
+	<tbody><tr>
+		<td align="right">
+			<img src="/elements/images/homepage/homecoming_2012.gif" usemap="#homecoming" height="246" width="510">
+		</td>
+	</tr>
+</tbody></table> 
+
+<table id="fuel" style="display:none; margin-left:0; border-top:#000 solid 4px;" border="0" cellpadding="0" cellspacing="0" width="510">
+	<tbody>
+		<tr>
+			<td align="right">
+				<iframe id="fuel-frame" width="510" height="287" src="" frameborder="0" allowfullscreen></iframe>
+			</td>
+		</tr>
+	</tbody>
+</table> 
+
+
+<script type="text/javascript" language="javascript">
+ <!--
+//	document.getElementById('mag1').style.display = 'none';
+//	var randomnumber=Math.floor(Math.random()*2) + 1;
+//	console.log(randomnumber);
+	//alert( randomnumber + " <<<");
+//	document.getElementById('mag' + randomnumber ).style.display = 'block';
+	
+ -->
+</script>
+
+
+<!-- div style="width:100%;height:1px;background-color:#fff;margin-top:10px;"></div>
+<div id="voices">
+	<div class="header">
+		<img src="/profiles/images/voices_logo.gif" />
+	</div>
+	<div>
+	<div class="copy">
+		<p>In 1946, IIT Professor David P. Boder recorded more than 90 hours of first-hand testimony by refugees in camps across Europe...the earliest known oral histories of the Holocaust.</p>
+		<p><a href="http://voices.iit.edu/" target="_blank">Hear these remarkable stories online.</a></p>
+	</div>
+	<div class="image_container">
+		<img src="/profiles/images/voices_boder.jpg" />
+	</div>
+	</div>
+</div -->
+
+
+</div><!-- end main -->
+<div class="clear"></div>
+</div><!-- end mainwrap -->
+<div id="footer">
+<p>
+&copy;<span id="CYear"></span> Illinois Institute of Technology&nbsp;&nbsp;&nbsp;3300 South Federal Street,&nbsp;Chicago, IL&nbsp;60616-3793&nbsp;||&nbsp;312.567.3000<br />
+
+<a href="http://iit.edu/undergrad_admission/">Undergraduate Admission</a> Tel 312.567.3025&nbsp;||&nbsp;Toll Free 800.448.2329&nbsp;||&nbsp;<a href="http://www.iit.edu/graduate_admission/">Graduate Admission</a> Tel 312.567.3020&nbsp;||&nbsp;Toll Free 866.472.3448<br />
+
+ 
+<a href="mailto:webmaster@iit.edu">webmaster@iit.edu</a>&nbsp;||&nbsp;<a href="http://iit.edu/about/emergency_popup.shtml" onclick="window.open(this.href, 'emergency', 'width=400, height=400'); return false;" style="color:#FF0000;" xxclass="red">Emergency Information</a>&nbsp;||&nbsp;<a href="http://iit.edu/site_index/">Site Index</a></p>
+<script type="text/javascript" language="javascript">
+// <!--
+var d = new Date();
+document.getElementById('CYear').innerHTML = d.getFullYear();
+// -->
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3621988-3");
+pageTracker._trackPageview();
+</script>
+<div style="display:block;">
+
+</div>
+</div>
+<!-- end footer -->
+<div class="clear"></div>
+</div><!-- end container -->
+
+ </body>
+<script type="text/javascript">
+	var imgs,i,y;
+	imgs=document.getElementsByTagName('a');
+	for(i in imgs)
+	{
+		if( /\"/.test(imgs[i].innerHTML) && !/src=/.test(imgs[i].innerHTML) )
+		{
+			y = imgs[i].innerHTML.replace(/\\\"/g,'"');
+			imgs[i].innerHTML = y;
+			//alert(y);
+		}
+	}
+</script>
+</html>
+

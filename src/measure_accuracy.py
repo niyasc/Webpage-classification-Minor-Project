@@ -1,12 +1,10 @@
 from sys import path
 from sys import exit
-import os
-import threading
-import time
 from os import system
 path.insert(0, './lib') #set library location
 from constants import categories
 from k_fold_accuracy import k_fold_accuracy
+from accuracy_measure_n import accuracy_measure_n
 import pylab
 #threadLimiter = threading.BoundedSemaphore(10)
 x=[]
@@ -31,26 +29,15 @@ yn={}
 
 '''
 def main():
-	print (categories)
 	for category in categories:
 		y[category]=[]
-	n = 0 
-	target = open("dict/n="+str(n)+".db", 'w')
-	target.truncate()
-	target.write("y")
-	target.close()
-
 	for n in range(2,10):
 		print('n=',n)
 		x.append(n)
-		yn=k_fold_accuracy(n)
+		yn=accuracy_measure_n(n)
 		for category in categories:
 			y[category].append(yn[category])
 		
-		target = open("n="+str(n)+".db", 'w')
-		target.truncate()
-		target.write(str(y))
-		target.close()
 
 	total=[]
 	for n in range(len(x)):
@@ -58,15 +45,17 @@ def main():
 		for category in categories:
 			total[n]+=y[category][n]
 		total[n]=total[n]/float(len(categories))
-	
 		
 		
-	
+		
+		
+		
+						
 	#Plot graph
 	for item in y:
 		t=pylab.plot(x,y[item],label=item)
 	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
-	t=pylab.xlabel('Number of folds k')
+	t=pylab.xlabel('Number of train documents')
 	t=pylab.ylabel('Classification accuracy %')	
 	t=pylab.legend(loc='upper right')
 	t=pylab.title('Number of folds k vs accuracy')

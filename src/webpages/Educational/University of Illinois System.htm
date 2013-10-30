@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC  "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html id="ctl00_html" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head id="ctl00_Head1"><title>
+	University of Illinois
+</title><meta http-equiv="X-UA-Compatible" content="IE=8" /><base href="http://www.uillinois.edu/cms/One.aspx?portalId=1117531&amp;pageId=1117593"></base><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><link href="../App_Themes/default/merged.css" type="text/css" rel="stylesheet" /><script language="JavaScript1.2">
+
+var howOften = 4; //number often in seconds to rotate
+var current = 0; //start the counter at 0
+var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+// place your images, text, etc in the array elements here
+var items = new Array();
+    items[0]="<a href='http://www.ethics.uillinois.edu/training/'><img alt='2013 annual ethics training for permanent employees.' src='/UserFiles/Servers/Server_1117457/Image/home/rotating/2013.ethics/2.jpg' height='225' width='760' border='0' /></a>"; //a linked image
+    items[1]="<a href='http://www.ethics.uillinois.edu/training/'><img alt='2013 annual ethics training for permanent employees.' src='/UserFiles/Servers/Server_1117457/Image/home/rotating/2013.ethics/3.jpg' height='225' width='760' border='0' /></a>"; //a linked image
+    items[2]="<a href='http://www.ethics.uillinois.edu/training/'><img alt='2013 annual ethics training for permanent employees.' src='/UserFiles/Servers/Server_1117457/Image/home/rotating/2013.ethics/4.jpg' height='225' width='760' border='0' /></a>"; //a linked image
+    items[3]="<a href='http://www.ethics.uillinois.edu/training/'><img alt='2013 annual ethics training for permanent employees.' src='/UserFiles/Servers/Server_1117457/Image/home/rotating/2013.ethics/5.jpg' height='225' width='760' border='0' /></a>"; //a linked image
+    items[4]="<a href='http://www.ethics.uillinois.edu/training/'><img alt='2013 annual ethics training for permanent employees.' src='/UserFiles/Servers/Server_1117457/Image/home/rotating/2013.ethics/6.jpg' height='225' width='760' border='0' /></a>"; //a linked image
+    
+function rotater() {
+    document.getElementById("placeholder").innerHTML = items[current];
+    current = (current==items.length-1) ? 0 : current + 1;
+    setTimeout("rotater()",howOften*1000);
+}
+
+function rotater() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+
+    current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+    setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+//-->
+</script><meta name="rating" content=" " /><meta name="description" content="University of Illinois" /><meta name="author" content="University of Illinois" /><meta name="keywords" content="University of Illinois, University of Illinois at, U of I, Urbana, Chicago, Springfield, UIC, UIS, UIUC, Illinois" /><meta name="robots" /><meta name="google-site-verification" content="qwVNKFD8NkqoSHAuxltk3emx64rfwRBp4xTjuk71zas" /><link type="text/css" rel="stylesheet" href="/common/pages/PortalThemeStyle.ashx?templateId=3846"></head>
+    <body id="ctl00_PageBody">
+        <form name="aspnetForm" method="post" action="One.aspx?portalId=1117531&amp;pageId=1117593" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Xth1Gy3jqVjaUXki6KRzGe9m/kkjKeNp8T/yLn8WOoCbSNuhwadOypYQpwfxfTfgcBdkhcoIQYQ6A58rgciXENze/9WEAHsPCUe+acT2TlQG79gYDRXWA5TUzEymXJZveFkX3FULHTGubOmjD0BcW/XijvOgcOFCTPoE9+bhFCRS5k5GroquXrB3e8ZnS9Fk9jvBJYszm2uegi7N9bt+ONPJFshSIH/NvbNJsw8HbFl3/IxzTNmWCS4DzRHb8jlZGi96Qrpsa1TV8czxCff07/c3SUyJ+tHFYEiONUwG9CObH3oYH6e9EArlT+rXX51ljSbq6f4yzpSOiC8qqosAdtV+IaZPNbe/EilS2U/qpHYl6IDt2Fm9wqiDO74jCFiFXXXDjNGpEW9HM8+TSB30VXCUTXP79fQ2HfZkKVcK8jzPzQUodROJENGEmjm/Db9vnM8tMRTkWFrYmekIzQfzD+reVvWmyYgz0F1ih9T4YBDKo7ELcreXfrmJ6LtRfXUcD+ULppB9JuqUf/w87BJCAyrggDUUa3CAlm3BTKmyig6zoa7R" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=PSi--zehpyeP9oB9JCz9OIOCbeIwiKLFct-h5l6pr0w5FNR3pwSSrwH9hdXuAwZO3-nVnEQOhvVZ0nzj7rxSnqh5ZDM1&amp;t=634605294709717464" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/portal/Portal.css" />
+<script src="/common/resources/shared/scripts/RoboHelp_CSH.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function _search(){var frm=document.forms['aspnetForm'];if(!frm)frm=document.aspnetForm;window.location='/workspaces/Search.aspx?contextId='+frm.ctl00_SearchPlace.value+'&place='+frm.ctl00_SearchOne.value+'&searchTerm='+escape(frm.ctl00_SearchTerm.value).replace(/\+/g, '%2C').replace(/\"/g,'%22').replace(/'/g, '%27');}
+            function clickButton(e, buttonid)
+            { 
+              var bt = document.getElementById(buttonid); 
+              if (typeof bt == 'object')
+		        { 
+
+                    if (navigator.appName.indexOf('Microsoft Internet Explorer')>(-1)){ 
+                          if (event.keyCode == 13){ 
+                                bt.click(); 
+                                return false; 
+                          } 
+                    } 
+	    	        else
+			        {
+	                  if (e.keyCode == 13)
+	          	        { 
+                                bt.click(); 
+                                return false; 
+                          } 
+                    } 
+              } 
+            } 
+String.prototype.Trim = function() 
+{
+    return this.replace(/^\s+|\s+$/g,'');
+}
+String.prototype.LTrim = function() 
+{
+    return this.replace(/^\s+/,'');
+}
+String.prototype.RTrim = function() 
+{
+    return this.replace(/\s+$/,'');
+}
+
+
+function DisplayError(errorMessageTableRowId, errorMessageControlId, errorMessage, defaultErrorMessage)
+{
+    var oErrorMessageControl = document.getElementById(errorMessageControlId);
+    if (oErrorMessageControl == null)
+        alert('Error message control does not exist. you may need to change the ErrorDisplayTableRow from Visible=false to style=display:none');
+    else
+    {
+        var ErrMsg = errorMessage;
+        if (ErrMsg == null || ErrMsg == '')
+            ErrMsg = defaultErrorMessage;
+        if (ErrMsg != null && ErrMsg != '')
+        {
+            ErrMsg = ErrMsg.Trim();
+            if (ErrMsg[ErrMsg.length - 1] != '.')
+                ErrMsg += '.';
+            ErrMsg = '&nbsp;&nbsp;&nbsp;&nbsp;' + ('Error: ' + ErrMsg).fontcolor('Red');       // style='color: red'
+        }
+        if (oErrorMessageControl.nodeName == 'LABEL' || oErrorMessageControl.nodeName == 'SPAN')
+            oErrorMessageControl.innerHTML = ErrMsg;
+        else     
+            oErrorMessageControl.value = ErrMsg;                                                    // Can't be used for displaying error message
+        if (errorMessageTableRowId != null && errorMessageTableRowId != '')
+        {
+            var oErrorMessageTableRow = document.getElementById(errorMessageTableRowId); 
+            if (oErrorMessageTableRow == null)
+                alert('Error message TableRow does not exist. you may need to change the ErrorDisplayTableRow from Visible=false to style=display:none'); 
+            else 
+                oErrorMessageTableRow.style.display = (ErrMsg=='') ? 'none' : '';
+        }    
+    }
+    return (ErrMsg == '');
+}
+
+
+function CommonFunction_DateTime_MinDateTime()
+{
+    return new Date(1, 0, 1);
+}
+function CommonFunction_DateTime_MonthNameToMonth(monthName)
+{
+    var MonthName = monthName.substr(0, 3).toLowerCase();
+    switch (MonthName)
+    {
+        case 'jan' : return '01';
+        case 'feb' : return '02';
+        case 'mar' : return '03';
+        case 'apr' : return '04';
+        case 'may' : return '05';
+        case 'jun' : return '06';
+        case 'jul' : return '07';
+        case 'aug' : return '08';
+        case 'sep' : return '09';
+        case 'oct' : return '10';
+        case 'nov' : return '11';
+        case 'dec' : return '12';
+        default    : return '00'; 
+    }
+}
+function CommonFunction_DateTime_ToDateTime(dateTimeString)
+{
+    dateTimeString = dateTimeString.Trim();
+    if (/^\d{1,2}\/\d{1,2}\/\d{4}\s*/.test(dateTimeString))                     // Default Date format(with any Time format): '10/12/2008 02:23:45 PM GMT-4'
+        return new Date(dateTimeString);                            
+    else if (/^\d{4}-\d{1,2}-\d{1,2}\s*/.test(dateTimeString))                  // '2008-10-12 02:23:45 PM GMT-4'
+    {
+        /^(\d{4})-(\d{1,2})-(\d{1,2})\s*(.*)/.exec(dateTimeString);
+        var NewDateTimeString = RegExp.$2 + '/' + RegExp.$3 + '/' + RegExp.$1 + ' ' + RegExp.$4;
+//        alert(RegExp.input + ' || ' + RegExp.$1 + ' || ' + RegExp.$2 + ' || ' + RegExp.$3 + ' || ' + RegExp.$4 + ' || ' + NewDateTimeString + ' || ' + new Date(NewDateTimeString));
+        return new Date(NewDateTimeString);
+    }
+    else if (/^\d{2}-\d{1,2}-\d{1,2}\s*/.test(dateTimeString))                  // '08-10-12 02:23:45 PM GMT-4'
+        return CommonFunction_DateTime_ToDateTime('20' + dateTimeString);
+    else if (/^[a-zA-Z]+\s+\d{1,2}\s*\,\s*\d{4}\s*/.test(dateTimeString))       // 'October 01, 2008 22:33:44'
+    {
+        /^([a-zA-Z]+)\s+(\d{1,2})\s*\,\s*(\d{4})\s*(.*)/.exec(dateTimeString);
+        var NewDateTimeString = CommonFunction_DateTime_MonthNameToMonth(RegExp.$1) + '/' + RegExp.$2 + '/' + RegExp.$3 + ' ' + RegExp.$4;
+//        alert(RegExp.input + ' || ' + RegExp.$1 + ' || ' + RegExp.$2 + ' || ' + RegExp.$3 + ' || ' + RegExp.$4 + ' || ' + NewDateTimeString + ' || ' + new Date(NewDateTimeString));
+        return new Date(NewDateTimeString);
+    }
+    else return CommonFunction_DateTime_MinDateTime();
+}
+
+
+function AppendHtmlToParent(childControl, HtmlString)
+{
+    var Id = childControl.id;
+    childControl = document.getElementById(Id);
+    childControl.parentNode.innerHTML += HtmlString;
+    childControl = document.getElementById(Id);
+    return childControl;
+}
+function RemoveHtmlFromParent(childControl, HtmlStringPattern, HtmlString)
+{
+    if (HtmlString != null)
+    {
+        childControl = AppendHtmlToParent(childControl, HtmlString);
+        var MatchString = childControl.parentNode.innerHTML.match(HtmlStringPattern);
+        if (MatchString != null)
+            alert(MatchString);
+        else    
+            alert('Error! HtmlStringPattern can not match the HtmlString when it is added to innerHTML.');
+    }
+    var Id = childControl.id;
+    var InputValue = childControl.value;
+    childControl.parentNode.innerHTML = childControl.parentNode.innerHTML.replace(HtmlStringPattern, '');
+    childControl = document.getElementById(Id);            
+    childControl.value = InputValue;
+    return childControl;
+}
+
+
+function ControlCollectionToArray(ControlArray1, ControlArray2)
+{
+    var ControlCount = 0;
+    for (var i=0; i<arguments.length; i++)
+        ControlCount += arguments[i].length;
+    var ControlArray = new Array(ControlCount);
+    ControlCount = 0;
+    for (var i=0; i<arguments.length; i++)
+    {
+        var ControlCollection = arguments[i];
+        for (var j=0; j<ControlCollection.length; j++)
+            ControlArray[ControlCount++] = ControlCollection[j];
+    }
+//    for (var i=0; i<ControlArray.length; i++)
+//        alert(i + '-[' + ControlArray[i] + '|' + ControlArray[i].value + ']');
+    return ControlArray;
+}
+
+//]]>
+</script>
+
+<script src="/Common/JavaScript/InputCheck.js" type="text/javascript"></script><link rel=stylesheet href=http://www.uillinois.edu/common/RichTextConfig/CustomFCKWebStyle.aspx?portalId=1117531>
+<script src="/ScriptResource.axd?d=UnJRH1qQjyMcVgw2yQZQQvetSAHKT31SyNATkjd9m0r1MmDAGrtbVAdwkrVVQvWl98otas1UyU8LujzPcl4vSTcdMgGaXeA2YYaQnTyQwnqWDPt9aQ44GibpJvZXzEDODl8GwTP_w1r3qYbhR9tG31WYYXaLuNy6SGG2JCE-v_XUv89_0&amp;t=634049519329042540" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LIb_w6IiP6RZNa0hvaiGzATcguz2ktqZIp9HixqWwrOTRHGhIu7aIb98eFgDE9Kg6KjZDf9_bdEyUCLmV5nUpWpdhgFQo0Y3e_JZt3t0JZhuFSIGtMqYyvduwrwC7gUiHAqeqzh3XXGhfhuEPeFLAXGMqIfJbGCoskfRtkCMJCHimaRA0&amp;t=634049519329042540" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+ 
+            
+            
+            
+            
+            
+            
+            
+                       
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><div class="uawrapper"><div class="blue"><div class="audiencecontain"><div class="audiencenav" role="navigation_tertiary"><div class="audience1"><a href="/students"> Prospective Students </a></div><div class="audience2"><a href="/staff"> Faculty and Staff </a></div><div class="audience3"><a href="/alumni"> Alumni </a></div><div class="audience4"><a href="/media"> Media </a></div><div class="audience5"><a href="http://www.uif.uillinois.edu/">  Giving  </a></div><div class="audience6"><a href="http://www.obfs.uillinois.edu/cms/one.aspx?portalId=909965&pageId=911781" style="border-right:none;"> Vendors  </a></div></div></div></div><div class="uawrapperinside"><div class="uawordmarkcontain" role="banner"><div class="uawordmark"><div class="hide"><h2>University Administration</h2></div><img src="/UserFiles/Servers/Server_1117457/Image/Theme/wordmark-2011.png" alt="University Administration" border="0" usemap="#uamap"></img><map name="uamap" id="uamap"><area shape="rect" coords="4,3,325,23" href="http://www.uillinois.edu" alt="University of Illinois"></area><area shape="rect" coords="4,28,144,39" href="http://www.illinois.edu" alt="Urbana-Champaign Campus"></area><area shape="rect" coords="155,25,216,44" href="http://www.uic.edu" alt="Chicago Campus"></area><area shape="rect" coords="227,25,315,39" href="http://www.uis.edu" alt="Springfield Campus"></area></map></div><div class="uatext"><h2>UNIVERSITY ADMINISTRATION</h2></div></div><div class="searchcontain" role="search"><label for="ctl00_SearchTerm"></label><table cellpadding="3" cellspacing="0" border="0">
+	<tr>
+		<td valign="middle"><input name="ctl00$SearchTerm" type="text" id="ctl00_SearchTerm" onkeypress="return clickButton(event,'ctl00_btnSearch')" /><input type="hidden" name="ctl00$SearchOne" id="ctl00_SearchOne" value="workspaces" /></td>
+		<td valign="middle"><a id="ctl00_btnSearch" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><img src="/userfiles/servers/server_1117457/image/theme/globalsearch.gif" id="ctl00_searchImage" alt="Search" align="middle" title="Search" style="border:0px" /></a></td>
+	</tr>
+</table>
+</div><div class="horiznav"><div class="treemenu" role="navigation_secondary"><ul><li class="no1"><a href="/about/">ABOUT THE UNIVERSITY</a><div class="submenu"><ul><li><a href="/about/academics">Academics</a></li><li><a href="/about/research">Research</a></li><li><a href="/about/public_service">Public Service</a></li><li><a href="/about/policies">Policies</a></li><li><a href="/about/mission">Mission and Vision</a></li><li><a href="/our/publications">Publications and Reports</a></li><li><a href="/campuses/UniversityAdministration">University Administration</a></li></ul></div></li><li class="no2"><a href="/Campuses">CAMPUSES</a><div class="submenu"><ul><li><a href="/campuses/UrbanaChampaign/">Urbana-Champaign >></a><ul class="left"><li><a href="http://illinois.edu/academics/academics.html">Academics</a></li><li><a href="http://www.admissions.illinois.edu/">Admissions</a></li><li><a href="http://www.fightingillini.com/">Athletics</a></li><li><a href="http://illinois.edu/info/employment.html">Employment</a></li><li><a href="http://illinois.edu/ds/search">People</a></li><li><a href="http://illinois.edu/ds/azList">Search</a></li><li><a href="http://news.illinois.edu/">News (rss)</a></li><li><a href="http://illinois.edu/calendar/list/7">Events (rss)</a></li></ul></li><li><a href="/campuses/chicago/">Chicago >></a><ul class="left"><li><a href="http://www.uic.edu/index.html/learning.shtml">Academics</a></li><li><a href="http://www.uic.edu/depts/oar/prospective_students/index.html">Admissions</a></li><li><a href="http://www.uicflames.com/">Athletics</a></li><li><a href="http://www.uic.edu/index.html/working.shtml">Employment</a></li><li><a href="http://www.uic.edu/uic/search/">People</a></li><li><a href="http://www.googlesyndicatedsearch.com/u/uiatc?q=&sa=Google+Search">Search</a></li><li><a href="http://tigger.uic.edu/htbin/cgiwrap/bin/newsbureau/cgi-bin/index.cgi">News (rss)</a></li><li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">Events (rss)</a></li></ul></li><li><a href="/campuses/Springfield/">Springfield >></a><ul class="left"><li><a href="http://www.uis.edu/academics/index.html">Academics</a></li><li><a href="http://www.uis.edu/admissions/">Admissions</a></li><li><a href="http://uisprairiestars.com/">Athletics</a></li><li><a href="http://www.uis.edu/humanresources/employment/">Employment</a></li><li><a href="http://uisapp.uis.edu/directory/">People</a></li><li><a href="http://www.uis.edu/search/">Search</a></li><li><a href="http://www.uis.edu/newsroom/">News (rss)</a></li><li><a href="http://events.uis.edu/">Events (rss)</a></li></ul></li><li><a href="http://www.online.uillinois.edu/">U of I Online</a></li><li><a href="/campuses/rockford">Regional: Rockford</a></li><li><a href="/campuses/peoria">Regional: Peoria</a></li></ul></div></li><li class="no3"><a href="http://www.bot.uillinois.edu/">TRUSTEES</a><div class="submenu"><ul><li><a href="http://www.bot.uillinois.edu/about">About</a></li><li><a href="http://www.bot.uillinois.edu/meetings">Meetings</a></li><li><a href="http://www.bot.uillinois.edu/resources">Resources</a></li><li><a href="http://www.bot.uillinois.edu/governance">Governance</a></li><li><a href="http://www.bot.uillinois.edu/contact">Contact</a></li></ul></div></li><li class="no3"><a href="/president">PRESIDENT</a><div class="submenu"><ul><li><a href="/president/biography">Biography</a></li><li><a href="/president/offices">Reporting Offices</a></li><li><a href="/president/staff">Staff</a></li><li><a href="/our/media_assistance">Media & News Releases</a></li><li><a href="/president/connections">Connections</a></li><li><a href="/president/speeches/">Speeches, Statements & Interviews</a></li><li><a href="/president/Massmail/">Messages to the Univ Community</a></li><li><a href="/strategicplan">Strategic Plan</a></li><li><a href="/our/publications/">University Reports</a></li><li><a href="/president/history/">Presidential History</a></li><li><a href="/president/presidents_medallion">President's Medallion</a></li></ul></div></li><li class="noborder"><a href="/administration">ADMINISTRATION</a><div class="submenu"><ul><li><a href="/administration/vps">Executive Offices >></a><ul class="left"><li><a href="http://www.vpaa.uillinois.edu/">Academic Affairs</a></li><li><a href="http://www.cfo.uillinois.edu/">Administration & Finance</a></li><li><a href="http://www.ogr.uillinois.edu/">Governmental Relations</a></li><li><a href="http://www.vpha.uillinois.edu/">Health Affairs</a></li><li><a href="http://www.vpr.uillinois.edu">Research</a></li><li><a href="http://www.legal.uillinois.edu/">University Counsel</a></li><li><a href="/our/">University Relations</a></li></ul></li><li><a href="/administration/search">Find Offices/People  >></a><ul class="left"><li><a href="/administration/allcampus">A - Z</a></li><li><a href="/administration/search/staffdir">Staff Directory</a></li></ul></li><li><a href="http://www.procure.stateuniv.state.il.us/">Procurement Bulletin</a></li></ul></div></li></ul></div></div><div id="navbar"></div>
+    
+<div class="homecontent" role="main"><a name="skipnav"></a><h1 style="display:none">Home</h1><div class="ptl_page"><div class="ptl_col_1"><div class="ptl_portlet_vertical"><div class="rotate"><layer id="placeholderlayer"></layer>
+<div id="placeholderdiv">&nbsp;</div>
+</div>
+<div role="complementary" class="whatsnew">
+<h2>What's New</h2>
+<div class="whatsnewbox">&nbsp;</div>
+<div class="whatsnewbox">&nbsp;</div>
+<div class="whatsnewbox">
+<p><strong>Sept 12</strong>: <a href="http://uofi.uillinois.edu/emailer/newsletter/40598.html">Trustees approve performance-based pay for president </a></p>
+<p><strong>Sept 12</strong>: <a href="http://uofi.uillinois.edu/emailer/newsletter/40619.html">Trustees approve $5.6 billion FY14 budget</a></p>
+<p><strong>Aug 24</strong>: <a href="http://illinois.edu/emailer/newsletter/39693.html">IL seniors get jump start preparing for college</a></p>
+<br />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div role="main" class="columncontain">
+<div class="cola">
+<div class="colaheader">
+<h2 class="col">U OF I ADMINISTRATION (UA)</h2>
+</div>
+<!--End div for colaheader -->
+<div class="colabox"><a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118433">About the University</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1161894">About UA</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118610">President</a>&nbsp;<br />
+<a href="http://www.bot.uillinois.edu">Board of Trustees</a><br />
+<a href="http://www.vpaa.uillinois.edu/">Academic affairs</a><br />
+<a href="http://www.cfo.uillinois.edu/">Chief financial officer</a> <br />
+<a href="http://www.vpha.uillinois.edu/">Health affairs</a><br />
+<a href="http://www.vpr.uillinois.edu/">Research</a><br />
+<a href="http://www.usc.uillinois.edu/index.cfm">University Senates Conference</a><br />
+<br />
+<div class="colsubheader">University-related Organizations</div>
+<a href="http://www.uif.uillinois.edu/">U of I Foundation</a><br />
+<a href="http://www.uiaa.org/">U of I Alumni Association</a></div>
+<!--End div for colabox --></div>
+<!--End div for cola -->
+<div class="colb">
+<div class="colbheader">
+<h2 class="col">CAMPUSES</h2>
+</div>
+<!--End div for colbheader -->
+<div class="colbbox"><a href="http://illinois.edu">Urbana-Champaign</a><br />
+<a href="http://www.uic.edu">Chicago</a><br />
+<a href="http://uis.edu">Springfield</a><br />
+<br />
+<div class="colsubheader">Regional Campuses</div>
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118756">Peoria (medicine, nursing)</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118746">Rockford (medicine, nursing, pharmacy)</a></div>
+<br />
+<br />
+<div class="colbbox">
+<div class="colsubheader">University Online Catalog</div>
+<a href="http://www.online.uillinois.edu/">U of I Online</a></div>
+<!--End div for colbbox --></div>
+<!--End div for colb -->
+<div class="colc">
+<div class="colcheader">
+<h2 class="col">UA RESOURCES &amp; SERVICES</h2>
+</div>
+<!--End div for colcheader -->
+<div class="colcbox"><a href="/administration/search/allcampus/">A-Z directory</a><br />
+<a href="/administration/search/">Campus phone directories</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118584">Policies</a><br />
+<a href="http://www.obfs.uillinois.edu/cms/one.aspx?portalId=909965&amp;pageId=911781">Vendors, procurement, RFPs</a><br />
+<br />
+<div class="colsubheader">UA Services</div>
+<a href="http://www.vpaa.uillinois.edu/"> Academic affairs</a><br />
+<a href="http://www.audits.uillinois.edu/">Audits</a><br />
+<a href="http://www.obfs.uillinois.edu/">Business &amp; financial services</a><br />
+<a href="http://www.ethics.uillinois.edu/">Ethics</a><br />
+<a href="http://www.ogr.uillinois.edu/">Government relations</a><br />
+<a href="http://hospital.uillinois.edu/">Hospital &amp; health sciences system</a><br />
+<a href="http://www.hr.uillinois.edu/">Human resources,&nbsp;equal opportunity</a><br />
+<a href="http://www.aits.uillinois.edu/">Information technology</a> (AITS)<br />
+<a href="http://www.legal.uillinois.edu/">Legal counsel</a><br />
+<a href="http://www.pb.uillinois.edu/">Planning &amp; budgeting</a><br />
+<a href="http://www.obfs.uillinois.edu/cms/one.aspx?portalId=909965&amp;pageId=911733">Purchasing &amp;&nbsp;procurement</a><br />
+<a href="http://www.treasury.uillinois.edu/">Treasury operations</a></div>
+<!--End div for colcbox --></div>
+<!--End div for colc -->
+<div class="cold">
+<div class="coldheader">
+<h2 class="col">NEWS &amp; TRENDS</h2>
+</div>
+<!--End div for coldheader -->
+<div class="coldbox"><a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118850">University news</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1255838">News from the campuses</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1230474">Issues &amp; trends</a><br />
+<a href="/cms/One.aspx?portalId=1117531&amp;pageId=1228326">Social media</a><br />
+<a href="/cms/One.aspx?portalId=1117531&amp;pageId=1118796">President's messages</a><br />
+<br />
+<div class="colsubheader">University Relations</div>
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118832">University relations office</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118846">Media assistance</a><br />
+<a href="http://www.foia.uillinois.edu/">Freedom of Information Act (FOIA)</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118865">Publications</a><br />
+<a href="/cms/one.aspx?portalId=1117531&amp;pageId=1118866">Identity, standards, styles</a></div>
+<!--End div for coldbox --></div>
+<!--End div for cold --><!--End div for columncontain -->
+<p>&nbsp;</p>
+</div>
+
+<script type="text/javascript" >
+document.body.onfocus = function(e)
+{
+    var hfOwnerId = document.getElementById('ctl00_ContentPlaceHolder1_ctl04_hfOwnerId');
+    var hplOwner = document.getElementById('ctl00_ContentPlaceHolder1_ctl04_hplOwner');     
+   if(hfOwnerId && hplOwner)
+   { 
+        var firstComPos = hfOwnerId.value.indexOf(',');
+        var ownerId = hfOwnerId.value;
+        if(firstComPos >0)
+            ownerId = hfOwnerId.value.substring(0, firstComPos);
+        
+        var url = '/workspaces/One.aspx' + '?objectId=' + ownerId;
+        hplOwner.href = url;        
+   } 
+}
+
+</script></div></div></div></div><div class="uafooternav"><ul><li><a href="/about/">ABOUT THE UNIVERSITY</a></li><li><a href="/Campuses">CAMPUSES</a></li><li><a href="http://www.bot.uillinois.edu/">TRUSTEES</a></li><li><a href="/president">PRESIDENT</a></li><li><a href="/administration">ADMINISTRATION</a></li><li><a href="/search">SEARCH</a></li></ul></div></div><div class="footercontain" role="contentinfo"><div class="footer">
+
+Copyright © 2013  The Board of Trustees of the University of Illinois | <a href="">Web Privacy</a><br></br>
+108 Henry Administrative Bldg.  Urbana, IL 61801<br></br>Contact <a href="mailto:InfoSource@uillinois.edu">InfoSource@uillinois.edu</a></div></div></div><div id="publinks">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+    <td id="ctl00_PublishedLinkMenu1_tdMyApps" width="100%">
+    </td>
+
+</tr>
+</table>
+</div><script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37134140-1']);
+  _gaq.push(['_setDomainName', 'uillinois.edu']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script><script type="text/javascript" src="http://emergency.webservices.illinois.edu/illinois.js"></script><script type="text/javascript" src="//www.uic.edu/inc/emergency/alert.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+InputCheck_AddErrorFlagControlToInputCheckControls();
+//]]>
+</script>
+<script type="text/javascript" src="/Common/Resources/shared/scripts/CmsLink.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    </body>
+</html>
+

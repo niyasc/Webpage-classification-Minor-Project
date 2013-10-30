@@ -1,0 +1,1350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+	<title>BBC - Religions - Christianity: C.S. Lewis</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="C.S. Lewis was the author of the children's classic The Lion, the Witch and the Wardrobe. Learn more about the man, the storyteller and the Christian."/>
+	<meta name="keywords" content="cs lewis, c s lewis, jack, clive staples, screwtape, books, lion, witch, wardrobe, silent, planet, perelandra, that hideous strength, elwin ransom, narnia, aslan, peter, susan, edmund, lucy, horse, boy, boxen, magician's nephew, dawn treader, voyage, venus, last battle, white witch, jadis, mrs moore, ireland, northern, norsemen, norse, mythology, theology, apologetics, mere christianity"/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	<meta name="DCTERMS.created" content="2005-11-30"/>
+	<meta name="DCTERMS.updated" content="2009-08-06"/>
+	
+	
+                <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->         <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/script/blq_core.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie7.css" type="text/css" /> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png');} #blq-mast #blq-search-btn { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blq-search_grey_alpha.png', sizingMethod='image'); } </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->  <script type="text/javascript"> blq.assetPath="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  </script> <!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                    
+    
+
+	
+<style type="text/css">
+	@import '/vision/productisation/includes/css/v1/s-core-models.css';
+	@import '/vision/productisation/includes/css/v1/global.css';
+	@import '/vision/productisation/includes/css/v1/colourway.css';
+	
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/religion/religions/includes/css/product-specific.css"  />
+<link rel="stylesheet" type="text/css" media="print" href="/vision/productisation/includes/css/v1/print.css" />
+<!-- Barlesque: -->
+
+
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+<!-- 
+	if (document.documentElement && document.getElementById){
+		document.documentElement.className += " js";
+	}	
+// -->		
+</script>
+
+<!-- Glow library : core modules -->
+<script type="text/javascript">
+	gloader.load(["glow", "1", "glow.anim", "glow.net", "glow.dom", "glow.embed"]);
+</script>
+
+
+<!-- EMP embed support -->
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>  
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+
+<!-- Live Stats Variable -->	
+	
+	
+	
+<!-- End of Live Stats Variable Settings -->
+
+
+
+
+
+
+	
+	
+	</head>
+	<body class="orange prg-content-lhn article religion">
+	<div><a name="top"> </a></div>                <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=2.8&blq_r=2.7&blq_v=default-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=en-GB&amp;blq_s=2.8&amp;blq_r=2.7&amp;blq_v=default-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->    <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-2-8"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast --> <!-- BBCDOTCOM leaderboard template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  -->
+        <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <span id="blq-mast-background"></span> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span id="blq-blocks-wrapper"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span> </span> </a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li><a href="#blq-content">Skip to content</a></li>  <li><a href="#blq-local-nav">Skip to local navigation</a></li>  <li><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li><a href="#blq-search">Skip to bbc.co.uk search</a></li>  <li><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">        
+
+	<!--START PROGRAMMES CONTENT CONTAINER SHELL-->
+	<div id="prg-masthead">
+	<p><a href="/religion/religions/" title="Religions">Religions</a></p>
+
+	</div>
+	<div class="prg-wrapper" id="prg-wrapper-shell">
+	<div id="blq-content">
+		
+	<div id="prg-wrapper-featured"><!-- START MAIN CONTENT AREA -->
+	<div class="box top_promo">
+	<div class="header"><h1>C.S. Lewis</h1>
+	<p><em>Last updated 2009-08-06</em></p>
+	</div>
+	<div class="content">
+	<p>C.S. Lewis was the author of the children's classic The Lion, the Witch and the Wardrobe. Learn more about the man, the storyteller and the Christian.</p>
+	</div>
+	<div class="footer"> </div>
+	</div>
+		
+	<div class="p-grp p-grp-a p-grp-theme-n nth-row-n">
+	<!--LEFT HAND NAV-->
+	<div class="left-nav">
+	<h2>On this page</h2>
+	<ul>
+	 <li><a href="#h1">Biography - childhood</a></li>
+	<li><a href="#h2">Biography - education</a></li>
+	<li><a href="#h3">Biography - war and Mrs Moore</a></li>
+	<li><a href="#h4">Biography - conversion</a></li>
+	<li><a href="#h5">Biography - home life and writing</a></li>
+	<li><a href="#h6">Biography - marriage and later years</a></li>
+	<li><a href="#h7">Fiction books</a></li>
+	<li><a href="#h8">Narnia</a></li>
+	<li><a href="#h9">Christian allegory</a></li>
+	<li><a href="#h10">Christian apologetics</a></li>
+	<li><a href="#h11">Merely Christian</a></li>
+	<li><a href="#h12">Trilemma - lord, liar or lunatic?</a></li>
+	<li><a href="#h13">Screwtape Letters</a></li>
+	<li><a href="#h14">Animal theology</a></li>
+	<li><a href="#h15">Quotations</a></li>
+	<li><a href="#h16">Audio</a></li>
+	<li><a href="#h17">Bibliography and reading list</a></li>
+	<li><a href="#findoutmore" title="See more related content">Find out more</a></li>
+	</ul>
+	<h3>Page options</h3>
+	<ul class="tools">
+	<li class="print"><a href="#" onclick="window.print();return false;">Print this page</a></li>
+	</ul>
+	
+	</div>
+		
+	<div class="center">
+	
+	<div class="content-main-header"> </div>
+	<div class="p-mod nth-child-1 content-main">
+	<a name="section_1"> </a>
+	<div class="promo">
+	
+<h2 class="heading-nth-1" id="h1">Biography - childhood</h2>
+	
+<h3>Introduction</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 100px;">
+	<img alt="Lucy Pevensie (Georgie Henley) by the lamppost in a snowy wood." height="420" src="/religion/religions/christianity/people/images/lamppost.jpg" width="100"/> </span>
+	
+
+<p>C.S. Lewis (29 November 1898 - 22 November 1963) was a prolific writer, poet, scholar of English literature and defender of Christianity.  His most famous book is <em>The Lion, the Witch and the Wardrobe</em>, the first published of his Chronicles of Narnia.</p>
+
+<p>This article explores more of Lewis the man, the storyteller and the Christian.</p>
+
+<h3>Lewis's childhood</h3>
+	
+
+<p>C.S. Lewis's own account of his early years reads like a list of books, along with a few people, that shaped his life.  Lewis was born in Belfast in 1898, the younger of two sons.  His parents Albert and Flora were both keen readers.  In his autobiography, <em>Surprised by Joy</em>, Lewis describes himself as "a product of long corridors, empty sunlit rooms, upstair indoor silences, attics explored in solitude, distant noises of gurgling cisterns and pipes, and the noise of wind under the tiles.  Also, of endless books."</p>
+
+<p>Born Clive Staples Lewis, he announced when he was three years old that his name was Jack, and Jack he was to family and friends for the rest of his life.  His older brother was Warren, nicknamed Warnie.</p>
+
+<p>Jack Lewis's childhood was "humdrum, prosaic happiness".  He and Warren were close friends, and would spend long hours drawing and writing together.  Warren's interest was in trains and steamships, while Jack liked "dressed animals" and tales of knights and chivalry.  Jack diplomatically combined the modern and mediaeval themes into a continuing history of the imaginary country Animal-Land, later combined with Warren's kingdom of India and christened Boxen.  Chronicling the adventures of the Boxonians kept both brothers occupied for years to come.</p>
+
+<p>Jack's parents were Ulster Protestants and he grew up being taken to church every Sunday.  He found the services uninspiring.  They were Christianity with the life leached out of it: more a political statement than a statement of faith; a weekly demonstration that they were not Catholics.  They formed in Jack a distaste for Christianity that lasted into adulthood.</p>
+
+<h3>"No more of the old security"</h3>
+	
+
+<p>The children's lives changed after the death of their mother in August 1908.  Jack said that "all settled happiness, all that was tranquil and reliable, disappeared from my life".  He and Warren became more reliant on each other, but their relationship with their father became increasingly distant.</p>
+
+<p>Soon afterwards Jack was sent to a boarding school called Wynyard.  The school, which in <em>Surprised by Joy</em> he tellingly nicknamed Belsen, was by all accounts a dreadful place.  Lessons consisted of learning by rote or being left with a slate and made to do sums.  The headmaster, Robert "Oldie" Capron, seems to have been a cruel man who would flog the boys with little provocation.  His neighbours believed him to be insane.</p>
+
+<p>It was at Wynyard that Jack first tried to be Christian.  He made a list of resolutions and tried to pray each night, but allowed himself to be distracted by worries about whether he was praying correctly.</p>
+
+<p>It is clear that Albert Lewis did not know what life was like for his sons at Wynyard.  Jack stayed there until the school closed down from lack of pupils.  After half a term at another school, after which he was withdrawn with an illness, Jack attended a prep school called Cherbourg.  Here he was happy - thanks in part to discovering the music of Richard Wagner, but also by comparison to Wynyard - and his academic standards quickly improved.  He also began to associate with what he later considered to be bad influences.  Warren was becoming rebellious at the same time: he eventually was expelled from college and joined an army academy.  Jack went on to secondary school at Malvern College.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_2"> </a>
+	<div class="promo">
+	
+<h2 id="h2">Biography - education</h2>
+	
+<h3>Northmen and Joy</h3>
+	
+
+<p>Wagner meant more to Jack than good music.  The epic operas of the Ring cycle introduced him to Norse mythology, the beginning of his lifelong love of 'Northernness'.  The music and mythology caused momentary but intense feelings in Jack that he could not describe, and later called 'Joy'.  His description of Joy sounds like a desire for another world: "the stab, the pang, the inconsolable longing".</p>
+
+<p>Jack realised he had felt Joy a few times before; he experienced it again in the years before his conversion to Christianity.  Jack threw himself into studying Norse mythology, hoping to experience Joy again.  Reading and writing about his Northern myths kept Jack sustained through his time at Malvern College, which he otherwise found very difficult.</p>
+
+<p>Northernness even helped Jack to find his first close friend, apart from his brother.  Arthur Greeves lived near the Lewises but the boys had never spent time together.  Then one day towards the end of his time at Malvern Jack was invited to visit Arthur, who was sick in bed. He spotted a copy of <em>Myths of the Norsemen</em> in Arthur's bedroom and soon they were firm friends, writing to each other and exchanging confidences.</p>
+
+<p>Malvern was a shock to Jack.  An elite group of older pupils, usually members of sports teams, ruled the roost.  They were called Bloods and were hero-worshipped by the younger boys.  A Blood could corner a younger boy and make him do odd jobs - tea-making, boot-blacking, cleaning his sports kit or his study.  This was called 'fagging' and Jack said it made his life miserable, coming as it did on top of a heavy load of schoolwork.</p>
+
+<p>Jack was upset, too, by rumours of homosexuality between pupils at Malvern, and wrote an exaggerated and disapproving chapter about the college in <em>Surprised by Joy</em>.  Warren later said that the school had not been as bad as Jack claimed.  The brothers grew distant for a while as a result of that disagreement.  Jack had certainly lost his Christian faith at this point too.</p>
+
+<p>The bright spot at Malvern apart from his Norse mythology was an inspirational teacher nicknamed Smugy.  Jack portrays Smugy as the essence of courtesy in the midst of a loutish school.  He was also much taken with Smugy's melodious method of poetry-reading: he tried to imitate it himself from then on.</p>
+
+<h3>Kirkpatrick and college</h3>
+	
+
+<p>An examiner had remarked that Jack was the sort of boy who could gain a Classics degree at Oxford.  But if Jack was to attend university, he needed a scholarship.  Albert decided to send him to a tutor to prepare him for the scholarship examination, and Jack went to stay with his father's friend William Kirkpatrick in Great Bookham in Surrey.</p>
+
+<p>Kirkpatrick was an imposing man who dressed like, and was, a gardener.  From him, among other subjects, Jack learned Greek, Latin, a broader appreciation for literature and an exacting method of debate.</p>
+
+<p>His days at Kirkpatrick's were the young Lewis's happiest.  They provided the routine he followed for the rest of his life: rise at half past seven for an early walk; breakfast at eight; work from a quarter past nine until lunch at one; freedom during the early afternoon until tea at a quarter past four; work from five until nine, interrupted by dinner at seven.  After nine Jack could write independently, often stories or lyric poetry inspired by whatever mythology he was enthralled by at the time.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_3"> </a>
+	<div class="promo">
+	
+<h2 id="h3">Biography - war and Mrs Moore</h2>
+	
+
+<p>Lewis came to university in 1916 during the First World War.  Although as an Irishman he would not have had to serve in the army, he wanted to do his part.  He signed up and was sent to the front.  Lewis's time as an army officer affected him profoundly, as it did most soldiers, but one friendship changed his life.  Edward Moore was a fellow Irishman with whom Lewis served.  The two young men seem to have made an agreement that if either of them did not come home, the other would support his family.  Lewis was sent home with shrapnel wounds.  Moore was killed and left behind his mother Janie and sister Maureen.</p>
+
+<p>True to his word, Jack lived with Mrs Moore until her death.  He was always reticent about his private life and many people suspected that he and Mrs Moore were lovers.  It has not been proved.  What is known is that Lewis saw her as a maternal figure.  His own mother had died while he was young and Mrs Moore, above everything else, seemed willing to be a surrogate mother.  Albert disapproved of Jack's relationship with her, and may also have been a little hurt by the implication that his parenting had not been enough for Jack.  Jack, in turn, resorted to lying in his letters home to conceal the closeness of their relationship.</p>
+
+<p>Jack and the Moores stayed in a series of rented houses in Oxford while he attended university.  He seems to have been worried about money for most of the time: he was receiving a little money from Albert, but was concerned that their strained relationship might cause his father to cut him off.  Jack was lying to his father, who thought he was still Christian.  Although poor, Mrs Moore was determinedly hospitable.  She had a positive influence on Jack, teaching him generosity and giving the reclusive scholar a taste of normal family life.</p>
+
+<p>After four years of study Lewis ended up with three first-class degrees from Oxford: Greek and Latin literature, classical philosophy and English language and literature.  His father sponsored him to continue his studies because it was difficult for classics students to find a job.  He took a lecturing position while applying for a fellowship, a financial grant for university teaching.  He was turned down for several positions before being awarded a fellowship teaching English at Oxford's Magdalen College.  He began work there in October 1925.</p>
+
+<p>In 1926 he submitted <em>Dymer</em>, a long mythological poem, for publication.  It is a tale with a moral about fantasy and self-deception: like Lewis's other books, it was written from experience.  It was favourably reviewed and may have met with more success if the fashion at the time had not been for free, non-rhyming poetry.</p>
+
+<p>It was at Oxford that Lewis met Owen Barfield, who formed a literary discussion group called The Inklings.  The members, who included Lewis himself, J.R.R. Tolkien, Adam Fox, Hugo Dyson, Charles Williams and Lewis's brother Warren, met during the 1930s at a pub called the Eagle and Child (known to them as the Bird and Baby).  Many of them were Christian; some were atheists; some were followers of Anthroposophy, a philosophy that was quite popular at the time.  The purpose of the group was to hear and criticise members' writings-in-progress.  Tolkien's <em>Lord of the Rings</em> stories were first aired at Inklings meetings, as were some of Lewis's stories.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_4"> </a>
+	<div class="promo">
+	
+<h2 id="h4">Biography - conversion</h2>
+	
+<h3>Checkmate at last</h3>
+	
+
+<p>Lewis's conversion to Christianity was not a sudden experience.  He always claimed it was logical and rational, not emotional.  His influences were, as always, books and a few close friends.</p>
+
+<p>Inspired by his reading, Lewis's personal philosophy had been slowly approaching theism (belief in a god) under another name: he came to believe in a universal spirit without yet calling it God.  He knew that his position was confused.  In <em>Surprised by Joy</em> he likens the following process to being hunted down by God, or even being defeated by him in a game of chess.</p>
+
+<p>Lewis had several Christian friends at Oxford, including Hugo Dyson and the Catholic J.R.R. Tolkien, with whom he often argued philosophy and religion.  A chance remark by another acquaintance, T.D. Weldon, caused Lewis to rethink what he still was calling "the Christian myth": Weldon, known for his cynicism, thought that the evidence for Jesus's life and resurrection was remarkably good.  Lewis read the Gospels and was struck by the thought that they did not sound like fiction: the writers seemed too unimaginative to have made the whole thing up; the Gospels read more like reports than stories.</p>
+
+<p>Albert Lewis died in 1929.  His death caused Jack to feel guilty about deceiving him.  Jack also believed he could feel Albert's presence after his death.  At this time Warren and Jack were both thinking of becoming Christian, although the idea of churchgoing was still unappealing to Jack and he did not accept many aspects of the Christian theology.</p>
+
+<p>On September 19, 1931, Lewis, Dyson and Tolkien took a night-time stroll and began a conversation about myth.  They walked and talked until morning.  Tolkien convinced Jack that myths were God's way of preparing the ground for the Christian story.  The stories of resurrection throughout history were precursors to Jesus's true resurrection: Christianity was the completion of all the mythology before it.  Dyson's contribution was to impress upon Jack how Christianity worked for the believer, liberating them from their sins and helping them become better people.  His remaining arguments were being demolished.  Jack Lewis was about to be checkmated.</p>
+
+<p>The final stage in Jack's conversion to Christianity took place three days later and was typically unconventional.  He and Warren were travelling by motorcycle to Whipsnade zoo: "When we set out I did not believe that Jesus Christ is the Son of God, and when we reached the zoo I did."  Jack wrote a book called <em>The Pilgrim's Regress</em> that told the story of his conversion in allegorical form.</p>
+
+<p>Lewis also realised that his old experiences of 'Joy' had been pointers, reminding him that he was made for another world: he now reinterpreted them as longings for heaven, for God.  He felt 'Joy' again many times in his life, but no longer attached the same importance to the experiences.</p>
+
+<p>It was after his conversion that Lewis began writing his Christian apologetic books.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_5"> </a>
+	<div class="promo">
+	
+<h2 id="h5">Biography - home life and writing</h2>
+	
+<h3>Kilns and ink spilled</h3>
+	
+
+<p>Jack and Warren inherited a little money after their father's death.  Together with Mrs Moore, they bought a house in Oxford called The Kilns.  Jack was teaching at the university and writing his books on the history of English literature.  In 1937 he wrote the first of his science fiction books, <em>Out of the Silent Planet</em>.</p>
+
+<p>During the Second World War Jack, wanting to do his part, joined the Home Guard.  Warren was still in the army.  The Kilns received several evacuees, who were an early inspiration for the Chronicles of Narnia.</p>
+
+<p><em>The Problem of Pain</em> was published in 1940 and <em>The Screwtape Letters</em> in 1942.  Jack began to get a large volume of post from admirers.  He had recruited Warren to type his handwritten manuscripts: now he relied on him to act as a secretary too.</p>
+
+<p>Jack also gave a series of talks about Christianity on BBC radio between 1941 and 1944.  After the first set of talks was well received he also presented some lectures to soldiers, which he considered war work.  His broadcasts resulted in many people converting to Christianity - and a lot more letters for Jack to answer.  The text of his talks was published in a book called <em>Mere Christianity</em>.</p>
+
+<p>Lewis's literary output in these years was considerable.  He divided his time between academic writing, popular apologetics and fiction.  By 1948, when a debate with Elizabeth Anscombe convinced him he had been arguing the case for God in the wrong way, Mrs Moore was becoming ill.  Jack spent much of his time looking after her.</p>
+
+<p>The seven Chronicles of Narnia were written and published between 1948 and 1956.  Jack had been writing his autobiography <em>Surprised by Joy</em> at around the same time.  Meanwhile, Mrs Moore's health continued to deteriorate; she went to a nursing home and died there in 1951.  Warren was not overly distraught.  Her death gave the brothers more freedom; Jack was relieved from some of his household duties, but he was also free to marry.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_6"> </a>
+	<div class="promo">
+	
+<h2 id="h6">Biography - marriage and later years</h2>
+	
+<h3>Surprised by grief</h3>
+	
+
+<p>In 1952 Joy Gresham came to England.  Joy was a New York teacher of English literature, a former communist and a recent convert to Christianity: her parents had been Jewish, though her father was secular and her mother was not very religious.  Joy had a husband, though at the time their marriage was in trouble.  They had two sons, Douglas and David.</p>
+
+<p>Joy had been corresponding with Lewis for two years before her visit.  She was a sharp, outspoken and witty woman, just the sort to appeal to Lewis.  When, on her return to America, she found her husband committing adultery and their marriage beyond repair, she moved to England with her sons.</p>
+
+<p>Lewis had taken a teaching job at Cambridge university, spending weekends and holidays at home.  Joy and her sons moved into a house not far from the Kilns.  They were frequent visitors.  In 1954 Joy's husband divorced her.  In 1956 her work permit expired and she faced having to move back to America.  Lewis decided to marry her.</p>
+
+<p>Lewis claimed the civil marriage ceremony, quietly performed in a registry office, was a purely legal measure to allow Joy to stay in the country.  Nobody is quite sure of their feelings for each other at that stage, but shortly afterwards some news arrived that changed everything.  Joy was diagnosed with advanced cancer and did not have long to live.  Lewis realised he loved Joy and decided to make their marriage public.  The ceremony was performed around Joy's hospital bed.  When she was able to leave hospital, Joy, Douglas and David moved into the Kilns.</p>
+
+<p>Her health improved.  Lewis prayed to be allowed to take some of her pain on himself.  It seemed to work.  His health deteriorated for a few months while Joy recovered: an occurrence he happily described as a miracle.  Married life seemed to suit Jack even at his late age (he was in his 60s).  He enjoyed more than three years with Joy before her cancer returned and claimed her life in July 1960.</p>
+
+<p>The story of Jack and Joy's marriage is told, with some liberties taken with chronology, in a play and film called <em>Shadowlands</em>.</p>
+
+<p>Joy's death was hard for Lewis to cope with and tested his Christian faith.  He kept a record of his thoughts and feelings throughout the grieving process, and published it, using a pseudonym, as <em>A Grief Observed</em>.  (So many people recommended the book to Lewis to help in his own grief that at last he was forced to admit he wrote it.)</p>
+
+<p>"No one ever told me grief felt so like fear," reads the opening sentence of <em>A Grief Observed</em>. "I am not afraid, but the sensation is like being afraid.  The same fluttering in the stomach, the same restlessness, the yawning.  I keep on swallowing."  It is an honest account from a mourning widower: Lewis did not flinch from recording the times when his faith was tested.  By the end of the book he had made his peace with God.</p>
+
+<p>C.S. Lewis died on the 22nd November 1963.  He never wanted his death to be widely acknowledged, and he got his way.  John F Kennedy, president of the USA, was assassinated on the same day.  The author of <em>Brave New World</em>, Aldous Huxley, also died on the 22nd.</p>
+
+<p>The last book Lewis published, and one he considered his best, was <em>Till We Have Faces</em>, an unusual retelling of the Greek myth of Cupid and Psyche.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_7"> </a>
+	<div class="promo">
+	
+<h2 id="h7">Fiction books</h2>
+	
+<h3>Lewis the storyteller</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>"This must be a simply enormous wardrobe!" thought Lucy, going still further in and pushing the soft folds of the coats aside to make room for her.  Then she noticed that there was something crunching under her feet.  "I wonder is that more mothballs?" she thought, stooping down to feel it with her hand.  But instead of feeling the hard, smooth wood of the floor of the wardrobe, she felt something soft and powdery and extremely cold.  "This is very queer," she said, and went a step or two further.</p>
+	<p><cite>C.S. Lewis, The Lion, The Witch and the Wardrobe</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Thus begins the first adventure into the land of Narnia, the setting for C.S. Lewis's most famous series of books.  Although the Christian subtext to the books is an open secret among adult readers, generations of children have loved the stories without noticing the parallel between Aslan the lion and Jesus Christ.</p>
+
+<p>C.S. Lewis converted to Christianity while teaching at Oxford University, but his love of books and myths had been present since his childhood.  Soon after his conversion he wanted to evangelise, and it was not long before he thought of combining religious enthusiasm with imagination in his works of Christian fiction.</p>
+
+<span class="image_with_caption float_right" style="width: 180px;">
+	<img alt="Butterfly on red rock symbolising life on Mars" height="120" src="/religion/religions/christianity/people/images/malacandra.jpg" width="180"/> </span>
+	
+
+<h3>The first frontier</h3>
+	
+
+<p>Lewis's first Christian fiction was <em>Out of the Silent Planet</em>, a science fiction novel written for adults, which was the first in a trilogy.</p>
+
+<p>In <em>Out of the Silent Planet</em> Lewis imagined a world, located on Mars, in which the Fall of humanity had never happened and the inhabitants lived without original sin.   He returned to this theme in the sequel, <em>Perelandra</em>, which followed the temptation of the first woman on a new world, this time set on Venus.</p>
+
+<p>Lewis, a professor of English literature, was also busy writing nonfiction. His first major work of criticism, <em>The Allegory of Love</em>, was published in 1935 and very well received.  <em>Out of the Silent Planet</em>, two years later, attracted mixed reviews, many of which compared Lewis to H.G. Wells.  More surprisingly to Lewis, out of about sixty reviews, only two seemed to notice the Christian subtext.</p>
+
+<p>That prompted Lewis to write: "[I]f there was only someone with a richer talent and more leisure I think that this great ignorance might be a help to the evangelisation of England; any amount of theology can now be smuggled into people's minds under cover of romance [heroic fantasy stories] without their knowing it."</p>
+
+<p>The third book in the 'Space Trilogy' is called <em>That Hideous Strength</em> and set on Earth.  It describes and extrapolates what Lewis saw as the evil ideas in contemporary science, personified in an organisation called (with heavy irony) N.I.C.E.</p>
+
+<p>All three Space books included themes from various different mythologies, but <em>That Hideous Strength</em> was particularly criticised because of it: Professor Chad Walsh, an American authority on Lewis, disliked the Arthurian themes in the book.  George Orwell thought it would be better without any supernatural elements at all.  Readers, however, enjoyed the trilogy.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_8"> </a>
+	<div class="promo">
+	
+<h2 id="h8">Narnia</h2>
+	
+<h3>Fantasy in fur coats</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 120px;">
+	<img alt="The faun Mr. Tumnus (James McAvoy) in the film" height="180" src="/religion/religions/christianity/people/images/tumnus.jpg" width="120"/><span class="caption" style="width: 110px;">
+	Tumnus the faun <a href="/religion/copyright.shtml#disney/walden">&copy;</a>
+	</span>
+	</span>
+	
+
+<p>The very first element of Narnia came to Lewis when he was sixteen.  He saw in his imagination a faun (a mythological creature like a man with goat legs) carrying parcels in a snowy wood.  The image stayed with him, and many years later it found a place in one of his stories.</p>
+
+<p>Lewis began writing <em>The Lion, the Witch and the Wardrobe</em> in 1948.  The inspiration is not difficult to guess.  A few years earlier, during the Second World War, Lewis's household had played host to a group of children evacuated from London and other cities: The Lion, the Witch and the Wardrobe begins with four evacuees staying in the house of an old professor.</p>
+
+<p>One of the girls provided another piece of inspiration when she asked to play in a wardrobe in Lewis's house.  He soon set out to write a story for the children, who, he thought, did not read enough.  One can detect the author's own voice behind the professor's repeated cries of "What do they teach them at these schools?"</p>
+
+<p>Narnia gave Lewis an opportunity to indulge his love for animals and mythological creatures.  In Narnia there are both normal animals and intelligent, talking ones; valiant Mice and proud Horses live alongside giants, unicorns and satyrs.</p>
+
+<span class="image_with_caption float_right" style="width: 170px;">
+	<img alt="The children (Skandar Keynes, William Moseley, Georgie Henley, Anna Popplewell) arriving at the station in the film." height="140" src="/religion/religions/christianity/people/images/evacuees.jpg" width="170"/><span class="caption" style="width: 160px;">
+	The Pevensie children are evacuees <a href="/religion/copyright.shtml#disney/walden">&copy;</a>
+	</span>
+	</span>
+	
+
+<p>It may surprise readers who imagine that Lewis set out from the beginning to re-tell the Christian tale to find out that Aslan, the Christ-like lion, was not even thought of until some way into the story.  Then, as Lewis put it, he "came bounding into it" and brought with him all the ideas Lewis needed to finish the book.</p>
+
+<p>Lewis's friend J.R.R. Tolkien did not like the finished work.  He disapproved of the mixture of mythological creatures inhabiting Narnia and did not care much for the quality of the writing.  Lewis's publisher had doubts about whether it would sell, and thought there was more chance if the book were part of a series.  Lewis soon obliged, and wrote one Narnia book a year until the seventh brought the series to a definite end.</p>
+
+<p>At the time of publication, <em>The Lion, the Witch and the Wardrobe</em> went against a trend towards realism in children's stories.  Reviews of the books were not sympathetic; many were highly critical.  This did not discourage its intended readership, who loved the books: they remain popular today.</p>
+
+
+<object width="431" height="355"><param name="movie" value="http://www.bbc.co.uk/emp/external/player.swf"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><param name="FlashVars" value="config_settings_showUpdatedInFooter=true&config_settings_bitrateFloor=400&config_settings_showPopoutCta=false&config_settings_showPopoutButton=false&config_plugin_autoResumePlugin_recentlyPlayed=false&config_settings_suppressRelatedLinks=true&config_settings_skin=silver&config=http%3A%2F%2Fwww%2Ebbc%2Eco%2Euk%2Femp%2Fiplayer%2Fconfig%2Exml&playlist=http%3A%2F%2Fwww%2Ebbc%2Eco%2Euk%2Fiplayer%2Fplaylist%2Fp00hb9bd&config_settings_showFooter=true&"></param><embed src="http://www.bbc.co.uk/emp/external/player.swf" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="431" height="355" FlashVars="config_settings_showUpdatedInFooter=true&config_settings_bitrateFloor=400&config_settings_showPopoutCta=false&config_settings_showPopoutButton=false&config_plugin_autoResumePlugin_recentlyPlayed=false&config_settings_suppressRelatedLinks=true&config_settings_skin=silver&config=http%3A%2F%2Fwww%2Ebbc%2Eco%2Euk%2Femp%2Fiplayer%2Fconfig%2Exml&playlist=http%3A%2F%2Fwww%2Ebbc%2Eco%2Euk%2Fiplayer%2Fplaylist%2Fp00hb9bd&config_settings_showFooter=true&"></embed></object>
+
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_9"> </a>
+	<div class="promo">
+	
+<h2 id="h9">Christian allegory</h2>
+	
+<h3>Allegory or shaggy lion story?</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Some people seem to think that I began by asking myself how I could say something about Christianity to children; then fixed on the fairy tale as an instrument, then collected information about child psychology and decided what age group I'd write for; then drew up a list of basic Christian truths and hammered out 'allegories' to embody them. This is all pure moonshine. I couldn't write in that way. It all began with images; a faun carrying an umbrella, a queen on a sledge, a magnificent lion. At first there wasn't anything Christian about them; that element pushed itself in of its own accord.</p>
+	<p><cite>C.S. Lewis in Of This and Other Worlds, an essay collection edited by W Hooper</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Are the Chronicles of Narnia allegorical?  Lewis, a professor of English, was well placed to debate the exact meaning of allegory.  He said they were not: they were "supposals".  As he explained in a 1954 letter to some schoolchildren in Maryland:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>You are mistaken when you think that everything in the books 'represents' something in this world. Things do that in The Pilgrim's Progress [a 1678 allegory by John Bunyan] but I'm not writing in that way. I did not say to myself 'Let us represent Jesus as He really is in our world by a Lion in Narnia': I said, 'Let us suppose that there were a land like Narnia and that the Son of God, as he became a Man in our world, became a Lion there, and then imagine what would happen.'</p>
+	<p><cite>C.S. Lewis, quoted in Walter Hooper, C. S. Lewis: A Companion and Guide</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Lewis was not aiming to teach children Christianity with the Narnia books.  He wanted to introduce similar ideas that would make it easier for children to accept Christianity: what he called "a sort of pre-baptism of the child's imagination." (George Sayer, <em>Jack: A Life of C S Lewis</em>)</p>
+
+<span class="image_with_caption float_left" style="width: 120px;">
+	<img alt="Peter (William Moseley) with sword upraised, from the film." height="180" src="/religion/religions/christianity/people/images/peterpevensie.jpg" width="120"/><span class="caption" style="width: 110px;">
+	Is valiant Peter a nod to Saint Peter? <a href="/religion/copyright.shtml#disney/walden">&copy;</a>
+	</span>
+	</span>
+	
+
+<p>Each of the Chronicles focuses on a different part of the Christian story and theology.  <em>The Lion, the Witch and the Wardrobe</em> draws on themes of sacrifice and resurrection.  In <em>The Magician's Nephew</em>, the first book in chronological order, Narnia is sung into being by Aslan but corrupted by original sin.  <em>The Last Battle</em> is an apocalyptic culmination.  Other books feature pilgrimages, "the restoration of the true religion after a corruption" and the foiling of many evil schemes.</p>
+
+<p>In <em>The Lion, the Witch and the Wardrobe</em>, along with Aslan as Christ figure, one character fulfils a Judas role by being tempted to betray the others, while the White Witch herself plays the role of the tempter.  The role of Father Christmas has been compared to the Holy Spirit, as has Aslan's magical breath.  The name of the oldest child may even have been a reference to Saint Peter.</p>
+
+<p>Other characters in the books reveal Lewis's attitudes to different peoples and ideas.  The Calormenes are a dark-skinned race living south of Narnia.  They carry scimitars, keep slaves and worship barbaric false gods: they are, all told, rather reminiscent of the worst Western portrayals of the Middle East.  Lewis satirises the modern schools and parenting practices of his time in <em>The Voyage of the Dawn Treader</em>. Among other themes, <em>The Last Battle</em> features a scorching attack on syncretism, the practice of combining religions.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_10"> </a>
+	<div class="promo">
+	
+<h2 id="h10">Christian apologetics</h2>
+	
+<h3>Lewis the Christian</h3>
+	
+
+<p>Before writing his Christian fiction books, C.S. Lewis was known as an apologist: a writer who defended his faith using logic.</p>
+
+<p>Lewis saw his books as a layman's view.  He tentatively advanced many unorthodox ideas, showing imagination and new approaches.  His most famous apologetic works are <em>The Problem of Pain</em>, <em>Miracles</em> and <em>Mere Christianity</em>.</p>
+
+<p>A student called Elizabeth Anscombe criticised <em>Miracles</em> in February 1948 at a meeting of the Oxford Socratic Club.  Anscombe, a Roman Catholic, was not trying to disprove Christianity or attack Lewis's faith, but she did find errors in his logic.</p>
+
+<p>Lewis's friends later described this debate as deeply humiliating for him and said it stopped him writing more books on theology.  Anscombe does not remember the debate that way: quoted in George Sayer's biography of Lewis, she said it was a "sober discussion" and that Lewis accepted her criticisms. He rewrote a chapter of his book following Anscombe's criticisms.</p>
+
+<p>Whatever the effect on Lewis, it is true that he was chastened.  He was concerned that the public might confuse the disproof of a logical argument for God with a disproof of God himself.  He realised that trying to prove God's existence through reason had been a mistake, and from then on his Christian writings were more concerned with intuitive faith and feeling.</p>
+
+<p>It was not long after this time that Lewis wrote his series of classic children's books, beginning in 1948 with <em>The Lion, the Witch and the Wardrobe</em>.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>I do not think there is a demonstrative proof ... of Christianity, nor of the existence of matter, nor of the good will and honesty of my best and oldest friends.  I think all three (except perhaps the second) far more probable than the alternatives.</p>
+	<p><cite>C.S. Lewis, from a letter of 23 December 1950</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Atheism and pessimism</h3>
+	
+
+
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	All these were rosy visions of the night,<br/>
+	The loveliness and wisdom feigned of old.<br/>
+	But now we wake. The East is pale and cold,<br/>
+	No hope is in the dawn, and no delight.
+</p>
+	<p><cite>C.S. Lewis, Spirits in Bondage I,VII</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Lewis described himself as a pessimist in his early years.  His experiences as a child, whether his physical clumsiness or the death of his mother, taught him to expect things to go wrong. Some years before converting to Christianity, the young Lewis wrote a series of poems published as <em>Spirits in Bondage</em>.  Although at this time he was calling himself an atheist, the poems show that he was greatly concerned with the idea of God's cruelty or indifference.  "The sky above is sickening, the clouds of God's hate cover it" he wrote. (<em>Spirits in Bondage I,VIII</em>)</p>
+
+<p>He later wrote in <em>Surprised by Joy</em> that he "was living in a whirl of contradictions.  I maintained that God did not exist.  I was also very angry with God for not existing.  I was equally angry with Him for creating a world."</p>
+
+<p>After becoming a Christian, Lewis's outlook seems to have been transformed and he became more positive, even extroverted.  "I had been, as they say, 'taken out of myself.'"</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_11"> </a>
+	<div class="promo">
+	
+<h2 id="h11">Merely Christian</h2>
+	
+<h3>Merely Christian</h3>
+	
+
+<p>Though his parents were Irish Protestants, when Lewis converted later in life he joined the Church of England.  He aimed to reach as many people as possible with his apologetic books, which meant that he was anxious to avoid points of disagreement between the different Christian denominations and focus on the ideas they all agreed on: the core of Christianity.</p>
+
+<p>That was what Lewis did when he gave the radio talks that were later published in book form as <em>Mere Christianity</em>.  He sent part of the text to clergymen of the Church of England, the Roman Catholic Church, Methodist and Presbyterian denominations to make sure his representation of 'mere Christianity' was one that they could all agree on.</p>
+
+<p>He did not intend 'mere Christianity' to be an alternative to the other denominations:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>It is more like a hall out of which doors open into several rooms.  If I can bring anyone into that hall I shall have done what I attempted.  But it is in the rooms, not in the hall, that there are fires and chairs and meals.  The hall is a place to wait in, a place from which to try the various doors, not a place to live in.</p>
+	<p><cite>C.S. Lewis, in the introduction to the reprint of Mere Christianity</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Analogy</h3>
+	
+
+<p>The hallway illustration is only one example of Lewis's penchant for analogy.  He broke down complicated questions for an audience with little or no religious knowledge.</p>
+
+<p>In a memorable example, when explaining the meaning of 'numinous' Lewis asked the reader to suppose they had been told there was a tiger in the next room: "you would probably feel fear".  If, however, they believed there was a ghost in the next room, they would feel "fear, but of a different kind ... with the Uncanny one has reached the fringes of the Numinous". (<em>The Problem of Pain</em>)</p>
+
+<p>In facing quite a complicated question about the idea that God lives outside time, Lewis used another clever analogy:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Suppose I am writing a novel.  I write "Mary laid down her work; next moment came a knock at the door!"  For Mary who has to live in the imaginary time of my story there is no interval between putting down her work and hearing the knock.  But I, who am Mary's maker, do not live in that imaginary time at all.  Between writing the first half of that sentence and the second, I might sit down for three hours and think steadily about Mary ... and the hours I spent in doing so would not appear in Mary's time (the time inside the story) at all.</p>
+	<p><cite>C.S. Lewis, Mere Christianity</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Piano keys, playwrights, megaphones and horses: Lewis recruited all these and more to explain his points.  They are one of the chief factors in his lively and accessible writing style.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_12"> </a>
+	<div class="promo">
+	
+<h2 id="h12">Trilemma - lord, liar or lunatic?</h2>
+	
+<h3>The 'Trilemma'</h3>
+	
+
+<p>One of the arguments Lewis uses in his books has grown particularly famous.  It is referred to as the 'trilemma' or the 'lord, liar or lunatic' problem, and it is a response to people who believe Jesus was a great human teacher but was not really divine.</p>
+
+<p>Look at Jesus's words as recorded in the Bible, Lewis said: he claimed to be the Son of God and to have the power to forgive sins.  They are not the sort of claims a good human being would make.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>A man who was merely a man and said the sort of things Jesus said would not be a great moral teacher.  He would either be a lunatic - on the level with a man who says he is a poached egg - or he would be the devil of hell.  You must take your choice.  Either this was, and is, the Son of God, or else a madman or something worse.  You can shut Him up for a fool or you can fall at His feet and call Him Lord and God.  But let us not come with any patronising nonsense about His being a great human teacher. He has not left that open to us.  He did not intend to.</p>
+	<p><cite>C.S. Lewis, Mere Christianity</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>The passage displays Lewis's overall attitude towards his faith: he felt Christianity was an all-or-nothing affair.  Half-heartedness was not to be tolerated.  There was no middle ground.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_13"> </a>
+	<div class="promo">
+	
+<h2 id="h13">Screwtape Letters</h2>
+	
+<h3>Knowing one's Enemy</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>My dear Wormwood,</p>
+	<p>So you "have great hopes that the patient's religious phase is dying away", have you?  I always thought the Tempters' Training College had gone to pieces since they put old Slubgob at the head of it, and now I am sure.</p></p>
+	<p><cite>C.S. Lewis, The Screwtape Letters</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p><em>The Screwtape Letters</em> consists of a series of letters from a senior demon to a junior tempter, advising him in his pursuit of a human soul.  The <em>Letters</em> had originally been published weekly in a Church paper called <em>The Guardian</em> (not the same as the British national newspaper), before being collected as a book.</p>
+
+<p>The humour in Screwtape stems from its reversal of values: for example, the bureaucracy of Hell is called the Lowerarchy, and the persons referred to as "Our Father" and "the Adversary" are not who a Christian would normally expect.  Lewis returns to themes he discussed in <em>Surprised by Joy</em> and <em>Mere Christianity</em>, this time from the opposite point of view; and although writing entertainingly, he lays into weighty spiritual problems.  Screwtape advises his nephew on "the routine technique of sexual temptation" and "the painful subject of prayer", and Lewis's own views are plainly visible beneath the satire.</p>
+
+<p>Lewis found <em>The Screwtape Letters</em> unpleasant to write.  He felt that placing himself in the mind of a demon had been dangerous for his own character.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_14"> </a>
+	<div class="promo">
+	
+<h2 id="h14">Animal theology</h2>
+	
+<h3>Animals</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>We may find it difficult to formulate a human right of tormenting beasts in terms which would not equally imply an angelic right of tormenting men.</p>
+	<p><cite>C.S. Lewis, Vivisection</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>C.S. Lewis loved animals, as his earliest writings show.  He felt the question of animal suffering was a significant problem for Christianity: so important that he dedicated a chapter of <em>The Problem of Pain</em> to it.</p>
+
+<p>Lewis believed that humans were absolutely separate from animals, but he considered animals conscious - or some animals to be more conscious than others.  It would be unhelpful to group apes with earthworms: "Clearly in some ways the ape and man are much more like each other than either is like the worm".  There was a difference in complexity from 'lower' to 'higher' animals.</p>
+
+<p>"At some point ... sentience almost certainly comes in, for the higher animals have nervous systems very like our own." (<em>The Problem of Pain</em>)  This was by no means an accepted view.  It would have been a potentially expensive one, because vivisection - damaging or fatal experiments on animals - and other exploitative uses of animals were commonplace, and acknowledging animal sentience would mean admitting that these practices were cruel.</p>
+
+<h3>Cruel men</h3>
+	
+
+<p>Lewis condemned vivisection absolutely, and said so in a 1947 essay.  He deplored the popular arguments in favour of experiments on animals, calling them "easy speeches that comfort cruel men".  He pointed out that the same ideas could be used to justify experiments on humans, and explicitly drew a comparison with the Nazis.</p>
+
+<p>This would be emotive language at any time, but it was shocking in context: this was 1947, two to three years after the liberation of the concentration camps.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>The Christian defender ... is very apt to say that we are entitled to do anything we please to animals because they 'have no souls'. But what does this mean? If it means that animals have no consciousness, then how is this known? They certainly behave as if they had, or at least the higher animals do. I myself am inclined to think that far fewer animals than is supposed have what we should recognize as consciousness. But that is only an opinion. Unless we know on other grounds that vivisection is right we must not take the moral risk of tormenting them on a mere opinion.</p>
+	<p>On the other hand, the statement that they 'have no souls' may mean that they have no moral responsibilities and are not immortal. But the absence of 'soul' in that sense makes the infliction of pain upon them not easier but harder to justify, for it means that animals cannot deserve pain, nor profit morally by the discipline of pain, nor be recompensed by happiness in another life for suffering in this. ... 'Soullessness', in so far as it is relevant to the question at all, is an argument against vivisection.</p>
+	</p>
+	<p><cite>C.S. Lewis, Vivisection</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Lewis's love for animals shines through all his writings, and it made him especially concerned with finding a meaning behind animal suffering.</p>
+
+<h3>Nature red</h3>
+	
+
+<p>Lewis's concern did not end at animal pain that was inflicted by humans.  He saw the whole of nature as cruel, with animals killing and eating others to survive.  His theology explained human pain by way of humanity's fallen state, but animals had committed no sin.  Lewis reasoned that humanity's fall had brought animals down to a fallen state too.</p>
+
+<p>In examining the problem of wild animals' pain, Lewis's thinking involved a hierarchy: from plants, the 'lowest' form of life, to animals, humans, angels and finally God.  Lewis saw conflict in the world of plants, where the competition for light and nutrients caused some plants to succeed and some to die, but he didn't think this was cruel: plants are not sentient, so they don't feel pain or suffering.</p>
+
+<p>The idea of animals preying on other animals presents more of a problem, at least where the prey is sentient.  Lewis, along with other theologians, felt that this could not be the natural way of things and that an evil power had altered nature in order to cause more misery.  (As The Screwtape Letters shows, Lewis believed in Satan.)</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>If it offends less, you may say that the "life-force" is corrupted, where I say that living creatures were corrupted by an evil angelic being.  We mean the same thing: but I find it easier to believe in a myth of gods and demons than in one of hypostatised abstract nouns.</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>In <em>The Problem of Pain</em> Lewis presented an imagined glimpse of un-fallen humanity, as he had previously done in the fictional settings of <em>Out of the Silent Planet</em> and <em>Perelandra</em>.  He believed humans had fallen to a lower state, so that they were much more like animals.  Taking this idea further, he ventured the idea that animals had fallen back to "behaviour proper to vegetables" - that the behaviour of preying on each other was something natural to plants and not to animals.</p>
+
+<p>Despite these ideas, Lewis does not seem to have believed that humans should be vegetarian: indeed, he was known to poke fun at 'fashionable' vegetarians.  Vegetarianism was not widespread in the 1950s, nor was the knowledge that a vegetarian diet can be healthy, so Lewis's attitude is hardly surprising.</p>
+
+<h3>Pet heaven</h3>
+	
+
+<p>Lewis, very unusually for the time, thought that there ought to be some provision in Christianity for resurrection or heaven for animals.</p>
+
+<p>Resurrection would be meaningless for some animals: "If the life of a newt is merely a succession of sensations, what should we mean by saying that God may recall to life the newt that died to-day?  It would not recognise itself as the same newt".  If the newt was not aware enough to be made miserable or happy by pain or pleasure, there would be no way to reward it or compensate it for its life on earth.</p>
+
+<p>Domestic animals, though, obviously had something like a personality.  Lewis thought that when humans tamed animals, in accordance with their God-given dominion over them, the animals became more themselves.</p>
+
+<p>To Lewis the practice of taming animals, and making them more humanlike, was an obvious parallel to God's way of making believing Christians more Christlike.  He suggested that domestic animals might somehow achieve immortality in the context of their masters' immortality.  It is a comforting thought for anyone who has hoped to see their beloved pet in heaven, though not much use to a dog belonging to a non-Christian.</p>
+
+<p>The talking animals of Narnia are a different case.  They have humanlike personalities and free will of their own and seem to be responsible for their own actions.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_15"> </a>
+	<div class="promo">
+	
+<h2 id="h15">Quotations</h2>
+	
+
+<h3>Quotations</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>I think that all things, in their way, reflect heavenly truth, the imagination not least.</p>
+	<p><cite>C.S. Lewis, Surprised by Joy</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Of course you're right about the Narnian books being better than the tracts; at least, in the way a picture is better than a map.</p>
+	<p><cite>C.S. Lewis, from a 1953 letter to a child</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Being Christian</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Keep back nothing.  Nothing that you have not given away will ever be really yours.  Nothing in you that has not died will ever be raised from the dead.  Look for yourself, and you will find in the long run only hatred, loneliness, despair, rage, ruin, and decay.  But look for Christ and you will find Him, and with Him everything else thrown in.</p>
+	<p><cite>C.S. Lewis, Mere Christianity</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>'Joy'</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>Only a moment.</p>
+	<p>O! but we shall keep<br/>
+	Our vision still. One moment was enough,<br/>
+	We know we are not made of mortal stuff.</p>
+	</p>
+	<p><cite>C.S. Lewis, Spirits in Bondage, I,XV</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>If I find in myself a desire which no experience in this world can satisfy, the most probable explanation is that I was made for another world.</p>
+	<p><cite>C.S. Lewis, Mere Christianity</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>There have been times when I think we do not desire heaven; but more often I find myself wondering whether, in our heart of hearts, we desire anything else.</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>All the things that have ever deeply possessed your soul have been but hints of it - tantalising glimpses, promises never quite fulfilled, echoes that died away just as they caught your ear.  But if it should really become manifest - if there ever came an echo that did not die away but swelled into the sound itself - you would know it.  Beyond all possibility of doubt you would say "Here at last is the thing I was made for".</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Joy is distinct not only from pleasure in general but even from aesthetic pleasure.  It must have the stab, the pang, the inconsolable longing.</p>
+	<p><cite>C.S. Lewis, Surprised by Joy</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>It is never a possession, always a desire for something longer ago or further away or still "about to be".</p>
+	<p><cite>C.S. Lewis, Surprised by Joy</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Conversion</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>My own position at the threshold of Xianity was exactly the opposite of yours.  You wish it were true; I strongly hoped it was not.  At least, that was my conscious wish: you may suspect that I had unconscious wishes of quite a different sort and that it was these which finally shoved me in.</p>
+	<p><cite>C.S. Lewis, in a letter of 14 December 1950</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>He is not proud ... He will have us even though we have shown that we prefer everything else to Him, and come to him because there is "nothing better" to be had.</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>'Good news'</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>When the apostles preached, they could assume even in their Pagan hearers a real consciousness of deserving the Divine anger ... It was against this background that the Gospel appeared as good news.  It brought news of possible healing to men who knew that they were mortally ill.  But all this has changed.  Christianity now has to preach the diagnosis--in itself very bad news--before it can win a hearing for the cure.</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Problem of pain</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Everyone has noticed how hard it is to turn our thoughts to God when everything is going well with us ... While what we call "our own life" remains agreeable we will not surrender it to Him.  What then can God do in our interests but make "our own life" less agreeable to us, and take away the plausible sources of false happiness?</p>
+	<p><cite>C.S. Lewis, The Problem Of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>I am not arguing that pain is not painful.  Pain hurts.  That is what the word means.  I am only trying to show that the old Christian doctrine of being made "perfect through suffering" is not incredible.  To prove it palatable is beyond my design.</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Being part of God's plan</h3>
+	
+
+<p>Lewis saw different kinds of good in the world.  There was "simple good" performed by good people; but Lewis believed that God is also able to exploit "simple evil" for his own purposes, which turns it into "complex good".</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>A merciful man aims at his neighbour's good and so does "God's will", consciously co-operating with "the simple good".  A cruel man oppresses his neighbour, and so does simple evil.  But in doing such evil, he is used by God, without his own knowledge or consent, to produce the complex good--so that the first man serves God as a son, and the second as a tool.</p>
+	<p>For you will certainly carry out God's purpose, however you act, but it makes a difference to you whether you serve like Judas or like John.</p>
+	</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Love vs. kindness</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>By the goodness of God we mean nowadays almost exclusively His lovingness ... by Love, in this context, most of us mean kindness -- the desire to see others than the self happy; not happy in this way or in that, but just happy.  What would really satisfy us would be a God who said of anything we happened to like doing, "What does it matter so long as they are contented?"  We want, in fact, not so much a Father in Heaven as a grandfather in heaven -- a senile benevolence who, as they say, "liked to see young people enjoying themselves" and whose plan for the universe was simply that it might be truly said at the end of each day, "a good time was had by all".</p>
+	<p><cite>C.S. Lewis, The Problem of Pain</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Aslan</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>"He'll be coming and going," [Mr Beaver] had said. "One day you'll see him and another you won't.  He doesn't like being tied down - and of course he has other countries to attend to.  It's quite all right.  He'll often drop in.  Only you mustn't press him.  He's wild, you know.  Not like a tame lion."</p>
+	<p><cite>C.S. Lewis, The Lion, the Witch and the Wardrobe</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_16"> </a>
+	<div class="promo">
+	
+<h2 id="h16">Audio</h2>
+	
+<h3>Beyond Personality: The New Men</h3>
+	
+
+<p>This is the only surviving footage of C.S. Lewis's broadcast talks.  The New Men is the last episode in <em>Beyond Personality</em>, the third series.  It was broadcast on BBC radio on 21st March 1944.</p>
+
+<p>The transcripts of all three series were published as <em>Mere Christianity</em>.</p>
+
+<div id="emp_box_1" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_1");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/religions/christianity/cslewis/beyond_personality.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+<h3>An introduction to The Great Divorce</h3>
+	
+
+<p>"Blake wrote <em>The Marriage of Heaven and Hell</em>.  If I've written of their divorce, this is not because I think myself a fit antagonist for so great a genius, nor even because I feel at all sure that I knew what he meant..."</p>
+
+<p>C.S. Lewis introduces his book <em>The Great Divorce</em> in a clip first broadcast on 9th May 1948.</p>
+
+<div id="emp_box_2" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_2");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/religions/christianity/cslewis/the_great_divorce.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+<h3>Anne Atkins on C.S. Lewis</h3>
+	
+
+<div id="emp_box_3" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_3");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/thought/t20051201.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_17"> </a>
+	<div class="promo">
+	
+<h2 id="h17">Bibliography and reading list</h2>
+	
+<h3>Bibliography and reading list</h3>
+	
+
+<p>This is a select reading list of Lewis's works and books about his life.</p>
+
+<h3>Fiction</h3>
+	
+
+<p>Space Trilogy:</p>
+
+<ul>
+	<li><em>Out of the Silent Planet</em> (1938)</li>
+	<li><em>Perelandra</em> (1943)</li>
+	<li><em>That Hideous Strength</em> (1946)</li>
+</ul>
+
+<p><em>The Screwtape Letters</em> (1942)</p>
+
+<p><em>The Great Divorce</em> (1945)</p>
+
+<p>Chronicles of Narnia:</p>
+
+<ul>
+	<li><em>The Lion, the Witch and the Wardrobe</em>* (1950)</li>
+	<li><em>Prince Caspian</em> (1951)</li>
+	<li><em>The Voyage of the Dawn Treader</em> (1952)</li>
+	<li><em>The Silver Chair</em> (1953)</li>
+	<li><em>The Horse and His Boy</em> (1954)</li>
+	<li><em>The Magician's Nephew</em> (1955)</li>
+	<li><em>The Last Battle</em> (1956)</li>
+</ul>
+
+<p><em>Till We Have Faces</em> (1956)</p>
+
+<p>* Note: The Chronicles are listed in the order in which they were published, which may not be the order in which Lewis wrote them.</p>
+
+<p>Many of their fans prefer to read the books in chronological order (<em>The Magician's Nephew</em>; <em>The Lion, the Witch and the Wardrobe</em>; <em>The Horse and His Boy</em>; <em>Prince Caspian</em>; <em>The Voyage of the Dawn Treader</em>; <em>The Silver Chair</em>; <em>The Last Battle</em>).</p>
+
+<p>Lewis himself did not mind.  It may be best to read them in publication order the first time, and in chronological order after that.</p>
+
+<h3>Apologetics (theological books)</h3>
+	
+
+<p><em>The Problem of Pain</em> (1940)</p>
+
+<p><em>Miracles</em> (1947, revised 1960)</p>
+
+<p><em>Mere Christianity</em> (1952), the collection of his radio talks given 1941-1944</p>
+
+<h3>Autobiographical</h3>
+	
+
+<p><em>Surprised by Joy</em> (1955)</p>
+
+<p><em>A Grief Observed</em> (1961)</p>
+
+<h3>Poetry</h3>
+	
+
+<p><em>Spirits in Bondage</em>* (1919), an example of Lewis's pre-Christian thoughts</p>
+
+<p><em>Narrative Poems</em> (1969), a collection including <em>Dymer</em>, an early narrative poem from 1926</p>
+
+<p>* Note: <em>Spirits in Bondage</em> and <em>Dymer</em> were first published under the pseudonym Clive Hamilton (Lewis's mother's maiden name).</p>
+
+<h3>Academic and other</h3>
+	
+
+<p><em>A Preface to Paradise Lost</em> (1942), a highly-regarded study of the poem</p>
+
+<p><em>The Allegory of Love: A Study in Medieval Tradition</em> (1936)</p>
+
+<p><em>English Literature in the Sixteenth Century Excluding Drama</em> (1954), a textbook forming part of the <em>Oxford History of English Literature</em> series.  (Lewis took such pains researching this book that he referred to it as O-HEL.)</p>
+
+<p><em>Reflections on the Psalms</em> (1958)</p>
+
+<p><em>Of This and Other Worlds</em> (1982), essay collection edited by Walter Hooper</p>
+
+<h3>Books about Lewis</h3>
+	
+
+<p><em>Jack: A Life of C S Lewis</em>, George Sayer (1988), originally published as <em>Jack: C. S. Lewis and His Times</em></p>
+
+<p><em>C. S. Lewis: A Companion and Guide</em>, Walter Hooper (1996)</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<div class="promo">
+	<h2 id="findoutmore">Find out more</h2>
+	<ul>
+	<li><a href="/religion/religions/paganism/subdivisions/heathenry_1.shtml" title="Read more on Modern Norse religion">Modern Norse religion</a></li>
+	<li><a href="/religion/religions/christianity/history/disciples_1.shtml" title="Read more on Saint Peter">Saint Peter</a></li>
+	<li><a href="/religion/religions/atheism/" title="Read more on Atheism">Atheism</a></li>
+	<li><a href="/religion/religions/christianity/beliefs/originalsin_1.shtml" title="Read more on The Fall and original sin">The Fall and original sin</a></li>
+	<li><a href="/religion/religions/christianity/texts/bible.shtml" title="Read more on History of the Bible">History of the Bible</a></li>
+	<li><a href="/ethics/animals/" title="Read more on Animals in theology and ethics">Animals in theology and ethics</a></li>
+	</ul>
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	</div>
+	<div class="content_bottom"> </div>
+		
+	
+
+	</div>
+		
+	</div><!--closes Row - single column -->
+		
+	</div><!-- End: main content area -->
+			<!--START RHN CONTAINER -->
+		<div id="prg-wrapper-extra">
+			<div class="product_button">
+			
+				<!-- RELIGION HOMEPAGE BUTTON -->
+				
+				
+				
+				<!-- MORE RELIGIONS BUTTON -->
+				
+				
+				
+				
+				<!-- ATHEISM -->
+				
+				
+				<!-- BAHAI -->
+				
+				
+				<!-- BUDDHISM -->
+				
+				
+				<!-- CANDOMBLE -->
+				
+				
+				<!-- CHRISTIANITY -->
+				
+					<h2>
+						<span class="arrow content">&laquo;</span>
+						<a href="/religion/religions/christianity/" title="More Christianity">More <span>Christianity</span></a>
+					</h2>
+				
+				
+				<!-- HINDUISM -->
+				
+				
+				<!-- ISLAM -->
+				
+				
+				<!-- JAINISM -->
+				
+				
+				<!-- RASTAFARI -->
+				
+				
+				<!-- SANTERIA -->
+				
+				
+				<!-- SHINTO -->
+				
+				
+				<!-- SIKHISM -->
+				
+				
+				<!-- SPRITUALISM -->
+				
+				
+				<!-- TAOISM -->
+				
+				
+				<!-- UNITARIANISM -->
+				
+				
+				<!-- WITNESSES -->
+				
+				
+				<!-- ZOROASTRIAN -->
+				
+				
+				<!-- JUDAISM -->
+				
+				
+				<!-- MORMON -->
+				
+				
+				<!-- PAGANISM -->
+				
+			</div>	
+				
+					
+			
+			<!-- New row: -->
+			<div class="p-grp">		
+				<div class="p-mod">
+
+				
+					<!-- new promo module -->
+					<div class="promo">
+						<div class="rhn_header"><h2>See also</h2></div>
+						<div class="rhn_body">
+							<ul>
+								<li><a href="/religion/" title="Go to the Religion and Ethics homepage">Religion and Ethics home</a></li>
+								<li><a href="/religion/tools/calendar/" title="Go to the Interfaith calendar">Interfaith calendar</a></li>
+								<li><a href="/ethics/guide/" title="Go to Ethics Guides">Ethics guides</a></li>
+							</ul>
+						</div>
+						<div class="module_footer"></div>
+					</div>
+					
+					
+					
+						<div class="promo">
+	<div class="rhn_header"><h2>Around the BBC</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="/dna/mysciencefictionlife/A17736168">My Science Fiction Life - CS Lewis</a></li>
+	<li><a href="/dna/ww2/A625619">BBC h2g2 - Norse mythology</a></li>
+	<li><a href="/history/ancient/vikings/">BBC History - Vikings</a></li>
+	<li><a href="/history/worldwars/wwone/">BBC History - First World War</a></li>
+	<li><a href="/oxford/in_pictures/galleries/">BBC Oxford - Pictures of Oxford</a></li>
+	<li><a href="/oxford/content/articles/2005/12/06/narnia_middle_earth.shtml">BBC Oxford - C.S. Lewis places</a></li>
+	<li><a href="/history/worldwars/wwtwo/">BBC History - Second World War</a></li>
+	<li><a href="/dna/h2g2/brunel/A672022">BBC h2g2 - J.R.R. Tolkien</a></li>
+	<li><a href="http://news.bbc.co.uk/1/hi/northern_ireland/5078462.stm">BBC News - C.S. Lewis explains Narnia allegory</a></li>
+	<li><a href="/northernireland/learning/getwritingni/wh_lewis.shtml">BBC Northern Ireland - C.S. Lewis</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	<div class="promo">
+	<div class="rhn_header"><h2>Elsewhere on the web</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://cslewis.drzeus.net/">Into the Wardrobe</a></li>
+	<li><a href="http://www.findarticles.com/p/articles/mi_qa3818/is_199801/ai_n8802633">C.S. Lewis's theology of animals</a></li>
+	<li><a href="http://groups.google.co.uk/group/alt.books.cs-lewis?hl=en">C.S. Lewis newsgroup</a></li>
+	<li><a href="http://personal.bgsu.edu/~edwards/narnia1.html">Narnia in the news</a></li>
+	<li><a href="http://www.cslewis.org/">C.S. Lewis Foundation</a></li>
+	<li><a href="http://www.beliefnet.com/narnia/">Beliefnet - Narnia</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	
+					
+					
+					
+				</div>	
+			</div>
+			
+			<div class="clear_both"></div>
+		<!--END RHN CONTAINER-->
+		</div></div>
+	</div>
+		
+	               </div>   <div id="blq-mast" class="blq-rst blq-default-worldwide blq-new-nav" lang="en-GB"> <div id="blq-sign-in">  </div>  <form method="get" id="blq-search-form" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p id="blq-nav-search">  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/religion/religions/christianity/people/cslewis_1.shtml" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">      <li id="blq-nav-n"><a href="http://www.bbc.com/news/" hreflang="en-GB">News</a></li>  <li id="blq-nav-s"><a href="http://www.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://www.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/capital/" hreflang="en-GB">Capital</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More&hellip;</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/history/">History</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> <li><a href="/local/">Local</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2> <ul> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">  <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>      <li><a href="/terms/">Terms of Use</a></li>       <li><a href="/aboutthebbc/">About the BBC</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>        <li><a href="/privacy/">Privacy</a></li>       <li><a href="/accessibility/">Accessibility Help</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="/bbc.com/ad-choices/">Ad Choices</a></li>        <li><a href="/privacy/bbc-cookies-policy.shtml">Cookies</a></li>        <li><a href="/contact/">Contact the BBC</a></li>   </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">      <li><a href="/guidance/">Parental Guidance</a></li>  </ul> </li>  </ul> </div>   <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks/light.png" width="84" height="24" alt="BBC" /></div> <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+<!-- BBCDOTCOM analytics template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                    bbcdotcom.stats.contentType = "HTML";
+                                    }
+                /*]]>*/
+            </script>
+            <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+            <script type="text/javascript">
+                DM_tag();
+            </script>
+
+            <!-- SiteCatalyst code version: H.21.
+            Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+                            <script type="text/javascript">
+                    var s_account = "bbcwglobalprod";
+                </script>
+            
+                <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/s_code.js"></script>
+    
+            <script type="text/javascript"><!--
+            /* You may give each page an identifying name, server, and channel on
+            the next lines. */
+
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+            <noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+            src="http://sa.bbc.com/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.21. -->
+
+            <!-- Begin comScore Tag -->
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                COMSCORE.beacon({
+                    c1:2,
+                    c2:"6035051",
+                    c3:"",
+                    c4:"127.0.0.1:8888/religion/religions/christianity/people/cslewis_1.shtml",
+                    c5:"",
+                    c6:"",
+                    c15:""
+                });
+                /*]]>*/
+            </script>
+            <noscript>
+                <div>
+                    <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=127.0.0.1:8888/religion/religions/christianity/people/cslewis_1.shtml&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+                </div>
+            </noscript>
+            <!-- End comScore Tag -->
+
+            
+                            <!-- Effective Measure BBCCOM-1195 -->
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function() {
+                        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+                    })();
+                    /*]]>*/
+                </script>
+                <noscript>
+                    <div>
+                        <img src="http://me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                    </div>
+                </noscript>
+                <!-- End Effective Measure -->
+     </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>                  
+
+	<!-- progs scripts -->
+<script type="text/javascript" src="/ui/ide/1/js/glow_widgets/carousel/carousel.min.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/carousel.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/wallpaper.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/webform.js"></script>
+<script type="text/javascript" src="/vision/productisation/includes/scripts/accordion.js"></script>
+
+<div id="vision-prod-livestats-bug">
+	<!-- LiveStats -->
+<div class="blq-hide"><img id="livestats" width="1" height="1" alt="" src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~Vision~RS~t~RS~HighWeb_Content~RS~i~RS~0~RS~p~RS~religion~RS~a~RS~Genre~RS~u~RS~/religion/religions/christianity/people/cslewis_1.shtml~RS~r~RS~http://www.bbc.co.uk/religion/religions/christianity/~RS~q~RS~~RS~z~RS~56~RS~" /></div>
+
+<!-- LiveStats heatmap -->
+<script src="/cs/vision/stats/livestats.js" type="text/javascript"></script>
+
+
+</div>
+
+	</body>
+	</html>

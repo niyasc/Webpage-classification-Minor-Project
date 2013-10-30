@@ -1,0 +1,923 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+	<title>BBC - Religions - Christianity: Benedict XVI</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="Those close to the 265th Pope describe him as a razor-sharp, intelligent man and a good listener. They also claim that he is a far cry from his caricature media image - a modest and gentle pastor with a simple faith."/>
+	<meta name="keywords" content="pope benedict xvi, cardinal josef ratzinger, panzer cardinal, congregation for the doctrine of the faith, god's rottweiler"/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	<meta name="DCTERMS.created" content="2005-10-13"/>
+	<meta name="DCTERMS.updated" content="2009-08-06"/>
+	
+	
+                <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->         <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/script/blq_core.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie7.css" type="text/css" /> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png');} #blq-mast #blq-search-btn { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blq-search_grey_alpha.png', sizingMethod='image'); } </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->  <script type="text/javascript"> blq.assetPath="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  </script> <!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                    
+    
+
+	
+<style type="text/css">
+	@import '/vision/productisation/includes/css/v1/s-core-models.css';
+	@import '/vision/productisation/includes/css/v1/global.css';
+	@import '/vision/productisation/includes/css/v1/colourway.css';
+	
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/religion/religions/includes/css/product-specific.css"  />
+<link rel="stylesheet" type="text/css" media="print" href="/vision/productisation/includes/css/v1/print.css" />
+<!-- Barlesque: -->
+
+
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+<!-- 
+	if (document.documentElement && document.getElementById){
+		document.documentElement.className += " js";
+	}	
+// -->		
+</script>
+
+<!-- Glow library : core modules -->
+<script type="text/javascript">
+	gloader.load(["glow", "1", "glow.anim", "glow.net", "glow.dom", "glow.embed"]);
+</script>
+
+
+<!-- EMP embed support -->
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>  
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+
+<!-- Live Stats Variable -->	
+	
+	
+	
+<!-- End of Live Stats Variable Settings -->
+
+
+
+
+
+
+	
+	
+	</head>
+	<body class="orange prg-content-lhn article religion">
+	<div><a name="top"> </a></div>                <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=2.8&blq_r=2.7&blq_v=default-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=en-GB&amp;blq_s=2.8&amp;blq_r=2.7&amp;blq_v=default-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->    <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-2-8"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast --> <!-- BBCDOTCOM leaderboard template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  -->
+        <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <span id="blq-mast-background"></span> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span id="blq-blocks-wrapper"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span> </span> </a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li><a href="#blq-content">Skip to content</a></li>  <li><a href="#blq-local-nav">Skip to local navigation</a></li>  <li><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li><a href="#blq-search">Skip to bbc.co.uk search</a></li>  <li><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">        
+
+	<!--START PROGRAMMES CONTENT CONTAINER SHELL-->
+	<div id="prg-masthead">
+	<p><a href="/religion/religions/" title="Religions">Religions</a></p>
+
+	</div>
+	<div class="prg-wrapper" id="prg-wrapper-shell">
+	<div id="blq-content">
+		
+	<div id="prg-wrapper-featured"><!-- START MAIN CONTENT AREA -->
+	<div class="box top_promo">
+	<div class="header"><h1>Benedict XVI</h1>
+	<p><em>By <a href="/religion/biographies.shtml#taraholmes">Tara Holmes</a></em><em>Last updated 2009-08-06</em></p>
+	</div>
+	<div class="content">
+	<p>Those close to the 265th Pope describe him as a razor-sharp, intelligent man and a good listener. They also claim that he is a far cry from his caricature media image - a modest and gentle pastor with a simple faith.</p>
+	</div>
+	<div class="footer"> </div>
+	</div>
+		
+	<div class="p-grp p-grp-a p-grp-theme-n nth-row-n">
+	<!--LEFT HAND NAV-->
+	<div class="left-nav">
+	<h2>On this page</h2>
+	<ul>
+	 <li><a href="#h1">Life before the papacy</a></li>
+	<li><a href="#h2">One year on</a></li>
+	<li><a href="#findoutmore" title="See more related content">Find out more</a></li>
+	</ul>
+	<h3>Page options</h3>
+	<ul class="tools">
+	<li class="print"><a href="#" onclick="window.print();return false;">Print this page</a></li>
+	</ul>
+	
+	</div>
+		
+	<div class="center">
+	
+	<div class="content-main-header"> </div>
+	<div class="p-mod nth-child-1 content-main">
+	<a name="section_1"> </a>
+	<div class="promo">
+	
+<h2 class="heading-nth-1" id="h1">Life before the papacy</h2>
+	
+<h3>Introduction</h3>
+	
+
+<span class="image_with_caption float_right" style="width: 216px;">
+	<img alt="Pope Benedict XVI waving" height="200" src="/religion/religions/christianity/pope/images/benedictxviairport.jpg" width="216"/><span class="caption" style="width: 206px;">
+	Pope Benedict XVI waves to the crowd at Cologne Airport 
+	</span>
+	</span>
+	
+
+<p>It was a mild Tuesday evening when the curtain came up on the pontificate of Benedict XVI. White smoke was billowing out of the chimney of the Sistine Chapel. Crowds of people were pressing into St Peter's Square. And millions more across the world had tuned in to find out who had been elected the new Pope.</p>
+
+<p>The world was on tenterhooks as the Chilean Cardinal Jorge Medina Estévez stepped forward on the balcony above the square on April 19, 2005. "Habemus Papam," he announced, a smile stretching across his face.</p>
+
+<p>Catholics and non-Catholics, Christians and non-Christians across the world had been waiting with bated breath for this moment.</p>
+
+<p>Who would the new pope be? Had the cardinals chosen an Italian, a Latin American or even an African? Would he be liberal or conservative?</p>
+
+<p>And who could possibly step into the shoes of Pope John Paul II, the dynamic, charismatic and radical figure who had dominated the world stage for the past 27 years?</p>
+
+<div id="emp_box_1" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_1");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/religions/christianity/habemuspapambxvi.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Fratelli e sorelle carissimi! ¡Queridísimos hermanos y hermanas! Biens chers frères et sœurs! Liebe Brüder und Schwestern! Dear brothers and sisters! Annuntio vobis gaudium magnum: Habemus papam! Emminentissimum ac reverendissimum dominum, dominum Iosephum, sanctæ romanæ Ecclesiæ cardinalem Ratzinger, qui sibi nomen imposuit Benedicti decimi sexti.</p>
+	<p><cite>Cardinal Jorge Medina Estévez, 19 April 2005</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>The man chosen for the job was the German Cardinal Joseph Ratzinger. For the last 24 years he had been Prefect of the Vatican's Congregation for the Doctrine of the Faith (CDF), formerly known as the Holy Office of the Inquisition.</p>
+
+<p>His stern image as the Vatican's enforcer had earned him the nicknames of 'God's Rottweiler' and 'panzer cardinal'. In the words of the veteran journalist and author, Greg Watts, he was seen as "a kind of doctrinal Arnold Schwarzenegger."</p>
+
+<p>Stepping forward and raising his outstretched palms to the crowds, the new Pope addressed the crowd in Italian. "The cardinals have elected me, a simple and humble labourer in the vineyard of the Lord," he said. "The fact that the Lord knows how to work and to act, even with inadequate instruments, comforts me, and above all I entrust myself to your prayers."</p>
+
+<h3>Response to his election</h3>
+	
+
+<p>His election was greeted with a mixture of surprise and disbelief. Those who had hoped for a man who would carry on the legacy of John Paul II were ecstatic. Others who had seen this moment as an opportunity for change reacted with deep disappointment.</p>
+
+<p>The words 'conservative' and 'hardline' featured prominently in the media reports on the papal election. In the British tabloids, the new Pope appeared on their front pages as a "demonised figure" who had once been a member of the Hitler Youth.</p>
+
+<p>What wasn't made clear was that the young Ratzinger had not been an enthusiastic member. And like all young Germans at that time, his membership was compulsory.</p>
+
+<div id="emp_box_2" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_2");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/radio/aod/shows/rpms/radio4/papal_mass_20050424.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+<h3>The man behind the image</h3>
+	
+
+<p>Unlike Pope John Paul II who, at 58, had been the youngest pope to be elected in 100 years, Benedict XVI had just celebrated his 78th birthday when he became Supreme Pontiff of the world's 1.1 billion Roman Catholics.</p>
+
+<p>His 24 years as head of the CDF meant he was a known quantity with a track record. He was also a heavyweight theologian and the author of 50 books and numerous articles.</p>
+
+<p>Unlike his predecessor, he was already a highly public figure who provoked diverse reactions.</p>
+
+<h3>Who is Benedict XVI?</h3>
+	
+
+<p>Those close to the Pope describe him as a razor-sharp, intelligent man and a good listener. They also claim that he is a far cry from his caricature media image.</p>
+
+<p>He is known to be a modest and gentle pastor with a simple faith, combining powerful intellect with childlike piety.</p>
+
+<p>He is the 8th German to become Pope.  He speaks 10 languages and is an accomplished pianist. He is a member of a large number of academies including the French Académie des Sciences Morales et Politiques.</p>
+
+<h3>Childhood</h3>
+	
+
+<p>Joseph Aloysius Ratzinger was born into a traditional Bavarian farming family on April 16, 1927. He was baptised four hours later at the small parish church in the village of Marktl am Inn in south-eastern Bavaria close to the German border.</p>
+
+<p>He was the third and youngest child of Joseph and Maria Ratzinger. His father was a policeman who served in both the Bavarian State Police (Landespolizei) and the German national Regular Police (Ordnungspolizei) before retiring in 1937 to the town of Traunstein.</p>
+
+<p>The family was bitterly opposed to Nazism because it conflicted with their faith. Joseph's father did not publicly oppose the Nazis but he subscribed to an anti-Nazi newspaper.</p>
+
+<p>The Ratzinger family prayed together, recited the rosary and attended Sunday Mass. Like his older brother, Georg, young Joseph yearned to be a priest from an early age.</p>
+
+<p>Both boys loved music. Joseph later wrote that "Mozart thoroughly penetrated our souls" and that music contained "the whole tragedy of human existence."</p>
+
+<h3>World War Two</h3>
+	
+
+<p>Six months before Britain declared war on Germany, 12-year-old Joseph entered St Michael's minor seminary in Traunstein where his brother was already a student.</p>
+
+<p>When he turned 14, he was forced by law to join the Hitler Youth. Two years later, in 1943, he was drafted into the anti-aircraft artillery corp.</p>
+
+<p>Towards the end of war, he deserted the German army. Desertion was widespread in the later stages of the war and punishable by death. Ratzinger was briefly held as a prisoner of war by the Allies in 1945 at the age of 16.</p>
+
+<h3>Early academic career</h3>
+	
+
+<p>After the war he returned to seminary for a further six years. He and his brother were both ordained to the priesthood in Freising on June 29, 1951.</p>
+
+<p>He quickly progressed from parish work and entered the world of academia after obtaining a doctorate in theology in 1953 from Munich University. In 1958 he became professor of fundamental theology at Freising, aged 31.</p>
+
+<p>He was also appointed professor of fundamental theology in Bonn. In 1966 he accepted a chair in dogmatic theology at the University of Tubingen where the prominent Catholic theologian Hans Kung was a colleague.</p>
+
+<p>But this was not an altogether happy time for Ratzinger who distanced himself from the Marxist leanings of many of his students during the 1960s.</p>
+
+<p>In 1969, he moved to the more tranquil settting of Regensburg University in his native Bavaria, rising to become its dean and vice-president.</p>
+
+<h3>Vatican II</h3>
+	
+
+<p>During the Second Vatican Council (1962-65), Father Ratzinger served as a peritus, or theological consultant to Cardinal Josef Frings of Cologne.</p>
+
+<p>The Second Vatican Council or Vatican II was an historic, ecumenical meeting of the world's bishops, other religious leaders and thinkers convened by Pope John XXVIII to bring about a renewal of the Church.</p>
+
+<p>"Rubbing shoulders with bishops and theologians from across the globe was exciting for Ratzinger, who had little direct experience of the Church beyond Germany," explains Greg Watts in his book <em>Labourer in the Vineyard</em>.</p>
+
+<p>"Some years later Ratzinger said: 'This was a great time of my life, in which I was able to be part of this meeting, not only between continents and different cultures, but also different schools of thinking and spirituality in the Church.' "</p>
+
+<p>The council discussed the role of the Church in an increasingly fragmented and modern world. It produced important documents on Christian unity and introduced changes in the Mass.</p>
+
+<p>When the council closed in 1968 the encyclical <em>Humanae Vitae</em> (<em>Human Life</em>) sparked a crisis in the Church. The document reaffirmed traditional Catholic teaching that only natural methods of birth control were acceptable, leading to a major backlash in many quarters of the Church.</p>
+
+<p>Unlike his colleague, Hans Kung, Father Ratzinger became a staunch defender of <em>Humanae Vitae</em> and Church teaching on sexual morality. At one time, Ratzinger had been regarded as more liberal than Kung. Now the opposite was true.</p>
+
+<h3>Cardinal Archbishop of Munich</h3>
+	
+
+<p>After Vatican II, Father Ratzinger's reputation continued to grow within Vatican circles. He was appointed to the International Papal Theological Commission in 1972.</p>
+
+<p>In 1977 he was appointed Archbishop of Munich and Freising by Pope Paul VI.</p>
+
+<p>He was made a cardinal a month after his episcopal ordination and took part in his first ever conclave the following year. Two days into the conclave, Albino Luciani, the Patriarch of Venice was elected the 263rd successor to St Peter, taking the name Pope John Paul I.</p>
+
+<p>He died after only 33 days in office. Cardinal Ratzinger flew back to Rome for the unexpected second conclave that elected Karol Wojtyla (Pope John Paul II).</p>
+
+<h3>Congregation for the Doctrine of the Faith</h3>
+	
+
+<p>Cardinal Ratzinger was named Prefect of the Congregation for the Doctrine of the Faith (CDF) on November 25, 1981 by Pope John Paul II. He was also appointed President of both the Pontifical Biblical Commission and the International Theological Commission.</p>
+
+<p>The CDF is one of nine congregations in the Roman Curia and the only one with executive powers.</p>
+
+<p>During his time in office, Cardinal Ratzinger led a crackdown on Liberation theology in Latin America in the 1980s. He was also involved with the publication of the 1994 <em>Catechism of the Catholic Church</em>.</p>
+
+<p>He championed traditional Catholic teaching on artificial birth control, abortion and homosexuality. It was during this time that he became known as the Vatican's "enforcer of the faith".</p>
+
+<p>Sometimes he even clashed with colleagues over his views and this led to public disagreements.</p>
+
+<p>In 1993, for instance, he fell out with fellow German Cardinal Walter Kasper. Kasper had put his name to a pastoral letter calling for divorced Catholics who had remarried to be allowed to return to the sacraments. Ratzinger disagreed, arguing that the Church should not change its teaching.</p>
+
+<p>Another quarrel broke out in 2001, this time on the pages of Catholic journals over the role of the universal and local Church. Kasper argued that the local Church should take precedence whereas Ratzinger said it should be the other way round.</p>
+
+<h3>Controversy</h3>
+	
+
+<p>Arguably Ratzinger drew most criticism for his handling of clergy and monks and nuns who stepped out of line.</p>
+
+<p>One prominent case involved the 1997 excommunication of Father Tissa Balasuriya, a priest working in the predominately Buddhist Sri Lanka. Balasuriya had refused to accept Church teaching on a wide range of issues, particularly the doctrine of original sin.</p>
+
+<p>In 2001, Ratzinger threatened Archbishop Emeritus Emmanuel Milingo of Lusaka with excommunication. The flamboyant 71-year-old archbishop was a controversial figure who had performed exorcisms during healing Masses which attracted massive crowds.</p>
+
+<p>The controversy deepened when Milingo announced he had married 43-year-old Maria Sung in a ceremony presided over by the Reverend Sun Myung Moon, the founder of the Moonies.</p>
+
+<h3>Tackling sex abuse</h3>
+	
+
+<p>From 2001, responsibility for the investigation of sexual abuse by priests was passed to the CDF. The clergy sex abuse crisis resulted in priests and even bishops in some countries being accused or jailed.</p>
+
+<p>Cardinal Ratzinger defended the priesthood against the scandal of sex abuse, arguing that a crisis in faith, not celibacy, was the root of the problem. He also sparked controversy when he said that less than one per cent of priests in the United States were guilty of sexually abusing minors.</p>
+
+<p>Critics interpreted his comments as ignoring the crimes of those who had committed abuse. Supporters argued that he was pointing out that priests who live respectable lives should not be tainted by the sins of the few.</p>
+
+<p>A report by the Catholic Church helped to draw a line under the row. It revealed that 4,450 Catholic clergy who served between 1950 and 2002 had faced credible abuse allegations.</p>
+
+<h3>Health</h3>
+	
+
+<p>After 24 controversial years as the Church's top doctrinal watchdog, Cardinal Ratzinger had hoped to retire from the CDF after the election of a new pope.</p>
+
+<p>He had suffered a brain haemorrhage in 1991 which some observers suggested was related to the pressures of his work at the CDF. He also suffered another mild stroke some time between 2003 and 2005 and was reported to have a heart condition.</p>
+
+<p>Hopes of a peaceful retirement gradually began to fade after Pope John Paul II's death in April 2005. Ratzinger was now emerging as a strong contender for papacy. Deep down he must have known that this was a possibility. Like any man in his position, he feared the enormity of the task.</p>
+
+<p>After his election as pope, he revealed: "At a certain point, I prayed to God 'please don't do this to me'."</p>
+
+<h3>Candidates</h3>
+	
+
+<p>At one time Cardinal Conti Martini, an Italian Jesuit and biblical scholar, was considered the leading liberal contender for the papacy. After he moved to Jerusalem, rumoured to be suffering from Parkinson's disease, a new contest began.</p>
+
+<p>Some had predicted a revolutionary figure from the developing world or Latin America who would reform the Church. Others had hoped for a man who would carry on the legacy of Pope John Paul II.</p>
+
+<p>In April 2005, the conclave voted for continuity in the form of Joseph Ratzinger. In many ways he was an obvious choice.</p>
+
+<p>In the days after the death of Pope John Paul, the world started to see Cardinal Ratzinger in a new light.</p>
+
+<p>He was chosen to preside over the Pope's funeral on April 8, 2005, attended by almost one million mourners from around the world and broadcast to a global audience of two billion people.</p>
+
+<p>He also gave a much-acclaimed homily, described by the American Vatican correspondent John L. Allen as evolving from "a mere funeral speech to a turning point in the history of the Church".</p>
+
+<p>In his book <em>The Rise of Benedict XVI</em>, Allen described how Ratzinger became emotional at certain points in the homily. He was interrupted 13 times by outbursts of applause from the crowd and was visibly moved by their reaction.</p>
+
+<p>"Perhaps the most indelible memory for anyone who experienced the homily was the way the crowd, quite literally, became Ratzinger's conversation partner," observed Allen.</p>
+
+<p>After the conclave the new Pope continued to show a softer face to the world, surprising the vast crowd when he spoke about his role as a "shepherd in the desert" during his installation Mass.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Showing a pastoral concern that surprised his critics, he went on to talk about the deserts of poverty, hunger, thirst, abandonment, loneliness, of destroyed love, of God's darkness and the emptiness of souls no longer aware of their dignity or the goal of human life.</p>
+	<p><cite>Labourer in the Vineyard, Greg Watts</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Why Benedict?</h3>
+	
+
+<p>His choice of the name Benedict was significant. In his first general audience in St Peter's Square on April 27, 2005, the new Pope explained why he chose the name.</p>
+
+<p>He revealed: "Firstly, I remember Pope Benedict XV, that courageous prophet of peace, who guided the Church through turbulent times of war. In his footsteps I place my ministry in the service of reconciliation and harmony between peoples.</p>
+
+<p>"Additionally, I recall Saint Benedict of Nursia, co-patron of Europe, whose life evokes the Christian roots of Europe. I ask him to help us all to hold firm to the centrality of Christ in our Christian life: May Christ always take first place in our thoughts and actions."</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_2"> </a>
+	<div class="promo">
+	
+<h2 id="h2">One year on</h2>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The core of faith rests upon being loved by God, and therefore to believe is to say 'Yes', not only to him, but to creation, to creatures, above all to men, to try and see the image of God in each person and thereby become a lover.</p>
+	<p><cite>Pope Benedict XVI</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Like every other pope who had gone before him, the beginning of Benedict XVI's papacy was like an open book, the chapters waiting to be written.</p>
+
+<p>The difference was that many people around the world felt they already knew him.</p>
+
+<div id="emp_box_3" class="audio"><p>In order to see this content you need to have both <a title="BBC Webwise article about enabling javascript" href="/webwise/askbruce/articles/browse/java_1.shtml">Javascript</a> enabled and <a title="BBC Webwise article about downloading" href="/webwise/askbruce/articles/download/howdoidownloadflashplayer_1.shtml">Flash</a> installed. Visit <a href="/webwise" title="BBC webwise">BBC Webwise</a> for full instructions</p>
+	</div><script type="text/javascript">
+			glow.ready(function(){
+				var emp = new embeddedMedia.Player();
+				emp.setDomId("emp_box_3");
+				emp.setWidth("434");
+				emp.setHeight("106");
+				emp.setPlaylist("http://www.bbc.co.uk/religion/xml/emp/misc/benedict.xml");
+				emp.set("config_settings_displayMode","audio");
+				emp.set("config_settings_skin", "silver");
+				emp.write();
+			});
+		</script>
+
+<span class="image_with_caption float_right" style="width: 216px;">
+	<img alt="Pope Benedict XVI on a podium addressing crowds" height="151" src="/religion/religions/christianity/pope/images/benedictxvigermany.jpg" width="216"/><span class="caption" style="width: 206px;">
+	Pope Benedict XVI makes a visit to his native Germany 
+	</span>
+	</span>
+	
+
+<p>As prefect of the Congregation for the Doctrine of the Faith, his image was of an authoritarian, heresy-cracking cardinal, ruthless in his pursuit of dissident priests, monks and nuns. Many critics argued that the election of Cardinal Joseph Ratzinger as pope would be a recipe for disaster.</p>
+
+<p>To the outside world, he was an old-fashioned autocrat with none of the charm of his predecessor. His age and uncompromising stance on issues like the ordination of women priests and homosexuality put him at loggerheads with the liberal secular world.</p>
+
+<p>Within the Church, his image was more complex. The conservatives and traditionalists adored him as a firm defender of spiritual truths, courageous in the face of relativist philosophy and penetrating the Church's dissident wing. Those of a more liberal persuasion loathed him, dubbing him "the enforcer" and the "panzer cardinal".</p>
+
+<p>Would his pontificate sound the death knell for the Catholic Church or would there be a few surprises in store?</p>
+
+<h3>Carrying on the legacy of Pope John Paul II</h3>
+	
+
+<p>John Paul II had been seen in the flesh by more people than any other human being who has ever lived.</p>
+
+<p>At World Youth Day in Manila in 1995, 4.5 million people gathered to see him. In Mexico City in 1979, 10 million people turned out. Such was his appeal that he regularly drew large crowds.</p>
+
+<p>For Benedict, following in the footsteps of Pope John Paul must have seemed an unenviable and daunting task.</p>
+
+<h3>Exit the enforcer, enter the Pope</h3>
+	
+
+<p>As the overheated reaction to his election ebbed away, Benedict began to show a softer face to the world, emerging as a gentle pastor whose appeal to those languishing in the "spiritual deserts" of personal despair won over many hearts and minds.</p>
+
+<p>Despite his own record as a heavyweight theologian and author, he insisted that God wanted simple faith rather than great knowledge.</p>
+
+<p>In an interview with the Spanish newspaper <em>La Razon</em>, Cardinal Joachim Meisner of Cologne said: "He [Pope Benedict] has the intelligence of 12 professors and is as pious as a child on the day of his first communion."</p>
+
+<p>In an article for the London-based <em>Catholic Herald</em>, the Jesuit priest Anthony Symondson agreed with this analysis and pointed to a sea change in the public's attitude towards the new Pope.</p>
+
+<p>He observed: "Few public figures have had the good fortune to have their caricature stripped so effectively from public consciousness than him. What is more, his formidable body of writing is being read more widely than that, I suspect, of any living theologian. Nothing but good can come of this, because those who did read Ratzinger before his election soon came to realise he was not the man generally misrepresented by the media and his critics."</p>
+
+<h3>Honeymoon period</h3>
+	
+
+<p>In the days after his election, Benedict made it clear that his priorities would be ecumenism and interfaith dialogue. He also spoke of the need for the Church to witness authentic social development and his desire to bring joy and hope to others.</p>
+
+<p>He signalled his ongoing commitment to the reforms of Vatican II. In an address to representatives of the world's religions on April 25 2005, he said: "At the beginning of my pontificate I address to you, believers in religious traditions who represent all those who seek the truth with a sincere heart, a strong invitation to become together artisans of peace in a reciprocal commitment of comprehension, respect and love."</p>
+
+<p>True to his word, Benedict launched a rolling programme of meetings aimed at promoting peace and harmony between the world's faith communities.</p>
+
+<h3>Diplomatic row</h3>
+	
+
+<p>The first sign of trouble for the new Pope came in July 2005 when he used his Sunday Angelus to condemn terrorist attacks in Egypt, Turkey, Iraq and Britain.</p>
+
+<p>The following day Israel formally registered disappointment over Benedict's apparent failure to recognise Israel as "one of the principal victims of Islamic terrorism."</p>
+
+<p>The Vatican's response was that terror attacks on Israel fell under the "general and unreserved condemnation of terrorism". Some critics suggested that this was no mistake but a political decision - the Pope may have left Israel out deliberately as a gesture to the Muslim world.</p>
+
+<p>Whatever his reasons, the controversy provoked a souring in Catholic-Jewish relations.</p>
+
+<h3>Forging links with the Muslim world</h3>
+	
+
+<p>The following month, the Pope made fresh calls for Christians and Muslims to work together to eradicate the threat of terrorism.</p>
+
+<p>Meeting with Islamic leaders at World Youth Day (WYD) in Germany during his first foreign trip, he called on them to promote interreligious cooperation among younger generations of Muslims.</p>
+
+<p>Condeming terrorism in unusually forceful terms he spoke of an urgent need to "turn back the wave of cruel fanaticism" in the world.</p>
+
+<h3>Reaching out to the Jewish community</h3>
+	
+
+<p>Benedict was perhaps facing a tougher challenge when he visited Cologne's synagogue during the same trip to his native Germany.</p>
+
+<p>The dust had barely settled on the diplomatic row between Israel and the Vatican when the Pope made his landmark visit during the World Youth Day celebrations in August 2005.</p>
+
+<p>After Pope John Paul II, he was only the second pontiff in modern times to have visited the synagogue. Many observers were wondering whether the bridge-building begun by the previous pope would continue under his successor.</p>
+
+<p>Benedict's advisors must have breathed a collective sigh of relief when the new Pope received a standing ovation from Jewish leaders for condemning the rise of anti-Semitism.</p>
+
+<p>The visit was hailed as an important historical gesture by Cologne's Jewish community, which dates back to 321 AD. In the Middle Ages, many of the city's Jews suffered anti-Semitic persecution. During the Nazi Holocaust 11,000 Cologne Jews were killed.</p>
+
+<p>It also marked a turning point in Vatican-Jewish relations and sealed the success of the Pope's return to his home country. It was an important sign that the work begun by John Paul II would continue.</p>
+
+<h3>Christian unity</h3>
+	
+
+<p>Pope Benedict also used his trip to Germany to repeat his pledge to make ecumenism a priority in his pontificate.</p>
+
+<p>Meeting Protestant and Orthodox leaders, he said the 30-minute encounter assumed special significance because Germany was not only the birthplace of the Reformation more than 400 years ago but had become a place of ecumenical dialogue in recent years.</p>
+
+<p>In the run-up to his visit, some Protestant leaders were sceptical about any possible breakthroughs. Responding to their criticisms, the Pope said there were no easy solutions but insisted that dialogue should continue.</p>
+
+<p>But for many German Protestants leaders and observers, it was unclear how this could work in reality. There was no mention of shared communion, which is only allowed in special circumstances within the Catholic Church. And issues like the ordination of women and homosexuality would remain major stumbling blocks.</p>
+
+<p>Nevertheless, the meeting ended on a positive note. The Pope's words, particularly his call to work towards unity through living in accordance with the Gospel, struck a chord with many German Protestants.</p>
+
+<p>Bishop Wolfgang Huber, head of the Evangelical Church in Germany, said he was optimistic about future dialogue.</p>
+
+<span class="image_with_caption float_right" style="width: 216px;">
+	<img alt="Pope Benedict XVI in front of crowds of young Catholics with hands held out in blessing" height="151" src="/religion/religions/christianity/pope/images/benedictxviwyd.jpg" width="216"/><span class="caption" style="width: 206px;">
+	Pope Benedict in Cologne during World Youth Day 
+	</span>
+	</span>
+	
+
+<h3>World Youth Day</h3>
+	
+
+<p>The main focus of Benedict's trip to Germany was to encounter the world's youth. Many had wondered how the new Pope would be received by young Catholics from the across the globe. Pope John Paul II had had a special rapport with young people which many believed would be hard for Benedict to emulate.</p>
+
+<p>In the event, the visit was a resounding success - almost one million young people turned up to welcome Benedict on his first trip abroad as Pope.</p>
+
+<h3>Healing rifts</h3>
+	
+
+<p>Around the time of World Youth Day, Benedict XVI agreed to two landmark meetings which also cast the new Pope in an extremely favourable light.</p>
+
+<p>The first led to a small breakthrough in relations with China which had been strained for many years because the Chinese Communist government insists on the right to ordain its own bishops and priests.</p>
+
+<p>Officially the Vatican does not recognise their ordinations as valid. Millions of Chinese Catholics are forced to worship in underground churches and many have been persecuted by the state.</p>
+
+<p>Since his election the Pope has been keen to improve relations with Beijing. The first sign of a reconciliation came when he met 28 priests from the state-run Chinese Catholic Church during a visit to Rome in the summer.</p>
+
+<p>The second sign came just weeks before the first anniversary of his papacy. In March 2006 Benedict appointed 15 new cardinals including Archbishop Joseph Zen of Hong Kong, an active campaigner for religious freedom in China.</p>
+
+<p>The archbishop, an outspoken critic of the Chinese government, was elevated to the College of Cardinals along with several other leading churchmen from the developing world.</p>
+
+<p>Amongst them were three new Asian cardinals including Filipino Gaudencio Borgon Rosales.  The 15 new cardinals came from 11 countries and also included Archbishop Stanislaw Dziwisz, the long-time private secretary of Pope John Paul II, and Archbishop Sean O'Malley, who was drafted in by the Vatican to tackle child sex abuse in Boston archdiocese.</p>
+
+<p>In the early months of his pontificate, Benedict also took the first step towards ending a rift between the Vatican and the Society of Saint Pius X.</p>
+
+<p>The Society was set up in the 1960s after liberalising changes were introduced during the Second Vatican Council.</p>
+
+<p>One of the changes was the decision to allow Mass to be celebrated in local languages instead of Latin. The Society has accused the Vatican of becoming too liberal and continues to celebrate Mass in Latin according to the Old Rite.</p>
+
+<p>During the summer of 2005, the Pope met the Society's leader, Bishop Bernard Fellay, who had been excommunicated by Rome 17 years ago. In 1988, Fellay and three others were consecrated bishops by the Society's excommunicated founder, Archbishop Marcel Lefebvre.</p>
+
+<h3>No limit to dialogue</h3>
+	
+
+<p>In a more controversial move, it emerged that the Pope had agreed to a private meeting with Oriana Fallaci, an Italian author whose best-selling books criticise Islam.</p>
+
+<p>In May 2005, an Italian judge had ordered her to stand trial for defaming Islam in her 2004 book <em>La Forza della Ragione</em> (<em>The Force of Reason</em>).</p>
+
+<p>In the book, Fallaci wrote that terrorists had killed 6,000 people over the last 20 years in the name of Islam. She also claimed the Islamic faith "sows hatred in the place of love and slavery in the place of freedom."</p>
+
+<p>As the news of the meeting leaked out, Italian politicians sprang to the Pope's defence, arguing that Benedict had been right to accept Fallaci's request for a private audience.</p>
+
+<p>"The Holy Father has acted as the Vicar of Christ and acted like Christ himself, who never refused to talk to anyone," said former president Francesco Cossiga.</p>
+
+<h3>Turning the tide</h3>
+	
+
+<p>Some say the real test of Benedict's pontificate will be whether he is able to halt the advance of secularism and relativism penetrating the Catholic Church in the West. For all his charisma and travels, John Paul II was not able to stop the trend.</p>
+
+<p>In Europe, the Catholic Church is in crisis. It is here where Benedict will face his biggest challenges. There are now just 12 seminarians for every 100 priests. Over the last 40 years, Mass attendance has plummeted, clergy has dwindled, parishes have merged and convents have been put up for sale. Many religious orders are also struggling to survive.</p>
+
+<p>By contrast, the number of Catholics in Africa has tripled over the last 25 years, rising from 55 million to almost 144 million - 17 per cent of the continent's population. In Asia and Latin America, the Church has also seen a rapid growth.</p>
+
+<p>The problems Africa faces are different to those faced by the West - poverty, disease, AIDS, a lack of basic health and education, social injustice and civil war.</p>
+
+<p>In the prosperous West, the greatest struggle facing the Church is what Benedict describes as the "twin evils" of secularism and relativism.</p>
+
+<p>This will be the battleground where Benedict's pontificate will be played out. It is here he will make more enemies than friends. Signs that it won't be an easy ride have already emerged.</p>
+
+<h3>Banning gay men from priesthood</h3>
+	
+
+<p>At the end of August 2005, <em>The Observer</em> reported that the Vatican had drawn up a religious instruction which would ban gay men from the priesthood.</p>
+
+<p>The document is part of the Vatican's response to the sex abuse scandal in the American church which has led to hundreds of priests filing lawsuits against superiors who have allegedly abused them.</p>
+
+<p>The newspaper claimed that research had shown that "a significant proportion of men who enter seminaries to train for the priesthood are gay". It also maintained a cardinal, not the Pope, would sign the document to enable Benedict to distance himself from the controversy.</p>
+
+<p>And it concluded that publishing the instruction would underscore Benedict's "religious conservatism", bringing his "honeymoon period" to an end.</p>
+
+<h3>Christian paradox</h3>
+	
+
+<p>Bob Moynihan, editor of <em>Inside the Vatican</em> magazine, turns this theory on its head, arguing that Benedict exemplifies the paradox of Christianity by being both radical and conservative.</p>
+
+<p>He explains: "He takes both positions to their extremes, therefore his mind is a broad mind which realises that if you don't conserve things, you don't have any place to depart from; anything to build on... At the same time, you have to react to the changes of our times. No one could have imagined the changes that John Paul II brought in but at his right hand all this time was Ratzinger. They were always open in so many ways to these changes and in modernising the Church in a way that really upset the more traditional Catholics. In his homily at the end of the conclave he talked about peace and reconciliation and he's indicated an openness to the Orthodox and Protestants and two other faiths. I think we are in for a wild ride."</p>
+
+<h3>First encyclical</h3>
+	
+
+<p>The publication of the Pope's first encyclical, <em>Deus Caritas Est</em> (<em>God is Love</em>) in January 2006 marked another turning point in the first year of Benedict's papacy.</p>
+
+<p>An encyclical is a teaching letter of the highest papal authority and usually seen as a reliable indicator of the tone and direction of a pontificate.</p>
+
+<p>Benedict's choice of 'love' as a subject matter surprised some Vatican observers because it seemed far from his previous hard-line image as 'God's Rottweiler.' </p>
+
+<p>The encyclical's central message is a call for love to be rediscovered and returned to its divine origins.</p>
+
+<p>Benedict distinguishes between the two forms of love within marriage: <em>eros</em> (erotic love) and <em>agápē</em> (self-giving to others). </p>
+
+<p>He argues that the two must be woven together for love to mature. He also explains that it is not enough to 'feel' love - it has to be 'chosen' as a free decision.</p>
+
+<p><em>Deus Caritas Est</em> was the first papal encyclical to be published since the Vatican asserted its copyright over the Pope's official writings in January 2006.</p>
+
+<p>When he launched the encyclical, Pope Benedict said: "I wanted to show the humanity of faith, which includes <em>eros</em> - the 'yes' of a man to his corporality created by God, a 'yes' that in the indissoluble marriage of a man and a woman finds its form rooted in creation. It is there that <em>eros</em> transforms itself into <em>agápē</em>, in which love for another no longer seeks itself, but becomes concern for the other, a willingness to sacrifice for him and openness to the gift of a new human life." </p>
+
+<h3>Further reading</h3>
+	
+
+<p><em>The Rise of Benedict XVI</em>, John L. Allen, Penguin Books</p>
+
+<p><em>Labourer in the Vineyard: A Portrait of Pope Benedict XVI</em>, Greg Watts, Lion Hudson</p>
+
+<h3>Other sources</h3>
+	
+
+<p><em>The Observer</em> Sunday (August 28, 2005)</p>
+
+<p><em>The Catholic Herald</em> (July, August 2005)</p>
+
+<p><em>The Catholic Times</em> (July, August 2005)</p>
+
+<p><em>The Universe</em> (July, August 2005)</p>
+
+<p><em>The Catholic Herald</em> (January 2006)</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<div class="promo">
+	<h2 id="findoutmore">Find out more</h2>
+	<ul>
+	<li><a href="/religion/religions/christianity/pope/johnpaulii_1.shtml" title="Read more on John Paul II, Benedict's predecessor">John Paul II, Benedict's predecessor</a></li>
+	<li><a href="/religion/religions/christianity/beliefs/liberationtheology.shtml" title="Read more on Liberation theology">Liberation theology</a></li>
+	</ul>
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	</div>
+	<div class="content_bottom"> </div>
+		
+	
+
+	</div>
+		
+	</div><!--closes Row - single column -->
+		
+	</div><!-- End: main content area -->
+			<!--START RHN CONTAINER -->
+		<div id="prg-wrapper-extra">
+			<div class="product_button">
+			
+				<!-- RELIGION HOMEPAGE BUTTON -->
+				
+				
+				
+				<!-- MORE RELIGIONS BUTTON -->
+				
+				
+				
+				
+				<!-- ATHEISM -->
+				
+				
+				<!-- BAHAI -->
+				
+				
+				<!-- BUDDHISM -->
+				
+				
+				<!-- CANDOMBLE -->
+				
+				
+				<!-- CHRISTIANITY -->
+				
+					<h2>
+						<span class="arrow content">&laquo;</span>
+						<a href="/religion/religions/christianity/" title="More Christianity">More <span>Christianity</span></a>
+					</h2>
+				
+				
+				<!-- HINDUISM -->
+				
+				
+				<!-- ISLAM -->
+				
+				
+				<!-- JAINISM -->
+				
+				
+				<!-- RASTAFARI -->
+				
+				
+				<!-- SANTERIA -->
+				
+				
+				<!-- SHINTO -->
+				
+				
+				<!-- SIKHISM -->
+				
+				
+				<!-- SPRITUALISM -->
+				
+				
+				<!-- TAOISM -->
+				
+				
+				<!-- UNITARIANISM -->
+				
+				
+				<!-- WITNESSES -->
+				
+				
+				<!-- ZOROASTRIAN -->
+				
+				
+				<!-- JUDAISM -->
+				
+				
+				<!-- MORMON -->
+				
+				
+				<!-- PAGANISM -->
+				
+			</div>	
+				
+					
+			
+			<!-- New row: -->
+			<div class="p-grp">		
+				<div class="p-mod">
+
+				
+					<!-- new promo module -->
+					<div class="promo">
+						<div class="rhn_header"><h2>See also</h2></div>
+						<div class="rhn_body">
+							<ul>
+								<li><a href="/religion/" title="Go to the Religion and Ethics homepage">Religion and Ethics home</a></li>
+								<li><a href="/religion/tools/calendar/" title="Go to the Interfaith calendar">Interfaith calendar</a></li>
+								<li><a href="/ethics/guide/" title="Go to Ethics Guides">Ethics guides</a></li>
+							</ul>
+						</div>
+						<div class="module_footer"></div>
+					</div>
+					
+					
+					
+						<div class="promo">
+	<div class="rhn_header"><h2>Around the BBC</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://news.bbc.co.uk/1/hi/in_depth/world/2005/pope_benedict_xvi/default.stm">BBC News - Pope Benedict XVI</a></li>
+	<li><a href="http://news.bbc.co.uk/1/hi/world/europe/6552889.stm">BBC News - Pope Benedict's 80th birthday and first two years of papacy</a></li>
+	<li><a href="http://news.bbc.co.uk/1/hi/world/europe/6132242.stm">BBC News - Pope stars in his own calendar</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	<div class="promo">
+	<div class="rhn_header"><h2>Elsewhere on the web</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://www.vatican.va/roman_curia/congregations/cfaith/">Congregation for the Doctrine of the Faith</a></li>
+	<li><a href="http://www.vatican.va/holy_father/benedict_xvi/">Pope Benedict XVI</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	
+					
+					
+					
+				</div>	
+			</div>
+			
+			<div class="clear_both"></div>
+		<!--END RHN CONTAINER-->
+		</div></div>
+	</div>
+		
+	               </div>   <div id="blq-mast" class="blq-rst blq-default-worldwide blq-new-nav" lang="en-GB"> <div id="blq-sign-in">  </div>  <form method="get" id="blq-search-form" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p id="blq-nav-search">  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/religion/religions/christianity/pope/benedictxvi_1.shtml" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">      <li id="blq-nav-n"><a href="http://www.bbc.com/news/" hreflang="en-GB">News</a></li>  <li id="blq-nav-s"><a href="http://www.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://www.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/capital/" hreflang="en-GB">Capital</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More&hellip;</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/history/">History</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> <li><a href="/local/">Local</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2> <ul> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">  <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>      <li><a href="/terms/">Terms of Use</a></li>       <li><a href="/aboutthebbc/">About the BBC</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>        <li><a href="/privacy/">Privacy</a></li>       <li><a href="/accessibility/">Accessibility Help</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="/bbc.com/ad-choices/">Ad Choices</a></li>        <li><a href="/privacy/bbc-cookies-policy.shtml">Cookies</a></li>        <li><a href="/contact/">Contact the BBC</a></li>   </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">      <li><a href="/guidance/">Parental Guidance</a></li>  </ul> </li>  </ul> </div>   <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks/light.png" width="84" height="24" alt="BBC" /></div> <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+<!-- BBCDOTCOM analytics template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                    bbcdotcom.stats.contentType = "HTML";
+                                    }
+                /*]]>*/
+            </script>
+            <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+            <script type="text/javascript">
+                DM_tag();
+            </script>
+
+            <!-- SiteCatalyst code version: H.21.
+            Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+                            <script type="text/javascript">
+                    var s_account = "bbcwglobalprod";
+                </script>
+            
+                <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/s_code.js"></script>
+    
+            <script type="text/javascript"><!--
+            /* You may give each page an identifying name, server, and channel on
+            the next lines. */
+
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+            <noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+            src="http://sa.bbc.com/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.21. -->
+
+            <!-- Begin comScore Tag -->
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                COMSCORE.beacon({
+                    c1:2,
+                    c2:"6035051",
+                    c3:"",
+                    c4:"127.0.0.1:8888/religion/religions/christianity/pope/benedictxvi_1.shtml",
+                    c5:"",
+                    c6:"",
+                    c15:""
+                });
+                /*]]>*/
+            </script>
+            <noscript>
+                <div>
+                    <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=127.0.0.1:8888/religion/religions/christianity/pope/benedictxvi_1.shtml&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+                </div>
+            </noscript>
+            <!-- End comScore Tag -->
+
+            
+                            <!-- Effective Measure BBCCOM-1195 -->
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function() {
+                        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+                    })();
+                    /*]]>*/
+                </script>
+                <noscript>
+                    <div>
+                        <img src="http://me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                    </div>
+                </noscript>
+                <!-- End Effective Measure -->
+     </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>                  
+
+	<!-- progs scripts -->
+<script type="text/javascript" src="/ui/ide/1/js/glow_widgets/carousel/carousel.min.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/carousel.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/wallpaper.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/webform.js"></script>
+<script type="text/javascript" src="/vision/productisation/includes/scripts/accordion.js"></script>
+
+<div id="vision-prod-livestats-bug">
+	<!-- LiveStats -->
+<div class="blq-hide"><img id="livestats" width="1" height="1" alt="" src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~Vision~RS~t~RS~HighWeb_Content~RS~i~RS~0~RS~p~RS~religion~RS~a~RS~Genre~RS~u~RS~/religion/religions/christianity/pope/benedictxvi_1.shtml~RS~r~RS~http://www.bbc.co.uk/religion/religions/christianity/~RS~q~RS~~RS~z~RS~58~RS~" /></div>
+
+<!-- LiveStats heatmap -->
+<script src="/cs/vision/stats/livestats.js" type="text/javascript"></script>
+
+
+</div>
+
+	</body>
+	</html>

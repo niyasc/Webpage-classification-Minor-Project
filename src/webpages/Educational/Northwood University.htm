@@ -1,0 +1,1231 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta charset="utf-8"/><link href="https://www.northwood.edu/_includes/img/favicon.png" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Northwood University</title>
+<link href="https://www.northwood.edu/_includes/css/normalize.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/nu-grid-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/nu-head.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/nu-foot.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/slideshow.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.northwood.edu/_includes/css/responsive.css" rel="stylesheet" type="text/css"/>
+<script src="https://www.northwood.edu/_includes/js/init/modernizr.js" type="text/javascript">
+</script>
+<!-- Internet Explorer Media Query Shim -->
+<!--[if lt IE 9]>
+        <link href="https://www.northwood.edu/_includes/css/nu-grid-ie.css" rel="stylesheet" type="text/css"/>
+        <![endif]-->
+<!-- Internet Explorer 7 (and maybe 6) Fix-er-up -->
+<!--[if lt IE 8]>
+        <link href="https://www.northwood.edu/_includes/css/ie.css" rel="stylesheet" />
+        <link href="https://www.northwood.edu/_includes/css/ie7.css" rel="stylesheet" />
+        <![endif]-->
+<link href="https://www.northwood.edu/_includes/css/helpers.css" rel="stylesheet" type="text/css"/>
+<!-- Use Google's jQuery. Fall back to ours if they don't have it or can't load it -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined'){ document.write(unescape("%3Cscript src='https://www.northwood.edu/_includes/js/init/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E")); }
+</script>
+<!-- Extra Scripts -->
+<script src="https://www.northwood.edu/_includes/js/init/scripts.js" type="text/javascript">
+</script>
+<!-- XML To JSON Script -->
+<script src="https://www.northwood.edu/_includes/js/xml2json/jquery.xml2json.js" type="text/javascript">
+</script>
+<!-- Fuzzy Search Script -->
+<script src="https://www.northwood.edu/_includes/js/search/fuzzy-search.min.js" type="text/javascript">
+</script>
+<!-- Double Tap Script (To allow touch users to open dropdowns without activating the parent link) -->
+<script src="https://www.northwood.edu/_includes/js/dropdown/jquery.doubletaptogo.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+        $(function(){
+            $('#main-menu li').has('.dd').doubleTapToGo();
+        });
+</script>
+<!-- Hover Intent Script (To prevent accidental dropdown firings) -->
+<script src="https://www.northwood.edu/_includes/js/dropdown/jquery.hoverintent-min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(function(){$('#main-menu li').has('.dd').hoverIntent(function(){$(this).addClass('hover');},function(){$(this).removeClass('hover');});});
+</script>
+<!-- Slideshow Script -->
+<script src="https://www.northwood.edu/_includes/js/slideshow/jquery.slideshow.js" type="text/javascript">
+</script>
+<!-- Slideshow Call -->
+<script type="text/javascript">
+    $(window).load(function(){
+        $('.nuslider').nuslider({
+            animation: "slide",
+            smoothHeight: false
+        });
+    });
+</script>
+<!-- Modal Popup (Mainly for YouTube Videos) -->
+<link href="https://www.northwood.edu/_includes/css/modal/avgrund.css" rel="stylesheet"/><script src="https://www.northwood.edu/_includes/js/modal/jquery.avgrund.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var width = $(document).width();
+        $('.video').click(function(){
+            var dwidth = $(window).width();
+            var dheight = $(window).height();
+            var used;
+            if((dwidth * .75) > dheight){
+                used = dheight;
+            }else{
+                used = dwidth;
+            }
+            $(this).avgrund({
+                width: used-40,
+                height: (used * 0.75)-40,
+                holderClass: 'custom',
+                showClose: false,
+                showCloseText: '',
+                enableStackAnimation: true,
+                openOnEvent: false,
+                onLoad: function(){
+                    event.preventDefault ? event.preventDefault() : event.returnValue = false;
+                },
+                template: function(self){
+                    var videoLink = self.attr("href").replace("watch?v=","embed/") + "?wmode=transparent";
+                    return '<iframe src="' + videoLink + '" frameborder="0" allowfullscreen></iframe>';
+                }
+            });
+        });
+    });
+</script>
+
+
+</head>
+<body>
+
+
+<div class="header">
+<div class="top-navigation">
+<div class="grid-container">
+<div class="grid-100 tablet-grid-100 mobile-grid-100">
+<div class="left">
+    <ul class="nav hide-on-mobile" id="top-menu">
+            <li>
+            <a href="/alumni/" onclick="_gaq.push(['_trackEvent','Search Navigation', 'Alumni','index']);">Alumni</a>
+        </li>
+            <li>
+            <a href="/career-services/index.aspx" onclick="_gaq.push(['_trackEvent','Search Navigation', 'Career Services','index']);">Career Services</a>
+        </li>
+            <li>
+            <a href="http://www.gonorthwood.com" onclick="_gaq.push(['_trackEvent','Search Navigation', 'Athletics','index']);">Athletics</a>
+        </li>
+            <li>
+            <a href="/about/directions.aspx" onclick="_gaq.push(['_trackEvent','Search Navigation', 'Directions','index']);">Directions</a>
+        </li>
+            <li>
+            <a href="https://www.northwood.edu/forms/admissions/schedulevisit/" onclick="_gaq.push(['_trackEvent','Search Navigation', 'Schedule a Visit','index']);">Schedule a Visit</a>
+        </li>
+            <li>
+            <a href="/international/index.aspx" onclick="_gaq.push(['_trackEvent','Search Navigation', 'International Programs','index']);">International Programs</a>
+        </li>
+        </ul>
+</div>
+<div class="right">
+    <ul class="search-nav-right">
+        <li>
+            <a href="https://my.northwood.edu" onclick="_gaq.push(['_trackEvent','Search Navigation', 'My.Northwood','index']);">My.<span class="mynorthwood-logo">Northwood</span></a>
+        </li>
+        <li>
+            <form action="/search.aspx" id="top-form" method="GET">
+                <input id="cx" name="cx" type="hidden" value="012118865072021868827:9qmoiz-ralo"/>
+                <input class="top-search" name="q" placeholder="search..." type="text"/>
+                <input class="top-submit" name="submit" type="submit"/>
+            </form>
+        </li>
+    </ul>
+</div>
+</div></div>
+</div>
+<div class="top-logo">
+<div class="grid-container">
+<div class="grid-66 tablet-grid-50 mobile-grid-100">
+
+<a href="/" onclick="_gaq.push(['_trackEvent','Logo','index']);"><img alt="Northwood University" class="logo" src="_includes/img/nu-logo.png"/></a></div>
+<div class="grid-33 tablet-grid-50 mobile-grid-100 cta">
+
+    <a href="https://www.northwood.edu/forms/requestinformation/" onclick="_gaq.push(['_trackEvent','Global CTA','Request Information','index']);">Request Information</a>
+    <a href="https://apply.northwood.edu/" onclick="_gaq.push(['_trackEvent','Global CTA','Apply','index']);">Apply</a>
+</div>
+</div>
+</div>
+<div class="main-navigation">
+<div class="grid-container">
+<script src="_includes/js/dropdown/global-navigation.js"></script>
+
+<ul class="nav hide-on-mobile" id="main-menu">
+        <li>
+            <a href="/about/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','About','index']);">About</a>
+                    </li>
+        <li>
+            <a href="/academics/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','Academics','index']);">Academics</a>
+                            <div class="grid-100 tablet-grid-100 mobile-grid-100 dd">
+                    <div class="grid-container dd-container">
+                        <div class="dd-sidebar dd-content grid-25 tablet-grid-25 mobile-grid-100">
+                            <form class="dd-form" onkeypress="return event.keyCode != 13;">
+                                <input class="dd-search" data-type="Academics" type="search"/>
+                            </form>
+                            <h3 class="dd-category-title">Location</h3>
+                            <ul class="dd-main-list dd-list" data-type="Academics">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    </li>
+        <li>
+            <a href="/locations/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','Locations','index']);">Locations</a>
+                            <div class="grid-100 tablet-grid-100 mobile-grid-100 dd">
+                    <div class="grid-container dd-container">
+                        <div class="dd-sidebar dd-content grid-25 tablet-grid-25 mobile-grid-100">
+                            <form class="dd-form" onkeypress="return event.keyCode != 13;">
+                                <input class="dd-search" data-type="Locations" type="search"/>
+                            </form>
+                            <h3 class="dd-category-title">Locations</h3>
+                            <ul class="dd-main-list dd-list" data-type="Locations">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    </li>
+        <li>
+            <a href="/admissions/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','Admissions','index']);">Admissions</a>
+                    </li>
+        <li>
+            <a href="/financial-aid/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','Financial Aid','index']);">Financial Aid</a>
+                    </li>
+        <li>
+            <a href="/student-life/index.aspx" onclick="_gaq.push(['_trackEvent','Global Navigation','Student Life','index']);">Student Life</a>
+                    </li>
+</ul></div>
+</div>
+<div id="feature">
+<div id="featurewrap"><div class="nuslider" id="slider">
+<ul class="slides">
+            <li>
+                <a class="video" href="http://www.youtube.com/watch?v=ek6AEWLjgXo" onclick="_gaq.push(['_trackEvent','Slideshow', 'Video','Max Werner Rocks XGames Practicum']);">
+                    <img alt="Max Werner Rocks XGames Practicum" src="/photos/homepage-slides/xgames.jpg"/>
+                        <div class="headline">
+                <h2 style="background-color: #38506D;">Max Werner Rocks XGames Practicum</h2>
+                <p class="blurb">Thanks to one professor, Max landed his dream practicum working the X-Games in Aspen.</p>
+            </div>
+                            </a>
+            </li>
+            <li>
+                <a class="video" href="http://www.youtube.com/watch?v=xu8M-8UeIco" onclick="_gaq.push(['_trackEvent','Slideshow', 'Video','Jen McFarland']);">
+                    <img alt="Jen McFarland" src="/photos/homepage-slides/faculty.jpg"/>
+                        <div class="headline">
+                <h2 style="background-color: #38506D;">Jen McFarland</h2>
+                <p class="blurb">Advertising and Marketing Instructor</p>
+            </div>
+                            </a>
+            </li>
+        <li>
+                <a href="/international/study-abroad/getting-started.aspx" onclick="_gaq.push(['_trackEvent','Slideshow', 'Standard','Gain a Global Perspective']);">
+                    <img alt="Gain a Global Perspective" src="/photos/homepage-slides/studyabroad.jpg"/>
+                        <div class="headline">
+                <h2 style="background-color: #38506D;">Gain a Global Perspective</h2>
+                <p class="blurb">Study abroad for a few weeks, a semester, or an entire year!</p>
+            </div>
+                            </a>
+            </li>
+</ul>
+</div></div>
+</div>
+</div>
+<div class="main">
+<div class="feature">
+<div class="grid-container">
+
+
+        
+    
+    <div class="grid-25 tablet-grid-25 mobile-grid-50 item">
+        <a class="standard" href="/admissions/index.aspx" onclick="_gaq.push(['_trackEvent','Feature','standard','site://_Admissions/index']);"><img alt="High School Students" src="/photos/location-features/high-school-students.jpg"/></a>
+    </div>
+    
+    
+
+        
+    
+    <div class="grid-25 tablet-grid-25 mobile-grid-50 item">
+        <a class="standard" href="/adults/index.aspx" onclick="_gaq.push(['_trackEvent','Feature','standard','site://_Adults/index']);"><img alt="Adult Learners" src="/photos/location-features/adult-learners.jpg"/></a>
+    </div>
+    
+    
+
+        
+    
+    <div class="grid-25 tablet-grid-25 mobile-grid-50 item">
+        <a class="standard" href="/graduate/index.aspx" onclick="_gaq.push(['_trackEvent','Feature','standard','site://_DeVos Graduate/index']);"><img alt="DeVos Graduate School" src="/photos/location-features/graduate-students.jpg"/></a>
+    </div>
+    
+    
+
+        
+    
+    <div class="grid-25 tablet-grid-25 mobile-grid-50 item">
+        <a class="standard" href="http://www.northwood.edu/admissions/visit-northwood.aspx" onclick="_gaq.push(['_trackEvent','Feature','standard','http://www.northwood.edu/admissions/visit-northwood.aspx']);"><img alt="Visit Northwood" src="/photos/location-features/visit-us.png"/></a>
+    </div>
+    
+    
+
+
+
+
+</div>
+</div>
+<div class="page home grid-container">
+<div class="grid-33 tablet-grid-50 grid-parent mb20 leftColumn">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    
+
+        
+
+        
+    
+    
+
+    
+    
+        
+<div class="grid-100 tablet-grid-100 mobile-grid-100">
+    
+            
+            
+    <div class="event-block block grid-parent grid-100 tablet-grid-100 mobile-grid-100">
+        <h2 class="title"><a href="/events/index.aspx">Events</a></h2>
+                <div class="content">
+            <ul data-limit="7" data-link="site://_Global Resources/index" data-summary="" data-timestamp="1381500012906" data-title="Northwood University" data-type="events"><li class="grid-parent grid-container item" data-guid="6025ee230a4010640021275b68f84fd3" data-timestamp="1381518000000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">11</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/timberwolves-womens-tennis-game-12.aspx">Timberwolves Women's Tennis vs. Ashland</a></h3></div></li><li class="grid-parent grid-container item" data-guid="600ad9760a4010640021275bb40570b0" data-timestamp="1381521600000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">11</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/timberwolves-womens-soccer-game-9.aspx">Timberwolves Women's Soccer vs. Northern Michgan - Away</a></h3></div></li><li class="grid-parent grid-container item" data-guid="85095a9d0a4010640021275b9a3821d1" data-timestamp="1381521600000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">11</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/timberwolves-mens-soccer-game-9.aspx">Timberwolves Men's Soccer vs. Walsh - Away</a></h3></div></li><li class="grid-parent grid-container item" data-guid="932fde910a4010640021275b87f4d615" data-timestamp="1381528800000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">11</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/seahawks-womens-soccer-game-11.aspx">Seahawks Women's Soccer vs. Embry-Riddle - Away</a></h3></div></li><li class="grid-parent grid-container item" data-guid="84b03dee0a4010640021275bcd39c5d0" data-timestamp="1381554000000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">12</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/knights-cross-country-demon-invitational.aspx">Knights Cross Country Demon Invitational</a></h3></div></li><li class="grid-parent grid-container item" data-guid="60279c7f0a4010640021275babfcb40a" data-timestamp="1381586400000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">12</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/timberwolves-womens-tennis-game-13.aspx">Timberwolves Women's Tennis vs. Tiffin</a></h3></div></li><li class="grid-parent grid-container item" data-guid="934fef7d0a4010640021275beeac2cc7" data-timestamp="1381600800000"><div class="grid-20 tablet-grid-20 mobile-grid-25 thumb date"><span class="month">Oct</span><span class="day">12</span></div><div class="grid-75 tablet-grid-66 mobile-grid-66 description"><h3><a class="span4" href="/events/2013/10/seahawks-womens-volleyball-southeastern.aspx">Seahawks Women's Volleyball vs. Southeastern</a></h3></div></li></ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+<div class="grid-33 tablet-grid-50 grid-parent mb20 middleColumn">
+
+
+<div class="news-block grid-100 tablet-grid-100 mobile-grid-100">
+<h2 class="title darker"><a href="/news/index.aspx">News</a></h2>
+<div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post" style="overflow: hidden;">
+    <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent">
+        <h3 class="title mt0 mb5"><a href="/news/2013/10/sga-president-looks-forward-to-creating-traditions.aspx">SGA President Looks Forward to Creating Traditions</a></h3>
+        <div class="post-meta mt0 mb5">
+            <p class="text-left mt0 mb5"><span class="posted"><b>Posted:</b> October 11, 2013</span> in:             <span class="item">Florida Campus</span>             <span class="item">Northwood University</span>    </p>
+                    </div>
+        <div class="entry mt0 mb0">
+            <p class="mt0 mb0">As a high school student at G-Star School School of the Arts, Alberto Saint Juste enjoyed acting, television production and 3D animation, but the...</p>
+        </div>
+    </div>
+</div>
+<hr/> 
+
+
+
+
+
+
+
+<div class="post" style="overflow: hidden;">
+    <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent">
+        <h3 class="title mt0 mb5"><a href="/news/2013/10/homecoming-queen-king-sadie-cinato-matt-stone.aspx">Northwood Names Sadie Cinato Homecoming Queen and Matt Stone King</a></h3>
+        <div class="post-meta mt0 mb5">
+            <p class="text-left mt0 mb5"><span class="posted"><b>Posted:</b> October 04, 2013</span> in:             <span class="item">Northwood University</span>             <span class="item">Michigan Campus</span>    </p>
+                    </div>
+        <div class="entry mt0 mb0">
+            <p class="mt0 mb0">On Saturday, September 28, during the football halftime show Sadie Cinato was named as this year&#8217;s homecoming queen and Matt Stone...</p>
+        </div>
+    </div>
+</div>
+<hr/> 
+
+
+
+
+
+
+
+<div class="post" style="overflow: hidden;">
+    <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent">
+        <h3 class="title mt0 mb5"><a href="/news/2013/10/celebrate-devos-graduate-school-20-anniversary.aspx">Northwood to Celebrate DeVos Graduate School 20th Anniversary</a></h3>
+        <div class="post-meta mt0 mb5">
+            <p class="text-left mt0 mb5"><span class="posted"><b>Posted:</b> October 04, 2013</span> in:             <span class="item">Northwood University</span>             <span class="item">Michigan Campus</span>    </p>
+                    </div>
+        <div class="entry mt0 mb0">
+            <p class="mt0 mb0">Northwood University will celebrate the 20th anniversary of the Richard DeVos Graduate School of Management on Saturday, October 19, for MBA...</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div></div>
+<div class="grid-33 tablet-grid-50 grid-parent rightColumn">    <div class="block block-images top-double grid-container grid-parent">
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="http://www.northwood.edu/media/free-market-library.aspx" onclick="_gaq.push(['_trackEvent','Catch All Links', 'site://_Miscellaneous/media/free-market-library']);">
+                                <img src="/photos/secondary-features/free-market-library-1x1.jpg"/>
+            </a>
+    
+        </div> 
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="http://www.northwood.edu/military-veterans/index.aspx" onclick="_gaq.push(['_trackEvent','Catch All Links', 'site://_Miscellaneous/military-veterans/index']);">
+                                <img src="/photos/secondary-features/military-friendly.png"/>
+            </a>
+    
+        </div> 
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="/about/weekly-message.aspx" onclick="_gaq.push(['_trackEvent','Catch All Links', 'site://_About Northwood/weekly-message']);">
+                                <img src="/photos/secondary-features/weekly-messages.jpg"/>
+            </a>
+    
+        </div> 
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="/documents/academics/transcript-request-form.pdf" onclick="_gaq.push(['_trackEvent','Catch All Links', 'site://_Documents/academics/transcript-request-form.pdf']);">
+                                <img src="/photos/secondary-features/transcript-request.png"/>
+            </a>
+    
+        </div> 
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="http://blogs.northwood.edu/ideamagazine" onclick="_gaq.push(['_trackEvent','Catch All Links', 'http://blogs.northwood.edu/ideamagazine']);">
+                                <img src="/photos/secondary-features/idea.png"/>
+            </a>
+    
+        </div> 
+        
+            <div class="grid-50 tablet-grid-50 mobile-grid-50 mt0 mb20">
+                
+            <a href="/admissions/transfer-students.aspx" onclick="_gaq.push(['_trackEvent','Catch All Links', 'site://_Admissions/transfer-students']);">
+                                <img src="/photos/secondary-features/transfer-students.jpg"/>
+            </a>
+    
+        </div> 
+</div></div>
+<div class="grid-100 tablet-grid-50 mobile-grid-100">
+<div class="well"><p>Northwood University strives to incorporate the lessons of the American free-enterprise society in the college classroom to develop future leaders, managers, and entrepreneurs. Northwood has residential college campuses in<span class="Apple-converted-space">&#160;</span><a href="/locations/texas.aspx">Texas</a>,<span class="Apple-converted-space">&#160;</span><a href="/locations/florida.aspx">Florida</a>, and<span class="Apple-converted-space">&#160;</span><a href="/locations/michigan.aspx">Michigan</a>.</p>
+<p>Northwood also offers a wide range of<span class="Apple-converted-space">&#160;</span><a href="/adults/index.aspx">adult degree programs</a>&#160;to fit your needs, including the nation's only <a href="/academics/programs/automotive-marketing-and-management.aspx">Automotive Marketing and Management program</a> and North America's first and only <a href="/academics/programs/franchising-management.aspx">Franchising Management</a> Bachelor's of Business Administration degree program.</p>
+<p>Through the<span class="Apple-converted-space">&#160;</span><a href="/graduate/index.aspx">DeVos Graduate School</a>, students have the opportunity to earn their graduate business degree in traditional, day-time classes through the<span class="Apple-converted-space">&#160;</span>accelerated MBA;evening MBA<span class="Apple-converted-space">&#160;</span>classes;<span class="Apple-converted-space">&#160;</span>weekend MBA<span class="Apple-converted-space">&#160;</span>program; or in our online<span class="Apple-converted-space">&#160;</span>Master of Science in Organizational Leadership<span class="Apple-converted-space">&#160;</span>program. If you are looking for a business school in<span class="Apple-converted-space">&#160;</span>Texas,<span class="Apple-converted-space">&#160;</span>Florida, or<span class="Apple-converted-space">&#160;</span>Michigan,contact us<span class="Apple-converted-space">&#160;</span>today!</p></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="grid-container">
+<div class="grid-25 tablet-grid-33 mobile-grid-100 left"><ul class="footer-links">
+    <li><h3>Northwood University</h3></li>
+    <li><a href="/creativity-enterprise/" onclick="_gaq.push(['_trackEvent','Footer Link','ABD Center for Creativity and Enterprise','index']);">ABD Center for Creativity and Enterprise</a></li>
+    <li><a href="/about/accreditation.aspx" onclick="_gaq.push(['_trackEvent','Footer Link','Accreditation','index']);">Accreditation</a></li>
+    <li><a href="/bookstore/" onclick="_gaq.push(['_trackEvent','Footer Link','Bookstore','index']);">Bookstore</a></li>
+    <li><a href="/conference/" onclick="_gaq.push(['_trackEvent','Footer Link','Conference and Event Planning','index']);">Conference and Event Planning</a></li>
+    <li><a href="/events/" onclick="_gaq.push(['_trackEvent','Footer Link','Events','index']);">Events</a></li>
+    <li><a href="/it/helpdesk.aspx" onclick="_gaq.push(['_trackEvent','Footer Link','Help Desk','index']);">Help Desk</a></li>
+    <li><a href="http://www.northwood.edu/human-resources/index.aspx" onclick="_gaq.push(['_trackEvent','Footer Link','Human Resources','index']);">Human Resources</a></li>
+    <li><a href="/library/" onclick="_gaq.push(['_trackEvent','Footer Link','Library','index']);">Library</a></li>
+    <li><a href="/media/" onclick="_gaq.push(['_trackEvent','Footer Link','Media','index']);">Media</a></li>
+    <li><a href="/conference/rooms-and-properties/nada.aspx" onclick="_gaq.push(['_trackEvent','Footer Link','NADA Hotel','index']);">NADA Hotel</a></li>
+    <li><a href="/news/" onclick="_gaq.push(['_trackEvent','Footer Link','News','index']);">News</a></li>
+    <li><a href="/sitemap.aspx" onclick="_gaq.push(['_trackEvent','Footer Link','Site Map','index']);">Site Map</a></li>
+    <li><a href="/documents/academics/transcript-request-form.pdf" onclick="_gaq.push(['_trackEvent','Footer Link','Transcript Request','index']);">Transcript Request</a></li>
+    <li><a href="/aftermarket/" onclick="_gaq.push(['_trackEvent','Footer Link','University of the Aftermarket','index']);">University of the Aftermarket</a></li>
+    <li><a href="/forms/feedback/" onclick="_gaq.push(['_trackEvent','Footer Link','Website Feedback','index']);">Website Feedback</a></li>
+</ul></div>
+<div class="grid-50 tablet-grid-33 hide-on-mobile middle">
+<img alt="Northwood University" class="footer-logo" src="_includes/img/nu-footer.png"/></div>
+<div class="grid-25 tablet-grid-33 mobile-grid-100 right">
+<div class="footer-info">
+				<a href="/advancement" class="donate" onclick="_gaq.push(['_trackEvent','Footer Donate']);">
+					<img src="_includes/img/donate.png" alt="Support Northwood University">
+					<p>Support Northwood University</p>
+				</a>
+				<div class="social-icons">
+					<a href="http://facebook.com/northwoodu" class="facebook" onclick="_gaq.push(['_trackEvent','Footer Social Icon','Facebook']);">Facebook</a>
+					<a href="http://twitter.com/northwoodu" class="twitter" onclick="_gaq.push(['_trackEvent','Footer Social Icon','Twitter']);">Twitter</a>
+					<a href="http://www.linkedin.com/company/northwood-university" class="linkedin" onclick="_gaq.push(['_trackEvent','Footer Social Icon','Linked In']);">Linked In</a>
+					<a href="http://youtube.com/northwooduniversity" class="youtube" onclick="_gaq.push(['_trackEvent','Footer Social Icon','Youtube']);">YouTube</a>
+					<a href="http://plus.google.com/102732728140125203364?prsrc=3" class="googleplus" onclick="_gaq.push(['_trackEvent','Footer Social Icon','Google Plus']);">Google Plus</a>
+				</div>
+				<div class="accreditation">
+					Northwood University is a regionally accredited, nonprofit institution.
+				</div>
+				<div class="phone-number">
+					800-622-9000
+				</div>
+				<div class="social-share">
+					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com/NorthwoodU%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21&amp;" class="facebook" scrolling="no" frameborder="0" allowtransparency="true" kwframeid="1"></iframe>
+				</div>
+			</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+  //Google Analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2103675-10']);
+  _gaq.push(['_setDomainName', '.northwood.edu']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+  //Spectate Analytics
+  var sAId = "313";
+  var sCId = "1649";
+  
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = (('https:' == document.location.protocol) ? "https://ssl.spectate.com" : "http://cdn.spectate.com") + "/s.js";
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
+</script><!-- Responsive Menu Script -->
+<script src="https://www.northwood.edu/_includes/js/navigation/selectnav.min.js" type="text/javascript">
+</script>
+<!-- Responsive Menu Call -->
+<script type="text/javascript">
+selectnav('top-menu', {label: 'Top Menu',nested: true,indent: '-'});selectnav('main-menu', {label: 'Main Menu',nested: true,indent: '-'});
+</script>
+</body>
+</html>

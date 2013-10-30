@@ -1,0 +1,915 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+	<title>BBC - Religions - Christianity: Seventh-day Adventists</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="The history and modern-day organisation of the Seventh-day Adventist Church, founded in the USA and notable for observing the Sabbath on Saturday instead of Sunday."/>
+	<meta name="keywords" content="christianity, subdivision, denomination, seventh, 7th, day adventists, ellen white, ellen g white, great controversy, tabernacle, sabbath"/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	<meta name="DCTERMS.created" content="2007-07-17"/>
+	<meta name="DCTERMS.updated" content="2009-07-30"/>
+	
+	
+                <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->         <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 974" />    <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/script/blq_core.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]> <style type="text/css"> html{font-size:125%} body{font-size:50%} .blq-tooltipped:hover {background-position:0 0} #blq-autosuggest ul li { zoom:normal; } .skylightTheme #blq-mast-home, .doveTheme #blq-mast-home, .tealTheme #blq-mast-home, .aquaTheme #blq-mast-home, .greenTheme #blq-mast-home, .violetTheme #blq-mast-home, .purpleTheme #blq-mast-home, .pinkTheme #blq-mast-home, .oliveTheme #blq-mast-home, .suedeTheme #blq-mast-home, .redTheme #blq-mast-home, .orangeTheme #blq-mast-home { filter: none; -ms-filter: ""; } #blq-nav-main { background-position: 96% 17px; } </style> <![endif]--> <!--[if IE 7]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie7.css" type="text/css" /> <style type="text/css"> .blq-clearfix {display: inline-block} </style> <![endif]-->  <!--[if IE 6]> <link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/style/ie6.css" type="text/css" /> <style type="text/css"> .blq-js #blq-nav-foot div {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/panel.png', sizingMethod='image');margin-top:-139px}  #blq-container {height: 15%} #blq-mast-home span.blq-home { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png');} #blq-mast #blq-search-btn { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blq-search_grey_alpha.png', sizingMethod='image'); } </style>  <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->  <script type="text/javascript"> blq.assetPath="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; }  </script> <!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                    
+    
+
+	
+<style type="text/css">
+	@import '/vision/productisation/includes/css/v1/s-core-models.css';
+	@import '/vision/productisation/includes/css/v1/global.css';
+	@import '/vision/productisation/includes/css/v1/colourway.css';
+	
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="/religion/religions/includes/css/product-specific.css"  />
+<link rel="stylesheet" type="text/css" media="print" href="/vision/productisation/includes/css/v1/print.css" />
+<!-- Barlesque: -->
+
+
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+<!-- 
+	if (document.documentElement && document.getElementById){
+		document.documentElement.className += " js";
+	}	
+// -->		
+</script>
+
+<!-- Glow library : core modules -->
+<script type="text/javascript">
+	gloader.load(["glow", "1", "glow.anim", "glow.net", "glow.dom", "glow.embed"]);
+</script>
+
+
+<!-- EMP embed support -->
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/swfobject.js"></script>  
+<script type="text/javascript" src="http://www.bbc.co.uk/emp/embed.js"></script>
+
+<!-- Live Stats Variable -->	
+	
+	
+	
+<!-- End of Live Stats Variable Settings -->
+
+
+
+
+
+
+	
+	
+	</head>
+	<body class="orange prg-content-lhn article religion">
+	<div><a name="top"> </a></div>                <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=en-GB'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=2.8&blq_r=2.7&blq_v=default-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=en-GB&amp;blq_s=2.8&amp;blq_r=2.7&amp;blq_v=default-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->    <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-2-8"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast --> <!-- BBCDOTCOM leaderboard template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON conf->showAdAboveBlq: true showAdAboveBlq: true blqLeaderboardAd: true  -->
+        <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <span id="blq-mast-background"></span> <div id="blq-container-inner" lang="en-GB">  <div id="blq-acc" class="blq-rst">  <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span id="blq-blocks-wrapper"> <span class="blq-home">British Broadcasting Corporation</span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks.png" alt="BBC" id="blq-blocks" width="84" height="24" /><span class="blq-span">Home</span> </span> </a></p>  <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li><a href="#blq-content">Skip to content</a></li>  <li><a href="#blq-local-nav">Skip to local navigation</a></li>  <li><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li><a href="#blq-search">Skip to bbc.co.uk search</a></li>  <li><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix">        
+
+	<!--START PROGRAMMES CONTENT CONTAINER SHELL-->
+	<div id="prg-masthead">
+	<p><a href="/religion/religions/" title="Religions">Religions</a></p>
+
+	</div>
+	<div class="prg-wrapper" id="prg-wrapper-shell">
+	<div id="blq-content">
+		
+	<div id="prg-wrapper-featured"><!-- START MAIN CONTENT AREA -->
+	<div class="box top_promo">
+	<div class="header"><h1>Seventh-day Adventists</h1>
+	<p><em>Last updated 2009-07-30</em></p>
+	</div>
+	<div class="content">
+	<p>The history and modern-day organisation of the Seventh-day Adventist Church, founded in the USA and notable for observing the Sabbath on Saturday instead of Sunday.</p>
+	</div>
+	<div class="footer"> </div>
+	</div>
+		
+	<div class="p-grp p-grp-a p-grp-theme-n nth-row-n">
+	<!--LEFT HAND NAV-->
+	<div class="left-nav">
+	<h2>On this page</h2>
+	<ul>
+	 <li><a href="#h1">Introduction</a></li>
+	<li><a href="#h2">History</a></li>
+	<li><a href="#h3">Beliefs</a></li>
+	<li><a href="#h4">The Sabbath</a></li>
+	<li><a href="#h5">Behaviour and ethics</a></li>
+	<li><a href="#h6">Worship</a></li>
+	<li><a href="#h7">Holy books</a></li>
+	<li><a href="#h8">Membership and organisation</a></li>
+	</ul>
+	<h3>Page options</h3>
+	<ul class="tools">
+	<li class="print"><a href="#" onclick="window.print();return false;">Print this page</a></li>
+	</ul>
+	
+	</div>
+		
+	<div class="center">
+	
+	<div class="content-main-header"> </div>
+	<div class="p-mod nth-child-1 content-main">
+	<a name="section_1"> </a>
+	<div class="promo">
+	
+<h2 class="heading-nth-1" id="h1">Introduction</h2>
+	
+<h3>Seventh-day Adventists</h3>
+	
+
+<p>The Seventh-day Adventist Church is a Millennialist Protestant Christian denomination that was founded in the 1860s in the USA.</p>
+
+<p>The name Seventh-day Adventist is based on the Church's observance of the "biblical Sabbath" on Saturday, the seventh day of the week. "Advent" means <em>coming</em> and refers to their belief that Jesus Christ will soon return to this earth.</p>
+
+<p>Seventh-day Adventists differ in only four areas of beliefs from the mainstream Trinitarian Christian denominations. These are the Sabbath day, the doctrine of the heavenly sanctuary, the status of the writings of Ellen White, and their doctrine of the second coming and millennium.</p>
+
+<p>Adventists live modest lives, with a strict code of ethics. They don't smoke or drink alcohol, and recommend a vegetarian diet. Meat is permitted, but only following the Biblical commandments on clean and unclean food.</p>
+
+<p>Missionary work is very important to the Church and all Adventists believe they have a duty to share their beliefs with others.</p>
+
+<p>There are approximately 14 million Seventh-day Adventists worldwide, with perhaps another 7 million people more loosely associated with the Church. There are nearly 25,000 Seventh-day Adventists in the UK, of which approximately 13,000 live in London where there are 60 congregations.  (2005 statistics)</p>
+
+<p>The Church is heavily involved in education with almost 7,000 schools around the world and over 100 colleges and universities. The Church also operates 785 medical facilities (2005 figures).</p>
+
+<p>In 2005 the Church elected a woman as one of its nine vice presidents; the first time a woman has been included in its top leadership.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_2"> </a>
+	<div class="promo">
+	
+<h2 id="h2">History</h2>
+	
+<h3>History of the Seventh-day Adventist movement</h3>
+	
+
+<p>Seventh-day Adventists trace their origins to the teachings of the American preacher William Miller (1782-1849), who preached that the second coming, or "advent" of Jesus was imminent.</p>
+
+<p>Unfortunately Jesus did not appear on the day in 1844 promised by Miller, which became known as the Great Disappointment, and many of his followers left his movement.</p>
+
+<p>Miller was followed by Ellen G. White (1827-1915), a visionary and prophet.</p>
+
+<span class="image_with_caption float_right" style="width: 120px;">
+	<img alt="Ellen G White at the age of 72" height="180" src="/religion/religions/christianity/subdivisions/images/seventhdayellengwhite1.jpg" width="120"/><span class="caption" style="width: 110px;">
+	Ellen G White, 1899 photograph <a href="/religion/copyright.shtml#wikimediacommons">©</a>
+	</span>
+	</span>
+	
+
+<p>White taught that Jesus had indeed come again, but not to Earth. Jesus had actually returned to the "most holy place" of the heavenly temple. Jesus, she said, had started to "cleanse" the heavenly temple, and when he had done that, he would come to start cleansing the Earth.</p>
+
+<p>White also taught that the Sabbath should be held on Saturday.</p>
+
+<p>The years following the Great Disappointment were an unsuccessful time for Adventist numbers, although a time of great importance in the development of the doctrines on which the Church would be founded.</p>
+
+<p>By 1850 the group had about 300 members and no institutions, although it did have magazines and a hymnbook.</p>
+
+<p>But this proved a firm enough foundation, and by 1852 the movement had 15 ministers  and was growing steadily. In 1861 the movement created a publishing company - the Seventh-day Adventist Publishing Association - and in 1863 it constituted itself as a denomination.</p>
+
+<p>In 1866 the movement began one of its most famous traditions when it founded its first healthcare institution (it now runs over 700 medical facilities).  The Church bases its mission of bringing healing of body, mind, and spirit on the fact that Christ ministered to the whole person.</p>
+
+<p>The Church continued to refine its theology and practice, arriving at a definitive list by 1880.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_3"> </a>
+	<div class="promo">
+	
+<h2 id="h3">Beliefs</h2>
+	
+<h3>Beliefs held by Seventh-day Adventists</h3>
+	
+
+<p>The Seventh-day Adventists share most of their beliefs with the mainstream Christian churches, but have some extra beliefs of their own:</p>
+
+<ul>
+	<li>Creation</li>
+	<li>Salvation</li>
+	<li>The remnant</li>
+	<li>The great controversy</li>
+	<li>The Heavenly Sanctuary</li>
+	<li>The Sabbath</li>
+	<li>Prophecy</li>
+	<li>Death</li>
+	<li>Millennialism</li>
+</ul>
+
+<h3>Creation</h3>
+	
+
+<p>Seventh-day Adventists believe in a literal and historical six-day creation.</p>
+
+<h3>Salvation</h3>
+	
+
+<p>The Adventist doctrine of salvation is an entirely conventional one of salvation by grace through faith, although it is surrounded with some ideas that are outside the Christian mainstream.</p>
+
+<h3>The remnant</h3>
+	
+
+<p>The <em>remnant</em> is a church that has the duty of keeping faith in Jesus and obedience to God's commandments alive in this time when many people have abandoned true faith.</p>
+
+<p>This remnant announces the arrival of the judgment hour, proclaims salvation through Christ, and heralds the approach of the second coming.</p>
+
+<h3>The great controversy</h3>
+	
+
+<p>The <em>great controversy</em> is the battle between Satan and Christ. Humanity is involved in this battle and should choose Christ.</p>
+
+<h3>The Heavenly Sanctuary</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The correct understanding of the ministration in the heavenly sanctuary is the foundation of our faith.</p>
+	<p><cite>Ellen G. White, Evangelism</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>The Old Testament teaches that the Aaronic priests ministered within a <em>sanctuary</em>.</p>
+
+<p>That sanctuary (a tabernacle or a temple) was a man-made version of the sanctuary that God created in Heaven, which is the Temple of God in Heaven; the place where God lives.</p>
+
+<p>Adventists believe that Christ, as the high priest of the new covenant, ministers in the heavenly sanctuary.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>He said to me, 'It will take 2,300 evenings and mornings; then the sanctuary will be reconsecrated.'</p>
+	<p><cite>Daniel 8:14</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>We do have such a high priest, who sat down at the right hand of the throne of the Majesty in heaven, and who serves in the sanctuary, the true tabernacle set up by the Lord, not by man.</p>
+	<p><cite>Hebrews 8: 1-2</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>The heavenly sanctuary has two areas - the holy place and the most holy place. When Christ went from Earth to Heaven he went into the holy place. Adventists believe that  after 2300 years (in 1844), Christ went into the most holy place to cleanse it before his second coming on Earth, and that while he is doing that, the Holy Spirit is working to cleanse God's people.</p>
+
+<p>Christ works in the heavenly sanctuary as both priest and sacrifice.</p>
+
+<p>His work in the heavenly sanctuary is a work of investigative judgment which reveals which of the dead are righteous and should be resurrected at the second coming, and which of the living are worthy of Heaven.</p>
+
+<p>Those who pretended to be followers of God, but whose lives were not righteous, will be discovered by this investigation.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Christ, however, cannot assure salvation for those who only profess to be Christians on the basis of how many good deeds they have performed. The heavenly records, therefore, are more than just a tool for sifting the genuine from the false. They also are the foundation for confirming the genuine believers before the angels.</p>
+	<p><cite>2y Fundamental Beliefs of Seventh-day Adventists</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>The Sabbath</h3>
+	
+
+<p>Seventh-day Adventists keep the Sabbath on Saturday - more specifically, from sunset on Friday to sunset on Saturday.</p>
+
+<p><strong><a href="/religion/religions/christianity/subdivisions/seventhdayadventists_4.shtml">More on the Sabbath</a></strong></p>
+
+<h3>Prophecy</h3>
+	
+
+<p>Prophecy is an important gift from God and is seen as an identifying mark of the remnant church. Adventists believe this gift was manifested in the ministry of Ellen G. White, whom they regard as the Lord's messenger.</p>
+
+<h3>Death</h3>
+	
+
+<p>Seventh-day Adventist beliefs about death are different from those of other Christian churches.</p>
+
+<p>Adventists do not believe that people go to Heaven or Hell when they die. They believe that the dead remain unconscious until the return of Christ in judgement.</p>
+
+<p>This doctrine was formulated in the middle of the 19th century and enabled the movement to argue against spiritualism, which had become very popular at that time. Adventists taught that since the dead stayed dead until the resurrection - which hadn't occurred - there was no surviving soul or spirit for the spiritualist mediums to contact, and therefore the spiritualists were simply peddling superstition.</p>
+
+<p>Adventists sometimes use the term "conditional immortality". This means that all human beings are mortals and die at the end of their life. But human beings who give their life to Christ will find that they are eventually resurrected to a new and immortal life.</p>
+
+<p>Sinners and unbelievers will ultimately die for eternity.</p>
+
+<h3>Millennialism</h3>
+	
+
+<p>Adventists believe that the Second Coming of Christ will happen soon. Christ's return will be "will be literal, personal, visible, and worldwide".</p>
+
+<p>On that day the righteous dead will be resurrected and taken with him to heaven, together with the righteous living. The unrighteous will die.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>For the Lord himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and the dead in Christ will rise first. After that, we who are still alive and are left will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever.</p>
+	<p><cite>1 Thessalonians 4:16-18</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>The Second Coming is followed by a period of a thousand years (the Millennium) during which the earth is deserted except for Satan and his helpers, the righteous live with God in Heaven, and the "wicked dead" are judged.</p>
+
+<p>After the Millennium, Christ with his saints and the Holy City return to earth, the unrighteous dead are resurrected, and, together with Satan and his helpers, are destroyed by fire, leaving behind a universe without sin or sinners. (It's worth noting that this makes it absolutely clear that the wicked will be annihilated rather than tormented for eternity.)</p>
+
+<p>For the rest of time God and humanity will live together in a paradise.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_4"> </a>
+	<div class="promo">
+	
+<h2 id="h4">The Sabbath</h2>
+	
+<h3>The Sabbath</h3>
+	
+
+<p>The Seventh-day Adventist Church keeps the Sabbath from sundown on Friday to sundown on Saturday, because God set apart the seventh day of creation week to be a day of rest and a memorial of creation.</p>
+
+<p>The importance of doing this was revealed to Ellen G. White in a vision in 1847 in which she saw the stone tablets of the 10 Commandments in the heavenly tabernacle. The fourth commandment, concerning the Sabbath, was bathed in light.</p>
+
+<p>White realised that while all the Ten Commandments should be kept, her vision meant that the teaching about the Sabbath was particularly important, and that humanity should follow God's example in Creation and rest on the seventh day of the week - Saturday.</p>
+
+<p>The Saturday Sabbath brought the Seventh-day Adventists into conflict with both commercial interests (because they wouldn't work on Saturdays) and other Christians (because they wouldn't treat Sunday as an especially holy day). Early Seventh-day Adventists made things more difficult for themselves by criticising Christians who kept the Sabbath on Sundays as apostates.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Obviously many other Christians don't see this in quite the same way as we do, but we believe that some time in the future the Sabbath versus Sunday question will become a key issue in Christianity. When it does then Christians will have to make a choice as to which side they are on. It is this decision, choosing to obey God or not to obey Him, that we think will eventually determine who has the 'mark of the beast'. We don't claim to have reached that time yet and we certainly would not say that any truly born again Christian who is currently worshipping on a Sunday has the 'mark of the beast' or is under Satan's influence.</p>
+	<p><cite>Answers to Some Questions on Seventh-day Adventist Doctrine, printed in the Winter 1998/99 (issue 54) edition of Reachout Quarterly</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Celebrating the Sabbath</h3>
+	
+
+<p>Families join together on Friday evenings to celebrate the Sabbath.</p>
+
+<p>The Sabbath is a day for rest, and for Bible study and worship - both in church and in private meditation and prayer. Children are expected to attend Sabbath School.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>The Sabbath is a special day for worship in the home and in the church, a day of joy to ourselves and our children, a day in which to learn more of God through the Bible and the great lesson book of nature.</p>
+	<p>It is a time to visit the sick and to work for the salvation of souls.</p>
+	<p>The ordinary affairs of the six working days should be laid aside. No unnecessary work should be performed.</p>
+	<p>Secular reading or secular broadcasts should not occupy our time on God's holy day.</p>
+	</p>
+	<p><cite>Seventh-day Adventist Church Manual</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_5"> </a>
+	<div class="promo">
+	
+<h2 id="h5">Behaviour and ethics</h2>
+	
+<h3>Behaviour and ethics of Seventh-day Adventists</h3>
+	
+
+<p>The Adventist lifestyle is simple, and, by secular standards, rather puritanical. Adventists see it as wholesome and deeply rewarding.</p>
+
+<h3>Healthy living</h3>
+	
+
+<p>Personal health is specifically mentioned in Adventist doctrine, which tells them to regard their bodies as temples of the Holy Spirit.</p>
+
+<p>Adventists believe that what is good for the body is good for the soul, and vice versa, and they are instructed that it is their...</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>...religious duty to observe the laws of health, both for our own well-being and happiness and for more efficient service to God and our fellow men.</p>
+	<p><cite>Seventh-day Adventist Church Manual</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>Ellen G White summed it up like this:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Both mental and spiritual vigour are in great degree dependent upon physical strength and activity; whatever promotes physical health, promotes the development of a strong mind and a well-balanced character</p>
+	<p><cite>Ellen G. White, Education</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>One way Adventists keep healthy is by eating a healthy diet, following the food rules laid down in Leviticus 11. A vegetarian diet is recommended but not insisted upon.</p>
+
+<p>One little known fact is that Adventists were responsible for the popularisation of breakfast cereal; the Adventist layman John Harvey Kellogg invented cornflakes as a replacement for eggs and bacon.</p>
+
+<p>Adventists do not use alcohol, tobacco or recreational drugs.</p>
+
+<p>Health has a missionary as well as an individual purpose. Adventists believe that "it is the Lord's design that the restoring influence of health reform shall be a part of the last great effort to proclaim the gospel message." (<em>Medical Ministry</em>, p. 259)</p>
+
+<h3>Dress</h3>
+	
+
+<p>Adventists dress modestly, following Church guidance that:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Dress is to be simple, modest, and neat, befitting those whose true beauty does not consist of outward adornment but in the imperishable ornament of a gentle and quiet spirit.</p>
+	<p><cite>Seventh-day Adventist Church Manual</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<p>But they don't adopt an antique style of dress; preferring to wear tasteful conservative and sensible styles that are common at any particular period. They are not "the first to adopt the new styles of dress or the last to lay the old aside."</p>
+
+<p>Clothes are chosen for their durability, and "profuse ornamentation" and "gaudy display" are unacceptable.</p>
+
+<p>Adventists do not wear jewellery, other than a wedding ring.</p>
+
+<h3>Entertainment</h3>
+	
+
+<p><strong>Radio and television:</strong> Educational programmes, news and current affairs and classical music programmes are valuable. Adventists avoid programmes that are neither "wholesome nor uplifting".</p>
+
+<p><strong>Theatre and cinema:</strong> Adventists are advised not to go to the theatre, cinema (or, presumably to watch videos or DVDs), which, with other entertainments, are seen as partly responsible for the poor moral state of the world.</p>
+
+<p><strong>Dancing:</strong> Social dancing is not permitted.</p>
+
+<p><strong>Music:</strong> Some music is of great value, while other forms of music are dangerous:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>Great care should be exercised in the choice of music. Any melody partaking of the nature of jazz, rock, or related hybrid forms, or any language expressing foolish or trivial sentiments, will be shunned by persons of true culture.</p>
+	<p><cite>Seventh-day Adventist Church Manual</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Social events</h3>
+	
+
+<p>The Church Manual sets out a code of practice for social events, which are usually held in family homes, rather than commercial places of entertainment:</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>
+	<p>Social gatherings for old and young should be made occasions, not for light and trifling amusement, but for happy fellowship and improvement of the powers of mind and soul.</p>
+	<p>Good music, elevating conversation, good recitations, suitable still or motion pictures, games carefully selected for their educational value, and, above all, the making and using of plans for outreach (missionary) effort can provide programs for social gatherings that will bless and strengthen the lives of all.</p>
+	</p>
+	<p><cite>Seventh-day Adventist Church Manual</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Sexual behaviour</h3>
+	
+
+<p>Adventists adopt the highest standards of sexual behaviour.</p>
+
+<p>Sex outside marriage is forbidden, and parents are expected to chaperone meetings between young people. Young people, for their part, are expected to take responsibility for avoiding sexual encounters.</p>
+
+<p>Adultery, homosexual and lesbian practices, sexual abuse within marriage, incest and sexual abuse of children are banned. Pornography should be avoided.</p>
+
+<h3>Marriage</h3>
+	
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The monogamous union in marriage of a man and a woman is affirmed as the divinely ordained foundation of the family and social life and the only morally appropriate locus of genital or related intimate sexual expression.</p>
+	<p><cite>An Affirmation of Marriage, official statement, 1996</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+<h3>Mixed marriages</h3>
+	
+
+<p>Seventh-day Adventist ministers will not marry church members to non-members.</p>
+
+<h3>Divorce and remarriage</h3>
+	
+
+<p>Adultery, sexual perversion and "abandonment by a non-believing spouse" are valid grounds for divorce, although the Church will first try to mediate and reconcile the couple.</p>
+
+<p>If reconciliation isn't possible, the couple can divorce and the spouse who remained faithful has the right to remarry.  The spouse who broke the marriage vow may not remarry while their ex-partner lives.</p>
+
+<h3>War</h3>
+	
+
+<p>The Adventist movement was strongly pacifist from the beginning.</p>
+
+<p>Seventh-day Adventists obeyed the 6th Commandment (thou shalt not kill), and would not take a combatant role in warfare, although Adventists outside the USA (for example in Nazi Germany) were sometimes forced to compromise their principles and bear arms.</p>
+
+<p>This is the only area where Adventists are likely to clash with secular government as they regard it as a "sacred responsibility" to be good citizens.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_6"> </a>
+	<div class="promo">
+	
+<h2 id="h6">Worship</h2>
+	
+<h3>Worship in the Seventh-day Adventist Church</h3>
+	
+
+<p>Adventist worship is very like other Protestant worship - apart from the fact that the main day for worship is a Saturday not a Sunday.</p>
+
+<h3>Communion services</h3>
+	
+
+<p>These normally take place four times a year. Only unfermented grape juice and unleavened bread are used for communion, and any Christian may take communion, not just Church members.</p>
+
+<p>Adventist communion services also include "the ordinance of foot-washing" before the communion. This ritual conveys a message of forgiveness, acceptance, assurance, and solidarity, primarily from Christ to the believer, but also between the believers themselves. Most importantly it symbolises an overall purification - "a cleansing of the heart".</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_7"> </a>
+	<div class="promo">
+	
+<h2 id="h7">Holy books</h2>
+	
+<h3>Holy books of the Seventh-day Adventist movement</h3>
+	
+
+<h3>The Bible</h3>
+	
+
+<p>The Seventh-day Adventist Church, like all Christian churches, puts the Bible at the centre of its faith. Adventists regard the Bible as literally true, its writers as inspired by God. They regard the Bible as an infallible guide to life.</p>
+
+<h3>The writings of Ellen G White</h3>
+	
+
+<p>Adventists believe that "the Seventh-day Adventist Church has been richly blessed by the Lord through the gift of prophecy manifested in the ministry and writings of Ellen G White," which they see as "a continuing and authoritative source of truth which provide for the church comfort, guidance, instruction, and correction." (July 1 resolution on the Bible passed by the 58th General Conference, 2005)</p>
+
+<p>The Church teaches that these writings were instrumental in taking the Church from a small group to a worldwide movement.</p>
+
+<p>These writings are not regarded as scripture or authoritative, but as a wise guide to interpreting scripture, and living a Christian life.</p>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The writings of Ellen White are not a substitute for Scripture. They cannot be placed on the same level. The Holy Scriptures stand alone, the unique standard by which her and all other writings must be judged and to which they must be subject</p>
+	<p><cite>Seventh-day Adventists Believe... , Ministerial Association, General Conference of Seventh-day Adventists, Washington D.C., 1988, p. 227</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+	
+	<div class="promo_quote_box_top">
+	<blockquote>
+	<p>The fact that God has revealed His will to men through His Word, has not rendered needless the continued presence and guiding of the Holy Spirit. On the contrary, the Spirit was promised by our Saviour to open the Word to His servants, to illuminate and apply its teachings</p>
+	<p><cite>Ellen G White, The Great Controversy, p. vii</cite></p>
+	</blockquote>
+	</div>
+	<div class="promo_quote_box_bottom"> </div>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	<a name="section_8"> </a>
+	<div class="promo">
+	
+<h2 id="h8">Membership and organisation</h2>
+	
+<h3>Membership of the Seventh-day Adventist Church</h3>
+	
+
+<p>Membership is restricted to baptised persons.</p>
+
+<p>Baptism is by immersion. Before a person is baptised they are questioned about their faith and attitudes. This is usually done in front of church members, although it can be done in front of a church board if necessary.</p>
+
+<h3>Institutions</h3>
+	
+
+<p>There are four levels of organisation in the Seventh-day Adventist Church.</p>
+
+<ul>
+	<li>The local church.</li>
+	<li>The local conference or local field/mission, a united body of churches in a state, province, or territory. 
+		<ul>
+		<li>The difference between a conference and a mission is that missions are funded centrally whereas conferences are self-supporting</li>
+		</ul>
+	</li>
+	<li>The union conference or union mission, a united body of conferences, missions, or fields within a larger territory, generally a country.</li>
+	<li>The General Conference, which embraces all unions in all parts of the world: it is the largest unit of organisation and meets every two or three years.
+		<ul>
+		<li>The General Conference is divided into 13 worldwide Divisions, such as the Trans-European Division (which includes the UK churches and is based in St Albans, England), for administration of various geographical areas</li>
+		</ul>
+	</li>
+</ul>
+
+<p>When the General Conference is not in session the Church is run by the Executive Committee.</p>
+
+<p>Each level is chosen by democratic representation.  A church elects its own officials by majority voting and also elects its own delegate to a conference.  Officials within unions and the General Conference are elected for each session.</p>
+
+<p>Ministers are not elected.  They are assigned to churches by the local conference or field/mission.</p>
+
+
+	<div class="article_end"><a href="#top" title="go to the top"><span class="top_anchor">Top</span></a></div>
+	</div>
+	</div>
+	<div class="content_bottom"> </div>
+		
+	
+
+	</div>
+		
+	</div><!--closes Row - single column -->
+		
+	</div><!-- End: main content area -->
+			<!--START RHN CONTAINER -->
+		<div id="prg-wrapper-extra">
+			<div class="product_button">
+			
+				<!-- RELIGION HOMEPAGE BUTTON -->
+				
+				
+				
+				<!-- MORE RELIGIONS BUTTON -->
+				
+				
+				
+				
+				<!-- ATHEISM -->
+				
+				
+				<!-- BAHAI -->
+				
+				
+				<!-- BUDDHISM -->
+				
+				
+				<!-- CANDOMBLE -->
+				
+				
+				<!-- CHRISTIANITY -->
+				
+					<h2>
+						<span class="arrow content">&laquo;</span>
+						<a href="/religion/religions/christianity/" title="More Christianity">More <span>Christianity</span></a>
+					</h2>
+				
+				
+				<!-- HINDUISM -->
+				
+				
+				<!-- ISLAM -->
+				
+				
+				<!-- JAINISM -->
+				
+				
+				<!-- RASTAFARI -->
+				
+				
+				<!-- SANTERIA -->
+				
+				
+				<!-- SHINTO -->
+				
+				
+				<!-- SIKHISM -->
+				
+				
+				<!-- SPRITUALISM -->
+				
+				
+				<!-- TAOISM -->
+				
+				
+				<!-- UNITARIANISM -->
+				
+				
+				<!-- WITNESSES -->
+				
+				
+				<!-- ZOROASTRIAN -->
+				
+				
+				<!-- JUDAISM -->
+				
+				
+				<!-- MORMON -->
+				
+				
+				<!-- PAGANISM -->
+				
+			</div>	
+				
+					
+			
+			<!-- New row: -->
+			<div class="p-grp">		
+				<div class="p-mod">
+
+				
+					<!-- new promo module -->
+					<div class="promo">
+						<div class="rhn_header"><h2>See also</h2></div>
+						<div class="rhn_body">
+							<ul>
+								<li><a href="/religion/" title="Go to the Religion and Ethics homepage">Religion and Ethics home</a></li>
+								<li><a href="/religion/tools/calendar/" title="Go to the Interfaith calendar">Interfaith calendar</a></li>
+								<li><a href="/ethics/guide/" title="Go to Ethics Guides">Ethics guides</a></li>
+							</ul>
+						</div>
+						<div class="module_footer"></div>
+					</div>
+					
+					
+					
+						<div class="promo">
+	<div class="rhn_header"><h2>Elsewhere on the web</h2></div>
+	<div class="rhn_body">
+	<ul>
+	<li><a href="http://www.adventist.org/">Seventh-day Adventist Church, General Conference</a></li>
+	<li><a href="http://www.adventist.org.uk/">Seventh-day Adventist Church, UK and Ireland</a></li>
+	<li><a href="http://www.whiteestate.org/">Ellen G White Estate</a></li>
+	</ul>
+	</div>
+	<div class="module_footer"> </div>
+	</div>
+		
+	
+					
+					
+					
+				</div>	
+			</div>
+			
+			<div class="clear_both"></div>
+		<!--END RHN CONTAINER-->
+		</div></div>
+	</div>
+		
+	               </div>   <div id="blq-mast" class="blq-rst blq-default-worldwide blq-new-nav" lang="en-GB"> <div id="blq-sign-in">  </div>  <form method="get" id="blq-search-form" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p id="blq-nav-search">  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/religion/religions/christianity/subdivisions/seventhdayadventist_1.shtml" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main">      <li id="blq-nav-n"><a href="http://www.bbc.com/news/" hreflang="en-GB">News</a></li>  <li id="blq-nav-s"><a href="http://www.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://www.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/capital/" hreflang="en-GB">Capital</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More&hellip;</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue"> <div id="blq-nav-links" class="blq-clearfix" lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/history/">History</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> <li><a href="/local/">Local</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" lang="en-GB" class="blq-rst blq-clearfix blq-foot-grey">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2> <ul> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">  <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>      <li><a href="/terms/">Terms of Use</a></li>       <li><a href="/aboutthebbc/">About the BBC</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>        <li><a href="/privacy/">Privacy</a></li>       <li><a href="/accessibility/">Accessibility Help</a></li>  </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">       <li><a href="/bbc.com/ad-choices/">Ad Choices</a></li>        <li><a href="/privacy/bbc-cookies-policy.shtml">Cookies</a></li>        <li><a href="/contact/">Contact the BBC</a></li>   </ul> </li> <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list">      <li><a href="/guidance/">Parental Guidance</a></li>  </ul> </li>  </ul> </div>   <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/2.8/img/blocks/light.png" width="84" height="24" alt="BBC" /></div> <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+<!-- BBCDOTCOM analytics template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                    bbcdotcom.stats.contentType = "HTML";
+                                    }
+                /*]]>*/
+            </script>
+            <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+            <script type="text/javascript">
+                DM_tag();
+            </script>
+
+            <!-- SiteCatalyst code version: H.21.
+            Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com -->
+                            <script type="text/javascript">
+                    var s_account = "bbcwglobalprod";
+                </script>
+            
+                <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/s_code.js"></script>
+    
+            <script type="text/javascript"><!--
+            /* You may give each page an identifying name, server, and channel on
+            the next lines. */
+
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+            <noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+            src="http://sa.bbc.com/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+            <!-- End SiteCatalyst code version: H.21. -->
+
+            <!-- Begin comScore Tag -->
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                COMSCORE.beacon({
+                    c1:2,
+                    c2:"6035051",
+                    c3:"",
+                    c4:"127.0.0.1:8888/religion/religions/christianity/subdivisions/seventhdayadventist_1.shtml",
+                    c5:"",
+                    c6:"",
+                    c15:""
+                });
+                /*]]>*/
+            </script>
+            <noscript>
+                <div>
+                    <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=127.0.0.1:8888/religion/religions/christianity/subdivisions/seventhdayadventist_1.shtml&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+                </div>
+            </noscript>
+            <!-- End comScore Tag -->
+
+            
+                            <!-- Effective Measure BBCCOM-1195 -->
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function() {
+                        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                        em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+                    })();
+                    /*]]>*/
+                </script>
+                <noscript>
+                    <div>
+                        <img src="http://me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                    </div>
+                </noscript>
+                <!-- End Effective Measure -->
+     </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>                  
+
+	<!-- progs scripts -->
+<script type="text/javascript" src="/ui/ide/1/js/glow_widgets/carousel/carousel.min.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/carousel.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/wallpaper.js"></script>
+<script type="text/javascript" src="/cs/vision/progs/2/scripts/js/webform.js"></script>
+<script type="text/javascript" src="/vision/productisation/includes/scripts/accordion.js"></script>
+
+<div id="vision-prod-livestats-bug">
+	<!-- LiveStats -->
+<div class="blq-hide"><img id="livestats" width="1" height="1" alt="" src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~Vision~RS~t~RS~HighWeb_Content~RS~i~RS~0~RS~p~RS~religion~RS~a~RS~Genre~RS~u~RS~/religion/religions/christianity/subdivisions/seventhdayadventist_1.shtml~RS~r~RS~http://www.bbc.co.uk/religion/religions/christianity/~RS~q~RS~~RS~z~RS~04~RS~" /></div>
+
+<!-- LiveStats heatmap -->
+<script src="/cs/vision/stats/livestats.js" type="text/javascript"></script>
+
+
+</div>
+
+	</body>
+	</html>

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+
+
+<title>St. Marys College of Maryland, The Public Honors College of Maryland</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="St. Marys College of Maryland, a top public honors college located in St. Marys City, Maryland, offers nationally recognized academic programs that prepare students with the leadership and professional skills necessary for todays world." name="description"/>
+<meta content="width=device-width" name="viewport"/><!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+ <link href="_assets/new-site/css/normalize.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/main.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/content-slider.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/responsiveslides.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/responsive-themes.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/jquery.fancybox.css" rel="stylesheet"/>
+        <link href="_assets/new-site/css/about.css" rel="stylesheet"/>
+        
+<!-- modernizer needs to be the first script that is run, it sets the document mode to standards rather than IE8 standards -->
+<script src="_assets/new-site/js/vendor/modernizr-2.6.2.min.js"></script>
+<script>
+//jquery .ready stub, jquery loads at the bottom of the page
+var docready=[],$=function(o){function r(fn){docready.push(fn);}if(typeof o === 'function') r(o);return{ready: r}};
+</script>
+      
+
+
+
+</head>
+<body>
+
+
+
+
+<div id="page-wrap">
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]--> <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+<section class="nav">
+       <nav id="utility-nav">
+            <a href="directory/sitesearch.html#site"><img alt="search" height="18" src="_assets/new-site/img/sitewide/search.png" width="18"/> Search</a> 
+<a href="inside/index.html">Inside<span style="color: #ffcc00;">SMCM</span></a> 
+<a href="directory/index.html">Directory</a> 
+<a href="advancement/index.html">Support<span style="color: #ffcc00;">SMCM</span></a>
+ </nav>
+           <nav id="primary-nav">
+            
+<a href="http://blogs.smcm.edu/student">Students</a> 
+<a href="parents/index.html">Parents</a> 
+<a href="http://blogs.smcm.edu/faculty">Faculty </a>
+<a href="staffsenate/index.html">Staff</a>
+<a href="alum/index.html">Alumni</a>
+</nav>
+           </section>  
+        
+</header>  
+
+
+<section id="primary">
+  <section class="primary-content">
+        <nav class="secondary-nav">
+            
+<ul>
+<li><a href="about/index.html">About St. Mary's</a></li>
+<li><a href="admissions/index.html" title="Admissions">Admissions</a></li>
+<li><a href="academics/index.html">Academics</a></li>
+<li><a href="campus-life/index.html">Campus Life</a></li>
+<li><a href="http://www.smcmathletics.com">Athletics</a></li>
+<li><a href="after-smcm/index.html">After St. Mary's</a></li>
+</ul>
+</nav>
+        <a href="index.html" title="The Public Honors College St. Mary's College of Maryland at Historic St. Mary's City Welcome"><img alt="St. Mary's College of Maryland, The Public Honors College" height="73" src="_assets/new-site/img/sitewide/newlogo.png" width="390"/></a>
+        	</section>
+           </section>
+
+
+<script>
+//this can just be in the body of the index page.
+function LoadImages(images, onload_callback)
+{
+	images.each(function(i,image){
+		var src = jQuery(image).attr('_src');
+		if (src != undefined) image.src = src;
+		if (typeof onload_callback=='function') image.onload = function() { onload_callback(image) };
+	});
+}
+
+function LoadSliderImages()
+{
+	//use page ready to delay until jquery loaded and the dom is ready to be manipulated
+	$( document ).ready(function() {
+		var imagesLoaded = 1;
+		var v = jQuery("#slider1").find('img');
+		LoadImages(v, function() {
+			imagesLoaded++; if (imagesLoaded>=v.length) StartSlideShow();
+		});
+	});
+}
+
+//slide show is loaded async so just keep trying to start it until it exists
+function StartSlideShow(){if(typeof ResponsiveSlideShow=="function"){ResponsiveSlideShow();return}setTimeout(StartSlideShow,100)};
+</script>
+
+
+<!-- Slideshow 1 -->
+
+
+<script>
+var SliderImagesLoaded = 0;
+function SliderImageLoaded()
+{
+SliderImagesLoaded++;
+if (SliderImagesLoaded>=5) StartSlideShow();
+}
+</script>
+
+
+<div class="rslides_container">
+      
+<ul class="rslides" id="slider1">
+<li><img alt="Admissions Photo" height="592" onload="javascript:SliderImageLoaded()" src="_assets/new-site/img/slider/path.jpg" width="1440"/>
+<div class="caption">
+<h2>Take The Path</h2>
+<p class="sub">A St. Mary's Education Awaits You</p>
+<p class="sub2">Bring your family &#8211; and learn more about our family &#8211; at Admissions Open House on Oct. 19.</p>
+<p class="sub2 link"><a href="admissions/visit/openhouse.html">Register Now &gt;</a></p>
+</div>
+</li>
+<li><img alt="A New year. A new chapter." height="592" onload="javascript:SliderImageLoaded()" src="_assets/new-site/img/slider/newyear.jpg" width="1440"/>
+<div class="caption">
+<h2>Fresh Starts</h2>
+<p class="sub">The Class of 2017 Arrives</p>
+<p class="sub2">&#8220;This class of students is smart, curious, and enthusiastic about being at St. Mary&#8217;s &#8230;&#8221; From Dean
+Rushing&#8217;s remarks at Opening Convocation.</p>
+<p class="sub2 link"><a href="http://www.flickr.com/photos/st_marys_college_md/sets/72157635594978025/">Photo Gallery &gt;</a></p>
+<p class="sub2"><a href="campus-life/convocation-2013.html">Opening Convocation Remarks &gt;</a></p>
+</div>
+</li>
+<li><img alt="Machine" height="592" onload="javascript:SliderImageLoaded()" src="_assets/new-site/img/slider/machine.jpg" width="1440"/>
+<div class="caption">
+<h2>Simply the Best</h2>
+<p class="sub2" style="color: #ffcc00;">U.S. News &amp; World Report again ranks St. Mary&#8217;s as one of the top five public liberal arts
+colleges in the nation.</p>
+<p class="sub2 link"><a href="http://www.smcm.edu/news/pressrelease/2013/09/13-101.html">Learn More &gt;</a></p>
+</div>
+</li>
+<li><img alt="Smurf 2013" height="592" onload="javascript:SliderImageLoaded()" src="_assets/new-site/img/slider/smurf.jpg" width="1440"/>
+<div class="caption">
+<h2>A Summer of Student Research</h2>
+<p class="sub2" style="color: #ffcc00;">Zarrin Thompson &#8217;16 studies invasive plants in Historic St. Mary&#8217;s City as a participant in the St. Mary&#8217;s
+Undergraduate Research Fellowship program.</p>
+<p class="sub2 link"><a href="http://www.smcm.edu/news/pressrelease/2013/07/13-092.html">Learn More &gt;</a></p>
+</div>
+</li>
+<li><img alt="The Container" height="592" onload="javascript:SliderImageLoaded()" src="_assets/new-site/img/slider/container.jpg" width="1440"/>
+<div class="caption">
+<h2>The Container</h2>
+<p class="sub2" style="color: #ffcc00;">The  Department of Theater, Film, &amp; Media Studies presents a heartfelt journey of five immigrants seeking a new life in Clare Bayley&#8217;s <cite>The Container</cite>. </p>
+<p class="sub2 link">Oct. 24 - Nov. 3 in the Bruce Davis Theater.</p>
+</div>
+</li>
+</ul>
+</div>
+
+<div style="clear: both;"></div>
+<section id="middle-content">
+<div class="menu-wrapper">
+<div class="CS-menu">
+<div class="tab active"><a class="tab_link" href="#content1" id="tab_1" rel="1">News</a></div>
+<div class="tab"><a class="tab_link" href="#content2" id="tab_2" rel="2">Profiles</a></div>
+<div class="tab"><a class="tab_link" href="#content3" id="tab_3" rel="3">Events</a></div>
+<div class="tab"><a class="tab_link" href="#content4" id="tab_4" rel="4">Photos</a></div>
+<div class="tab"><a class="tab_link" href="#content5" id="tab_5" rel="5">Videos</a></div>
+</div>
+<div></div>
+</div>
+<div class="CS-container">
+<div class="main">
+<div class="main_inner" style="width: 5000px; margin-left: 0px;">
+<div class="content" id="content2">
+<div class="row">
+<h2 class="news-headline">TOP HEADLINES</h2>
+<div class="rule"></div>
+<span class="article"><img alt="St. Mary&#8217;s College&#8217;s new gender-neutral housing policy diversifies housing options for students." height="200" src="_assets/new-site/img/homepage-photos/news/openhousing-8-24-13.jpg" width="290"/>
+<h2>Gender-Neutral Housing, A New Option at St. Mary&#8217;s</h2>
+<hr/>
+<p><span>St. Mary&#8217;s College&#8217;s new gender-neutral housing policy diversifies housing options for students.</span></p>
+<div class="read-more"><a href="news/pressrelease/2013/09/13-102.html">Read More <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+</span>
+<span class="article"><img alt="Gary Sherman St. Mary's New VP of Admissions" height="200" src="_assets/new-site/img/homepage-photos/gary.jpg" width="290"/>
+<h2>St. Mary&#8217;s New VP </h2>
+<hr/>
+<p>St. Mary&#8217;s welcomes Gary Sherman, new vice president for enrollment management and dean of admissions, Oct. 7. </p>
+<div class="read-more"><a href="http://www.smcm.edu/news/pressrelease/2013/08/13-100.html">Read More <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+</span>
+<span class="article"><a href="#" title="St. Mary's New Building"><img alt="Building Up" height="200" src="_assets/new-site/img/homepage-photos/building-up.jpg" width="290"/></a>
+<h2>Building Up</h2>
+<hr/>
+<p>Construction begins on St. Mary&#8217;s newest LEED-certified academic building.  </p>
+<div class="read-more"><a href="http://www.smcm.edu/news/pressrelease/2013/08/13-096.html ">Read More <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+</span>
+</div>
+</div>
+<div class="content" id="content1">
+<span class="profilesem">
+<div class="row">
+<div class="CS-span1">
+<h2>WE ARE ST. MARY'S</h2>
+<div class="rule"></div>
+<a class="fancybox" href="#data1" id="inline">
+</a>
+<div class="circle"><a href="#data1" id="inline" title="Katherine Henry '14">
+<img alt="Katherine Henry" height="250" src="_assets/new-site/img/homepage-photos/katherine-henry.jpg" width="250"/>
+<h3>Katherine Henry '14</h3>
+<h2>Academic Quality. Exceptional Faculty.</h2>
+<hr/>
+<p><br/><br/><br/>"At St. Mary's I've had the amazing experience to develop not only my knowledge
+and skills in the dramatic arts, but also in every other discipline I've sought to 
+tackle.
+</p>
+</a>
+<div class="read-more"><a class="fancybox" href="#data1" id="inline">View Profile <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+<div style="display: none;">
+<div class="fancybox" id="data1" style="display: none;">
+<div class="right-side">
+<img src="http://www.smcm.edu/_assets/new-site/img/homepage-photos/henry-2.jpg"/></div>
+<div class="left-side">
+<h3>Katherine Henry '14</h3>
+<p>Hometown: Eldersburg, MD<br/>
+High School: Seton Keough (Baltimore, MD)<br/>
+Major:  History<br/>
+Minors: Educational Studies, Theater Studies</p>
+<p>"At St. Mary's I've had the amazing experience to develop not only my knowledge and skills in the dramatic arts, but also in every other discipline I've sought to tackle. You don't have to be just one kind of person, or have one kind of interest; an honors liberal arts curriculum like ours allows every student to grow academically, personally, and socially. With such knowledgeable faculty and such spectacular opportunities, St. Mary's is kind of a no-brainer!"</p>
+</div>
+</div>
+<p>&#160;</p>
+</div>
+</div>
+<a class="fancybox" href="#data2" id="inline">
+</a>
+<div class="circle"><a href="#data2" id="inline" title="Muluberhan Bahre '16">
+<img alt="Bahre" height="250" src="_assets/new-site/img/homepage-photos/bahre1.jpg" width="250"/>
+<h3>Muluberhan Bahre '16</h3>
+<h2>Size. Majors. Affordability.</h2>
+<hr/>
+<p><br/><br/><br/>"I came to SMCM because of its size, my major, and affordability.  I always wanted
+to attend school where I can interact with my professors."<br/><br/>
+</p>
+</a>
+<div class="read-more"><a class="fancybox" href="#data2" id="inline">View Profile <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+<div style="display: none;">
+<div class="fancybox" id="data2" style="display: none;">
+<div class="right-side"><img height="175" src="http://www.smcm.edu/_assets/new-site/img/homepage-photos/bahre1.jpg" width="200"/></div>
+<div class="left-side">
+<h3>Muluberhan Bahre '16</h3>
+<p>Hometown:    Baltimore, MD (originally Eritrea)<br/>
+High School:  Patterson<br/>
+Intended Major:  Biology<br/>
+Intended Minor:  Neuroscience</p>
+<p>"I came to SMCM because of it's size, my major, and affordability. I always wanted to attend school where I can interact with my professors. More of that, what I love now is the DeSousa-Brent Scholars program. DeSousa-Brent is my family. I am always passionate to make positive changes. My differences are always celebrated and I always feel comfortable within and out of the DB family. LOVE DB &amp; SMCM!!!"</p>
+</div>
+</div>
+</div>
+</div>
+<a class="fancybox" href="#data3" id="inline">
+</a>
+<div class="circle"><a href="#data3" id="inline" title="Emily Burdeshaw '13">
+<img alt="Katherine Henry" height="250" src="_assets/new-site/img/homepage-photos/thumb-burdeshaw.jpg" width="250"/>
+<h3>Emily Burdeshaw '13</h3>
+<h2>Life-Long Friendships. Career Preparation.</h2>
+<hr/>
+<p><br/><br/><br/>&#8220;I have complete confidence that the last four years have prepared me to succeed
+in my career and to constantly challenge myself to be better at what I do and who 
+I am.&#8221;
+</p>
+</a>
+<div class="read-more"><a class="fancybox" href="#data3" id="inline">View Profile <span aria-hiden="true" class="icon-right">&gt;</span></a></div>
+<div style="display: none;">
+<div class="fancybox" id="data3" style="display: none;">
+<div class="right-side"><img alt="Burdeshaw" height="449" src="http://www.smcm.edu/_assets/new-site/img/homepage-photos/burdeshaw1.jpg" width="300"/></div>
+<div class="left-side">
+<h3>Emily Burdeshaw '13</h3>
+<p>Hometown:   Aberdeen, MD<br/>
+High School: John Carroll (in Bel Air, MD)<br/>
+Major:          English<br/>
+Minor:          Studio Art</p>
+<p>I love St. Mary&#8217;s because every fall and spring day is a barefoot day. Every sunny day is a Frisbee day. Every blustering winter&#8217;s day leads to a study date with hot tea and every Tuesday means the Farmer&#8217;s market provides ingredients for a meal that is fresh and local. I came to St. Mary&#8217;s because of a shoeless walk I took through campus on a sunny accepted students day. I stayed at St. Mary&#8217;s because I had the opportunity to learn with (and from) some of the most beautiful people I have ever met. Instances like a Point Lookout bike ride punctuated with a hearty philosophical debate, or a voluntary weekend art history field trip to DC when we met our professor for Chinese, convinced me that I would thrive at this small school on the river. Spirited conversations about Japanese culture and Thai yoga lifestyle with a CBS producer, and an internship that led to a job in Public Affairs convinced me I had chosen the best school to prepare me for the real world and to provide the best opportunity to succeed.</p>
+<p>When I graduated, I thought I would feel apprehension about the future, particularly with regard to my friendships and career, but I didn&#8217;t. By May, I was ready to graduate, spread my wings. I had a job and the assurance that my mentors were an email away. My friends were in Baltimore or DC or a skype call away. I have complete confidence that the last four years have prepared me to succeed in my career and to constantly challenge myself to be better at what I do and who I am.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+<div class="content" id="content3">
+<h2 class="news-headline">UPCOMING EVENTS</h2>
+<div class="rule"></div>
+<div class="row">
+<div class="CS-span3">
+<h3>Athletics Events</h3>
+<span id="rss-feed-1">&#160;</span>
+    </div>
+<div class="CS-span4">
+<h3>Upcoming Events</h3>
+<span id="rss-feed-2">&#160;</span>
+    </div>
+</div>
+<div class="CS-span5">
+<p><a href="http://www.smcm.edu/calendar/events/index.php">View Events Calendar</a></p>
+</div>
+</div>
+<div class="content" id="content4">
+        
+        
+        <!--
+<script src="http://feeds.feedburner.com/UploadsFromStMarysCollegeOfMaryland?format=sigpro" type="text/javascript" ></script>
+<noscript><! &lt;p&gt;Subscribe to RSS headline updates from: &lt;a href="http://feeds.feedburner.com/UploadsFromStMarysCollegeOfMaryland"&gt;&lt;/a&gt;&lt;br/&gt;Powered by FeedBurner&lt;/p&gt; -->
+<h2 class="news-headline">DISCOVER CAMPUS</h2>
+<div class="rule"></div>
+<div class="row">
+<a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/waterfront.jpg" rel="gallery" title="The St. Mary's College waterfront"><img alt="The Waterfront" height="150" src="_assets/new-site/img/homepage-photos/thumbs/waterfront.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/tip-off.jpg" rel="gallery" title="The beginning of another winning game for the Seahawks"><img alt="Tip Off" height="150" src="_assets/new-site/img/homepage-photos/thumbs/tip-off.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/cresents.jpg" rel="gallery" title="The South Crescent Townhouses"><img alt="Cresents" height="150" src="_assets/new-site/img/homepage-photos/thumbs/buildings.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/harp.jpg" rel="gallery" title="A practice session in Montgomery Hall"><img alt="girl with harp" height="150" src="_assets/new-site/img/homepage-photos/thumbs/harp.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/kndeegan.jpg" rel="gallery" title="A weekend BBQ in the Greens"><img alt="Students at BBQ" height="150" src="_assets/new-site/img/homepage-photos/thumbs/cresents.jpg" width="150"/></a></div>
+<div class="row">
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/tshirts.jpg" rel="gallery" title="The many colors of SMCM"><img alt="T-Shirts" height="150" src="_assets/new-site/img/homepage-photos/thumbs/tshirts.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/church-point.jpg" rel="gallery" title="Students watching the sunset at Church Point"><img alt="Church Point" height="150" src="_assets/new-site/img/homepage-photos/thumbs/church-point.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/math.jpg" rel="gallery" title="Group exercises in Math class"><img alt="Math" height="150" src="_assets/new-site/img/homepage-photos/thumbs/math.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/29.jpg" rel="gallery" title="Students walking to class"><img height="150" src="_assets/new-site/img/homepage-photos/thumbs/thumb.29.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/college.jpg" rel="gallery" title="An aerial view of the College"><img alt="Aerial Shot" height="150" src="_assets/new-site/img/homepage-photos/thumbs/college.jpg" width="150"/></a>
+          
+          </div>
+<div class="row">
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/paint-girls.jpg" rel="gallery" title="Students recover from a powder paint fight at World Carnival 2013"><img alt="World Carnival 2013" height="150" src="_assets/new-site/img/homepage-photos/thumbs/carnival.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/river-center.jpg" rel="gallery" title="Summer at St. Mary's--the perfect time to enjoy the water"><img alt="River Center" height="150" src="_assets/new-site/img/homepage-photos/thumbs/river-center.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/rugby.jpg" rel="gallery" title="An intramurals rugby scrum"><img alt="Rugby" height="150" src="_assets/new-site/img/homepage-photos/thumbs/rugby.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/sailing.jpg" rel="gallery" title="A student rigging a sail"><img alt="Sailing" height="150" src="_assets/new-site/img/homepage-photos/thumbs/sailing.jpg" width="150"/></a>
+          
+          <a class="fancybox1" href="http://www.smcm.edu/_assets/new-site/img/homepage-photos/buildings.jpg" rel="gallery" title="Eastern view of Schaefer and Goodpaster Halls"><img alt="Buildings" height="150" src="_assets/new-site/img/homepage-photos/thumbs/buildings-2.jpg" width="150"/></a>
+          
+          </div>
+<p class="flickr"><a href="http://www.flickr.com/photos/st_marys_college_md/collections/"><img alt="View us on flickr" height="28" src="_assets/new-site/img/sitewide/see-flickr.png" width="165"/></a></p>
+</div>
+<div class="content" id="content5">
+<h2 class="news-headline">VIDEOS</h2>
+<div class="rule"></div>
+<div class="CS-span7">
+<h2>The DeSousa-Brent Scholars Program</h2>
+<hr/>
+<p>The DeSousa-Brent Scholars Program cultivates the academic and leadership potential of talented students from groups traditionally underrepresented at St. Mary's. The select program prepares a community of scholars to guide the College's efforts to increase understanding of diversity and inclusion.</p>
+<p><strong><em>Subscribe to our YouTube Channel</em></strong></p>
+<script gapi_processed="true" src="https://apis.google.com/js/plusone.js"></script>
+<div id="___ytsubscribe_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 140px; height: 24px; background-position: initial initial; background-repeat: initial initial;"><iframe data-gapiattached="true" frameborder="0" hspace="0" id="I0_1376926361172" marginheight="0" marginwidth="0" name="I0_1376926361172" scrolling="no" src="https://www.youtube.com/subscribe_embed?bsv=o&amp;usegapi=1&amp;channel=smcm&amp;layout=default&amp;hl=en-US&amp;origin=http%3A%2F%2Fwebdev.smcm.edu&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.dipFdyrvSMQ.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAItRSTObig-rw9WAHTl20AVon8VgNqCn7g#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Conload&amp;id=I0_1376926361172&amp;parent=http%3A%2F%2Fwebdev.smcm.edu&amp;pfname=&amp;rpctoken=25641236" style="position: static; top: 0px; width: 140px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%"></iframe></div>
+</div>
+<div class="CS-span6">
+        
+               <iframe frameborder="0" height="315" src="//www.youtube.com/embed/e30lw_f_XR0?list=UUWgNPzFCTImZqpQUaXipKRA" width="660"></iframe>
+         
+            </div>
+<div class="CS-span8"><span class="CS-social">
+<p class="vine"><a href="https://vine.co/v/hmttHVPUwx0"><img alt="View us on Vine" height="28" src="_assets/new-site/img/sitewide/vine.png" width="165"/></a></p>
+</span><span class="CS-social">
+<p><iframe allowtransparency="true" class="twitter-follow-button twitter-follow-button" data-twttr-rendered="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1375828408.html#_=1376926361411&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=stmarysMD&amp;show_count=false&amp;show_screen_name=true&amp;size=l" style="width: 165px; height: 28px;" title="Twitter Follow Button"></iframe>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+</span>
+<span class="CS-social">
+<p>
+<style>.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-v-24 { width: 165px; height: 28px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
+<a class="ig-b- ig-b-v-24" href="http://instagram.com/smcm_admissions?ref=badge"><img alt="Instagram" src="//badges.instagram.com/static/images/ig-badge-view-24.png"/></a></p>
+</span>
+<span class="CS-social">
+<p class="vine"><a href="https://www.facebook.com/stmarysMD"><img alt="Find us on Facebook" height="28" src="_assets/new-site/img/sitewide/facebook-find.png" width="165"/></a></p>
+</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="middle-content2">
+<div class="popout-area">
+<h1>Get In Touch.</h1>
+<hr/>
+<a href="admissions/apply/index.html">
+</a>
+<div class="profile-button"><a href="admissions/apply/index.html">How to Apply</a></div>
+<div class="profile-button"><a href="admissions/visit/index.html">Visit Campus</a></div>
+<a href="/SMCM/steph/admissions/visit/index">
+</a>
+<a href="admissions/contact/index.html">
+</a>
+<div class="profile-button"><a href="admissions/contact/index.html">Request Information</a></div>
+<a href="admissions/contact/index.html">
+</a>
+</div>
+</section>
+<footer>
+    	<section id="footer-content">
+   			<section class="left">
+<img alt="St. Mary's College of Maryland, The Public Honors College" height="88" src="_assets/new-site/img/sitewide/footer.png" width="386"/>
+            
+            <section id="bottom-content-wrapper">
+            </section>
+<address>
+<a href="https://givecorps.com/en/smcm">
+<div class="profile-button2">Give Now</div>
+</a>
+<div class="vcard">
+ <span class="fn n">
+    <span class="given-name"></span>
+  <span class="additional-name"></span>
+  <span class="family-name"></span>
+</span>
+<div class="org">St. Mary's College of Maryland</div>
+<div class="adr">
+<div class="street-address">18952 E. Fisher Rd</div>
+<span class="locality">St. Mary's City</span>
+, 
+  <span class="region">MD</span>
+, 
+  <span class="postal-code">20686-3001</span>
+ </div>
+<div class="tel">(240) 895-2000</div>
+</div>
+</address>
+<div class="social-icons"> <a href="http://www.youtube.com/user/smcm"><img alt="Youtube" height="50" src="_assets/new-site/img/sitewide/youtube.png" width="86"/></a><a href="https://www.facebook.com/stmarysMD"><img alt="Facebook" height="50" src="_assets/new-site/img/sitewide/facebook.png" width="86"/></a><a href="http://www.flickr.com/photos/st_marys_college_md/collections/"><img alt="Flickr" height="50" src="_assets/new-site/img/sitewide/flickr.png" width="86"/></a><a href="https://twitter.com/StMarysMD"><img alt="Twitter" height="50" src="_assets/new-site/img/sitewide/twitter.png" width="86"/></a></div>
+</section>
+      <section class="right">
+        	<article class="span1">
+            <nav class="footer-nav">
+            
+<ul>
+<li>Next Steps: <br/><br/></li>
+<li><a href="admissions/apply/index.html">Apply For Admission</a></li>
+<li><a href="admissions/visit/index.html">Visit Campus</a></li>
+<li><a href="admissions/visit/openhouse.html">Tours &amp; Information Sessions</a></li>
+<li><a href="admissions/contact/index.html">Request Information</a></li>
+</ul>
+</nav>
+            </article>
+            <article class="span2">
+            <nav class="footer-nav">
+            
+<ul>
+<li>Just For You:  <br/><br/></li>
+<li><a href="http://blogs.smcm.edu/student">Students</a></li>
+<li><a href="http://www.smcm.edu/parents">Parents</a></li>
+<li><a href="http://blogs.smcm.edu/faculty">Faculty | </a><a href="staffsenate/index.html">Staff</a></li>
+<li><a href="http://www.smcm.edu/hr">Employment Opportunities</a></li>
+</ul>
+</nav>
+            </article>
+            <article class="span3">
+            <nav class="footer-nav">
+            
+<ul>
+<li>Resources:  <br/><br/></li>
+<li><a href="inside/index.html">Inside<span style="color: #ffcc00;">SMCM</span></a></li>
+<li><a href="directory/index.html">Directory</a></li>
+<li><a href="http://www.smcm.edu/calendar/events/">Events</a></li>
+<li><a href="http://www.smcm.edu/news">News</a></li>
+<li><a href="http://www.smcm.edu/library">Library</a></li>
+</ul>
+</nav>
+            </article>
+        </section>
+    </section></footer>
+
+
+
+
+</div> <div class="navlist-wrapper">
+<ul id="navlist">
+<li id="bestcollege"><a href="http://www.smcm.edu/about/rankings.html#usnews"></a></li>
+<li id="honorroll"><a href="http://www.smcm.edu/about/rankings.html#president"></a></li>
+<li id="green"><a href="http://www.smcm.edu/about/rankings.html#green"></a></li>
+<li id="maryland"><a href="http://www.smcm.edu/about/rankings.html#red"></a></li>
+<li id="princeton"><a href="http://www.smcm.edu/about/rankings.html#orange"></a></li>
+<li id="public"><a href="http://www.smcm.edu/about/rankings.html"></a></li>
+<li id="topcollege"><a href="http://www.smcm.edu/about/rankings.html#top"></a></li>
+<li id="fiske"><a href="http://www.smcm.edu/about/rankings.html"></a></li>
+</ul>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="_assets/new-site/js/vendor/labjs.js"></script>
+<script>
+	//load ready events from queue
+	$=jQuery;for(n in docready)$(document).ready(docready[n]);
+
+	$LAB.script("http://webdev.smcm.edu/_assets/new-site/js/vendor/modernizr-2.6.2.min.js")
+	.script( "//use.typekit.net/kmq8won.js").wait(function() { try{Typekit.load();}catch(e){} } );
+
+	$LAB
+	.script("http://webdev.smcm.edu/_assets/new-site/js/vendor/responsiveslides.min.js")
+	.script("http://webdev.smcm.edu/_assets/new-site/js/vendor/jquery.mousewheel-3.0.6.pack.js")
+	.script("http://webdev.smcm.edu/_assets/new-site/js/vendor/jquery.fancybox.pack.js").wait()
+	.script("http://webdev.smcm.edu/_assets/new-site/js/plugins.js").wait(loadCalendarFeed);
+	
+	//lazy load "photos tab" on mouse over of the Photos link
+	$('#tab_4').mouseover(function() { var v = jQuery("#content4").find('img'); LoadImages( v ); });
+
+
+  <!-- Pull Feeds for Events Tab -->
+	function loadCalendarFeed()
+	{
+		//Pull Feeds for Events Tab
+		$('#rss-feed-1').CalendarFeed({
+			FeedUrl : 'http://www.smcm.edu/calendar/events/rss/custom.php?l=37',
+			MaxCount : 4,
+		});
+
+		$('#rss-feed-2').CalendarFeed({
+			FeedUrl : 'http://www.smcm.edu/calendar/events/rss/custom.php?l=3,52,51',
+			MaxCount : 4,
+		});
+	}
+</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-6699599-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        
+      
+        
+
+</body>
+</html>

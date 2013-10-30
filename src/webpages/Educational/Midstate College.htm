@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, minimum-scale=1, maximum-scale=2" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="/_common/images/webapp-icon.png" />
+    <link rel="apple-touch-startup-image" href="/_common/images/webapp-startup.png" />
+    <title>Midstate College: Home</title>
+    <link type="image/x-icon" href="/_common/images/favicon.ico" rel="shortcut icon" />
+    <link type="text/css" href="/_common/styles/midstate.css" rel="stylesheet" />
+    <link type="text/css" href="/_common/styles/www.css" rel="stylesheet" />
+    <script type="text/javascript" src="/_common/scripts/midstate.js"></script>
+    <script type="text/javascript" src="/_common/scripts/www.js"></script>
+    <script type="text/javascript" src="/_common/scripts/google-analytics.js"></script>
+</head>
+
+<body class="site_www template_home section_home page_home layout_fixed" onload="init_home();">
+    <div id="header">
+        <h1><a href="/index.php"><img src="/_common/images/logo.png" alt="Midstate College" /></a></h1>
+        <h2>Header</h2>
+
+        <div id="skipto">
+            <h3>Skip To</h3>
+            <ul>
+                <li id="skipto_header"><a href="#header">Header</a>
+                    <ul>
+                        <li id="skipto_social"><a href="#social" onclick="return toggle_skipto_target(this);">Social Media</a></li>
+                        <li id="skipto_sites"><a href="#sites" onclick="return toggle_skipto_target(this);">Midstate Sites</a></li>
+                        <li id="skipto_breadcrumbs"><a href="#breadcrumbs" onclick="return toggle_skipto_target(this);">Breadcrumbs</a></li>
+                        <li id="skipto_search"><a href="#search" onclick="return toggle_skipto_target(this);">Search</a></li>
+                    </ul>
+                </li>
+                <li id="skipto_navigation"><a href="#navigation" onclick="return toggle_skipto_target(this);">Navigation</a></li>
+                <li id="skipto_banner"><a href="#banner" onclick="return toggle_skipto_target(this);">Banner</a></li>
+                <li id="skipto_content"><a href="#content" onclick="return toggle_skipto_target(this);">Content</a></li>
+                <li id="skipto_footer"><a href="#footer" onclick="return toggle_skipto_target(this);">Footer</a>
+                    <ul>
+                        <li id="skipto_resources"><a href="#resources" onclick="return toggle_skipto_target(this);">Student Resources</a></li>
+                        <li id="skipto_publications"><a href="#publications" onclick="return toggle_skipto_target(this);">Midstate Publications</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="social">
+            <h3>Social Media</h3>
+
+            <ul>
+                <li id="social_facebook"><a href="http://www.facebook.com/pages/Midstate-College/81439874690" title="Facebook"><span>Facebook</span></a></li>
+                <li id="social_twitter"><a href="http://twitter.com/midstatecollege" title="Twitter"><span>Twitter</span></a></li>
+                <li id="social_youtube"><a href="http://www.youtube.com/midstatecollege" title="YouTube"><span>YouTube</span></a></li>
+                <li id="social_chat">
+                    <script type="text/javascript">
+                        var lhnAccountN = "19258-1";
+                        var lhnButtonN = 0;
+                        var lhnChatPosition = 'default';
+                        var lhnInviteEnabled = 1;
+                        var lhnWindowN = 0;
+                        var lhnDepartmentN = 0;
+                    </script>
+                    <script src="//commondatastorage.googleapis.com/lhn/chat/scripts/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+                    <script type="text/javascript">
+                        function LHN_button_onLoad(){
+                            document.getElementById("a_livehelpnow").className = ((bLHNOnline == 0) ? "offline" : "online");
+                        }
+                    </script>
+                    <a id="a_livehelpnow" onclick="javascript:OpenLHNChat();javascript:LHN_button-OnLoad();return false;" href="#"><span>Chat with Admissions</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="sites">
+            <h3>Midstate Sites</h3>
+
+            <ul>
+                <li class="current"><a href="http://www.midstate.edu">Main Website</a></li>
+                <li><a href="https://gateway.midstate.edu">Gateway</a></li>
+            </ul>
+        </div>
+
+        <div id="breadcrumbs">
+            <h3>Breadcrumbs</h3>
+
+            <p>
+                <span class="bold">Main Website:</span>
+                <a href="/index.php">Home</a>
+            </p>
+        </div>
+
+        <div id="search">
+            <h3>Search</h3>
+
+            <form method="post" action="/submit_search.php" onsubmit="return validate_search();">
+                <div>
+                    <label id="SearchStringLabel" for="SearchString">Search Midstate:</label>
+                    <input id="SearchString" name="SearchString" type="text" placeholder="Search Midstate" />
+                    <input id="SearchSubmit" name="SearchSubmit" type="submit" value="Go" title="Search Midstate" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="banner">
+        <h2>Banner</h2>
+    </div>
+
+    <div id="navigation">
+        <h2>Navigation</h2>
+
+        <div id="utilities">
+            <h3>Contact Utilities</h3>
+
+            <ul>
+                <li id="utility_contact">
+                    <a href="/admissions/enrollment.php">
+                        <span class="title">Contact Us</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Contact an Admissions Representative.</span>
+                    </a>
+                </li>
+
+                <li id="utility_learn">
+                    <a href="https://gateway.midstate.edu/_secure/admissions/?type=lead" onclick="app_window(this.href); return false">
+                        <span class="title">Learn More</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Get more information about Midstate.</span>
+                    </a>
+                </li>
+
+                <li id="utility_apply">
+                    <a href="https://gateway.midstate.edu/_secure/admissions/?type=application" onclick="app_window(this.href); return false">
+                        <span class="title">Apply Online</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Begin the application process now.</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="pages">
+            <h3>Pages Within This Site</h3>
+
+            <ul>
+                <li class="current"><a href="/index.php">Home</a></li>
+                <li class="collapse"><a href="/overview">College Overview</a></li>
+                <li class="collapse"><a href="/admissions">Admissions</a></li>
+                <li class="collapse"><a href="/academics">Academics</a></li>
+                <li class="collapse"><a href="/programs">Programs Offered</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="headline">
+            <h2>Experience Midstate</h2>
+
+            <h3 id="h3_subheading">Where it all comes together</h3>
+
+            <ul id="toolbar">
+                <li><a id="tool_help" href="http://online.midstate.edu/support/" onclick="app_window(this.href); return false;" title="Technical Support">Help</a></li>
+            </ul>
+        </div>
+
+        <div id="messages">
+        </div>
+
+        <div id="block">
+            <div class="craig_half">
+                <h4 class="nodisplay">Midstate College</h4>
+                <p>The experience of attending school at Midstate College is different from other institutions. Since 1888 Midstate College in Peoria, Illinois has been a leader in professional training and education. Over time, Midstate College has developed a comprehensive understanding of business knowledge, specialized career skills, and technological advances to offer the perfect solution for individuals wanting to advance in their careers or embark into new areas of employment.</p>
+                <p>The caring faculty and individualized attention students receive at Midstate College is unparalleled by other institutions. The supportive atmosphere allows learning to take place in a comfortable environment that meets the needs of all students. Small classes are offered day, night, and online to provide access to students with complex schedules. Our students are often surprised at how learning at Midstate College is such a positive and enjoyable experience.</p>
+            </div>
+
+            <div class="craig_half" id="calendar_short">
+                <h4>Upcoming Events</h4>
+
+                <div id="placeholder">
+                </div>
+
+                <div id="event_full">
+                    <a href="/academics/calendar/" title="Show Full Event Calendar">Event Calendar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h2>Footer</h2>
+
+        <div id="resources">
+            <h3>Student Resources</h3>
+
+            <ul>
+                <li id="elearning">
+                    <a href="https://midstate.mrooms3.net">
+                        <span class="title">Midstate eLearning</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Participate in online classes through the Joule system.</span>
+                    </a>
+                </li>
+
+                <li id="email">
+                    <a href="https://mail.midstate.edu">
+                        <span class="title">Midstate Email</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Access to your email, contacts, calendar, and more.</span>
+                    </a>
+                </li>
+
+                <li id="browser">
+                    <a href="https://gateway.midstate.edu/_secure/browser/">
+                        <span class="title">File System Browser</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Access to personal and public files from off campus.</span>
+                    </a>
+                </li>
+
+                <li id="library">
+                    <a href="/academics/library.php">
+                        <span class="title">Library Resources</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Online libraries, databases, catalogs and more.</span>
+                    </a>
+                </li>
+
+                <li id="directory">
+                    <a href="/academics/directory/employees.php">
+                        <span class="title">Faculty/Staff Directory</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Profiles for Midstate College faculty and staff members.</span>
+                    </a>
+                </li>
+
+                <li id="schedule">
+                    <a href="/academics/directory/schedule.php">
+                        <span class="title">Class Schedule</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">A listing of scheduled classes and sections.</span>
+                    </a>
+                </li>
+
+                <li id="calendar">
+                    <a href="/academics/calendar/">
+                        <span class="title">Event Calendar</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Upcoming news and events at Midstate College.</span>
+                    </a>
+                </li>
+
+                <li id="support">
+                    <a href="http://online.midstate.edu/support/" onclick="app_window('http://online.midstate.edu/support/'); return false">
+                        <span class="title">Technical Support</span>
+                        <span class="hyphen"> - </span>
+                        <span class="description">Request technical assistance and download software.</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="publications">
+            <h3>Midstate Publications</h3>
+
+            <ul>
+                <li id="publication_catalog"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/Catalog.pdf">College Catalog</a></li>
+                <li id="publication_elearning"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/Student_eLearning_Guide.pdf">Student eLearning Guide</a></li>
+                <li id="publication_handbook"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/Student_Handbook.pdf">Student Handbook</a></li>
+                <li id="publication_sysport"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/AQIP_Systems_Portfolio.pdf">Systems Portfolio</a></li>
+                <li id="publication_academiccalendar"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/Academic_Calendar.pdf">Academic Calendar</a></li>
+                <li id="publication_calendar"><a class="pdf" href="http://online.midstate.edu/Downloads/Publications/calendar.pdf">2013 Calendar</a></li>
+            </ul>
+        </div>
+
+        <div id="copyright">
+            <p>&copy; Copyright 2013, <a href="http://www.midstate.edu">Midstate College</a></p>
+        </div>
+
+    </div>
+</body>
+
+</html>

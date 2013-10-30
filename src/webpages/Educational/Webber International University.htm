@@ -1,0 +1,658 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<title>
+</title>
+    <link id="ctl00_lnkStyleSheet" rel="stylesheet" href="/include/general.css?0.1890789"></link>
+    <script type="text/javascript">
+    function rollover(img, onoff) {
+        str = img.firstChild.src
+        if (onoff) {
+            var extLoc = str.length - 4
+            str = str.substring(0,extLoc) + 'b.gif'
+        } else {
+            var extLoc = str.length - 5
+            str = str.substring(0,extLoc) + '.gif'
+        }
+        img.firstChild.src = str
+    }
+    </script>  
+    <script type="text/javascript" src="/common/js/swfobject.js"></script>  
+</head>
+<body>
+	<form name="aspnetForm" method="post" action="index.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDA0NzE3MDc2D2QWAmYPZBYEAgUPFgIeBGhyZWYFHi9pbmNsdWRlL2dlbmVyYWwuY3NzPzAuMTg5MDc4OWQCBw9kFhBmDxYCHgNzcmMFGy9pbWFnZXMvaGVhZGVycy9oZWFkZXIxLmpwZ2QCAQ9kFgICAQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQluYXZfdGl0bGUeDkRhdGFWYWx1ZUZpZWxkBQZuYXZfaWQeC18hRGF0YUJvdW5kZ2QQFQ0LUXVpY2sgTGlua3MIQ2FsZW5kYXIPQ2FyZWVyIFNlcnZpY2VzGENyaW1pbmFsIEp1c3RpY2UgV2Vic2l0ZRNDb250YWN0IEluZm9ybWF0aW9uEUZhY2lsaXRpZXMgUmVudGFsDUZpbmFuY2lhbCBBaWQWSW50ZXJuYXRpb25hbCBTdHVkZW50cwVteVdJVQxQbGFubmluZyBEYXkMU2Nob2xhcnNoaXBzDVdJVSBCb29rc3RvcmUSV0lVIFdvcmxkIChNb29kbGUpFQ0AATEDMTA1AzEwNgIyNAI4OAI3MgI2MwI2NAI4NgI5MAI3MAI4ORQrAw1nZ2dnZ2dnZ2dnZ2dnFgFmZAICDxQrAANkFCsABhQrAAIPFgIeC05hdmlnYXRlVXJsBREvYWJvdXQvaW5kZXguYXNweGQUKwAGFCsAAg8WCB4EVGV4dAUHSGlzdG9yeR8FBRMvYWJvdXQvaGlzdG9yeS5hc3B4HgtCb3JkZXJXaWR0aBsAAAAAAAAAAAEAAAAeBF8hU0ICIGRkFCsAAg8WCB8GBQ9OZXdzIGFuZCBFdmVudHMfBQUNL2hvdG5ld3MuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgURSm9iIE9wcG9ydHVuaXRpZXMfBQUdL2Fib3V0L0pvYl9PcHBvcnR1bml0aWVzLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYIHwYFEURpcmVjdGlvbnMgdG8gV0lVHwUFHS9hYm91dC9EaXJlY3Rpb25zX3RvX1dJVS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQdNaXNzaW9uHwUFEy9hYm91dC9NaXNzaW9uLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYIHwYFDUFjY3JlZGl0YXRpb24fBQUZL2Fib3V0L0FjY3JlZGl0YXRpb24uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFgIfBQUVL2FjYWRlbWljcy9pbmRleC5hc3B4ZBQrAAwUKwACDxYIHwYFFkEgTWVzc2FnZSBmcm9tIHRoZSBDQU8fBQUbL2FjYWRlbWljcy9NZXNzYWdlX0NBTy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRlBY2FkZW1pYyBTdXBwb3J0IFNlcnZpY2VzHwUFKS9hY2FkZW1pY3MvQWNhZGVtaWNfc3VwcG9ydF9zZXJ2aWNlcy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQ5CYWJzb24gTGlicmFyeR8FBRwvQmFic29uIExpYnJhcnkvTGlicmFyeS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRFBY2FkZW1pYyBDYWxlbmRhch8FBSIvYWNhZGVtaWNzL2NhbGVuZGFyX3VuZGVyZ3JhZC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRVVbmRlcmdyYWR1YXRlIFN0dWRpZXMfBQUZL1VuZGVyZ3JhZHVhdGUvaW5kZXguYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUQR3JhZHVhdGUgU3R1ZGllcx8FBQovZ3JhZHVhdGUvHwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQ1BZHVsdCBQcm9ncmFtHwUFKi9hY2FkZW1pY3MvbWNrZW5uYV9jb21wbGV0aW9uX3Byb2dyYW0uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUQTWVldCB0aGUgRmFjdWx0eR8FBRwvYWNhZGVtaWNzL21lZXRfZmFjdWx0eS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQplLUxlYXJuaW5nHwUFMmh0dHA6Ly93d3cud2ViYmVyLmVkdS9lLUxlYXJuaW5nUHJvZ3JhbS9pbmRleC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRNDb29wZXJhdGl2ZSBQcm9ncmFtHwUFIy9hY2FkZW1pY3MvY29vcGVyYXRpdmVfcHJvZ3JhbS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRNTY2hlZHVsZSBhbmQgR3VpZGVzHwUFIy9hY2FkZW1pY3Mvc2NoZWR1bGVfYW5kX2d1aWRlcy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCh8GBQ1XSVUgQm9va3N0b3JlHwUFF2h0dHA6Ly93ZWJiZXIuYmtzdHIuY29tHgZUYXJnZXQFBl9ibGFuax8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFgIfBQUWL0FETUlTU0lPTlMvaW5kZXguYXNweGQUKwAJFCsAAg8WCB8GBRNUcmFuc2ZlciBBZG1pc3Npb25zHwUFJC9BRE1JU1NJT05TL3RyYW5zZmVyX2FkbWlzc2lvbnMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUTRnJlc2htZW4gQWRtaXNzaW9ucx8FBSQvQURNSVNTSU9OUy9mcmVzaG1hbl9hZG1pc3Npb25zLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYIHwYFE0dyYWR1YXRlIEFkbWlzc2lvbnMfBQUkL0FETUlTU0lPTlMvZ3JhZHVhdGVfYWRtaXNzaW9ucy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRhJbnRlcm5hdGlvbmFsIEFkbWlzc2lvbnMfBQUkL0ludGVybmF0aW9uYWxfQWRtaXNzaW9ucy9pbmRleC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQ1BZHVsdCBQcm9ncmFtHwUFJi9BRE1JU1NJT05TL21ja2VubmFfYWR1bHRfcHJvZ3JhbS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBRNSZXF1ZXN0IEluZm9ybWF0aW9uHwUFJC9BRE1JU1NJT05TL3JlcXVlc3RfaW5mb3JtYXRpb24uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUIVmlzaXQgVXMfBQUZL0FETUlTU0lPTlMvdmlzaXRfdXMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUOTWVldCB0aGUgU3RhZmYfBQUgL0FETUlTU0lPTlMvbWVldF9jb3Vuc2Vsb3JzLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYIHwYFD09ubGluZSBQcm9ncmFtcx8FBR1odHRwOi8vd3d3LndlYmJlcmRlZ3JlZXMuY29tLx8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFgIfBQUbaHR0cDovL3dlYmJlcmF0aGxldGljcy5jb20vZGQUKwACDxYCHwUFDy9kaXJlY3RvcnkuYXNweGRkFCsAAg8WAh8FBRgvU3R1ZGVudF9MaWZlL2luZGV4LmFzcHhkFCsABxQrAAIPFggfBgUOUmVzaWRlbmNlIExpZmUfBQUgL1N0dWRlbnRfTGlmZS9yZXNpZGVudF9saWZlLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYIHwYFDUNhbXB1cyBTYWZldHkfBQUfL1N0dWRlbnRfTGlmZS9jYW1wdXNfYWxlcnQuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUSVGFrZSBhIENhbXB1cyBUb3VyHwUFMGh0dHA6Ly93d3cud2ViYmVyLmVkdS9pbWFnZXMvZ2FsbGVyeS9DYW1wdXNUb3VyLx8HGwAAAAAAAAAAAQAAAB8IAiBkZBQrAAIPFggfBgUOTWVldCB0aGUgU3RhZmYfBQUhL1N0dWRlbnRfTGlmZS9tZWV0X3RoZV9zdGFmZi5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQtDYW1wdXMgTGlmZR8FBR4vU3R1ZGVudF9MaWZlL2NhbXB1c19saWZlLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQUKwACDxYKHwYFFE9yaWVudGF0aW9uIFNjaGVkdWxlHwUFNy9kb2N1bWVudHMvMjAxMi80LzI2L0ZhbGwgMjAxMiBPcmllbnRhdGlvbiBTY2hlZHVsZS5wZGYfCQUGX2JsYW5rHwcbAAAAAAAAAAABAAAAHwgCIGRkFCsAAg8WCB8GBQhXSVUgQmFuZB8FBRAvQmFuZC9pbmRleC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkZBYMZg8PFgIfBQURL2Fib3V0L2luZGV4LmFzcHhkFgxmDw8WCB8GBQdIaXN0b3J5HwUFEy9hYm91dC9oaXN0b3J5LmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCAQ8PFggfBgUPTmV3cyBhbmQgRXZlbnRzHwUFDS9ob3RuZXdzLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCAg8PFggfBgURSm9iIE9wcG9ydHVuaXRpZXMfBQUdL2Fib3V0L0pvYl9PcHBvcnR1bml0aWVzLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCAw8PFggfBgURRGlyZWN0aW9ucyB0byBXSVUfBQUdL2Fib3V0L0RpcmVjdGlvbnNfdG9fV0lVLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCBA8PFggfBgUHTWlzc2lvbh8FBRMvYWJvdXQvTWlzc2lvbi5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgUPDxYIHwYFDUFjY3JlZGl0YXRpb24fBQUZL2Fib3V0L0FjY3JlZGl0YXRpb24uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIBDw8WAh8FBRUvYWNhZGVtaWNzL2luZGV4LmFzcHhkFhhmDw8WCB8GBRZBIE1lc3NhZ2UgZnJvbSB0aGUgQ0FPHwUFGy9hY2FkZW1pY3MvTWVzc2FnZV9DQU8uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIBDw8WCB8GBRlBY2FkZW1pYyBTdXBwb3J0IFNlcnZpY2VzHwUFKS9hY2FkZW1pY3MvQWNhZGVtaWNfc3VwcG9ydF9zZXJ2aWNlcy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgIPDxYIHwYFDkJhYnNvbiBMaWJyYXJ5HwUFHC9CYWJzb24gTGlicmFyeS9MaWJyYXJ5LmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCAw8PFggfBgURQWNhZGVtaWMgQ2FsZW5kYXIfBQUiL2FjYWRlbWljcy9jYWxlbmRhcl91bmRlcmdyYWQuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIEDw8WCB8GBRVVbmRlcmdyYWR1YXRlIFN0dWRpZXMfBQUZL1VuZGVyZ3JhZHVhdGUvaW5kZXguYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIFDw8WCB8GBRBHcmFkdWF0ZSBTdHVkaWVzHwUFCi9ncmFkdWF0ZS8fBxsAAAAAAAAAAAEAAAAfCAIgZGQCBg8PFggfBgUNQWR1bHQgUHJvZ3JhbR8FBSovYWNhZGVtaWNzL21ja2VubmFfY29tcGxldGlvbl9wcm9ncmFtLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCBw8PFggfBgUQTWVldCB0aGUgRmFjdWx0eR8FBRwvYWNhZGVtaWNzL21lZXRfZmFjdWx0eS5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAggPDxYIHwYFCmUtTGVhcm5pbmcfBQUyaHR0cDovL3d3dy53ZWJiZXIuZWR1L2UtTGVhcm5pbmdQcm9ncmFtL2luZGV4LmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCCQ8PFggfBgUTQ29vcGVyYXRpdmUgUHJvZ3JhbR8FBSMvYWNhZGVtaWNzL2Nvb3BlcmF0aXZlX3Byb2dyYW0uYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIKDw8WCB8GBRNTY2hlZHVsZSBhbmQgR3VpZGVzHwUFIy9hY2FkZW1pY3Mvc2NoZWR1bGVfYW5kX2d1aWRlcy5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgsPDxYKHwYFDVdJVSBCb29rc3RvcmUfBQUXaHR0cDovL3dlYmJlci5ia3N0ci5jb20fCQUGX2JsYW5rHwcbAAAAAAAAAAABAAAAHwgCIGRkAgIPDxYCHwUFFi9BRE1JU1NJT05TL2luZGV4LmFzcHhkFhJmDw8WCB8GBRNUcmFuc2ZlciBBZG1pc3Npb25zHwUFJC9BRE1JU1NJT05TL3RyYW5zZmVyX2FkbWlzc2lvbnMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIBDw8WCB8GBRNGcmVzaG1lbiBBZG1pc3Npb25zHwUFJC9BRE1JU1NJT05TL2ZyZXNobWFuX2FkbWlzc2lvbnMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAICDw8WCB8GBRNHcmFkdWF0ZSBBZG1pc3Npb25zHwUFJC9BRE1JU1NJT05TL2dyYWR1YXRlX2FkbWlzc2lvbnMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIDDw8WCB8GBRhJbnRlcm5hdGlvbmFsIEFkbWlzc2lvbnMfBQUkL0ludGVybmF0aW9uYWxfQWRtaXNzaW9ucy9pbmRleC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgQPDxYIHwYFDUFkdWx0IFByb2dyYW0fBQUmL0FETUlTU0lPTlMvbWNrZW5uYV9hZHVsdF9wcm9ncmFtLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCBQ8PFggfBgUTUmVxdWVzdCBJbmZvcm1hdGlvbh8FBSQvQURNSVNTSU9OUy9yZXF1ZXN0X2luZm9ybWF0aW9uLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCBg8PFggfBgUIVmlzaXQgVXMfBQUZL0FETUlTU0lPTlMvdmlzaXRfdXMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIHDw8WCB8GBQ5NZWV0IHRoZSBTdGFmZh8FBSAvQURNSVNTSU9OUy9tZWV0X2NvdW5zZWxvcnMuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIIDw8WCB8GBQ9PbmxpbmUgUHJvZ3JhbXMfBQUdaHR0cDovL3d3dy53ZWJiZXJkZWdyZWVzLmNvbS8fBxsAAAAAAAAAAAEAAAAfCAIgZGQCAw8PFgIfBQUbaHR0cDovL3dlYmJlcmF0aGxldGljcy5jb20vZGQCBA8PFgIfBQUPL2RpcmVjdG9yeS5hc3B4ZGQCBQ8PFgIfBQUYL1N0dWRlbnRfTGlmZS9pbmRleC5hc3B4ZBYOZg8PFggfBgUOUmVzaWRlbmNlIExpZmUfBQUgL1N0dWRlbnRfTGlmZS9yZXNpZGVudF9saWZlLmFzcHgfBxsAAAAAAAAAAAEAAAAfCAIgZGQCAQ8PFggfBgUNQ2FtcHVzIFNhZmV0eR8FBR8vU3R1ZGVudF9MaWZlL2NhbXB1c19hbGVydC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgIPDxYIHwYFElRha2UgYSBDYW1wdXMgVG91ch8FBTBodHRwOi8vd3d3LndlYmJlci5lZHUvaW1hZ2VzL2dhbGxlcnkvQ2FtcHVzVG91ci8fBxsAAAAAAAAAAAEAAAAfCAIgZGQCAw8PFggfBgUOTWVldCB0aGUgU3RhZmYfBQUhL1N0dWRlbnRfTGlmZS9tZWV0X3RoZV9zdGFmZi5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgQPDxYIHwYFC0NhbXB1cyBMaWZlHwUFHi9TdHVkZW50X0xpZmUvY2FtcHVzX2xpZmUuYXNweB8HGwAAAAAAAAAAAQAAAB8IAiBkZAIFDw8WCh8GBRRPcmllbnRhdGlvbiBTY2hlZHVsZR8FBTcvZG9jdW1lbnRzLzIwMTIvNC8yNi9GYWxsIDIwMTIgT3JpZW50YXRpb24gU2NoZWR1bGUucGRmHwkFBl9ibGFuax8HGwAAAAAAAAAAAQAAAB8IAiBkZAIGDw8WCB8GBQhXSVUgQmFuZB8FBRAvQmFuZC9pbmRleC5hc3B4HwcbAAAAAAAAAAABAAAAHwgCIGRkAgMPFgIeB1Zpc2libGVnZAIGD2QWBgIBDxYCHwpnZAIDD2QWBAIBD2QWAmYPFgIeC18hSXRlbUNvdW50AgQWCGYPZBYCZg8VBQgxMC4wOS4xMwMzMjBGRm9ybWVyIFdlYmJlciBTdHVkZW50LUF0aGxldGUgTmFtZWQgVGVhY2hlciBPZiBUaGUgWWVhciBBdCBBcG9wa2EgSGlnaAMzMjATQkFCU09OIFBBUkssIEZsYS4gIGQCAQ9kFgJmDxUFCDEwLjA0LjEzAzMxOV1XZWJiZXIgSW50ZXJuYXRpb25hbCBVbml2ZXJzaXR5IEhvbm9yZWQgYXMgTkFJQSBDaGFtcGlvbnMgb2YgQ2hhcmFjdGVyIEZpdmUgU3RhciBJbnN0aXR1dGlvbiADMzE5EUJBQlNPTiBQQVJLLCBGbGEuZAICD2QWAmYPFQUHOS4wOS4xMwMzMTUrV0lVIEF3YXJkZWQgYSAyMDE0IE1pbGl0YXJ5IEZyaWVuZGx5IFNjaG9vbAMzMTURQkFCU09OIFBBUkssIGZsYS5kAgMPZBYCZg8VBQc4LjA5LjEzAzMxMjtXSVUgT3BlbiBIb3VzZS1BdHRlbmQgYW5kIHlvdSBtaWdodCBnZXQgYSAkMTAwMCBzY2hvbGFyc2hpcAMzMTIQQkFCU09OIFBBUkssRmxhLmQCAw8WAh8GBc8DPGNlbnRlcj4NCg0KDQpJbnRlcm5hdGlvbmFsIEZsYWcgUGxhemE8YnI+PGEgaHJlZj0iaHR0cDovL3d3dy53ZWJiZXIuZWR1L0FsdW1uaS9BbHVtbmlfTmV3cy9pbmRleC5hc3B4IiB0YXJnZXQ9Il9ibGFuayI+PGltZyBzcmM9Ii9pbWFnZXMvYmFja2dyb3VuZHMvZ2l2ZV9naWZ0L1dJVSBicmljayAyLkpQRyIgYm9yZGVyPTA+PGJyPjwvYT5CcmljayBDYW1wYWlnbjxicj4NCg0KDQoNCjxhIGhyZWY9Imh0dHA6Ly93d3cud2ViYmVyLmVkdS9HcmFkdWF0ZS91Zl9tYXN0ZXJzX3Byb2dyYW0uYXNweCI+PGltZyBzcmM9Ii9pbWFnZXMvYmFja2dyb3VuZHMvYWNhZGVtaWNzL3BzbS11Zi5qcGciIGJvcmRlcj0wPjwvYT48YnI+PGJyPg0KDQoNCg0KPGEgaHJlZj0iaHR0cDovL3d3dy5zYXBjLmVkdS8iPjxpbWcgc3JjPSIvaW1hZ2VzL2JhY2tncm91bmRzL25ld2xvZ28uZ2lmIiBib3JkZXI9MD48L2E+PGJyPjxicj4NCmQCBQ8WAh4FY2xhc3MFEGNvbnRlbnRfaG9tZXBhZ2UWBgIBDw8WAh8GBRNXZWxjb21lPGJyIC8+PGJyIC8+ZGQCAw8WAh8KaGQCBQ9kFgYCAQ8WAh8LAgQWCGYPZBYCZg8VBAM1MTMDNTEzEE9jdG9iZXIgMTIsIDIwMTMaRmluYWwgRXhhbSBTYXR1cmRheSBUZXJtIEFkAgEPZBYCZg8VBAM1MTQDNTE0EE9jdG9iZXIgMTksIDIwMTMdU2F0dXJkYXkgVGVybSBCIGNsYXNzZXMgYmVnaW5kAgIPZBYCZg8VBAM1MzgDNTM4EE9jdG9iZXIgMjQsIDIwMTMOTUJBIEZpbmFsIEV4YW1kAgMPZBYCZg8VBAM1MTUDNTE1EE9jdG9iZXIgMjUsIDIwMTMHTWlkdGVybWQCAw8WAh8LAgMWBmYPZBYCZg8VBQMzMjBGRm9ybWVyIFdlYmJlciBTdHVkZW50LUF0aGxldGUgTmFtZWQgVGVhY2hlciBPZiBUaGUgWWVhciBBdCBBcG9wa2EgSGlnaBNCQUJTT04gUEFSSywgRmxhLiAg8wFBIGZvcm1lciBzdHVkZW50LWF0aGxldGUgYXQgV2ViYmVyIEludGVybmF0aW9uYWwgVW5pdmVyc2l0eSwgbG9jYXRlZCBpbiBCYWJzb24gUGFyaywgRmxvcmlkYSwgaGFzIGJlZW4gbmFtZWQgQXBvcGthIEhpZ2ggU2Nob29sJnJzcXVvO3MgVGVhY2hlciBvZiB0aGUgWWVhci4gSmFtZXMgRGVsZ2FkbyBpcyBhIDIwMDcgZ3JhZHVhdGUgb2YgV2ViYmVyIEludGVybmF0aW9uYWwsIHdpdGggaGlzIEIuUy4gZGVncmVlLCBhbmQuLi4DMzIwZAIBD2QWAmYPFQUDMzE1K1dJVSBBd2FyZGVkIGEgMjAxNCBNaWxpdGFyeSBGcmllbmRseSBTY2hvb2wRQkFCU09OIFBBUkssIGZsYS6TAVZpY3RvcnkgTWVkaWEsIHRoZSBwcmVtaWVyIG1lZGlhIGVudGl0eSBmb3IgbWlsaXRhcnkgcGVyc29ubmVsIHRyYW5zaXRpb25pbmcgaW50byBjaXZpbGlhbiBsaWZlLCBoYXMgbmFtZWQgV2ViYmVyIEludGVybmF0aW9uYWwgVW5pdmVyc2l0eSA8c3Bhbi4uLgMzMTVkAgIPZBYCZg8VBQMzMTI7V0lVIE9wZW4gSG91c2UtQXR0ZW5kIGFuZCB5b3UgbWlnaHQgZ2V0IGEgJDEwMDAgc2Nob2xhcnNoaXAQQkFCU09OIFBBUkssRmxhLosCWW91JnJzcXVvO3JlIGludml0ZWQgdG8gV2ViYmVyJnJzcXVvO3MgT3BlbiBIb3VzZSBvbiBTYXR1cmRheSwgT2N0b2JlciAxOXRoIGF0IDEwOjAwIGFtLiZuYnNwO0lmIHlvdSBhdHRlbmQsIHlvdXIgJDM1IGFwcGxpY2F0aW9uIGZlZSB3aWxsIGJlIHdhaXZlZCBhbmQgeW91IHdpbGwgYmUgZWxpZ2libGUgZm9yIGEgJDEwMDAgc2Nob2xhcnNoaXAgdG8gV0lVISZuYnNwO0F0IHRoZSBvcGVuIGhvdXNlLCB5b3Ugd2lsbCB0b3VyIHRoZSBjYW1wdXMsIG1lZXQgdGhlLi4uAzMxMmQCBQ8WAh8LAgUWCmYPZBYCZg8VBAM3OTM6L2ltYWdlcy8yMDEzLzEvMjkvQWRtaXR0ZWQgU3R1ZGVudHMgT3BlbiBIb3VzZSBQaWN0dXJlLmpwZwAAZAIBD2QWAmYPFQQDNzk4Li9pbWFnZXMvMjAxMy8zLzE0L0hvbWUgUm90YXRvci0yICg2NDB4NDI2KS5qcGcAAGQCAg9kFgJmDxUEAzc5OS4vaW1hZ2VzLzIwMTMvMy8xNC9Ib21lIFJvdGF0b3ItMyAoNjQweDQyNikuanBnAABkAgMPZBYCZg8VBAM4MDAuL2ltYWdlcy8yMDEzLzMvMTQvSG9tZSBSb3RhdG9yLTQgKDY0MHg0MjYpLmpwZwAAZAIED2QWAmYPFQQDODAyLi9pbWFnZXMvMjAxMy8zLzE0L0hvbWUgUm90YXRvci0xICg2NDB4NDI2KS5qcGcAAGQCBw8WAh8GBdAdPGJyPjxicj4NCjx0YWJsZSBjZWxsc3BhY2luZz0wIGNlbGxwYWRkaW5nPTAgYm9yZGVyPTAgd2lkdGg9MTUwPg0KPHRyPg0KPHRkIGFsaWduPXJpZ2h0IHZhbGlnbj10b3Agd2lkdGg9MzA+Jm5ic3A7PC90ZD4NCjx0ZCBhbGlnbj1yaWdodCB2YWxpZ249dG9wIHdpZHRoPTEyMD48QSBIUkVGPSJodHRwOi8vd3d3Lmdvb2RzZWFyY2guY29tLz9jaGFyaXR5aWQ9ODU2OTA4IiBUQVJHRVQ9Il9ibGFuayI+DQo8SU1HIFNSQz0iaHR0cDovL3d3dy5nb29kc2VhcmNoLmNvbS9fZ2Z4L2dzLXNjaG9vbC0xMjB4NjAuZ2lmIiBXSURUSD0iMTIwIiBIRUlHSFQ9IjYwIiBBTFQ9Ikdvb2RTZWFyY2g6IFlvdSBTZWFyY2guLi5XZSBHaXZlISIgQk9SREVSPSIwIj48L0E+PC90ZD4NCjx0ZCBhbGlnbj1yaWdodCB2YWxpZ249bWlkZGxlIHdpZHRoPTEwMD48IS0tIFBheVBhbCBCdXR0b24gLS0+DQogICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iY21kIiB2YWx1ZT0iX3MteGNsaWNrIiAvPg0KICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJlbmNyeXB0ZWQiIHZhbHVlPSItLS0tLUJFR0lOIFBLQ1M3LS0tLS1NSUlIVndZSktvWklodmNOQVFjRW9JSUhTRENDQjBRQ0FRRXhnZ0V3TUlJQkxBSUJBRENCbERDQmpqRUxNQWtHQTFVRUJoTUNWVk14Q3pBSkJnTlZCQWdUQWtOQk1SWXdGQVlEVlFRSEV3MU5iM1Z1ZEdGcGJpQldhV1YzTVJRd0VnWURWUVFLRXd0UVlYbFFZV3dnU1c1akxqRVRNQkVHQTFVRUN4UUtiR2wyWlY5alpYSjBjekVSTUE4R0ExVUVBeFFJYkdsMlpWOWhjR2t4SERBYUJna3Foa2lHOXcwQkNRRVdEWEpsUUhCaGVYQmhiQzVqYjIwQ0FRQXdEUVlKS29aSWh2Y05BUUVCQlFBRWdZQlFKcVVQcU5QY1lFaDZkS2JIcjNrMGRtVHFGTHY0UjkyNVpDZGpRcDBVWm03TlByYjA3R3JIdWlSS0RXaFJaTlRxV0phdW40VFkwOGxoaC9tanpvd1RmSXVVS1JiYklwRi9KbTJhblFNUGl3UnBYengvWU5YZGRWMzJuZnRpeUZnWjBlV1F5OHphZkJCWk02US9GS3BSTzlObmZwMHBiU210bWV3aFJEbjh6VEVMTUFrR0JTc09Bd0lhQlFBd2dkUUdDU3FHU0liM0RRRUhBVEFVQmdncWhraUc5dzBEQndRSW9oR2FVSkNwNXFpQWdiQXNWaEhxNk9BbEsyUzI1OWM2bVlacCtuQU84NDRzZmltNWdTQnZONkVlZk1oZFVYckhJUGRnb1hiK0kyMFM4cklvY0dZZGlkK1l4YWxpMmxLSmZqRVptSHJMOEw2bDJpNnpzSkNuUmt2eldudzdOa041V3g3Tm1mTW9xTDB4bnlZRGJhcFhaSWVXd2ZET09FRDN6UDZsNUpJVy9GcHJYdHd5cndsYWdjK1ZIOWQ1VU5WeVFqSWdDQzlJTHFSaHNTUTJKZXgvejlHeHVsMnN0ZXkxbk5uQWlUWUN6bEJLazVxV1N0U3puYTkvRHFDQ0E0Y3dnZ09ETUlJQzdLQURBZ0VDQWdFQU1BMEdDU3FHU0liM0RRRUJCUVVBTUlHT01Rc3dDUVlEVlFRR0V3SlZVekVMTUFrR0ExVUVDQk1DUTBFeEZqQVVCZ05WQkFjVERVMXZkVzUwWVdsdUlGWnBaWGN4RkRBU0JnTlZCQW9UQzFCaGVWQmhiQ0JKYm1NdU1STXdFUVlEVlFRTEZBcHNhWFpsWDJObGNuUnpNUkV3RHdZRFZRUURGQWhzYVhabFgyRndhVEVjTUJvR0NTcUdTSWIzRFFFSkFSWU5jbVZBY0dGNWNHRnNMbU52YlRBZUZ3MHdOREF5TVRNeE1ERXpNVFZhRncwek5UQXlNVE14TURFek1UVmFNSUdPTVFzd0NRWURWUVFHRXdKVlV6RUxNQWtHQTFVRUNCTUNRMEV4RmpBVUJnTlZCQWNURFUxdmRXNTBZV2x1SUZacFpYY3hGREFTQmdOVkJBb1RDMUJoZVZCaGJDQkpibU11TVJNd0VRWURWUVFMRkFwc2FYWmxYMk5sY25Sek1SRXdEd1lEVlFRREZBaHNhWFpsWDJGd2FURWNNQm9HQ1NxR1NJYjNEUUVKQVJZTmNtVkFjR0Y1Y0dGc0xtTnZiVENCbnpBTkJna3Foa2lHOXcwQkFRRUZBQU9CalFBd2dZa0NnWUVBd1VkTzNmeEV6RXRjbkk3WktaTDQxMlh2WlB1Z29uaTdpN0Q3cHJDZTBBdGFIVGM5N0NZZ203TnNBdEp5eE5MaXhtaExWOHB5SUVhaUhYV0FoOGZQS1crUjAxNytFbVhycjlFYXF1UG1zVnZUeXdBQUUxUE1OT0txbzJrbDRHeGl6OXpacUlhak9tMWZaR1djR1MwZjVKUTJrQnFOYnZiZzIvWmErR0ovcXdVQ0F3RUFBYU9CN2pDQjZ6QWRCZ05WSFE0RUZnUVVscDk4dThadkY3MVpQMUxYQ2h2c0VOWmtsR3N3Z2JzR0ExVWRJd1NCc3pDQnNJQVVscDk4dThadkY3MVpQMUxYQ2h2c0VOWmtsR3VoZ1pTa2daRXdnWTR4Q3pBSkJnTlZCQVlUQWxWVE1Rc3dDUVlEVlFRSUV3SkRRVEVXTUJRR0ExVUVCeE1OVFc5MWJuUmhhVzRnVm1sbGR6RVVNQklHQTFVRUNoTUxVR0Y1VUdGc0lFbHVZeTR4RXpBUkJnTlZCQXNVQ214cGRtVmZZMlZ5ZEhNeEVUQVBCZ05WQkFNVUNHeHBkbVZmWVhCcE1Sd3dHZ1lKS29aSWh2Y05BUWtCRmcxeVpVQndZWGx3WVd3dVkyOXRnZ0VBTUF3R0ExVWRFd1FGTUFNQkFmOHdEUVlKS29aSWh2Y05BUUVGQlFBRGdZRUFnVjg2VnBxQVd1WHZYNk9ybzRxSjF0WVZJVDVEZ1dwRTY5MkFnNDIySDd5UklyLzlqL2lLRzRUaGlhL09mbHg0VGRMK0lGSkJBeVBLOXY2elpOWnRCZ1BCeW5YYjA0OGhzUDE2bDJ2aTBrNVEySktpUERzRWZCaEdJK0hueExYRWFVV0FjVmZDc1FGdmQyQTFzeFJyNjdpcDV5Mnd3QmVsVWVjUDNBakorWWN4Z2dHYU1JSUJsZ0lCQVRDQmxEQ0JqakVMTUFrR0ExVUVCaE1DVlZNeEN6QUpCZ05WQkFnVEFrTkJNUll3RkFZRFZRUUhFdzFOYjNWdWRHRnBiaUJXYVdWM01SUXdFZ1lEVlFRS0V3dFFZWGxRWVd3Z1NXNWpMakVUTUJFR0ExVUVDeFFLYkdsMlpWOWpaWEowY3pFUk1BOEdBMVVFQXhRSWJHbDJaVjloY0dreEhEQWFCZ2txaGtpRzl3MEJDUUVXRFhKbFFIQmhlWEJoYkM1amIyMENBUUF3Q1FZRkt3NERBaG9GQUtCZE1CZ0dDU3FHU0liM0RRRUpBekVMQmdrcWhraUc5dzBCQndFd0hBWUpLb1pJaHZjTkFRa0ZNUThYRFRBNE1Ea3lNekUwTVRReU5sb3dJd1lKS29aSWh2Y05BUWtFTVJZRUZFNklvcG0yNmpxMjNCMGo3b1Q1dlorc1JqNUhNQTBHQ1NxR1NJYjNEUUVCQVFVQUJJR0FNbWZzWSsxdmcxM1dwVnFDdnRkam9SQkN4eWpYaCtFNmpPOUE4UkJVSUcvRXBRMkxaYmtkOTRjcURFOFFLZ1l1Z09CVjg5S1hncUZzeEhkamZGSFpqV1piM3pVWnNidEVpMERhbzJSU1IrbHpiNVFUdHExNFhnaVlGai84YUVWUnJBd0dwUmsyRUN4ZHJRTmN5VUU5b1pMaG1DUmtrYzM0dXdYTEIranMvQUU9LS0tLS1FTkQgUEtDUzctLS0tLSAiIC8+DQogICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJpbWFnZSIgbmFtZT0iY3RsMDAkSW1hZ2VCdXR0b24xIiBpZD0iY3RsMDBfSW1hZ2VCdXR0b24xIiBzcmM9Imh0dHBzOi8vd3d3LnBheXBhbC5jb20vZW5fVVMvaS9idG4vYnRuX2RvbmF0ZUNDX0xHLmdpZiIgYWx0PSJQYXlQYWwgLSBUaGUgc2FmZXIsIGVhc2llciB3YXkgdG8gcGF5IG9ubGluZSEiIG9uY2xpY2s9ImphdmFzY3JpcHQ6V2ViRm9ybV9Eb1Bvc3RCYWNrV2l0aE9wdGlvbnMobmV3IFdlYkZvcm1fUG9zdEJhY2tPcHRpb25zKCZxdW90O2N0bDAwJEltYWdlQnV0dG9uMSZxdW90OywgJnF1b3Q7JnF1b3Q7LCBmYWxzZSwgJnF1b3Q7JnF1b3Q7LCAmcXVvdDtodHRwczovL2FwcC5ldGFwZXN0cnkuY29tL2hvc3RlZC9XZWJiZXJJbnRlcm5hdGlvbmFsVW5pdmVyc2l0L09ubGluZURvbmF0aW9uLmh0bWwmcXVvdDssIGZhbHNlLCBmYWxzZSkpIiBzdHlsZT0iYm9yZGVyLXdpZHRoOjBweDsiIC8+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgYWx0PSIiIGJvcmRlcj0iMCIgc3JjPSJodHRwczovL3d3dy5wYXlwYWwuY29tL2VuX1VTL2kvc2NyL3BpeGVsLmdpZiIgd2lkdGg9IjEiIGhlaWdodD0iMSIgLz4NCiAgICAgICAgICAgICAgICAgICAgPC90ZD4NCg0KPC90cj4NCjwvdGFibGU+ZAIIDxYCHwYFpgI8YSBocmVmPSIvYWJvdXQvaW5kZXguYXNweCI+QWJvdXQgV2ViYmVyPC9hPiB8IDxhIGhyZWY9Ii9hY2FkZW1pY3MvaW5kZXguYXNweCI+QWNhZGVtaWNzPC9hPiB8IDxhIGhyZWY9Ii9BRE1JU1NJT05TL2luZGV4LmFzcHgiPkFkbWlzc2lvbnM8L2E+IHwgPGEgaHJlZj0iaHR0cDovL3dlYmJlcmF0aGxldGljcy5jb20vIj5BdGhsZXRpY3M8L2E+IHwgPGEgaHJlZj0iL2RpcmVjdG9yeS5hc3B4Ij5EaXJlY3RvcmllczwvYT4gfCA8YSBocmVmPSIvU3R1ZGVudF9MaWZlL2luZGV4LmFzcHgiPlN0dWRlbnQgTGlmZTwvYT5kAgkPFgIfBmVkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQtjdGwwMCRidG5HbwUPY3RsMDAkcmFkVG9wTmF2IPTfNjrHjVOxn/IuOq21pfc8cPg=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=ECQnfuVyhc3r9uobM8LTQ3mGrH7OGznv_ixSGUHPobZIWjSJFpZHvXy1KADhHsJ6Hj03Qh2VHhmUYxl80HvAkLCLN6Y1&amp;t=635169751973338750" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEQLor9bdDQLVp9HvBALVp9HvBALayPuBCALlm/PLCgKegpHWDALbyIuCCALNyNuBCALcyLOCCALfyI+CCALfyIuCCALNyIOCCALCyLuCCALcyLuCCALNyNeBCALE5ML0AgKx3o+TDB+LvNs6srSPHZoWPgmtsMxDIPGo" />
+</div>
+	    <center>
+	<div id="topBg">
+	    <div id="wrapper">
+
+	        <!-- Banner -->
+	        <div id="banner">
+	            <img src="/images/headers/header1.jpg" id="ctl00_imgRndHeader" style="float:right;" />
+	            <a id="homeLink" href="/">&nbsp;</a>
+	            <div id="searchBox">
+	                <div id="ctl00_pnlSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_btnGo')">
+	
+	                <table>
+	                    <tr>
+	                        <td><select name="ctl00$ddlQuickLinks" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ddlQuickLinks\',\'\')', 0)" id="ctl00_ddlQuickLinks" style="font-size:7pt;width:127px">
+		<option selected="selected" value="">Quick Links</option>
+		<option value="1">Calendar</option>
+		<option value="105">Career Services</option>
+		<option value="106">Criminal Justice Website</option>
+		<option value="24">Contact Information</option>
+		<option value="88">Facilities Rental</option>
+		<option value="72">Financial Aid</option>
+		<option value="63">International Students</option>
+		<option value="64">myWIU</option>
+		<option value="86">Planning Day</option>
+		<option value="90">Scholarships</option>
+		<option value="70">WIU Bookstore</option>
+		<option value="89">WIU World (Moodle)</option>
+
+	</select></td>
+	                        <td><input name="ctl00$txtSearch" type="text" value="Search" id="ctl00_txtSearch" onClick="this.value = ''" style="font-size:7pt;width:114px" /></td>
+	                        <td><input type="image" name="ctl00$btnGo" id="ctl00_btnGo" Text="Go" src="/images/go_btn.gif" style="border-width:0px;display:inline" /></td>
+	                    </tr>
+                    </table>
+                    
+</div>
+	            </div>
+	        </div>
+
+            <div id="dropDowns">
+	            <img src="/images/topnav_logo.gif" style="float:left;" />
+	            <div id="ctl00_radTopNav" class="menu RadMenu_Default radMenu" style="border-width:0px;">
+	<!-- 4.1.3 --><script type="text/javascript" src="/WebResource.axd?d=uaLuUdtntxIVr4F-ypy1afYVmicvyugVDMpFBLbJf2B7pp0hU_Wb28wYBNZDAml9QrGYwHdJOQyTAcRwpw51_ep6BXnubjzVflRe-fOQYihbEXloQRvEf6A83JLW12lZaSPwuTeadpiVBN0WqD3tSbMluuU1&amp;t=632992899120000000"></script><span id="ctl00_radTopNavStyleSheetHolder" style="display:none;"></span><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'ctl00_radTopNav', '/WebResource.axd?d=BmqrIv6tCicaoP7jQYY-sObEtWBzP1iHHdWpHhXoo7Y78H2lJsi_fN44Je0xvK5sKdINsFuZJJlcB_YhNOfCMuSo7KsyKdlLTDa_CCdqJ0dWXmIykRjdqw-iaWayd7meQYpDwfmQME-s9pR1kORXXXyltn01&amp;t=632992899120000000');</script><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'ctl00_radTopNav', '/common/skins/menu/Default/styles.css');</script><ul class="horizontal rootGroup">
+		<li class="item first"><a href="/about/index.aspx" id="ctl00_radTopNav_m0" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_aboutwebber.gif" class="leftImage" /><span class="text"></span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/about/history.aspx" id="ctl00_radTopNav_m0_m0" class="link" style="display:inline-block;border-width:0px;"><span class="text">History</span></a></li><li class="item"><a href="/hotnews.aspx" id="ctl00_radTopNav_m0_m1" class="link" style="display:inline-block;border-width:0px;"><span class="text">News and Events</span></a></li><li class="item"><a href="/about/Job_Opportunities.aspx" id="ctl00_radTopNav_m0_m2" class="link" style="display:inline-block;border-width:0px;"><span class="text">Job Opportunities</span></a></li><li class="item"><a href="/about/Directions_to_WIU.aspx" id="ctl00_radTopNav_m0_m3" class="link" style="display:inline-block;border-width:0px;"><span class="text">Directions to WIU</span></a></li><li class="item"><a href="/about/Mission.aspx" id="ctl00_radTopNav_m0_m4" class="link" style="display:inline-block;border-width:0px;"><span class="text">Mission</span></a></li><li class="item last"><a href="/about/Accreditation.aspx" id="ctl00_radTopNav_m0_m5" class="link" style="display:inline-block;border-width:0px;"><span class="text">Accreditation</span></a></li>
+			</ul>
+		</div></li><li class="item"><a href="/academics/index.aspx" id="ctl00_radTopNav_m1" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_academics.gif" class="leftImage" /><span class="text"></span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/academics/Message_CAO.aspx" id="ctl00_radTopNav_m1_m0" class="link" style="display:inline-block;border-width:0px;"><span class="text">A Message from the CAO</span></a></li><li class="item"><a href="/academics/Academic_support_services.aspx" id="ctl00_radTopNav_m1_m1" class="link" style="display:inline-block;border-width:0px;"><span class="text">Academic Support Services</span></a></li><li class="item"><a href="/Babson%20Library/Library.aspx" id="ctl00_radTopNav_m1_m2" class="link" style="display:inline-block;border-width:0px;"><span class="text">Babson Library</span></a></li><li class="item"><a href="/academics/calendar_undergrad.aspx" id="ctl00_radTopNav_m1_m3" class="link" style="display:inline-block;border-width:0px;"><span class="text">Academic Calendar</span></a></li><li class="item"><a href="/Undergraduate/index.aspx" id="ctl00_radTopNav_m1_m4" class="link" style="display:inline-block;border-width:0px;"><span class="text">Undergraduate Studies</span></a></li><li class="item"><a href="/graduate/" id="ctl00_radTopNav_m1_m5" class="link" style="display:inline-block;border-width:0px;"><span class="text">Graduate Studies</span></a></li><li class="item"><a href="/academics/mckenna_completion_program.aspx" id="ctl00_radTopNav_m1_m6" class="link" style="display:inline-block;border-width:0px;"><span class="text">Adult Program</span></a></li><li class="item"><a href="/academics/meet_faculty.aspx" id="ctl00_radTopNav_m1_m7" class="link" style="display:inline-block;border-width:0px;"><span class="text">Meet the Faculty</span></a></li><li class="item"><a href="http://www.webber.edu/e-LearningProgram/index.aspx" id="ctl00_radTopNav_m1_m8" class="link" style="display:inline-block;border-width:0px;"><span class="text">e-Learning</span></a></li><li class="item"><a href="/academics/cooperative_program.aspx" id="ctl00_radTopNav_m1_m9" class="link" style="display:inline-block;border-width:0px;"><span class="text">Cooperative Program</span></a></li><li class="item"><a href="/academics/schedule_and_guides.aspx" id="ctl00_radTopNav_m1_m10" class="link" style="display:inline-block;border-width:0px;"><span class="text">Schedule and Guides</span></a></li><li class="item last"><a href="http://webber.bkstr.com" target="_blank" id="ctl00_radTopNav_m1_m11" class="link" style="display:inline-block;border-width:0px;"><span class="text">WIU Bookstore</span></a></li>
+			</ul>
+		</div></li><li class="item"><a href="/ADMISSIONS/index.aspx" id="ctl00_radTopNav_m2" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_admissions.gif" class="leftImage" /><span class="text"></span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/ADMISSIONS/transfer_admissions.aspx" id="ctl00_radTopNav_m2_m0" class="link" style="display:inline-block;border-width:0px;"><span class="text">Transfer Admissions</span></a></li><li class="item"><a href="/ADMISSIONS/freshman_admissions.aspx" id="ctl00_radTopNav_m2_m1" class="link" style="display:inline-block;border-width:0px;"><span class="text">Freshmen Admissions</span></a></li><li class="item"><a href="/ADMISSIONS/graduate_admissions.aspx" id="ctl00_radTopNav_m2_m2" class="link" style="display:inline-block;border-width:0px;"><span class="text">Graduate Admissions</span></a></li><li class="item"><a href="/International_Admissions/index.aspx" id="ctl00_radTopNav_m2_m3" class="link" style="display:inline-block;border-width:0px;"><span class="text">International Admissions</span></a></li><li class="item"><a href="/ADMISSIONS/mckenna_adult_program.aspx" id="ctl00_radTopNav_m2_m4" class="link" style="display:inline-block;border-width:0px;"><span class="text">Adult Program</span></a></li><li class="item"><a href="/ADMISSIONS/request_information.aspx" id="ctl00_radTopNav_m2_m5" class="link" style="display:inline-block;border-width:0px;"><span class="text">Request Information</span></a></li><li class="item"><a href="/ADMISSIONS/visit_us.aspx" id="ctl00_radTopNav_m2_m6" class="link" style="display:inline-block;border-width:0px;"><span class="text">Visit Us</span></a></li><li class="item"><a href="/ADMISSIONS/meet_counselors.aspx" id="ctl00_radTopNav_m2_m7" class="link" style="display:inline-block;border-width:0px;"><span class="text">Meet the Staff</span></a></li><li class="item last"><a href="http://www.webberdegrees.com/" id="ctl00_radTopNav_m2_m8" class="link" style="display:inline-block;border-width:0px;"><span class="text">Online Programs</span></a></li>
+			</ul>
+		</div></li><li class="item"><a href="http://webberathletics.com/" id="ctl00_radTopNav_m3" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_athletics.gif" class="leftImage" /><span class="text"></span></a></li><li class="item"><a href="/directory.aspx" id="ctl00_radTopNav_m4" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_directories.gif" class="leftImage" /><span class="text"></span></a></li><li class="item last"><a href="/Student_Life/index.aspx" id="ctl00_radTopNav_m5" class="link" style="display:inline-block;border-width:0px;"><img alt="" src="/images/topnav_studentlife.gif" class="leftImage" /><span class="text"></span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/Student_Life/resident_life.aspx" id="ctl00_radTopNav_m5_m0" class="link" style="display:inline-block;border-width:0px;"><span class="text">Residence Life</span></a></li><li class="item"><a href="/Student_Life/campus_alert.aspx" id="ctl00_radTopNav_m5_m1" class="link" style="display:inline-block;border-width:0px;"><span class="text">Campus Safety</span></a></li><li class="item"><a href="http://www.webber.edu/images/gallery/CampusTour/" id="ctl00_radTopNav_m5_m2" class="link" style="display:inline-block;border-width:0px;"><span class="text">Take a Campus Tour</span></a></li><li class="item"><a href="/Student_Life/meet_the_staff.aspx" id="ctl00_radTopNav_m5_m3" class="link" style="display:inline-block;border-width:0px;"><span class="text">Meet the Staff</span></a></li><li class="item"><a href="/Student_Life/campus_life.aspx" id="ctl00_radTopNav_m5_m4" class="link" style="display:inline-block;border-width:0px;"><span class="text">Campus Life</span></a></li><li class="item"><a href="/documents/2012/4/26/Fall%202012%20Orientation%20Schedule.pdf" target="_blank" id="ctl00_radTopNav_m5_m5" class="link" style="display:inline-block;border-width:0px;"><span class="text">Orientation Schedule</span></a></li><li class="item last"><a href="/Band/index.aspx" id="ctl00_radTopNav_m5_m6" class="link" style="display:inline-block;border-width:0px;"><span class="text">WIU Band</span></a></li>
+			</ul>
+		</div></li>
+	</ul><input type="hidden" id="ctl00_radTopNav_Hidden" name="ctl00$radTopNav" /><script type="text/javascript">window["ctl00_radTopNav"] = new RadMenu("ctl00_radTopNav");window["ctl00_radTopNav"].Initialize({"Skin":"Default","Enabled":true},{"ctl00_radTopNav_m0":{"ImageOverUrl":"/images/topnav_aboutwebberb.gif"},"ctl00_radTopNav_m1":{"ImageOverUrl":"/images/topnav_academicsb.gif"},"ctl00_radTopNav_m2":{"ImageOverUrl":"/images/topnav_admissionsb.gif"},"ctl00_radTopNav_m3":{"ImageOverUrl":"/images/topnav_athleticsb.gif"},"ctl00_radTopNav_m4":{"ImageOverUrl":"/images/topnav_directoriesb.gif"},"ctl00_radTopNav_m5":{"ImageOverUrl":"/images/topnav_studentlifeb.gif"}});</script>
+</div>
+            </div>
+
+            <div id="divNav">
+                <div id="ctl00_litHomeNav">
+                     <!--#ContentArea#-->
+<style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top_links {
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	color: #c1ab39;
+	font-weight: bold;
+	text-decoration: none;
+}
+.top_links:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bottom_links {
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+.bottom_links:hover {
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	color: #c1ab39;
+	font-size: 12px;
+	text-decoration: none;
+}
+.bg_norepeat {
+        background-repeat: no-repeat;
+}</style>
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td><img alt="" src="/images/2010/4/19/LeftNavigation_01.gif?id=634" /></td>
+            <td><img alt="" src="/images/2010/4/20/LeftNavigation_02.gif?id=643" /></td>
+        </tr>
+        <tr>
+            <td><img style="WIDTH: 29px; HEIGHT: 208px" alt="" width="29" height="177" src="/images/2010/4/19/LeftNavigation_03.gif?id=635" /></td>
+            <td height="177" background="/images/2010/4/20/LeftNavigation_04.gif" width="241">
+            <table style="WIDTH: 219px; HEIGHT: 208px" border="0" cellspacing="2" summary="" cellpadding="2" width="219" align="center">
+                <tbody>
+                    <tr>
+                        <td width="207"><a class="top_links" href="/admissions/"><font color="#ffcc00">Undergraduate</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/Graduate/index.aspx"><font color="#ffcc00">Graduate</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/ADMISSIONS/mckenna_adult_program.aspx"><font color="#ffcc00">Adult Program</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/esl_program/esl_wiu.aspx"><font color="#ffcc00">ESL Program</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/e-LearningProgram/"><font color="#ffcc00">Online&nbsp;Degrees</font></a>&nbsp; </td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/Financial_Aid/"><font color="#ffcc00">Financial Aid</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="/Undergraduate/"><font color="#ffcc00">Current Students</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="top_links" href="http://www.webber.edu/Transfer.aspx"><font color="#ffcc00">Transfer</font></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td><img alt="" width="29" height="51" src="/images/2010/4/19/LeftNavigation_05.gif?id=637" /></td>
+            <td><img alt="" width="241" height="51" src="/images/2010/4/20/LeftNavigation_06.gif?id=645" /></td>
+        </tr>
+        <tr>
+            <td><img alt="" width="29" height="92" src="/images/2010/4/19/LeftNavigation_07.gif?id=639" /></td>
+            <td height="92" background="/images/2010/4/20/LeftNavigation_08.gif" width="241">
+            <table border="0" cellspacing="2" summary="" cellpadding="2" width="225">
+                <tbody>
+                    <tr>
+                        <td width="18">&nbsp;</td>
+                        <td width="207"><a class="bottom_links" href="/Alumni/">Alumni</a></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><a class="bottom_links" href="/facultystaff.aspx">Faculty &amp; Staff</a></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><a class="bottom_links" href="/Parents_Friends/">Parents &amp; Friends</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top"><img alt="" width="29" height="41" src="/images/2010/4/19/LeftNavigation_09.gif?id=641" /><br /><img alt="" width="29" height="41" src="/images/2010/4/19/LeftNavigation_09.gif?id=641" /><br /><img style="WIDTH: 29px; HEIGHT: 257px" alt="" width="29" height="41" src="/images/2010/4/19/LeftNavigation_09.gif?id=641" /></td>
+            <td class="bg_norepeat" valign="middle" background="/images/2010/4/20/LeftNavigation_10.gif?id=647" align="center">
+            <p>&nbsp;<br /><br /></p>
+            <table style="WIDTH: 238px; HEIGHT: 187px" border="0" width="238">
+                <tbody>
+                    <tr>
+                        <td colspan="3" align="center"><strong><span style="TEXT-DECORATION: underline">Accredited By</span></strong></td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                        <p>&nbsp;</p>
+                        <p><a href="http://iacbe.org/"><img style="WIDTH: 174px; HEIGHT: 60px" alt="" width="200" height="80" src="/images/2012/3/21/iacbe.jpg?id=777" /></a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            <p><a href="http://www.facebook.com/WebberInternationalUniversity"><img style="WIDTH: 146px; HEIGHT: 30px" border="0" alt="" width="190" height="46" src="/images/2008/4/9/facebook.gif?id=371" /></a><a href="https://twitter.com/webberadmission">&nbsp;</a></p>
+            <a href="javascript:void(0);/*1380129218328*/"></a><br /><br /><a href="http://www.wunderground.com/US/FL/Babson_Park.html?bannertypeclick=miniWeather2"></a><a href="https://twitter.com/webberadmission"><img alt="" width="50" height="51" src="/images/2013/9/25/twitter.bmp?id=902" /></a><br /><br /><a target="_blank" href="http://www.webberemergency.com"></a><center></center></td>
+        </tr>
+    </tbody>
+</table>
+<!--/#ContentArea#--></div>
+
+                <div id="divNav_Inside">
+                    
+                    <center>
+                    <a href="/admissions/apply.aspx"><img border="0" src="/images/leftnav_applynow_2.gif" alt="Apply Now!" /></a>
+                    <div id="ctl00_homeLogos">
+                    <!--#ContentArea#-->
+
+<!--/#ContentArea#--></div>
+	                </center>
+                </div>
+            </div>	    
+	    
+            <div id="ctl00_divContent" style="width:650px;float:left;background-color:#FFFCE9; background-position: right bottom; background-repeat:no-repeat; ">
+                <div id="ctl00_imgHomePage">
+                <!--#ContentArea#-->
+&nbsp;
+<!--/#ContentArea#--></div>
+                <div id="ctl00_divHotnews" style="width:250px;float:right;padding-top:20px;margin-left:20px">
+                    <div class="page_title" style="margin-bottom:20px">News & Events</div>
+                    <div>
+                        
+        <div style="padding-right:15px">
+            <span class="hotnews_date">10.09.13</span><br />
+            <div class="hotnews_item">
+                <a href="hotnews.aspx?id=320" class="hotnews_title">Former Webber Student-Athlete Named Teacher Of The Year At Apopka High</a><br />
+                <a href="hotnews.aspx?id=320" style="text-decoration:none;color:#024503;">BABSON PARK, Fla.  </a>
+				<br /><br />
+            </div>
+        </div>
+    
+        <div style="padding-right:15px">
+            <span class="hotnews_date">10.04.13</span><br />
+            <div class="hotnews_item">
+                <a href="hotnews.aspx?id=319" class="hotnews_title">Webber International University Honored as NAIA Champions of Character Five Star Institution </a><br />
+                <a href="hotnews.aspx?id=319" style="text-decoration:none;color:#024503;">BABSON PARK, Fla.</a>
+				<br /><br />
+            </div>
+        </div>
+    
+        <div style="padding-right:15px">
+            <span class="hotnews_date">9.09.13</span><br />
+            <div class="hotnews_item">
+                <a href="hotnews.aspx?id=315" class="hotnews_title">WIU Awarded a 2014 Military Friendly School</a><br />
+                <a href="hotnews.aspx?id=315" style="text-decoration:none;color:#024503;">BABSON PARK, fla.</a>
+				<br /><br />
+            </div>
+        </div>
+    
+        <div style="padding-right:15px">
+            <span class="hotnews_date">8.09.13</span><br />
+            <div class="hotnews_item">
+                <a href="hotnews.aspx?id=312" class="hotnews_title">WIU Open House-Attend and you might get a $1000 scholarship</a><br />
+                <a href="hotnews.aspx?id=312" style="text-decoration:none;color:#024503;">BABSON PARK,Fla.</a>
+				<br /><br />
+            </div>
+        </div>
+    
+
+
+
+
+                    </div>
+                    <center>
+
+
+International Flag Plaza<br><a href="http://www.webber.edu/Alumni/Alumni_News/index.aspx" target="_blank"><img src="/images/backgrounds/give_gift/WIU brick 2.JPG" border=0><br></a>Brick Campaign<br>
+
+
+
+<a href="http://www.webber.edu/Graduate/uf_masters_program.aspx"><img src="/images/backgrounds/academics/psm-uf.jpg" border=0></a><br><br>
+
+
+
+<a href="http://www.sapc.edu/"><img src="/images/backgrounds/newlogo.gif" border=0></a><br><br>
+
+
+                </div>
+                <div id="ctl00_divContent_Inside" class="content_homepage">
+                    <span id="ctl00_lblPageTitle" class="page_title">Welcome<br /><br /></span>
+                                        
+
+                    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slides").cycle({
+                fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc... "' + jQuery(slide).find('img').attr('src') + '"
+                timeout: '5000',
+				speed:1000
+            });
+        });
+		$(document).ready(function () {
+            $("#newsslides").cycle({
+                fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc... "' + jQuery(slide).find('img').attr('src') + '"
+                timeout: '10000',
+				speed:1000
+            });
+        });
+		$(document).ready(function () {
+			$('#evtslides').cycle({ 
+				fx:      'scrollLeft',  
+				timeout:  10000,
+				speed:1000
+			});
+        });		
+    </script>
+	<style type="text/css">
+		#evtslides a
+		{
+			text-decoration:none;
+			color:#035201;
+			font-size:13px;
+			font-weight:bold;
+		}
+		
+		#evtslides a:hover
+		{
+			text-decoration:underline;
+			color:#035201;
+		}	
+
+		#ctl00_lblPageTitle
+		{
+			display:none;
+		}
+	</style>
+	<br/>
+    <div id="Evtrotator">
+        <div id="evtslides" style="width:360px;">
+            
+                    <div id="slide_513">
+						<a href="/calendar.aspx?id=513" target="_blank">October 12, 2013 - Final Exam Saturday Term A</a>
+                    </div>
+                
+                    <div id="slide_514">
+						<a href="/calendar.aspx?id=514" target="_blank">October 19, 2013 - Saturday Term B classes begin</a>
+                    </div>
+                
+                    <div id="slide_538">
+						<a href="/calendar.aspx?id=538" target="_blank">October 24, 2013 - MBA Final Exam</a>
+                    </div>
+                
+                    <div id="slide_515">
+						<a href="/calendar.aspx?id=515" target="_blank">October 25, 2013 - Midterm</a>
+                    </div>
+                
+        </div>
+    </div>	
+	<br/>
+	<div id="newsrotator">
+        <div id="newsslides" align="center" style="width:350px;">
+            
+                    <div id="newsslide_320">
+						<div style="font-size: large; color:#035201; text-decoration: underline; font-weight: bold;">
+							Former Webber Student-Athlete Named Teacher Of The Year At Apopka High
+						</div>
+						<br/>
+                        <div id="devNewsDesc" class="Title" style="text-align: left; font-family: Tahoma; font-size:13px;">
+                            <b>BABSON PARK, Fla.  </b> - A former student-athlete at Webber International University, located in Babson Park, Florida, has been named Apopka High School&rsquo;s Teacher of the Year. James Delgado is a 2007 graduate of Webber International, with his B.S. degree, and...
+                        </div>
+						<br/>
+						<div id="divLink" style="color:#00E; font-weight:bold; font-size:13px; font-family: Tahoma; text-align:center;">
+							<a href="/hotnews.aspx?id=320" target="_blank">Click here for More Information</a>
+						</div>
+                    </div>
+                
+                    <div id="newsslide_315">
+						<div style="font-size: large; color:#035201; text-decoration: underline; font-weight: bold;">
+							WIU Awarded a 2014 Military Friendly School
+						</div>
+						<br/>
+                        <div id="devNewsDesc" class="Title" style="text-align: left; font-family: Tahoma; font-size:13px;">
+                            <b>BABSON PARK, fla.</b> - Victory Media, the premier media entity for military personnel transitioning into civilian life, has named Webber International University <span...
+                        </div>
+						<br/>
+						<div id="divLink" style="color:#00E; font-weight:bold; font-size:13px; font-family: Tahoma; text-align:center;">
+							<a href="/hotnews.aspx?id=315" target="_blank">Click here for More Information</a>
+						</div>
+                    </div>
+                
+                    <div id="newsslide_312">
+						<div style="font-size: large; color:#035201; text-decoration: underline; font-weight: bold;">
+							WIU Open House-Attend and you might get a $1000 scholarship
+						</div>
+						<br/>
+                        <div id="devNewsDesc" class="Title" style="text-align: left; font-family: Tahoma; font-size:13px;">
+                            <b>BABSON PARK,Fla.</b> - You&rsquo;re invited to Webber&rsquo;s Open House on Saturday, October 19th at 10:00 am.&nbsp;If you attend, your $35 application fee will be waived and you will be eligible for a $1000 scholarship to WIU!&nbsp;At the open house, you will tour the campus, meet the...
+                        </div>
+						<br/>
+						<div id="divLink" style="color:#00E; font-weight:bold; font-size:13px; font-family: Tahoma; text-align:center;">
+							<a href="/hotnews.aspx?id=312" target="_blank">Click here for More Information</a>
+						</div>
+                    </div>
+                
+        </div>
+    </div>
+	<!--#ContentArea#-->
+<p><img alt="" align="left" width="75" height="75" src="/images/2013/9/10/MFS14_Logo_75x75.png?id=892" /></p>
+<div style="MARGIN: 0in 0in 0pt"><strong><span style="LINE-HEIGHT: 115%; COLOR: windowtext; FONT-SIZE: 12pt"><a href="http://www.militaryfriendlyschools.com/search/profile.aspx?id=138293">Webber International UniversityAwarded 2014 Military Friendly Schools &reg; Designation</a></span></strong></div>
+<div style="MARGIN: 0in 0in 0pt"><a href="javascript:void(0);/*1378844057588*/">&nbsp;</a></div>
+<p><a href="javascript:void(0);/*1375905554159*/"></a></p>
+<!--/#ContentArea#-->
+	<div align="left" style="margin: 0in 0in 0pt">
+        &nbsp;</div>
+    <div align="left" style="margin: 0in 0in 0pt">
+        <hr />
+    </div>
+	<br/>
+    <div id="rotator" style="height:250px;">
+        <div id="slides">
+            
+                    <div id="slide_793">
+                        <img src="/images/2013/1/29/Admitted Students Open House Picture.jpg" alt="" style="width:350px;" class="imgRotator" />
+                        <div id="devDesc" class="rotDescription">
+                            
+                        </div>
+                    </div>
+                
+                    <div id="slide_798">
+                        <img src="/images/2013/3/14/Home Rotator-2 (640x426).jpg" alt="" style="width:350px;" class="imgRotator" />
+                        <div id="devDesc" class="rotDescription">
+                            
+                        </div>
+                    </div>
+                
+                    <div id="slide_799">
+                        <img src="/images/2013/3/14/Home Rotator-3 (640x426).jpg" alt="" style="width:350px;" class="imgRotator" />
+                        <div id="devDesc" class="rotDescription">
+                            
+                        </div>
+                    </div>
+                
+                    <div id="slide_800">
+                        <img src="/images/2013/3/14/Home Rotator-4 (640x426).jpg" alt="" style="width:350px;" class="imgRotator" />
+                        <div id="devDesc" class="rotDescription">
+                            
+                        </div>
+                    </div>
+                
+                    <div id="slide_802">
+                        <img src="/images/2013/3/14/Home Rotator-1 (640x426).jpg" alt="" style="width:350px;" class="imgRotator" />
+                        <div id="devDesc" class="rotDescription">
+                            
+                        </div>
+                    </div>
+                
+        </div>
+		<div style="clear:both;"></div>
+    </div>
+	<br/>
+    <div align="left" style="margin: 0in 0in 10pt">
+        <div align="left" style="margin: 0in 0in 10pt">
+            <table width="200" cellspacing="1" cellpadding="1" border="0" summary="">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>
+                                <font face="Tahoma">&nbsp;</font></p>
+                            <p>
+                                <a target="_blank" href="http://www.princetonreview.com/best-regional-colleges.aspx">
+                                    <font face="Tahoma">
+                                        <img width="171" height="158" border="0" alt="" src="/images/2013/8/7/best-southeast.png" /></font></a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div align="left" style="margin: 0in 0in 10pt">
+        <hr />
+    </div>
+
+                </div>
+            </div>	    
+	    
+	        <div class="clear"></div>
+	    </div>
+	</div>
+	    </center>
+
+	     <div id="divFooter" style="margin:0px">
+	     	<center>
+	        <div id="divFooter_Inside">
+	            <div style="float:left;"><br><br>
+<table cellspacing=0 cellpadding=0 border=0 width=150>
+<tr>
+<td align=right valign=top width=30>&nbsp;</td>
+<td align=right valign=top width=120><A HREF="http://www.goodsearch.com/?charityid=856908" TARGET="_blank">
+<IMG SRC="http://www.goodsearch.com/_gfx/gs-school-120x60.gif" WIDTH="120" HEIGHT="60" ALT="GoodSearch: You Search...We Give!" BORDER="0"></A></td>
+<td align=right valign=middle width=100><!-- PayPal Button -->
+                   <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7----- " />
+                    <input type="image" name="ctl00$ImageButton1" id="ctl00_ImageButton1" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ImageButton1&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://app.etapestry.com/hosted/WebberInternationalUniversit/OnlineDonation.html&quot;, false, false))" style="border-width:0px;" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </td>
+
+</tr>
+</table></div>
+	            <div id="footerNav">
+	                <a href="/about/index.aspx">About Webber</a> | <a href="/academics/index.aspx">Academics</a> | <a href="/ADMISSIONS/index.aspx">Admissions</a> | <a href="http://webberathletics.com/">Athletics</a> | <a href="/directory.aspx">Directories</a> | <a href="/Student_Life/index.aspx">Student Life</a>
+	            </div>
+	            <div id="footerText">
+	                1201 N. Scenic Highway, Babson Park, FL 33827<br />
+	                1-800-741-1844<br />
+	                &copy; 2007 Webber International University<br />
+	                <br />
+	                <br />
+	                Site Designed by <a href="http://www.internetconsult.com">Internet Consulting Services</a>
+	            </div>
+	        </div>
+	        </center>
+	     </div>
+	
+	    <script type="text/javascript"></script>
+<!--	    <script type="text/javascript">
+	        try {
+	            var divCnt = document.getElementById('ctl00_divContent')
+	            var divLNav = document.getElementById('divNav')
+
+	            if (divCnt.scrollHeight < divLNav.scrollHeight){
+	                divCnt.style.height = divLNav.scrollHeight + 'px'
+	            }
+	            if (divLNav.scrollHeight < divCnt.scrollHeight){
+	                divLNav.style.height = divCnt.scrollHeight + 'px'
+	            }
+	        } catch (e) {
+	        }
+	    </script>    	 -->    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+    
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2561271-1";
+urchinTracker();
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42713058-2', 'webber.edu');
+  ga('send', 'pageview');
+
+</script>    
+    </body>
+</html>

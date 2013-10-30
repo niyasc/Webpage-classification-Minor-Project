@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>College for Creative Studies</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+    	<style>
+#main .major-list .hover-dark { overflow: hidden; }
+.hover-dark { overflow: auto; }
+body.person .pod.regular.DIVIDERDARK { clear: both; }
+body.person .assetGallery li { position: relative; }
+.pod.tabbed.vertical > h3,
+.pod.tabbed.vertical > h2, 
+.pod.tabbed.vertical > h1, .pod.tabbed.vertical > h4 { font-size: 14px; font-weight: bold; color: #585550 !important; border-bottom: none; }
+.ui-tabs .ui-tabs-nav li a { color: #585550 !important; }
+.ui-widget-content a { color: #ceb409 !important; }
+.ui-widget-content a:hover { color: #847303 !important; }
+.pod.function.transportpromo {
+background: url('https://www.collegeforcreativestudies.edu/files/assets/images/medium/1379532850_mfa-td-button2.jpg') no-repeat top left !important;
+}
+</style>
+
+	<!-- UNCOMPRESSED JS FILES -->
+	<!-- CSS INCLUDES -->
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/core/assets/player/mejs/mediaelementplayer.min.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/sites/ccs/css/mejs.custom.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/sites/ccs/js/fancybox/jquery.fancybox-2.0.5.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/sites/ccs/js/fancybox/helpers/jquery.fancybox-buttons.css?v=2.0.5" />
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/sites/ccs/css/screen.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.collegeforcreativestudies.edu/core/base/css/stylesheets/jquery-ui/jquery-ui-1.10.0.custom.css" />
+	<!-- JS INCLUDES -->
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/base/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/frontend.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/base/js/jquery.cycle.min.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/assets/player/mejs/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/fancybox/jquery.fancybox-2.0.5.pack.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/fancybox/helpers/jquery.fancybox-buttons.js?v=2.0.5"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/base/js/jquery-ui-1.10.2.custom.min.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/base/js/frontend/webtracking.min.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/respond.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/core/base/js/underscore.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/sites/ccs/js/jquery.hoverIntent.min.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/lib/js/html5shiv.js"></script>
+	<script type="text/javascript" src="http://www.collegeforcreativestudies.edu/lib/js/jquery.ui.datetimepicker.js"></script>
+	<style type="text/css">
+			</style>
+	<!-- JQUERY READY -->
+	<script type="text/javascript">
+
+    	$(document).ready(function() {
+    					
+					$('#podslideshow_108877').cycle( {
+						timeout: 2000,
+						speed: 2000,
+						fx: 'fade',height: 'auto',
+						random: 0,
+						pause: 1
+					});
+			$('video,audio').mediaelementplayer({ mode: 'shim', audioWidth: 300, success: function(me, obj) { me.addEventListener('play', function(e) { $.fn.trackMediaEvent(e, obj); }, false); me.addEventListener('ended', function(e) { $.fn.trackMediaEvent(e, obj); }, false); } });
+			add_header_toolbar_buttons();
+			ccsAnalytics = new webtracking(); ccsAnalytics.init();
+    	});
+	</script>
+
+<!-- FONTS -->
+<link href="//cloud.webtype.com/css/6bb00570-04c2-40c4-a138-6a4146881033.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//use.typekit.com/yiz3hut.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script>
+jQuery(function($){
+
+$("#gallery").hover(
+     function() {}, 
+     function() {        
+       $('#gallery li').fadeTo(300, 1.0); 
+     }
+);
+
+$("#gallery li").hoverIntent(
+    function(){
+       $(this).attr('class', 'current'); // Add class .current
+       $(this).siblings().fadeTo("fast", 0.3); // Fade other items to 30%
+       $(this).fadeTo(300, 1.0); // Fade current to 100%
+
+    },
+    function(){            
+      $(this).removeClass("current"); // Remove class .current
+      $(this).fadeTo(300, 1.0); // This should set the other's opacity back to 100% on mouseout   
+    });
+});
+ 
+</script>
+
+
+<!-- FIXED HEADER AND ADD BOX-SHADOW AFTER SCROLL -->    
+<script type="text/javascript">
+	$(window).scroll(function(e){ 
+		$el = $('#header'); 
+  			if ($(this).scrollTop() > 220)
+  				{ $('#header').css({'box-shadow': '0px 0px 40px #282828', '-webkit-transition': 'box-shadow .5s ease-in-out'}); }
+  			else 
+  				{ $('#header').css({'box-shadow': 'none'}); }
+  			});  			
+</script>
+
+<!-- DEPARTMENT LIST HIGHLIGHT -->
+<script>
+jQuery(function($){
+
+$(".interior-page .pod.regular.department-list, .interior-page .pod.function.subnav.hover-dark, .interior-page .pod.regular.subnav.hover-dark").hover(
+     function() {}, 
+     function() {        
+       $('.interior-page .pod.regular.department-list li, .interior-page .pod.function.subnav.hover-dark li, .interior-page .pod.regular.subnav.hover-dark li').fadeTo(200, 1.0); 
+     }
+);
+
+$(".interior-page .pod.regular.department-list li, .interior-page .pod.function.subnav.hover-dark li, .interior-page .pod.regular.subnav.hover-dark li").hoverIntent(
+    function(){
+       $(this).attr('class', 'current'); // Add class .current
+       $(this).siblings().fadeTo(75, 0.3); // Fade other items to 30%
+       $(this).fadeTo(200, 1.0); // Fade current to 100%
+
+    },
+    function(){            
+      $(this).removeClass("current"); // Remove class .current
+      $(this).fadeTo(75, 1.0); // This should set the other's opacity back to 100% on mouseout   
+    });
+});
+ 
+</script>
+    
+<!-- BEGIN Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-2357339-1']);
+_gaq.push(['_trackPageview', location.pathname + location.search + location.hash]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END Google Analytics -->
+</head>
+<body id="desktop" class="home ">
+
+<a href="#navigation" class="access">Skip to navigation</a>
+
+<!--[if IE 8]><div id="ie8"><![endif]--><!--[if IE 7]><div id="ie7"><![endif]--><!--[if IE 6]><div id="ie6"><![endif]-->
+
+<div id="header">
+		<div class="page">
+			<div id="logo" class=" ">
+<a href="http://www.collegeforcreativestudies.edu" title="CCS website" ></a>
+</div>
+			<a name="navigation"></a>
+			<div id="nConstant"><div id="searchBox">
+	<form id="searchForm" method="GET" action="/search">
+				<input type="text" id="searchText" name="q" placeholder="Search..." value="" />
+		<a href="javascript:document.getElementById('searchForm').submit();">search</a>
+	</form>
+</div>
+
+	<!-- navigation cached -->
+<ol>
+	<li class='first'><a href='http://www.collegeforcreativestudies.edu/parents' >Parents</a></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/current-students' >Current Students</a></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/alumni' >Alumni</a></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/news-and-events' >News &amp; Events</a></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/support-ccs' >Support</a></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/apply'  class='apply'>Apply Now</a></li>
+	<li class='last'><a href='http://www.collegeforcreativestudies.edu/request-info'  class='request-info'>Request Info</a></li></ol></div>
+			<div id="nPrimary">
+	<!-- navigation cached -->
+<ol>
+	<li class='first'><a href='http://www.collegeforcreativestudies.edu/admissions' >Admissions</a>
+<!-- Custom navigation -->
+<div id='sub46' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:49%;margin-right:2%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions' >Undergraduate Admissions</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/high-school-students' >High School Students</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/high-school-students/admissions-requirements' >Admissions Requirements</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/high-school-students/admissions-process' >Admissions Process</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/transfer-students' >Transfer Students</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/transfer-students/admissions-requirements' >Admissions Requirements</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/transfer-students/transferring-credits-and-equivalency-guides' >Transferring Credits &amp; Equivalency Guides</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/transfer-students/articulation-and-transfer-guides' >Articulation &amp; Transfer Guides</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/international-students' >International Students</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/international-students/admissions-requirements' >Admissions Requirements </a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/international-students/visa-information' >Visa Information</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/portfolio-assistance' >Portfolio Assistance</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/portfolio-assistance/portfolio-requirements' >Portfolio Requirements</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/ap-credit' >AP Credit</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/international-baccalaureate-credit' >International Baccalaureate Credit</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/already-applied' >Already Applied?</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/undergraduate-admissions/new-student-orientation' >New Student Orientation</a></li></ol></li></ol></div></div><div class="pod column last" style='width:49%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/graduate-admissions' >Graduate Admissions</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/graduate-admissions/requirements-and-deadlines' >Requirements and Deadlines</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/graduate-admissions/portfolio-guidelines' >Portfolio Guidelines</a></li></ol></li></ol></div><div class="pod regular">
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+</div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/visit-us' >Visit Us</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/visit-us/information-sessions' > Information Sessions</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/visit-us/in-your-city' >In Your City</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/visit-us/national-portfolio-days' >National Portfolio Days</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/admissions/visit-us/national-portfolio-days/miportfolioday' >Michigan National Portfolio Day</a></li></ol></li></ol></li></ol></div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/campus-life' >Campus Life</a>
+<!-- Custom navigation -->
+<div id='sub43' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:31.68%;margin-right:2%;'>
+<div class="pod function clearBoth">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/student-experience' >Student Experience</a></li></ol></div><div class="pod function clearBoth">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/alumni-stories' >Alumni Stories</a></li></ol></div><div class="pod function clearBoth">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/social-dashboard' >Social Dashboard</a></li></ol></div><div class="pod function clearBoth">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing' >Housing</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/applying-for-housing' >Applying for Housing</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/moving-in' >Moving In</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/faqs' >FAQs</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/off-campus-housing' >Off-Campus Housing</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/what-you-should-bring-to-school' >What you should bring to school</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/housing/graduate-student-housing' >Graduate Student Housing</a></li></ol></li></ol></div></div><div class="pod column" style='width:31.68%;margin-right:2%;'>
+<div class="pod function clearBoth">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit' >Detroit</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/our-changing-city' >Our Changing City</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/detroits-creative-community' >Detroit's Creative Community</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/urban-attractions' >Urban Attractions</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/community' >Community</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/apartments-and-real-estate' >Apartments &amp; Real Estate</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/museums-and-institutions' >Museums &amp; Institutions</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/hotels-and-inns' >Hotels &amp; Inns</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/entertainment' >Entertainment</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/transportation' >Transportation</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/dining' >Dining</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/shopping' >Shopping</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/detroit/health-care' >Health Care</a></li></ol></li></ol></div></div><div class="pod column last" style='width:32.64%;'>
+<div class="pod regular">
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/ccs-tv' >CCS TV</a></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/campus' >Campus</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/campus-life/campus/facilities' >Facilities</a></li></ol></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/campus-organizations' >Campus Organizations</a></li></ol></div></div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/academics'  class='orange'>Academics</a>
+<!-- Custom navigation -->
+<div id='sub10' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:31.68%;margin-right:2%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs' >Undergraduate Programs (BFA)</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/advertising-copywriting' >Advertising: Copywriting</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/advertising-design' >Advertising: Design</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/art-education' >Art Education</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/crafts' >Crafts</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/entertainment-arts' >Entertainment Arts</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/fine-arts' >Fine Arts</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/graphic-design' >Graphic Design</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/illustration' >Illustration</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/interior-design' >Interior Design</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/photography' >Photography</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/product-design' >Product Design</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/transportation-design' >Transportation Design</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/foundation' >Foundation</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/liberal-arts' >Liberal Arts</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/academic-minors' >Academic Minors</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/business-concentration' >Business Concentration</a></li></ol></li></ol></div></div><div class="pod column" style='width:31.68%;margin-right:2%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa' >Graduate Programs (MFA)</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/color-materials' >Color &amp; Materials Design</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/color-materials/program-curriculum' >Program Curriculum</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/interaction-design' >Interaction Design</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/interaction-design/program-curriculum' >Program Curriculum</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/interdisciplinary-design' >Interdisciplinary Design</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/interdisciplinary-design/program-curriculum' >Program Curriculum</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/transportation-design' >Transportation Design</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/transportation-design/program-curriculum' >Program Curriculum</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/graduate-program-speakers' >Graduate Program Speakers</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/computer-and-technology-recommendations' >Computer &amp; Technology Requirements</a></li></ol></li></ol></div><div class="pod regular">
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+</div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/gallery' >Gallery</a></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/study-abroad' >Study Abroad</a></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/student-mobility-program-aicad' >Student Mobility Program (AICAD)</a></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/what-is-your-major' >What's Your Major</a></li></ol></div></div><div class="pod column last" style='width:32.64%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce' >Precollege &amp; Continuing Studies</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/precollege-programs' >Precollege Programs</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/precollege-programs/precollege-courses' >Precollege Courses</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/precollege-programs/dual-enrollment' >Dual Enrollment</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/precollege-programs/art-scholars' >Art Scholars</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/precollege-programs/summer-experience' >Precollege Summer Experience</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/youth-programs' >Youth Programs</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/youth-programs/second-saturdays' >Second Saturdays</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/adult-courses' >Adult Courses</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/certificate-programs' >Certificate Programs</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/certificate-programs/professional-automotive-modeling' >Professional Automotive Modeling</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/academics/ce/creative-educator-program' >Creative Educator Program</a></li></ol></li></ol></div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/student-resources' >Student Resources</a>
+<!-- Custom navigation -->
+<div id='sub9' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:50%;margin-right:2%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/supplies-and-technology' >Supplies &amp; Technology</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/supplies-and-technology/bookstore' >Bookstore</a></li></ol></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources' >Student Services &amp; Resources</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/advising-and-registration' >Advising &amp; Registration</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/advising-and-registration/academic-calendar' >Academic Calendar</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/advising-and-registration/transferring-credits-and-equivalency-guides' >Transferring Credits &amp; Equivalency Guides</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/advising-and-registration/articulation-and-transfer-guides' >Articulation &amp; Transfer Guides</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/blackboard' >Blackboard</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/international-student-services' >International Student Services</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/student-affairs' >Student Affairs</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/student-affairs/student-ombudsman' >Student Ombudsman</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/student-affairs/graduation' >Graduation</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/personal-counseling' >Personal Counseling</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/student-success-center' >Student Success Center</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/career-services' >Career Services</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/career-services/recruiting' >Recruiting</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/career-services/reading-and-online-resources' >Reading &amp; Online Resources</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/career-services/internship-program' >Internship Program</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/career-services/jobs' >Job Book</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/multicultural-affairs' >Multicultural Affairs</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/students-with-disabilities' >Students with Disabilities</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/library' >Library</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/student-resources/student-services-and-resources/library/colors-materials-library' >Color &amp; Materials Library</a></li></ol></li></ol></li></ol></div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li>
+	<li><a href='http://www.collegeforcreativestudies.edu/working-in-art-and-design' >Working in Art &amp; Design</a>
+<!-- Custom navigation -->
+<div id='sub44' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:49%;margin-right:2%;'>
+<div class="pod regular">
+<ol>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#advertising:-copywriting" class='internal '>Advertising: Copywriting</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#advertising:-design" class='internal '>Advertising: Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#advertising-design" class='internal '>Art Education</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#crafts" class='internal '>Crafts</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#entertainment-arts" class='internal '>Entertainment Arts</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#fine-arts" class='internal '>Fine Arts</a></li>
+</ol>
+</div></div><div class="pod column last" style='width:49%;'>
+<div class="pod regular">
+<ol>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#graphic-design" class='internal '>Graphic Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#illustration" class='internal '>Illustration</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#interior-design" class='internal '>Interior Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#photography" class='internal '>Photography</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#product-design" class='internal '>Product Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/alumni/alumni-profiles#transportation-design" class='internal '>Transportation Design</a></li>
+</ol>
+</div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li>
+	<li class='last'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid'  class='purple'>Tuition &amp; Financial Aid</a>
+<!-- Custom navigation -->
+<div id='sub45' class='nav-override fly' >
+	
+	<div class="pod columns">
+<div class="pod column first" style='width:49%;margin-right:2%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid' >Undergraduate Tuition &amp; Financial Aid</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid/types-of-financial-aid' >Types of Financial Aid</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid/sample-aid-award-packages' >Sample Aid Award Packages</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid/fafsa' >FAFSA</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid/fafsa/verification' >Verification</a></li></ol></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/undergraduate-tuition-and-financial-aid/financial-aid-process' >Financial Aid Process</a></li></ol></li></ol></div></div><div class="pod column last" style='width:49%;'>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/graduate-tuition-and-financial-aid' >Graduate Tuition &amp; Financial Aid</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/graduate-tuition-and-financial-aid/types-of-financial-aid' >Types of Financial Aid</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/graduate-tuition-and-financial-aid/graduate-tuition-and-fees' >Graduate Tuition &amp; Fees</a></li></ol></li></ol></div><div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/tuition-and-financial-aid/financial-aid-code-of-conduct' >Financial Aid Code of Conduct</a></li></ol></div></div><div class='clearBoth'></div></div>
+	<div class='clearBoth'></div>
+</div></li></ol></div>			
+		</div>
+</div>
+	
+	<div id="content">
+			
+		
+		<div class="page">
+			<div id="main">
+			<div class="pod regular" style='height: 404px;'>
+<div class="pod slideshow">
+<div id='podslideshow_108877' class='slideshowWrapper'><div id='podslide_106877'><div class="pod function">
+	<div style="position: relative;">
+<ul class="hero">
+	<a href="/academics/graduate-programs-mfa"><li><img src="/files/assets/media_field/hero_box/1378842769_mfa-homepage1.jpg" border="0" /></li></a>
+</ul>
+<ul class="heroFeature">
+<a href="/academics/graduate-programs-mfa">
+	<li class="hero-toptitle">Check It Out</li>
+	<li class="hero-thumb"><img src="/files/assets/media_field/hero_thumb/1378840039_mfa-entrance-standards.png" /></li>
+	<li class="hero-maintitle">MFA</li>
+	<li class="hero-bottomtitle"><em>Learn More Now</em></li>
+</a>
+</ul>
+</div></div></div><div id='podslide_108878'><div class="pod function">
+	<div style="position: relative;">
+<ul class="hero">
+	<a href="/academics/undergraduate-programs/business-concentration"><li><img src="/files/assets/media_field/hero_box/1380916088_hero-biz-concentration.jpg" border="0" /></li></a>
+</ul>
+<ul class="heroFeature">
+<a href="/academics/undergraduate-programs/business-concentration">
+	<li class="hero-toptitle">Combining Business & Creativity</li>
+	<li class="hero-thumb"><img src="/files/assets/media_field/hero_thumb/1380916308_WalshLogoLBB.gif" /></li>
+	<li class="hero-maintitle">New Business Concentration</li>
+	<li class="hero-bottomtitle"><em>with Walsh College</em></li>
+</a>
+</ul>
+</div></div></div></div></div></div><div class="pod regular clearBoth">
+<div class="pod columns" style='width:99%;'>
+<div class="pod column first" style='width:24.75%;margin-right:0%;'>
+<div class="pod regular col full-height major-list full-width">
+<h2>Our majors</h2>
+<div class="pod regular department-list hover-dark">
+<ul>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/advertising-copywriting" class='internal  advertising-copywriting '>Advertising: <strong>Copywriting</strong></a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/advertising-design" class='internal  advertising-design '>Advertising: <strong>Design</strong></a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/art-education" class='internal  art-education '><strong>Art</strong> Education</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/crafts" class='internal  crafts '><strong>Crafts</strong></a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/entertainment-arts" class='internal  entertainment-arts '><strong>Entertainment</strong> Arts</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/fine-arts" class='internal  fine-arts '><strong>Fine</strong> Arts</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/graphic-design" class='internal  graphic-design '><strong>Graphic</strong> Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/illustration" class='internal  illustration '>Illustration</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/interior-design" class='internal  interior-design '><strong>Interior</strong> Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/photography" class='internal  photography '>Photography</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/product-design" class='internal  product-design '><strong>Product</strong> Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/undergraduate-programs/transportation-design" class='internal  transportation-design '><strong>Transportation</strong> Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/interdisciplinary-design" class='internal  mfa-interdisciplinary '><strong>MFA</strong> Interdisciplinary Design</a></li>
+<li><a href="http://www.collegeforcreativestudies.edu/academics/graduate-programs-mfa/transportation-design" class='internal  mfa-transportation '><strong>MFA</strong> Transportation Design</a></li>
+</ul>
+</div></div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+
+<div class="col promo-img light">
+	<a href="/academics/graduate-programs-mfa">
+					<h2>Graduate Programs</h2>
+				<img width="300" height="490" src="/files/assets/media_field/promo_vertical/1377721644_mfa-homepage-2.jpg" border="0">
+	</a>
+</div></div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+
+<div class="col promo-img dark">
+	<a href="/admissions/visit-us">
+					<h2>Visit Us</h2>
+				<img width="300" height="490" src="/files/assets/media_field/promo_vertical/1345046052_campuspromo_ford2.jpg" border="0">
+	</a>
+</div></div></div><div class="pod column last" style='width:24.75%;'>
+<div class="pod function one">
+	<div class="col full-height full-width dark-gray light">
+	<h2>News</h2> 
+	<ul class="news">
+				<li><a href="/articles/ccs-student-contestant-on-food-networks-halloween-wars" title="CCS Student Contestant on Food Network's "><date>10/07</date><br />
+		CCS Student Contestant on Food Network's  ...</a></li>
+				<li><a href="/articles/several-ccs-alumni-exhibiting-in-this-years-art-prize" title="Several CCS alumni exhibiting in this years’ ArtPrize"><date>09/25</date><br />
+		Several CCS alumni exhibiting in this years’ ArtPrize ...</a></li>
+				<li><a href="/articles/thursday-kicks-off-the-new-season-of-the-woodward-lecture-series" title="Thursday kicks off the new season of the Woodward Lecture series"><date>09/24</date><br />
+		Thursday kicks off the new season of the Woodward Lecture series ...</a></li>
+				<li><a href="/articles/ceramicist-and-crafts-alumna-commisioned-for-new-restaurant-the-stand-and-showing-in-art-fair" title="Ceramicist and Crafts alumna commisioned for new restaurant, The Stand and showing in Art Fair"><date>09/20</date><br />
+		Ceramicist and Crafts alumna commisioned for new restaurant, The Stand and showi ...</a></li>
+				<li><a href="/articles/ccs-introduces-two-new-graduate-programs" title="The College for Creative Studies is proud to announce two new Graduate Programs"><date>09/20</date><br />
+		The College for Creative Studies is proud to announce two new Graduate Programs ...</a></li>
+			</ul>
+	<a href="/news-and-events" class="news-btn"><span>See More News &rarr;</span></a>
+</div>	</div></div><div class='clearBoth'></div></div></div><div class="pod regular">
+<p>&nbsp;</p>
+<p><span class="asset alignLeft" style='width: 1200px;'><a href="http://www.collegeforcreativestudies.edu/apply" class='internal '><img src='http://www.collegeforcreativestudies.edu/files/assets/images/large/1353419331_apply_revised.jpg' alt='Home Page Apply Large' width='1200' height='206.5' /></a></span></p>
+<p>&nbsp;</p>
+</div><div class="pod regular clearBoth">
+<div class="pod regular">
+<p>
+        <video id="movie-122" class="movie" title="BFA Product Design Video" src="http://www.collegeforcreativestudies.edu/files/assets/videos/1380727600_product_design_final.mp4"  poster="http://www.collegeforcreativestudies.edu/files/assets/images/large/1380727467_product-designvideo.jpg"  preload="none" controls></video>
+        </p>
+</div></div><div class="pod columns text-promo" style='width:99%;'>
+<div class="pod column first" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/academics/undergraduate-programs/business-concentration" id="" class='internal '>
+		<h2>Business Concentration</h2>
+		<p> CCS has partnered with Walsh College to offer a set of four courses in business studies</p>
+		<p><a href="/academics/undergraduate-programs/business-concentration" id="" class='internal '>Learn More</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox556").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/campus-life/detroit" id="" class='internal '>
+		<h2>Welcome to the "D"</h2>
+		<p>Find out why we love Detroit and the surrounding areas.</p>
+		<p><a href="/campus-life/detroit" id="" class='internal '>Read about Detroit</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox113").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/working-in-art-and-design" id="" class='internal '>
+		<h2>Meet Our Alumni</h2>
+		<p>Our alums work at some of the best companies in the world. Check it out.</p>
+		<p><a href="/working-in-art-and-design" id="" class='internal '>Learn More</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox479").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class="pod column last" style='width:24.75%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/apply" id="" class='internal '>
+		<h2>Apply Now</h2>
+		<p>Take the first step and start your CCS story.</p>
+		<p><a href="/apply" id="" class='internal '>Apply</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox324").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class='clearBoth'></div></div><div class="pod regular">
+</div><div class="pod columns" style='width:99%;'>
+<div class="pod column first" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+
+<div class="col promo-img light">
+	<a href="/about-us/jobs-at-ccs/provost-search">
+					<h2>Position Summary</h2>
+				<img src="/files/assets/media_field/promo_halfheight/1367863733_provost-only.png" border="0">
+	</a>
+</div></div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+
+<div class="col promo-img light">
+	<a href="/campus-life/social-dashboard">
+					<h2>CCS is Social</h2>
+				<img src="/files/assets/media_field/promo_halfheight/1367863200_social.png" border="0">
+	</a>
+</div></div></div><div class="pod column" style='width:24.75%;margin-right:0%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/campus-life/campus" id="" class='internal '>
+		<h2>Check Out Our Campus</h2>
+		<p>CCS has some of the best facilities in the world. Take a look.</p>
+		<p><a href="/campus-life/campus" id="" class='internal '>Learn More</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox142").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class="pod column last" style='width:24.75%;'>
+<div class="pod function">
+<div class="infobox">
+	<a href="/admissions" id="" class='internal '>
+		<h2>Admissions & Portfolio Requirements</h2>
+		<p>Learn what we're looking for in a portfolio and find out about our admissions requirements</p>
+		<p><a href="/admissions" id="" class='internal '>Learn more</a></p>
+	</a>
+</div><script type="text/javascript">
+	$("#fancybox127").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		closeBtn: true,
+		type: 'ajax',
+		minWidth: 640,
+		minHeight: 365,
+		//autoSize:false,
+		helpers	:{
+				title: { type : 'inside' },
+				buttons: {}
+		},
+		afterShow : function(){
+			$('video,audio').mediaelementplayer({
+					mode: 'auto',
+					//audioWidth: 300,
+					success: function(me, obj) {
+							me.addEventListener('play', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+							me.addEventListener('ended', function(e) {
+									$.fn.trackMediaEvent(e, obj);
+							}, false);
+					}
+			});
+		}
+	});
+</script>
+</div></div><div class='clearBoth'></div></div><div class="pod html">
+<!-- Begin Rocket Fuel Conversion Action Tracking Code Version 7 -->
+<script type="text/javascript">var cache_buster = parseInt(Math.random()*99999999);document.write("<img src='//p.rfihub.com/ca.gif?rb=4887&ca=20518605&ra=" + cache_buster + "' height=0 width=0 style='display:none' alt='Rocket Fuel'/>");</script>
+<noscript><iframe src='//20518605p.rfihub.com/ca.html?rb=4887&ca=20518605&ra=' style='display:none;padding:0;margin:0' width='0' height='0'></iframe></noscript>
+<!-- End Rocket Fuel Conversion Action Tracking Code Version7 --></div>			</div>
+
+						<div class="clearBoth"></div>
+		</div>
+		<div class="push"></div>
+	</div>
+	
+	<div id="social">
+		<div class="page">
+			<a href="http://www.linkedin.com/company/19299?trk=tyah" class="social-linkedin"></a>
+			<a href="http://www.flickr.com/ccsedu" class="social-flickr"></a>
+			<a href="http://www.facebook.com/ccs" class="social-facebook"></a>
+			<a href="http://vimeo.com/insideccs" class="social-vimeo"></a>
+			<a href="http://www.youtube.com/ccsedu" class="social-youtube"></a>
+			<a href="https://twitter.com/#!/CCS_Detroit" class="social-twitter"></a>
+			<a href="http://pinterest.com/ccsdetroit/" class="social-pinterest"></a>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div class="page padded">
+		<div class="pod columns" style='width:99%;'>
+<div class="pod column first" style='width:23.265%;margin-right:2%;'>
+<div class="pod regular">
+<h3><a href="http://www.collegeforcreativestudies.edu/about-us" class='internal '><span class="titletop">About</span><br /><span class="titlebottom">CCS</span></a></h3>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us' >About Us</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/mission-statement' >Mission Statement</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/history' >History</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/accreditation' >Accreditation</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/leadership-administration' >Leadership/Administration</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/faculty' >Faculty</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/jobs-at-ccs' >Jobs at CCS</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/nondiscrimination-policy' >Nondiscrimination Policy</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/consumer-information-and-disclosures' >Consumer Information &amp; Disclosures</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/campus' >Campus</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/about-us/conference-and-event-services' >Conference and Event Services</a></li></ol></li></ol></div></div></div><div class="pod column" style='width:23.265%;margin-right:2%;'>
+<div class="pod regular">
+<h3><a href="http://www.collegeforcreativestudies.edu/community-outreach-and-engagement" class='internal '><span class="titletop">Community</span><br /><span class="titlebottom">Outreach</span></a></h3>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement' >Community Outreach and Engagement</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/community-arts-partnerships' >Community Arts Partnerships</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/center-galleries' >Center Galleries</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/scholastic-art-and-writing-awards' >Scholastic Art &amp; Writing Awards</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/school-for-creative-studies' >School for Creative Studies</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/detroit-creative-corridor-center' >Detroit Creative Corridor Center</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/kresge-arts-in-detroit' >Kresge Arts in Detroit</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/visiting-artists-and-designers' >Visiting Artists and Designers</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/community-outreach-and-engagement/detroit-design-festival' >Detroit Design Festival</a></li></ol></li></ol></div></div></div><div class="pod column" style='width:23.265%;margin-right:2%;'>
+<div class="pod regular">
+<h3><a href="http://www.collegeforcreativestudies.edu/corporate-relationships" class='internal '><span class="titletop">Corporate</span><br /><span class="titlebottom">Relationships</span></a></h3>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/corporate-relationships' >Corporate Relationships</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/corporate-relationships/research-projects' >Research Projects</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/corporate-relationships/design-competitions' >Design Competitions</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/corporate-relationships/event-sponsorships' >Event Sponsorships</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/corporate-relationships/hire-our-students' >Hire Our Students</a></li></ol></li></ol></div></div></div><div class="pod column last" style='width:23.265%;'>
+<div class="pod regular">
+<h3><a href="http://www.collegeforcreativestudies.edu/contact-us" class='internal '><span class="titletop">Contact</span><br /><span class="titlebottom">Us</span></a></h3>
+<div class="pod function">
+<ol id='' class='sitemap'><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us' >Contact Us</a><ol class='hasChildren' data-haschildren='true'><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us/departments-and-offices' >Departments &amp; Offices</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us/maps-and-directions' >Maps &amp; Directions</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us/apply' >Apply</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us/request-information' >Request Information</a></li><li class='node'><a href='http://www.collegeforcreativestudies.edu/contact-us/schedule-a-visit' >Schedule a Visit</a></li></ol></li></ol></div></div></div><div class='clearBoth'></div></div>		</div>
+	</div>
+	
+	<div id="footerbottom">
+		<img src="http://www.collegeforcreativestudies.edu/sites/ccs/images/skyline_footer.jpg">
+		<div id="repeatingbg"></div>
+	</div>
+
+	<div id="createdBy">
+    <p>Designed and created by <a href="http://www.teamddm.com">DDM Marketing &amp; Communications</a>.</p>
+</div>	
+	<!--[if IE 6]></div><![endif]-->
+	<!--[if IE 7]></div><![endif]-->
+	<!--[if IE 8]></div><![endif]-->
+
+	<!-- Google Code for all visitors to website -->
+	<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1035048940;
+	var google_conversion_label = "6jwMCMSK_wIQ7K_G7QM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1035048940/?value=0&amp;label=6jwMCMSK_wIQ7K_G7QM&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+</body>
+</html></html>
+<!-- Cached with memcache -->
