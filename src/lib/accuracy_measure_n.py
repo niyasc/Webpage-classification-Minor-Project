@@ -6,7 +6,7 @@ from constants import categories
 from clean import getList
 from random import randint
 from decimal import Decimal
-def naive_bayes(freq_list,database):
+def naive_bayes(freq_list,database,t):
 	#database=pickle.load(open('database.db','rb'))
 	#print(database)
 	#print(type(database))
@@ -29,6 +29,7 @@ def naive_bayes(freq_list,database):
 				pc[category]=pc[category]*Decimal((1.0/(n+v)))
 			else:
 				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))
+		pc[category]*=Decimal(t)
 				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])
@@ -50,7 +51,7 @@ def accuracy_measure_n(n):
 	documents={}
 	accuracy={}
 	for category in categories:
-		system("ls ./webpages/"+category+">.tmp")
+		system("ls ./dataset/"+category+">.tmp")
 		a=open(".tmp")
 		files=a.read()
 		a.close()
@@ -59,7 +60,8 @@ def accuracy_measure_n(n):
 		documents[category]=files
 		accuracy[category]=0
 	
-	for i in range(0,10):
+	for i in range(0,5):
+		print("n=",n,"i=",i)
 		train_set={}
 		test_set={}
 		for category in categories:
@@ -73,27 +75,39 @@ def accuracy_measure_n(n):
 			for d in documents[category]:
 				if d not in train_set[category]:
 					test_set[category].append(d)
+		print("Traing and test sets created")
 		#train the model
 		database={}
+		#number of train documents nt
+		nt=0
 		for category in categories:
 			database[category]={}
+			nt+=len(train_set[category])
 			for document in train_set[category]:
-				freq=getList('./webpages/'+category+'/'+document)
+				freq=getList('./dataset/'+category+'/'+document)
 				for word in freq:
 					if word not in database[category]:
 						database[category][word]=freq[word]
 					else:
 						database[category][word]+=freq[word]
 		#test model
+		#number of train documents
 		for category in categories:
 			p=0
+			j=0;
+			t=len(train_set[category])/float(nt)
 			for document in test_set[category]:
-				freq=getList('./webpages/'+category+'/'+document)
-				p_cat=naive_bayes(freq,database)
+				j+=1
+				freq=getList('./dataset/'+category+'/'+document)
+				p_cat=naive_bayes(freq,database,t)
 				if p_cat==category:
 					p+=1
+				print('n=',n,'round',i,p,'documents classified successfully out of ',j,'documents in category',category)
+				
 			
 			accuracy[category]+=p*100/len(test_set[category])
 	
+	for category in categories:
+		accuracy[category]=accuracy[category]/5
 	print(accuracy)
 	return accuracy

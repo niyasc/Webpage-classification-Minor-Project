@@ -36,13 +36,13 @@ class WebPage:
 		return data
 		
 	def getPureText(self):
-		data=self.removeCss(self.content)
+		'''data=self.removeCss(self.content)
 		data=self.removeScripts(data)
 		data=self.removeHtml(data)
 		#soup=BeautifulSoup(data)
 		#return soup.get_text()
-		return data
-		#return nltk.clean_html(self.content)
+		return data'''
+		return nltk.clean_html(self.content)
 	
 	def getTitle(self):
 		
@@ -90,13 +90,13 @@ class HtmlFile:
 		return data
 		
 	def getPureText(self):
-		data=self.removeCss(self.content)
+		'''data=self.removeCss(self.content)
 		data=self.removeScripts(data)
 		data=self.removeHtml(data)
 		#soup=BeautifulSoup(data)
 		#return soup.get_text()
-		return data
-		#return nltk.clean_html(self.content)
+		return data'''
+		return nltk.clean_html(self.content)
 	
 	def getTitle(self):
 		
