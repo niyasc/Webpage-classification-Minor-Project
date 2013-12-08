@@ -12,16 +12,26 @@ yn={}
 
 
 def main():
+	f=open("status.txt","w")
+	f.write("Processing started\n");
+	f.close()
 	for category in categories:
 		y[category]=[]
 	for n in range(50,500,50):
-		print('n=',n)
+		#print('n=',n)
+		
+		f=open("status.txt","a")
+		f.write(n+'\n')
+		f.close()
+
 		x.append(n)
 		yn=accuracy_measure_n(n)
 		pickle.dump(yn,open(n+'.bin','wb'))
 		for category in categories:
 			y[category].append(yn[category])
-		
+		f=open("status.txt","a")
+		f.write("completed")
+		f.close()
 
 	total=[]
 	for n in range(len(x)):
