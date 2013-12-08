@@ -4,7 +4,7 @@ from os import system
 path.insert(0, './lib') #set library location
 from constants import categories
 from accuracy_measure_n import accuracy_measure_n
-import pylab
+import pickle
 
 x=[]
 y={}
@@ -12,15 +12,26 @@ yn={}
 
 
 def main():
+	f=open("status.txt","w")
+	f.write("Processing started\n");
+	f.close()
 	for category in categories:
 		y[category]=[]
 	for n in range(50,500,50):
-		print('n=',n)
+		#print('n=',n)
+		
+		f=open("status.txt","a")
+		f.write(n+'\n')
+		f.close()
+
 		x.append(n)
 		yn=accuracy_measure_n(n)
+		pickle.dump(yn,open(n+'.bin','wb'))
 		for category in categories:
 			y[category].append(yn[category])
-		
+		f=open("status.txt","a")
+		f.write("completed")
+		f.close()
 
 	total=[]
 	for n in range(len(x)):
@@ -28,21 +39,6 @@ def main():
 		for category in categories:
 			total[n]+=y[category][n]
 		total[n]=total[n]/float(len(categories))
-		
-		
-		
-		
-		
-						
-	#Plot graph
-	for item in y:
-		t=pylab.plot(x,y[item],label=item)
-	t=pylab.plot(x,total,label="Overal performance",linewidth=4,linestyle='--')
-	t=pylab.xlabel('Number of train documents')
-	t=pylab.ylabel('Classification accuracy %')	
-	t=pylab.legend(loc='upper right')
-	t=pylab.title('Number of folds k vs accuracy')
-	pylab.show()
 	
 	
 if __name__ == "__main__":

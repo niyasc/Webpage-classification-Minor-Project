@@ -17,20 +17,19 @@ def main():
 	f.close()
 	for category in categories:
 		y[category]=[]
-	for n in range(50,500,50):
+	for n in range(100,1000,100):
 		#print('n=',n)
 		
 		f=open("status.txt","a")
-		f.write(n+'\n')
+		f.write(str(n)+'\n')
 		f.close()
-
 		x.append(n)
 		yn=accuracy_measure_n(n)
-		pickle.dump(yn,open(n+'.bin','wb'))
+		pickle.dump(yn,open(str(n)+'.bin','wb'))
 		for category in categories:
 			y[category].append(yn[category])
 		f=open("status.txt","a")
-		f.write("completed")
+		f.write("completed\n")
 		f.close()
 
 	total=[]
