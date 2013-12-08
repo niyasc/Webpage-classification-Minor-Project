@@ -29,7 +29,7 @@ def naive_bayes(freq_list,database,t):
 				pc[category]=pc[category]*Decimal((1.0/(n+v)))
 			else:
 				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))
-		pc[category]*=t
+		pc[category]*=Decimal(t)
 				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])
@@ -106,8 +106,10 @@ def accuracy_measure_n(n):
 				
 			
 			accuracy[category]+=p*100/len(test_set[category])
-	
+	f=open("status.txt","a")
 	for category in categories:
 		accuracy[category]=accuracy[category]/5
-	print(accuracy)
+		f.write("accuracy[",category,"]=",accuracy[category]);
+	f.close()
+	#print(accuracy)
 	return accuracy

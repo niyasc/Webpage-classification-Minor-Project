@@ -61,7 +61,7 @@ def accuracy_measure_n(n):
 		accuracy[category]=0
 	
 	for i in range(0,5):
-	#	print("n=",n,"i=",i)
+		print("n=",n,"i=",i)
 		train_set={}
 		test_set={}
 		for category in categories:
@@ -75,7 +75,7 @@ def accuracy_measure_n(n):
 			for d in documents[category]:
 				if d not in train_set[category]:
 					test_set[category].append(d)
-	#	print("Traing and test sets created")
+		print("Traing and test sets created")
 		#train the model
 		database={}
 		#number of train documents nt
@@ -102,7 +102,7 @@ def accuracy_measure_n(n):
 				p_cat=naive_bayes(freq,database,t)
 				if p_cat==category:
 					p+=1
-	#			print('n=',n,'round',i,p,'documents classified successfully out of ',j,'documents in category',category)
+				#print('n=',n,'round',i,p,'documents classified successfully out of ',j,'documents in category',category)
 				
 			
 			accuracy[category]+=p*100/len(test_set[category])
@@ -111,5 +111,5 @@ def accuracy_measure_n(n):
 		accuracy[category]=accuracy[category]/5
 		f.write("accuracy[",category,"]=",accuracy[category]);
 	f.close()
-	#print(accuracy)
+	print(accuracy)
 	return accuracy
