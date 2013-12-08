@@ -1,5 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!pitt.edu!gvls1!tredysvr!cellar!tsa
 From: tsa@cellar.org (The Silent Assassin)
+Newsgroups: comp.graphics
 Subject: Questions about Plane Eqn method of Hidden Surface removal
+Message-ID: <JL642B10w164w@cellar.org>
+Date: 16 Apr 93 19:06:30 GMT
+Sender: bbs@cellar.org (The Cellar BBS)
+Organization: The Cellar BBS and public access system
+Lines: 18
 
 What are the main advantages of this method?  I have seen it described, and
 the algiorithm seems a  little bit long.  I developed my own method, which

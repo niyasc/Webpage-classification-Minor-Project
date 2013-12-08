@@ -1,5 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!pitt.edu!gatech!howland.reston.ans.net!usc!sdd.hp.com!caen!batcomputer!munnari.oz.au!metro!seagoon.newcastle.edu.au!cc.newcastle.edu.au!eeerik
 From: eeerik@cc.newcastle.edu.au
+Newsgroups: comp.graphics
 Subject: Color palette for 256 color VGA rainbow
+Message-ID: <1993Apr24.143432.1@cc.newcastle.edu.au>
+Date: 24 Apr 93 04:34:32 GMT
+Sender: news@seagoon.newcastle.edu.au
+Organization: University of Newcastle, AUSTRALIA
+Lines: 11
 
 Does anybody out there have or know how to calculate the RGB values 
 required to set the 256 color VGA palette so that the colors from 

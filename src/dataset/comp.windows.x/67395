@@ -1,5 +1,11 @@
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!pitt.edu!uunet!plsparc!mufti
 From: mufti@plsparc.UUCP (Saad Mufti)
+Newsgroups: comp.windows.x
 Subject: Problem with xterm, no access to tty
+Message-ID: <483@plsparc.UUCP>
+Date: 28 Apr 93 23:17:31 GMT
+Organization: Personal Library Software, Inc.
+Lines: 19
 
 
 I'm running xterm under X11R5, Motif 1.1, mwm and UNIX SVR4 on a UNISYS

@@ -1,5 +1,13 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!agate!ames!pacbell.com!amdahl!netcomsv!mapsut!mapsut.einstein.com!shmuel
 From: shmuel@mapsut.einstein.com (Shmuel Einstein)
 Subject: Screen capture -> CYMK converter
+Sender: usenet@mapsut.einstein.com
+Message-ID: <1993Apr22.214906.18507@mapsut.einstein.com>
+Date: Thu, 22 Apr 1993 21:49:06 GMT
+Nntp-Posting-Host: mapsut.einstein.com
+Organization: Shmuel Einstein & Associates, Inc.
+Lines: 20
 
 I have a small program to extract a 640x480 image from a vga 16 color screen,
 and store that image in a TIFF file.  I need to insert the image into a

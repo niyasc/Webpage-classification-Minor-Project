@@ -1,5 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!rutgers!vpbuild!admin1!u013!jessea
 From: jessea@u013.me.vp.com (Jesse W. Asher)
+Newsgroups: comp.windows.x
 Subject: Xw widget set ported to X11R5??
+Message-ID: <1993May01.005930.19709@vpbuild.vp.com>
+Date: 1 May 93 00:59:30 GMT
+Sender: @vpbuild.vp.com
+Organization: Varco-Pruden Buildings
+Lines: 14
 
 I'm trying to compile xftp which uses the Xw widget set and I'm having
 problems.  We're using Motif and X11R5 and it seems that my version of the

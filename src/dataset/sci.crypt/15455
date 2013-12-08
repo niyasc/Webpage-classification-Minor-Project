@@ -1,5 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!darwin.sura.net!guvax.acc.georgetown.edu!denning
 From: denning@guvax.acc.georgetown.edu
+Newsgroups: sci.crypt
 Subject: THE CLIPPER CHIP: A TECHNICAL SUMMARY
+Message-ID: <1993Apr19.182327.3420@guvax.acc.georgetown.edu>
+Date: 19 Apr 93 18:23:27 -0400
+Distribution: world
+Organization: Georgetown University
+Lines: 139
 
 The following document summarizes the Clipper Chip, how it is used,
 how programming of the chip is coupled to key generation and the

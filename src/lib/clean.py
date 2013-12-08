@@ -10,13 +10,10 @@ def getList(fname):
 	#words = DataClean(text).GetData()
 	#text=testpage.getImportantContent()
 	words=seperateWords(text)
-	words=convertToLower(words) # convert words to lowercase
 	words=applyStemming(words)
 	words=removeStopWords(words) # remove stop words
 	words=removeSmallWords(words)
 	freq=genFreqDict(words)
-	
-	freq=removeAnom(freq)
 	
 	return freq
 	#print(freq)

@@ -1,5 +1,15 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.human-factors:4699 comp.graphics:38931 comp.graphics.visualization:3406
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!wupost!gumby!destroyer!cs.ubc.ca!ubc-cs!tlau
 From: tlau@cs.ubc.ca (Tony Lau)
+Newsgroups: cs.imager,comp.human-factors,comp.graphics,comp.graphics.visualization
 Subject: 3-D widget wish list?
+Date: 28 Apr 1993 18:14:15 GMT
+Organization: University of British Columbia, Vancouver, B.C., Canada
+Lines: 31
+Distribution: world
+Message-ID: <1rmhip$jqv@cs.ubc.ca>
+NNTP-Posting-Host: cascade.cs.ubc.ca
+Keywords: 3-D widget, manipulation, feedback, user interface design system
 
 I am very interested in hearing from all of you who are using or implementing
 3-D interactive applications what types of 3-D widgets you would
