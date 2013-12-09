@@ -60,7 +60,7 @@ def accuracy_measure_n(n):
 		documents[category]=files
 		accuracy[category]=0
 	
-	for i in range(0,5):
+	for i in range(0,1):
 		print("n=",n,"i=",i)
 		train_set={}
 		test_set={}
@@ -70,8 +70,9 @@ def accuracy_measure_n(n):
 			for j in range(0,n):
 				t=documents[category][randint(0,len(documents[category])-1)]
 				#print(type(t))
-				if t not in train_set[category]:
-					train_set[category].append(t)
+				while t in train_set[category]:
+					t=documents[category][randint(0,len(documents[category])-1)]
+				train_set[category].append(t)
 			for d in documents[category]:
 				if d not in train_set[category]:
 					test_set[category].append(d)
