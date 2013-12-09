@@ -91,7 +91,8 @@ def accuracy_measure_n(n):
 						database[category][word]=freq[word]
 					else:
 						database[category][word]+=freq[word]
-		#test model
+		print("training completed n,i",n,i)		
+#test model
 		#number of train documents
 		for category in categories:
 			p=0
@@ -103,14 +104,16 @@ def accuracy_measure_n(n):
 				p_cat=naive_bayes(freq,database,t)
 				if p_cat==category:
 					p+=1
-				#print('n=',n,'round',i,p,'documents classified successfully out of ',j,'documents in category',category)
+			f=open("status.txt","a")
+			f.write('n='+str(n)+'round'+str(i)+'\n'+str(p)+'documents classified successfully out of '+str(j)+'documents in category'+category+'\n')
+			f.close()
 				
 			
 			accuracy[category]+=p*100/len(test_set[category])
 	f=open("status.txt","a")
 	for category in categories:
 		accuracy[category]=accuracy[category]/5
-		f.write("accuracy[",category,"]=",accuracy[category]);
+		f.write("accuracy["+category+"]="+str(accuracy[category]));
 	f.close()
 	print(accuracy)
 	return accuracy
