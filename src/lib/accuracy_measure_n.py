@@ -5,7 +5,8 @@ from construct_train_set import construct_train_set
 from constants import categories
 from clean import getList
 from random import randint
-from decimal import Decimal
+from random import seed
+from math import log
 def naive_bayes(freq_list,database,t):
 	#database=pickle.load(open('database.db','rb'))
 	#print(database)
@@ -15,6 +16,12 @@ def naive_bayes(freq_list,database,t):
 	for category in categories:
 		for word in database[category]:
 			v+=database[category][word]
+			
+	'''modification'''
+	wc=0
+	for word in freq_list:
+		wc+=freq_list[word]
+	'''modification calc ends'''
 	
 	pc={}
 	for category in categories:
@@ -23,27 +30,23 @@ def naive_bayes(freq_list,database,t):
 		for word in attributes:
 			n+=attributes[word]
 		
-		pc[category]=Decimal(10**2000)
-		'''modification'''
-		wc=0
-		for word in freq_list:
-			wc+=freq_list[word]
-		'''modification calc ends'''
+		pc[category]=0
+		
 		
 		
 		for word in freq_list:
 			if word not in attributes:
-				pc[category]=pc[category]*Decimal((1.0/(n+v)))*Decimal(freq_list[word]/float(wc))
+				pc[category]=pc[category]+log(((1.0/(n+v))))+log(freq_list[word]/float(wc))
 			else:
-				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))*Decimal(freq_list[word]/float(wc))
-		pc[category]*=Decimal(t)
+				pc[category]=pc[category]+log(((1.0+attributes[word]/(n+v))))+log(freq_list[word]/float(wc))
+				
 				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])
 	'''
 	
 	Category='Unable to decide'
-	p=0
+	p=-100000
 	for category in categories:
 		if p<pc[category]:
 			Category=category
@@ -53,6 +56,7 @@ def naive_bayes(freq_list,database,t):
 
 def accuracy_measure_n(n):
 	'''n->number of train documents'''
+	seed(0)
 	x=[]
 	y={}
 	documents={}
@@ -111,6 +115,9 @@ def accuracy_measure_n(n):
 				p_cat=naive_bayes(freq,database,t)
 				if p_cat==category:
 					p+=1
+				print('n',n,'i',i,'accuracy',(p/float(j))*100,'category',category)
+				if p_cat=='Unable to decide':
+					print("unable to decide happens")
 			f=open("status.txt","a")
 			f.write('n='+str(n)+'round'+str(i)+'\n'+str(p)+'documents classified successfully out of '+str(j)+'documents in category'+category+'\n')
 			f.close()
