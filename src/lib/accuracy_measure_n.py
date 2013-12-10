@@ -23,12 +23,19 @@ def naive_bayes(freq_list,database,t):
 		for word in attributes:
 			n+=attributes[word]
 		
-		pc[category]=Decimal(10**1000)
+		pc[category]=Decimal(10**2000)
+		'''modification'''
+		wc=0
+		for word in freq_list:
+			wc+=freq_list[word]
+		'''modification calc ends'''
+		
+		
 		for word in freq_list:
 			if word not in attributes:
-				pc[category]=pc[category]*Decimal((1.0/(n+v)))
+				pc[category]=pc[category]*Decimal((1.0/(n+v)))*Decimal(freq_list[word]/float(wc))
 			else:
-				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))
+				pc[category]=pc[category]*Decimal(((1.0+attributes[word])/(n+v)))*Decimal(freq_list[word]/float(wc))
 		pc[category]*=Decimal(t)
 				
 	'''for category in categories:
@@ -60,7 +67,7 @@ def accuracy_measure_n(n):
 		documents[category]=files
 		accuracy[category]=0
 	
-	for i in range(0,1):
+	for i in range(0,3):
 		print("n=",n,"i=",i)
 		train_set={}
 		test_set={}
@@ -112,7 +119,7 @@ def accuracy_measure_n(n):
 			accuracy[category]+=p*100/len(test_set[category])
 	f=open("status.txt","a")
 	for category in categories:
-		accuracy[category]=accuracy[category]/5
+		accuracy[category]=accuracy[category]/3
 		f.write("accuracy["+category+"]="+str(accuracy[category]));
 	f.close()
 	print(accuracy)
