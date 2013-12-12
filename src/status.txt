@@ -1,4 +1,4 @@
 Processing started
 100
 n=100round0
-656documents classified successfully out of 900documents in categoryalt.atheism
+648documents classified successfully out of 900documents in categoryalt.atheism
