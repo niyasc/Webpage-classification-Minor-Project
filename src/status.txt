@@ -1,4 +1,10 @@
 Processing started
 100
 n=100round0
-648documents classified successfully out of 900documents in categoryalt.atheism
+676documents classified successfully out of 900documents in categoryalt.atheism
+n=100round0
+233documents classified successfully out of 900documents in categorycomp.graphics
+n=100round0
+638documents classified successfully out of 900documents in categorycomp.os.ms-windows.misc
+n=100round0
+485documents classified successfully out of 900documents in categorycomp.sys.ibm.pc.hardware

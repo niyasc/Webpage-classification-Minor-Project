@@ -100,62 +100,64 @@ def accuracy_measure_n(n):
 		tset0={}
 		tset1={}
 		tset2={}
+		tset3={}
+		tset4={}
 		for category in train_set:
-			tset0[category]=train_set[category][0:int(n/3)]
-			tset1[category]=train_set[category][int(n/3):int(2*n/3)]
-			tset2[category]=train_set[category][int(2*n/3):]
+			tset0[category]=train_set[category][0:int(n/5)]
+			tset1[category]=train_set[category][int(n/5):int(2*n/5)]
+			tset2[category]=train_set[category][int(2*n/5):int(3*n/5)]
+			tset3[category]=train_set[category][int(3*n/5):int(4*n/5)]
+			tset4[category]=train_set[category][int(4*n/5):]
 		#train the model
 		database0=makedb(tset0)
 		database1=makedb(tset1)
 		database2=makedb(tset2)
+		database3=makedb(tset3)
+		database4=makedb(tset4)
 		
 		print("training completed n,i",n,i)		
 #test model
-		vp={0:1,1:1,2:1}
+		vp={0:1,1:1,2:1,3:1,4:1}
 		#number of train documents
 		for category in categories:
+			vp={0:1,1:1,2:1,3:1,4:1}
 			p=0
 			j=0;
 			for document in test_set[category]:
 				j+=1
 				freq=getList('./dataset/'+category+'/'+document)
 				pc={}
+				cc={}
+				cc[0]=naive_bayes(freq,database0)
+				cc[1]=naive_bayes(freq,database1)
+				cc[2]=naive_bayes(freq,database2)
+				cc[3]=naive_bayes(freq,database3)
+				cc[4]=naive_bayes(freq,database4)
+				for l in range(0,5):
+					print('classfier',l,'with power ',vp[l],'predicts',cc[l])
+					if cc[l] in pc:
+						pc[cc[l]]+=vp[l]
+					else:
+						pc[cc[l]]=vp[l]
 				
-				c0=naive_bayes(freq,database0)
-				if c0 in pc:
-					pc[c0]+=vp[0]
-				else:
-					pc[c0]=vp[0]
-				c1=naive_bayes(freq,database1)
-				if c1 in pc:
-					pc[c1]+=vp[1]
-				else:
-					pc[c1]=vp[1]
-				c2=naive_bayes(freq,database2)
-				if c2 in pc:
-					pc[c2]+=vp[2]
-				else:
-					pc[c2]=vp[2]
 				#collect majority vote	
 				p_cat=max(pc, key=pc.get)
+				print('predicted category',p_cat)
 				if p_cat==category:
 					p+=1
 					
 				#change voting power
-				if c0==category:
-					vp[0]*=1.01
-				else:
-					vp[0]*=0.99
-				if c1==category:
-					vp[1]*=1.01
-				else:
-					vp[1]*=0.99
-				if c2==category:
-					vp[2]*=1.01
-				else:
-					vp[2]*=0.99
+				for l in range(0,5):
+					if cc[l]==category:
+						if vp[l]<2:
+							vp[l]*=1.01
+					else:
+						if vp[l]>0.5:
+							vp[l]*=0.99
 				
-				print('n',n,'i',i,'j',j,'accuracy',(p/float(j))*100,'category',category,vp[0],vp[1],vp[2])
+				
+				print('n',n,'i',i,'j',j,'accuracy',(p/float(j))*100,'category',category)
+				print("---------------------------------------------------")
 				if p_cat=='Unable to decide':
 					print("unable to decide happens")
 			f=open("status.txt","a")

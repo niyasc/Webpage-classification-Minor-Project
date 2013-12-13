@@ -1,4 +1,4 @@
-import urllib.request
+import urllib
 import nltk
 import re
 
