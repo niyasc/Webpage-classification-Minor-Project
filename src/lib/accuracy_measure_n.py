@@ -17,7 +17,7 @@ def naive_bayes(freq_list,database):
 			v+=database[category][word]
 	t=0.0
 	for word in freq_list:
-		t+=freq_list(word)
+		t+=freq_list[word]
 			
 
 	
