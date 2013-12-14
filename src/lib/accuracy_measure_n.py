@@ -15,6 +15,9 @@ def naive_bayes(freq_list,database):
 	for category in categories:
 		for word in database[category]:
 			v+=database[category][word]
+	t=0.0
+	for word in freq_list:
+		t+=freq_list(word)
 			
 
 	
@@ -31,9 +34,9 @@ def naive_bayes(freq_list,database):
 		
 		for word in freq_list:
 			if word not in attributes:
-				pc[category]=pc[category]+log(((1.0/(n+v))))
+				pc[category]=pc[category]+log(((1.0/(n+v))))+log(freq_list[word]/t)
 			else:
-				pc[category]=pc[category]+log(((1.0+attributes[word]/(n+v))))
+				pc[category]=pc[category]+log(((1.0+attributes[word]/(n+v))))+log(freq_list[word]/t)
 				
 				
 	'''for category in categories:
