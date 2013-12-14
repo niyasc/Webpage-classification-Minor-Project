@@ -134,7 +134,7 @@ def accuracy_measure_n(n):
 				cc[3]=naive_bayes(freq,database3)
 				cc[4]=naive_bayes(freq,database4)
 				for l in range(0,5):
-					print('classfier',l,'with power ',vp[l],'predicts',cc[l])
+					#print('classfier',l,'with power ',vp[l],'predicts',cc[l])
 					if cc[l] in pc:
 						pc[cc[l]]+=vp[l]
 					else:
@@ -142,7 +142,7 @@ def accuracy_measure_n(n):
 				
 				#collect majority vote	
 				p_cat=max(pc, key=pc.get)
-				print('predicted category',p_cat)
+				#print('predicted category',p_cat)
 				if p_cat==category:
 					p+=1
 					
@@ -156,8 +156,8 @@ def accuracy_measure_n(n):
 							vp[l]*=0.99
 				
 				
-				print('n',n,'i',i,'j',j,'accuracy',(p/float(j))*100,'category',category)
-				print("---------------------------------------------------")
+				#print('n',n,'i',i,'j',j,'accuracy',(p/float(j))*100,'category',category)
+				#print("---------------------------------------------------")
 				if p_cat=='Unable to decide':
 					print("unable to decide happens")
 			f=open("status.txt","a")

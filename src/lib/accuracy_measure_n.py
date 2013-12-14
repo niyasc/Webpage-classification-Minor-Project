@@ -96,7 +96,7 @@ def accuracy_measure_n(n):
 				if d not in train_set[category]:
 					test_set[category].append(d)
 		print("Traing and test sets created")
-		#divide train set into 3
+		'''#divide train set into 3
 		tset0={}
 		tset1={}
 		tset2={}
@@ -118,15 +118,16 @@ def accuracy_measure_n(n):
 		print("training completed n,i",n,i)		
 #test model
 		vp={0:1,1:1,2:1,3:1,4:1}
-		#number of train documents
+		#number of train documents'''
+		database=makedb(train_set)
 		for category in categories:
-			vp={0:1,1:1,2:1,3:1,4:1}
+			#vp={0:1,1:1,2:1,3:1,4:1}
 			p=0
 			j=0;
 			for document in test_set[category]:
 				j+=1
 				freq=getList('./dataset/'+category+'/'+document)
-				pc={}
+				'''pc={}
 				cc={}
 				cc[0]=naive_bayes(freq,database0)
 				cc[1]=naive_bayes(freq,database1)
@@ -158,6 +159,10 @@ def accuracy_measure_n(n):
 				
 				#print('n',n,'i',i,'j',j,'accuracy',(p/float(j))*100,'category',category)
 				#print("---------------------------------------------------")
+			'''
+				p_cat=naive_bayes(freq,database)
+				if p_cat==category:
+					p+=1
 				if p_cat=='Unable to decide':
 					print("unable to decide happens")
 			f=open("status.txt","a")
