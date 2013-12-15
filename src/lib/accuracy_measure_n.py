@@ -33,12 +33,11 @@ def naive_bayes(freq_list,database):
 		
 		
 		for word in freq_list:
+			print(log(freq_list[word]/t))
 			if word not in attributes:
-				pc[category]=pc[category]+log(((1.0/(n+v))))+log(freq_list[word]/t)
+				pc[category]=pc[category]+1.0/(n+v)
 			else:
-				pc[category]=pc[category]+log(((1.0+attributes[word]/(n+v))))+log(freq_list[word]/t)
-				
-				
+				pc[category]=pc[category]+(1.0+attributes[word]/(n+v))				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])
 	'''
