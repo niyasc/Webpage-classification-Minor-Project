@@ -11,7 +11,7 @@ def k_fold_accuracy(k):
 	dataset={}
 	true_predicted={}
 	for category in categories:
-		system("ls ./dataset/"+category+">.tmp")
+		system("ls ./webpages/"+category+">.tmp")
 		a=open(".tmp")
 		files=a.read()
 		a.close()
@@ -32,7 +32,7 @@ def k_fold_accuracy(k):
 		#print('test-set\n',test_set)
 		for category in categories:
 			for file in train_set[category]:
-				freq=getList("./dataset/"+category+"/"+file)
+				freq=getList("./webpages/"+category+"/"+file)
 				for word in freq:
 					if word in database[category]:
 						database[category][word]+=freq[word]
@@ -43,7 +43,7 @@ def k_fold_accuracy(k):
 		print('database created')
 		for category in categories:
 			for file in test_set[category]:
-				freq=getList("./dataset/"+category+"/"+file)
+				freq=getList("./webpages/"+category+"/"+file)
 				p_cat=naive_bayes(freq)
 				if p_cat==category:
 					true_predicted[category]+=1

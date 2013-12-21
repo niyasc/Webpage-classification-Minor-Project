@@ -7,6 +7,7 @@ from clean import getList
 from random import randint
 from random import seed
 from math import log
+import pickle
 def naive_bayes(freq_list,database):
 	#database=pickle.load(open('database.db','rb'))
 	#print(type(database))
@@ -122,6 +123,9 @@ def accuracy_measure_n(n):
 		vp={0:1,1:1,2:1,3:1,4:1}
 		#number of train documents'''
 		database=makedb(train_set)
+		print(database)
+		pickle.dump(database,open('database.db','wb'))
+		exit()
 		for category in categories:
 			#vp={0:1,1:1,2:1,3:1,4:1}
 			p=0

@@ -7,6 +7,7 @@ from clean import getList
 from random import randint
 from random import seed
 from math import log
+import pickle
 def naive_bayes(freq_list,database):
 	#database=pickle.load(open('database.db','rb'))
 	#print(type(database))
@@ -35,11 +36,9 @@ def naive_bayes(freq_list,database):
 		for word in freq_list:
 			print(log(freq_list[word]/t))
 			if word not in attributes:
-				pc[category]=pc[category]+log(((1.0/(n+v))))+log(freq_list[word]/t)
+				pc[category]=pc[category]+1.0/(n+v)
 			else:
-				pc[category]=pc[category]+log(((1.0+attributes[word]/(n+v))))+log(freq_list[word]/t)
-				
-				
+				pc[category]=pc[category]+(1.0+attributes[word]/(n+v))				
 	'''for category in categories:
 		print('Probability of ',category,' ',pc[category])
 	'''
@@ -124,6 +123,9 @@ def accuracy_measure_n(n):
 		vp={0:1,1:1,2:1,3:1,4:1}
 		#number of train documents'''
 		database=makedb(train_set)
+		print(database)
+		pickle.dump(open('database.db','wb'))
+		exit()
 		for category in categories:
 			#vp={0:1,1:1,2:1,3:1,4:1}
 			p=0
