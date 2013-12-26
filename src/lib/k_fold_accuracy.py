@@ -2,8 +2,47 @@ from os import system
 from construct_train_set import construct_train_set
 from constants import categories
 from clean import getList
-from naive_bayes import naive_bayes
-from database import *
+from math import log
+
+def naive_bayes(freq_list,database):
+	#database=pickle.load(open('database.db','rb'))
+	#print(type(database))
+	
+	v=0	
+	for category in categories:
+		for word in database[category]:
+			v+=database[category][word]
+			
+
+	
+	pc={}
+	for category in categories:
+		attributes=database[category]
+		n=0
+		for word in attributes:
+			n+=attributes[word]
+		
+		pc[category]=0
+		
+		
+		
+		for word in freq_list:
+			if word not in attributes:
+				pc[category]=pc[category]+1.0/(n+v)
+			else:
+				pc[category]=pc[category]+(1.0+attributes[word]/(n+v))				
+	'''for category in categories:
+		print('Probability of ',category,' ',pc[category])
+	'''
+	
+	Category='Unable to decide'
+	p=-100000
+	for category in categories:
+		if p<pc[category]:
+			Category=category
+			p=pc[category]
+	
+	return Category
 
 def k_fold_accuracy(k):
 	t=int(1000/k) #number of documents in a fold
@@ -39,16 +78,15 @@ def k_fold_accuracy(k):
 					else:
 						database[category][word]=freq[word]
 		
-		make_training_set(database)
+		
 		print('database created')
 		for category in categories:
 			for file in test_set[category]:
 				freq=getList("./dataset/"+category+"/"+file)
-				p_cat=naive_bayes(freq)
+				p_cat=naive_bayes(freq,database)
 				if p_cat==category:
 					true_predicted[category]+=1
 			print('k=',k,'i=',i,'category=',category,'true_predicted\n',true_predicted)
-	print(true_predicted)
 	output={}
 	for category in categories:
 		output[category]=true_predicted[category]*100/1000.0
